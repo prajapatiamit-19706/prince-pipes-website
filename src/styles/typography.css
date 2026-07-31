@@ -1,0 +1,7 @@
+@theme {
+  /* ===============================
+     Fonts
+  =============================== */
+  --font-heading: "Plus Jakarta Sans", var(--font-geist-sans), sans-serif;
+  --font-body: "Inter", var(--font-geist-sans), sans-serif;
+}

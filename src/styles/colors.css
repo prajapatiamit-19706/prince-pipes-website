@@ -1,0 +1,51 @@
+@theme {
+  /* ===============================
+     Brand Colors
+  =============================== */
+
+  --color-primary: #0f2747;
+  --color-primary-50: #eef5fc;
+  --color-primary-100: #dce9f7;
+  --color-primary-200: #b8d3ef;
+  --color-primary-300: #8fb7e3;
+  --color-primary-400: #5e90d2;
+  --color-primary-500: #2f6fbe;
+  --color-primary-600: #1f4b7d;
+  --color-primary-700: #16375e;
+  --color-primary-800: #102944;
+  --color-primary-900: #0f2747;
+
+  --color-secondary: #0057b8;
+
+  --color-accent: #ffb703;
+
+  /* ===============================
+     Neutral
+  =============================== */
+
+  --color-background: #ffffff;
+
+  --color-surface: #f8fafc;
+  --color-surface-2: #f1f5f9;
+
+  --color-border: #e5e7eb;
+  --color-border-dark: #d1d5db;
+
+  /* ===============================
+     Typography Colors
+  =============================== */
+
+  --color-text: #111827;
+  --color-text-secondary: #475569;
+  --color-text-muted: #94a3b8;
+  --color-text-white: #ffffff;
+
+  /* ===============================
+     Status Colors
+  =============================== */
+
+  --color-success: #16a34a;
+  --color-warning: #f59e0b;
+  --color-danger: #dc2626;
+  --color-info: #0ea5e9;
+}

@@ -1,0 +1,17 @@
+{
+  "showCompanyName": true,
+  "showTagline": false,
+  "quickLinks": [
+    { "label": "DIN & EN Fittings", "categoryId": "din-en-fittings" },
+    { "label": "SS Fittings", "categoryId": "ss-fittings" },
+    { "label": "DIN & EN Flanges", "categoryId": "din-en-flanges" },
+    { "label": "ASTM-ANSI B16.5 Flanges", "categoryId": "astm-ansi-b16-5-flanges" },
+    { "label": "ASTM-ANSI B16.9 Fittings", "categoryId": "astm-ansi-b16-9-fittings" }
+  ],
+  "showContactInfo": true,
+  "showSocialLinks": true,
+  "showCertifications": true,
+  "certifications": ["Make in India", "MSME (Micro, Small & Medium Enterprises)"],
+  "copyrightText": null,
+  "note": "No footer schema was specified in the source prompt. This file is limited to structural display flags and references to already-extracted data (categories, certifications from company.json) -- no new marketing copy was generated."
+}

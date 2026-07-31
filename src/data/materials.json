@@ -1,0 +1,8 @@
+[
+  { "id": "ss", "name": "SS" },
+  { "id": "duplex", "name": "DUPLEX" },
+  { "id": "monal", "name": "MONAL" },
+  { "id": "nickel", "name": "NICKEL" },
+  { "id": "astm-a105-n", "name": "ASTM A105 N" },
+  { "id": "astm-a234wpb", "name": "ASTM A.234WPB" }
+]

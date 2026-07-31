@@ -1,0 +1,12 @@
+{
+  "heroProduct": null,
+  "featuredProducts": [],
+  "featuredCategories": [],
+  "sections": [
+    "hero",
+    "about",
+    "products",
+    "quality",
+    "contact"
+  ]
+}

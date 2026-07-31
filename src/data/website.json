@@ -1,0 +1,11 @@
+{
+  "enableSearch": true,
+  "enableFilters": true,
+  "enableInquiry": true,
+  "enableDownloads": true,
+  "enable360": true,
+  "enable3D": true,
+  "enableCompare": false,
+  "enableDealerPortal": false,
+  "enableCMS": false
+}

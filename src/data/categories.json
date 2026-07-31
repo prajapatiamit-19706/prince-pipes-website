@@ -1,0 +1,32 @@
+[
+  {
+    "id": "din-en-fittings",
+    "name": "DIN & EN Fittings",
+    "slug": "din-en-fittings",
+    "description": null
+  },
+  {
+    "id": "ss-fittings",
+    "name": "SS Fittings",
+    "slug": "ss-fittings",
+    "description": null
+  },
+  {
+    "id": "din-en-flanges",
+    "name": "DIN & EN Flanges",
+    "slug": "din-en-flanges",
+    "description": null
+  },
+  {
+    "id": "astm-ansi-b16-5-flanges",
+    "name": "ASTM-ANSI B16.5 Flanges",
+    "slug": "astm-ansi-b16-5-flanges",
+    "description": null
+  },
+  {
+    "id": "astm-ansi-b16-9-fittings",
+    "name": "ASTM-ANSI B16.9 Fittings",
+    "slug": "astm-ansi-b16-9-fittings",
+    "description": null
+  }
+]

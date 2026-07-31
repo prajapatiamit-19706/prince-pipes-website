@@ -1,0 +1,1523 @@
+[
+  {
+    "id": "PPF-001",
+    "slug": "cap-din-en",
+    "name": "Caps",
+    "type": "parametric",
+    "status": "active",
+    "family": "cap",
+    "categoryId": "din-en-fittings",
+    "subcategoryId": "cap",
+    "catalogue": {
+      "description": "Pipe caps act as protective device and are designed to protect pipe ends of various shapes.",
+      "page": 3,
+      "sizes": {
+        "min": "3/4\"",
+        "max": "32\""
+      },
+      "lengths": [],
+      "finish": [],
+      "materials": [
+        "SS",
+        "DUPLEX",
+        "MONAL",
+        "NICKEL"
+      ],
+      "standard": "ASTM A403WPB16.9",
+      "schedule": null,
+      "class": null,
+      "notes": "Catalogue 'Types' field held the standard designation; 'Material' field held the material list."
+    },
+    "technical": {
+      "dimensions": [],
+      "weights": [],
+      "drawing": null,
+      "pressureRating": null,
+      "temperatureRange": null
+    },
+    "search": {
+      "aliases": [],
+      "keywords": [],
+      "tags": []
+    },
+    "related": [],
+    "downloads": {
+      "datasheet": null,
+      "cad": null,
+      "step": null,
+      "certificate": null
+    },
+    "media": {
+      "thumbnail": null,
+      "images": [],
+      "technicalDrawing": null,
+      "viewer360": null,
+      "model3D": null,
+      "video": null
+    },
+    "_meta": {
+      "version": "1.0",
+      "lastUpdated": "2026-07-31"
+    }
+  },
+  {
+    "id": "PPF-002",
+    "slug": "barrel-nipple-multi-length",
+    "name": "2 Threaded Barrel Nipples",
+    "type": "parametric",
+    "status": "active",
+    "family": "threaded-barrel-nipple",
+    "categoryId": "din-en-fittings",
+    "subcategoryId": "nipple",
+    "catalogue": {
+      "description": "A pipe nipple is a length of straight pipe with male threads on both ends. They are used to fit straight end hose or pipe.",
+      "page": 3,
+      "sizes": {
+        "min": "1/2\"",
+        "max": "4\""
+      },
+      "lengths": [
+        "100mm",
+        "200mm",
+        "250mm",
+        "300mm",
+        "400mm"
+      ],
+      "finish": [
+        "Black",
+        "Galvanised"
+      ],
+      "materials": [
+        "SS",
+        "DUPLEX",
+        "MONAL",
+        "NICKEL"
+      ],
+      "standard": null,
+      "schedule": null,
+      "class": null,
+      "notes": "Name printed exactly as '2 Threaded Barrel Nipples'; numeric prefix unexplained in source. Disambiguated from PPF-003 via distinct length list."
+    },
+    "technical": {
+      "dimensions": [],
+      "weights": [],
+      "drawing": null,
+      "pressureRating": null,
+      "temperatureRange": null
+    },
+    "search": {
+      "aliases": [],
+      "keywords": [],
+      "tags": []
+    },
+    "related": [],
+    "downloads": {
+      "datasheet": null,
+      "cad": null,
+      "step": null,
+      "certificate": null
+    },
+    "media": {
+      "thumbnail": null,
+      "images": [],
+      "technicalDrawing": null,
+      "viewer360": null,
+      "model3D": null,
+      "video": null
+    },
+    "_meta": {
+      "version": "1.0",
+      "lastUpdated": "2026-07-31"
+    }
+  },
+  {
+    "id": "PPF-003",
+    "slug": "barrel-nipple-standard-length",
+    "name": "1 Threaded Barrel Nipples",
+    "type": "parametric",
+    "status": "active",
+    "family": "threaded-barrel-nipple",
+    "categoryId": "din-en-fittings",
+    "subcategoryId": "nipple",
+    "catalogue": {
+      "description": "A pipe nipple is a length of straight pipe with male threads on both ends. They are used to fit straight end hose or pipe.",
+      "page": 3,
+      "sizes": {
+        "min": "1/2\"",
+        "max": "4\""
+      },
+      "lengths": [
+        "100mm"
+      ],
+      "finish": [
+        "Black",
+        "Galvanised"
+      ],
+      "materials": [
+        "SS",
+        "DUPLEX",
+        "MONAL",
+        "NICKEL"
+      ],
+      "standard": null,
+      "schedule": null,
+      "class": null,
+      "notes": "Name printed exactly as '1 Threaded Barrel Nipples'; numeric prefix unexplained in source. Distinct entry from PPF-002 (different length list)."
+    },
+    "technical": {
+      "dimensions": [],
+      "weights": [],
+      "drawing": null,
+      "pressureRating": null,
+      "temperatureRange": null
+    },
+    "search": {
+      "aliases": [],
+      "keywords": [],
+      "tags": []
+    },
+    "related": [],
+    "downloads": {
+      "datasheet": null,
+      "cad": null,
+      "step": null,
+      "certificate": null
+    },
+    "media": {
+      "thumbnail": null,
+      "images": [],
+      "technicalDrawing": null,
+      "viewer360": null,
+      "model3D": null,
+      "video": null
+    },
+    "_meta": {
+      "version": "1.0",
+      "lastUpdated": "2026-07-31"
+    }
+  },
+  {
+    "id": "PPF-004",
+    "slug": "threaded-socket",
+    "name": "Threaded Socket",
+    "type": "parametric",
+    "status": "active",
+    "family": "threaded-socket",
+    "categoryId": "din-en-fittings",
+    "subcategoryId": "socket",
+    "catalogue": {
+      "description": "A Threaded Socket is a fitting used in piping systems between two pipes of same diameters.",
+      "page": 3,
+      "sizes": {
+        "min": "1/8\"",
+        "max": "4\""
+      },
+      "lengths": [],
+      "finish": [],
+      "materials": [
+        "SS",
+        "DUPLEX",
+        "MONAL",
+        "NICKEL"
+      ],
+      "standard": null,
+      "schedule": null,
+      "class": null,
+      "notes": "Catalogue table lists 'Types: Black' and 'Finish: SS/Duplex/Monal/Nickel' -- labels appear swapped vs. other entries on this page. Transcribed as printed; materials populated from 'Finish' row, standard left null."
+    },
+    "technical": {
+      "dimensions": [],
+      "weights": [],
+      "drawing": null,
+      "pressureRating": null,
+      "temperatureRange": null
+    },
+    "search": {
+      "aliases": [],
+      "keywords": [],
+      "tags": []
+    },
+    "related": [],
+    "downloads": {
+      "datasheet": null,
+      "cad": null,
+      "step": null,
+      "certificate": null
+    },
+    "media": {
+      "thumbnail": null,
+      "images": [],
+      "technicalDrawing": null,
+      "viewer360": null,
+      "model3D": null,
+      "video": null
+    },
+    "_meta": {
+      "version": "1.0",
+      "lastUpdated": "2026-07-31"
+    }
+  },
+  {
+    "id": "PPF-005",
+    "slug": "45-degree-elbow-astm-a403",
+    "name": "45 Degree Elbows",
+    "type": "parametric",
+    "status": "active",
+    "family": "45-degree-elbow",
+    "categoryId": "ss-fittings",
+    "subcategoryId": "elbow",
+    "catalogue": {
+      "description": "An elbow is installed between two lengths of pipe (or tubing) to allow a change of direction.",
+      "page": 4,
+      "sizes": {
+        "min": "1/2\"",
+        "max": "32\""
+      },
+      "lengths": [],
+      "finish": [
+        "1D",
+        "1.5D",
+        "2D",
+        "3D",
+        "5D Seamless"
+      ],
+      "materials": [
+        "SS",
+        "DUPLEX",
+        "MONAL",
+        "NICKEL"
+      ],
+      "standard": "ASTM A403WPB16.9",
+      "schedule": null,
+      "class": null,
+      "notes": "Same family as PPF-019 (ASTM-ANSI B16.9 Fittings page) -- same product concept, different standard/material/schedule."
+    },
+    "technical": {
+      "dimensions": [],
+      "weights": [],
+      "drawing": null,
+      "pressureRating": null,
+      "temperatureRange": null
+    },
+    "search": {
+      "aliases": [],
+      "keywords": [],
+      "tags": []
+    },
+    "related": [],
+    "downloads": {
+      "datasheet": null,
+      "cad": null,
+      "step": null,
+      "certificate": null
+    },
+    "media": {
+      "thumbnail": null,
+      "images": [],
+      "technicalDrawing": null,
+      "viewer360": null,
+      "model3D": null,
+      "video": null
+    },
+    "_meta": {
+      "version": "1.0",
+      "lastUpdated": "2026-07-31"
+    }
+  },
+  {
+    "id": "PPF-006",
+    "slug": "90-degree-elbow-astm-a403",
+    "name": "90 Degree Elbows",
+    "type": "parametric",
+    "status": "active",
+    "family": "90-degree-elbow",
+    "categoryId": "ss-fittings",
+    "subcategoryId": "elbow",
+    "catalogue": {
+      "description": "An elbow is installed between two lengths of pipe (or tubing) to allow a change of direction.",
+      "page": 4,
+      "sizes": {
+        "min": "1/2\"",
+        "max": "32\""
+      },
+      "lengths": [],
+      "finish": [
+        "1D",
+        "1.5D",
+        "2D",
+        "3D",
+        "5D Seamless"
+      ],
+      "materials": [
+        "SS",
+        "DUPLEX",
+        "MONAL",
+        "NICKEL"
+      ],
+      "standard": "ASTM A403WPB16.9",
+      "schedule": null,
+      "class": null,
+      "notes": "Same family as PPF-020."
+    },
+    "technical": {
+      "dimensions": [],
+      "weights": [],
+      "drawing": null,
+      "pressureRating": null,
+      "temperatureRange": null
+    },
+    "search": {
+      "aliases": [],
+      "keywords": [],
+      "tags": []
+    },
+    "related": [],
+    "downloads": {
+      "datasheet": null,
+      "cad": null,
+      "step": null,
+      "certificate": null
+    },
+    "media": {
+      "thumbnail": null,
+      "images": [],
+      "technicalDrawing": null,
+      "viewer360": null,
+      "model3D": null,
+      "video": null
+    },
+    "_meta": {
+      "version": "1.0",
+      "lastUpdated": "2026-07-31"
+    }
+  },
+  {
+    "id": "PPF-007",
+    "slug": "concentric-reducer-astm-a403",
+    "name": "Concentric Reducers",
+    "type": "parametric",
+    "status": "active",
+    "family": "concentric-reducer",
+    "categoryId": "ss-fittings",
+    "subcategoryId": "reducer",
+    "catalogue": {
+      "description": "The concentric reducer is cone-shaped, and is used when there is a shift in diameter between pipes.",
+      "page": 4,
+      "sizes": {
+        "min": "3/4\" x 1/2\"",
+        "max": "32\" x 28\""
+      },
+      "lengths": [],
+      "finish": [],
+      "materials": [
+        "SS",
+        "DUPLEX",
+        "MONAL",
+        "NICKEL"
+      ],
+      "standard": "ASTM A403WPB16.9",
+      "schedule": null,
+      "class": null,
+      "notes": "Compound dual-diameter size preserved as printed. Same family as PPF-021."
+    },
+    "technical": {
+      "dimensions": [],
+      "weights": [],
+      "drawing": null,
+      "pressureRating": null,
+      "temperatureRange": null
+    },
+    "search": {
+      "aliases": [],
+      "keywords": [],
+      "tags": []
+    },
+    "related": [],
+    "downloads": {
+      "datasheet": null,
+      "cad": null,
+      "step": null,
+      "certificate": null
+    },
+    "media": {
+      "thumbnail": null,
+      "images": [],
+      "technicalDrawing": null,
+      "viewer360": null,
+      "model3D": null,
+      "video": null
+    },
+    "_meta": {
+      "version": "1.0",
+      "lastUpdated": "2026-07-31"
+    }
+  },
+  {
+    "id": "PPF-008",
+    "slug": "eccentric-reducer-astm-a403",
+    "name": "Eccentric Reducers",
+    "type": "parametric",
+    "status": "active",
+    "family": "eccentric-reducer",
+    "categoryId": "ss-fittings",
+    "subcategoryId": "reducer",
+    "catalogue": {
+      "description": "An eccentric reducer is a fitting used in piping systems between two pipes of different diameters.",
+      "page": 4,
+      "sizes": {
+        "min": "3/4\" x 1/2\"",
+        "max": "32\" x 28\""
+      },
+      "lengths": [],
+      "finish": [],
+      "materials": [
+        "SS",
+        "DUPLEX",
+        "MONAL",
+        "NICKEL"
+      ],
+      "standard": "ASTM A403WPB16.9",
+      "schedule": null,
+      "class": null,
+      "notes": "Compound dual-diameter size preserved as printed. Same family as PPF-022."
+    },
+    "technical": {
+      "dimensions": [],
+      "weights": [],
+      "drawing": null,
+      "pressureRating": null,
+      "temperatureRange": null
+    },
+    "search": {
+      "aliases": [],
+      "keywords": [],
+      "tags": []
+    },
+    "related": [],
+    "downloads": {
+      "datasheet": null,
+      "cad": null,
+      "step": null,
+      "certificate": null
+    },
+    "media": {
+      "thumbnail": null,
+      "images": [],
+      "technicalDrawing": null,
+      "viewer360": null,
+      "model3D": null,
+      "video": null
+    },
+    "_meta": {
+      "version": "1.0",
+      "lastUpdated": "2026-07-31"
+    }
+  },
+  {
+    "id": "PPF-009",
+    "slug": "equal-tee-astm-a403",
+    "name": "Equal Tee",
+    "type": "parametric",
+    "status": "active",
+    "family": "equal-tee",
+    "categoryId": "ss-fittings",
+    "subcategoryId": "tee",
+    "catalogue": {
+      "description": "Pipe tees are widely used in piping systems to transport two phase fluid mixtures and are mainly of two types: Equal and reducing.",
+      "page": 4,
+      "sizes": {
+        "min": "1/2\"",
+        "max": "24\""
+      },
+      "lengths": [],
+      "finish": [],
+      "materials": [
+        "SS",
+        "DUPLEX",
+        "MONAL",
+        "NICKEL"
+      ],
+      "standard": "ASTM A403WPB16.9",
+      "schedule": null,
+      "class": null,
+      "notes": "Same family as PPF-023 (different size range/standard). No Reducing Tee entry exists on this page."
+    },
+    "technical": {
+      "dimensions": [],
+      "weights": [],
+      "drawing": null,
+      "pressureRating": null,
+      "temperatureRange": null
+    },
+    "search": {
+      "aliases": [],
+      "keywords": [],
+      "tags": []
+    },
+    "related": [],
+    "downloads": {
+      "datasheet": null,
+      "cad": null,
+      "step": null,
+      "certificate": null
+    },
+    "media": {
+      "thumbnail": null,
+      "images": [],
+      "technicalDrawing": null,
+      "viewer360": null,
+      "model3D": null,
+      "video": null
+    },
+    "_meta": {
+      "version": "1.0",
+      "lastUpdated": "2026-07-31"
+    }
+  },
+  {
+    "id": "PPF-010",
+    "slug": "plate-flange",
+    "name": "Plate Flange",
+    "type": "parametric",
+    "status": "active",
+    "family": "plate-flange",
+    "categoryId": "din-en-flanges",
+    "subcategoryId": "flange",
+    "catalogue": {
+      "description": "Plate Flanges are used to seal the end of pipelines, valves or other connection. They use high tensile strength steel.",
+      "page": 5,
+      "sizes": {
+        "min": "1/2\"",
+        "max": "24\""
+      },
+      "lengths": [],
+      "finish": [],
+      "materials": [
+        "SS",
+        "DUPLEX",
+        "MONAL",
+        "NICKEL"
+      ],
+      "standard": "ASTM A182 B16.5",
+      "schedule": null,
+      "class": "150# & 300#",
+      "notes": "Catalogue also lists Range: 15NB to 600NB (no dedicated schema field, preserved here). No equivalent on ASTM-ANSI B16.5 Flanges page; family has one member."
+    },
+    "technical": {
+      "dimensions": [],
+      "weights": [],
+      "drawing": null,
+      "pressureRating": null,
+      "temperatureRange": null
+    },
+    "search": {
+      "aliases": [],
+      "keywords": [],
+      "tags": []
+    },
+    "related": [],
+    "downloads": {
+      "datasheet": null,
+      "cad": null,
+      "step": null,
+      "certificate": null
+    },
+    "media": {
+      "thumbnail": null,
+      "images": [],
+      "technicalDrawing": null,
+      "viewer360": null,
+      "model3D": null,
+      "video": null
+    },
+    "_meta": {
+      "version": "1.0",
+      "lastUpdated": "2026-07-31"
+    }
+  },
+  {
+    "id": "PPF-011",
+    "slug": "blind-flange-din-en",
+    "name": "Blind Flange",
+    "type": "parametric",
+    "status": "active",
+    "family": "blind-flange",
+    "categoryId": "din-en-flanges",
+    "subcategoryId": "flange",
+    "catalogue": {
+      "description": "A Blind flange is round plate which has all of the relevant boltholes but no center hole, and because of this feature this flange is used to close off the ends of a piping systems.",
+      "page": 5,
+      "sizes": {
+        "min": "1/2\"",
+        "max": "24\""
+      },
+      "lengths": [],
+      "finish": [],
+      "materials": [
+        "SS",
+        "DUPLEX",
+        "MONAL",
+        "NICKEL"
+      ],
+      "standard": "ASTM A182 B16.5",
+      "schedule": null,
+      "class": "150# & 300#",
+      "notes": "Range: 15NB to 600NB. Same family as PPF-015 (identical product concept, different material/class)."
+    },
+    "technical": {
+      "dimensions": [],
+      "weights": [],
+      "drawing": null,
+      "pressureRating": null,
+      "temperatureRange": null
+    },
+    "search": {
+      "aliases": [],
+      "keywords": [],
+      "tags": []
+    },
+    "related": [],
+    "downloads": {
+      "datasheet": null,
+      "cad": null,
+      "step": null,
+      "certificate": null
+    },
+    "media": {
+      "thumbnail": null,
+      "images": [],
+      "technicalDrawing": null,
+      "viewer360": null,
+      "model3D": null,
+      "video": null
+    },
+    "_meta": {
+      "version": "1.0",
+      "lastUpdated": "2026-07-31"
+    }
+  },
+  {
+    "id": "PPF-012",
+    "slug": "neck-flange",
+    "name": "Neck Flange",
+    "type": "parametric",
+    "status": "active",
+    "family": "weld-neck-flange",
+    "categoryId": "din-en-flanges",
+    "subcategoryId": "flange",
+    "catalogue": {
+      "description": "A Weld-Neck flange can be differentiated from all other types of flange by their long tapered hub.",
+      "page": 5,
+      "sizes": {
+        "min": "1/2\"",
+        "max": "16\""
+      },
+      "lengths": [],
+      "finish": [],
+      "materials": [
+        "SS",
+        "DUPLEX",
+        "MONAL",
+        "NICKEL"
+      ],
+      "standard": "ASTM A182 B16.5",
+      "schedule": null,
+      "class": "150# & 300#",
+      "notes": "Range: 15NB to 400NB. Description verbatim identical to PPF-016 (Welding Neck, B16.5 page) -- same family."
+    },
+    "technical": {
+      "dimensions": [],
+      "weights": [],
+      "drawing": null,
+      "pressureRating": null,
+      "temperatureRange": null
+    },
+    "search": {
+      "aliases": [],
+      "keywords": [],
+      "tags": []
+    },
+    "related": [],
+    "downloads": {
+      "datasheet": null,
+      "cad": null,
+      "step": null,
+      "certificate": null
+    },
+    "media": {
+      "thumbnail": null,
+      "images": [],
+      "technicalDrawing": null,
+      "viewer360": null,
+      "model3D": null,
+      "video": null
+    },
+    "_meta": {
+      "version": "1.0",
+      "lastUpdated": "2026-07-31"
+    }
+  },
+  {
+    "id": "PPF-013",
+    "slug": "threaded-flange",
+    "name": "Threaded Flange",
+    "type": "parametric",
+    "status": "active",
+    "family": "threaded-flange",
+    "categoryId": "din-en-flanges",
+    "subcategoryId": "flange",
+    "catalogue": {
+      "description": "A Threaded flange looks very similar to a Slip-On flange but the main difference is that the threaded flange has been bored out to match a specific pipe inside diameter.",
+      "page": 5,
+      "sizes": {
+        "min": "1/2\"",
+        "max": "24\""
+      },
+      "lengths": [],
+      "finish": [],
+      "materials": [
+        "SS",
+        "DUPLEX",
+        "MONAL",
+        "NICKEL"
+      ],
+      "standard": "ASTM A182 B16.5",
+      "schedule": null,
+      "class": "150# & 300#",
+      "notes": "Range: 15NB to 600NB. No equivalent on B16.5 Flanges page (that page has Slip-On, a related but distinct type); family has one member."
+    },
+    "technical": {
+      "dimensions": [],
+      "weights": [],
+      "drawing": null,
+      "pressureRating": null,
+      "temperatureRange": null
+    },
+    "search": {
+      "aliases": [],
+      "keywords": [],
+      "tags": []
+    },
+    "related": [],
+    "downloads": {
+      "datasheet": null,
+      "cad": null,
+      "step": null,
+      "certificate": null
+    },
+    "media": {
+      "thumbnail": null,
+      "images": [],
+      "technicalDrawing": null,
+      "viewer360": null,
+      "model3D": null,
+      "video": null
+    },
+    "_meta": {
+      "version": "1.0",
+      "lastUpdated": "2026-07-31"
+    }
+  },
+  {
+    "id": "PPF-014",
+    "slug": "slip-on-flange",
+    "name": "Slip-On",
+    "type": "parametric",
+    "status": "active",
+    "family": "slip-on-flange",
+    "categoryId": "astm-ansi-b16-5-flanges",
+    "subcategoryId": "flange",
+    "catalogue": {
+      "description": "Slip-on flanges are manufactured with an inside diameter that is slightly bigger than the pipe's outside diameter.",
+      "page": 6,
+      "sizes": {
+        "min": "1/2\"",
+        "max": "32\""
+      },
+      "lengths": [],
+      "finish": [],
+      "materials": [
+        "ASTM A105 N"
+      ],
+      "standard": null,
+      "schedule": null,
+      "class": "150Lbs, 300Lbs",
+      "notes": "No per-row standard field printed for this item; catalogue.standard left null rather than inferring from the page header. No equivalent on DIN & EN Flanges page; family has one member."
+    },
+    "technical": {
+      "dimensions": [],
+      "weights": [],
+      "drawing": null,
+      "pressureRating": null,
+      "temperatureRange": null
+    },
+    "search": {
+      "aliases": [],
+      "keywords": [],
+      "tags": []
+    },
+    "related": [],
+    "downloads": {
+      "datasheet": null,
+      "cad": null,
+      "step": null,
+      "certificate": null
+    },
+    "media": {
+      "thumbnail": null,
+      "images": [],
+      "technicalDrawing": null,
+      "viewer360": null,
+      "model3D": null,
+      "video": null
+    },
+    "_meta": {
+      "version": "1.0",
+      "lastUpdated": "2026-07-31"
+    }
+  },
+  {
+    "id": "PPF-015",
+    "slug": "blind-flange-ansi-b16-5",
+    "name": "Blind",
+    "type": "parametric",
+    "status": "active",
+    "family": "blind-flange",
+    "categoryId": "astm-ansi-b16-5-flanges",
+    "subcategoryId": "flange",
+    "catalogue": {
+      "description": "A Blind flange is round plate which has all of the relevant boltholes but no center hole, and because of this feature this flange is used to close off the ends of a piping systems.",
+      "page": 6,
+      "sizes": {
+        "min": "1/2\"",
+        "max": "32\""
+      },
+      "lengths": [],
+      "finish": [],
+      "materials": [
+        "ASTM A105 N"
+      ],
+      "standard": null,
+      "schedule": null,
+      "class": "150Lbs, 300Lbs",
+      "notes": "Same family as PPF-011 (DIN & EN Flanges page) -- different size range/material/class."
+    },
+    "technical": {
+      "dimensions": [],
+      "weights": [],
+      "drawing": null,
+      "pressureRating": null,
+      "temperatureRange": null
+    },
+    "search": {
+      "aliases": [],
+      "keywords": [],
+      "tags": []
+    },
+    "related": [],
+    "downloads": {
+      "datasheet": null,
+      "cad": null,
+      "step": null,
+      "certificate": null
+    },
+    "media": {
+      "thumbnail": null,
+      "images": [],
+      "technicalDrawing": null,
+      "viewer360": null,
+      "model3D": null,
+      "video": null
+    },
+    "_meta": {
+      "version": "1.0",
+      "lastUpdated": "2026-07-31"
+    }
+  },
+  {
+    "id": "PPF-016",
+    "slug": "welding-neck-flange",
+    "name": "Welding Neck",
+    "type": "parametric",
+    "status": "active",
+    "family": "weld-neck-flange",
+    "categoryId": "astm-ansi-b16-5-flanges",
+    "subcategoryId": "flange",
+    "catalogue": {
+      "description": "A Weld-Neck flange can be differentiated from all other types of flange by their long tapered hub.",
+      "page": 6,
+      "sizes": {
+        "min": "1/2\"",
+        "max": "32\""
+      },
+      "lengths": [],
+      "finish": [],
+      "materials": [
+        "ASTM A105 N"
+      ],
+      "standard": null,
+      "schedule": "STD and XS",
+      "class": "150Lbs, 300Lbs, 600Lbs",
+      "notes": "Description verbatim identical to PPF-012 (Neck Flange, DIN & EN Flanges page) -- same family."
+    },
+    "technical": {
+      "dimensions": [],
+      "weights": [],
+      "drawing": null,
+      "pressureRating": null,
+      "temperatureRange": null
+    },
+    "search": {
+      "aliases": [],
+      "keywords": [],
+      "tags": []
+    },
+    "related": [],
+    "downloads": {
+      "datasheet": null,
+      "cad": null,
+      "step": null,
+      "certificate": null
+    },
+    "media": {
+      "thumbnail": null,
+      "images": [],
+      "technicalDrawing": null,
+      "viewer360": null,
+      "model3D": null,
+      "video": null
+    },
+    "_meta": {
+      "version": "1.0",
+      "lastUpdated": "2026-07-31"
+    }
+  },
+  {
+    "id": "PPF-017",
+    "slug": "lap-joint-flange",
+    "name": "Lap Joint",
+    "type": "parametric",
+    "status": "active",
+    "family": "lap-joint-flange",
+    "categoryId": "astm-ansi-b16-5-flanges",
+    "subcategoryId": "flange",
+    "catalogue": {
+      "description": "Lap joint pipe flanges slide directly over the pipe and are most commonly used with stub end fittings.",
+      "page": 6,
+      "sizes": {
+        "min": "1/2\"",
+        "max": "12\""
+      },
+      "lengths": [],
+      "finish": [],
+      "materials": [
+        "ASTM A105 N"
+      ],
+      "standard": null,
+      "schedule": null,
+      "class": "150Lbs",
+      "notes": "No equivalent on DIN & EN Flanges page; family has one member."
+    },
+    "technical": {
+      "dimensions": [],
+      "weights": [],
+      "drawing": null,
+      "pressureRating": null,
+      "temperatureRange": null
+    },
+    "search": {
+      "aliases": [],
+      "keywords": [],
+      "tags": []
+    },
+    "related": [],
+    "downloads": {
+      "datasheet": null,
+      "cad": null,
+      "step": null,
+      "certificate": null
+    },
+    "media": {
+      "thumbnail": null,
+      "images": [],
+      "technicalDrawing": null,
+      "viewer360": null,
+      "model3D": null,
+      "video": null
+    },
+    "_meta": {
+      "version": "1.0",
+      "lastUpdated": "2026-07-31"
+    }
+  },
+  {
+    "id": "PPF-018",
+    "slug": "socketweld-flange",
+    "name": "Socketweld",
+    "type": "parametric",
+    "status": "active",
+    "family": "socketweld-flange",
+    "categoryId": "astm-ansi-b16-5-flanges",
+    "subcategoryId": "flange",
+    "catalogue": {
+      "description": "Socket weld pipe flanges are attached by inserting the pipe into the socket end and applying fillet weld around the top.",
+      "page": 6,
+      "sizes": {
+        "min": "1/2\"",
+        "max": "12\""
+      },
+      "lengths": [],
+      "finish": [],
+      "materials": [
+        "ASTM A105 N"
+      ],
+      "standard": null,
+      "schedule": null,
+      "class": "150Lbs, 300Lbs",
+      "notes": "No equivalent on DIN & EN Flanges page; family has one member."
+    },
+    "technical": {
+      "dimensions": [],
+      "weights": [],
+      "drawing": null,
+      "pressureRating": null,
+      "temperatureRange": null
+    },
+    "search": {
+      "aliases": [],
+      "keywords": [],
+      "tags": []
+    },
+    "related": [],
+    "downloads": {
+      "datasheet": null,
+      "cad": null,
+      "step": null,
+      "certificate": null
+    },
+    "media": {
+      "thumbnail": null,
+      "images": [],
+      "technicalDrawing": null,
+      "viewer360": null,
+      "model3D": null,
+      "video": null
+    },
+    "_meta": {
+      "version": "1.0",
+      "lastUpdated": "2026-07-31"
+    }
+  },
+  {
+    "id": "PPF-019",
+    "slug": "45-degree-elbow-astm-a234",
+    "name": "45 Degree Elbows",
+    "type": "parametric",
+    "status": "active",
+    "family": "45-degree-elbow",
+    "categoryId": "astm-ansi-b16-9-fittings",
+    "subcategoryId": "elbow",
+    "catalogue": {
+      "description": "An elbow is installed between two lengths of pipe (or tubing) to allow a change of direction.",
+      "page": 7,
+      "sizes": {
+        "min": "1/2\"",
+        "max": "32\""
+      },
+      "lengths": [],
+      "finish": [
+        "LR",
+        "SR"
+      ],
+      "materials": [
+        "ASTM A.234WPB"
+      ],
+      "standard": "ASTM A.234WPB",
+      "schedule": "STD and XS",
+      "class": null,
+      "notes": "Same family as PPF-005 (SS Fittings page). 'ASTM A.234WPB' printed as both a Types-equivalent field and the Material field; recorded identically in catalogue.standard and catalogue.materials as printed."
+    },
+    "technical": {
+      "dimensions": [],
+      "weights": [],
+      "drawing": null,
+      "pressureRating": null,
+      "temperatureRange": null
+    },
+    "search": {
+      "aliases": [],
+      "keywords": [],
+      "tags": []
+    },
+    "related": [],
+    "downloads": {
+      "datasheet": null,
+      "cad": null,
+      "step": null,
+      "certificate": null
+    },
+    "media": {
+      "thumbnail": null,
+      "images": [],
+      "technicalDrawing": null,
+      "viewer360": null,
+      "model3D": null,
+      "video": null
+    },
+    "_meta": {
+      "version": "1.0",
+      "lastUpdated": "2026-07-31"
+    }
+  },
+  {
+    "id": "PPF-020",
+    "slug": "90-degree-elbow-astm-a234",
+    "name": "90 Degree Elbows",
+    "type": "parametric",
+    "status": "active",
+    "family": "90-degree-elbow",
+    "categoryId": "astm-ansi-b16-9-fittings",
+    "subcategoryId": "elbow",
+    "catalogue": {
+      "description": "An elbow is installed between two lengths of pipe (or tubing) to allow a change of direction.",
+      "page": 7,
+      "sizes": {
+        "min": "1/2\"",
+        "max": "32\""
+      },
+      "lengths": [],
+      "finish": [
+        "LR",
+        "SR"
+      ],
+      "materials": [
+        "ASTM A.234WPB"
+      ],
+      "standard": "ASTM A.234WPB",
+      "schedule": "STD and XS",
+      "class": null,
+      "notes": "Same family as PPF-006."
+    },
+    "technical": {
+      "dimensions": [],
+      "weights": [],
+      "drawing": null,
+      "pressureRating": null,
+      "temperatureRange": null
+    },
+    "search": {
+      "aliases": [],
+      "keywords": [],
+      "tags": []
+    },
+    "related": [],
+    "downloads": {
+      "datasheet": null,
+      "cad": null,
+      "step": null,
+      "certificate": null
+    },
+    "media": {
+      "thumbnail": null,
+      "images": [],
+      "technicalDrawing": null,
+      "viewer360": null,
+      "model3D": null,
+      "video": null
+    },
+    "_meta": {
+      "version": "1.0",
+      "lastUpdated": "2026-07-31"
+    }
+  },
+  {
+    "id": "PPF-021",
+    "slug": "concentric-reducer-astm-a234",
+    "name": "Concentric Reducers",
+    "type": "parametric",
+    "status": "active",
+    "family": "concentric-reducer",
+    "categoryId": "astm-ansi-b16-9-fittings",
+    "subcategoryId": "reducer",
+    "catalogue": {
+      "description": "The concentric reducer is cone-shaped, and is used when there is a shift in diameter between pipes.",
+      "page": 7,
+      "sizes": {
+        "min": "3/4\" x 1/2\"",
+        "max": "32\" x 28\""
+      },
+      "lengths": [],
+      "finish": [],
+      "materials": [
+        "ASTM A.234WPB"
+      ],
+      "standard": "ASTM A.234WPB",
+      "schedule": "STD and XS",
+      "class": null,
+      "notes": "Same family as PPF-007."
+    },
+    "technical": {
+      "dimensions": [],
+      "weights": [],
+      "drawing": null,
+      "pressureRating": null,
+      "temperatureRange": null
+    },
+    "search": {
+      "aliases": [],
+      "keywords": [],
+      "tags": []
+    },
+    "related": [],
+    "downloads": {
+      "datasheet": null,
+      "cad": null,
+      "step": null,
+      "certificate": null
+    },
+    "media": {
+      "thumbnail": null,
+      "images": [],
+      "technicalDrawing": null,
+      "viewer360": null,
+      "model3D": null,
+      "video": null
+    },
+    "_meta": {
+      "version": "1.0",
+      "lastUpdated": "2026-07-31"
+    }
+  },
+  {
+    "id": "PPF-022",
+    "slug": "eccentric-reducer-astm-a234",
+    "name": "Eccentric Reducers",
+    "type": "parametric",
+    "status": "active",
+    "family": "eccentric-reducer",
+    "categoryId": "astm-ansi-b16-9-fittings",
+    "subcategoryId": "reducer",
+    "catalogue": {
+      "description": "An eccentric reducer is a fitting used in piping systems between two pipes of different diameters.",
+      "page": 7,
+      "sizes": {
+        "min": "3/4\" x 1/2\"",
+        "max": "32\" x 28\""
+      },
+      "lengths": [],
+      "finish": [],
+      "materials": [
+        "ASTM A.234WPB"
+      ],
+      "standard": "ASTM A.234WPB",
+      "schedule": "STD and XS",
+      "class": null,
+      "notes": "Same family as PPF-008."
+    },
+    "technical": {
+      "dimensions": [],
+      "weights": [],
+      "drawing": null,
+      "pressureRating": null,
+      "temperatureRange": null
+    },
+    "search": {
+      "aliases": [],
+      "keywords": [],
+      "tags": []
+    },
+    "related": [],
+    "downloads": {
+      "datasheet": null,
+      "cad": null,
+      "step": null,
+      "certificate": null
+    },
+    "media": {
+      "thumbnail": null,
+      "images": [],
+      "technicalDrawing": null,
+      "viewer360": null,
+      "model3D": null,
+      "video": null
+    },
+    "_meta": {
+      "version": "1.0",
+      "lastUpdated": "2026-07-31"
+    }
+  },
+  {
+    "id": "PPF-023",
+    "slug": "equal-tee-astm-a234",
+    "name": "Equal Tee",
+    "type": "parametric",
+    "status": "active",
+    "family": "equal-tee",
+    "categoryId": "astm-ansi-b16-9-fittings",
+    "subcategoryId": "tee",
+    "catalogue": {
+      "description": "Pipe tees are widely used in piping systems to transport two phase fluid mixtures and are mainly of two types: Equal and reducing.",
+      "page": 7,
+      "sizes": {
+        "min": "1/2\"",
+        "max": "32\""
+      },
+      "lengths": [],
+      "finish": [],
+      "materials": [
+        "ASTM A.234WPB"
+      ],
+      "standard": "ASTM A.234WPB",
+      "schedule": "STD and XS",
+      "class": null,
+      "notes": "Same family as PPF-009 (different size range/standard)."
+    },
+    "technical": {
+      "dimensions": [],
+      "weights": [],
+      "drawing": null,
+      "pressureRating": null,
+      "temperatureRange": null
+    },
+    "search": {
+      "aliases": [],
+      "keywords": [],
+      "tags": []
+    },
+    "related": [],
+    "downloads": {
+      "datasheet": null,
+      "cad": null,
+      "step": null,
+      "certificate": null
+    },
+    "media": {
+      "thumbnail": null,
+      "images": [],
+      "technicalDrawing": null,
+      "viewer360": null,
+      "model3D": null,
+      "video": null
+    },
+    "_meta": {
+      "version": "1.0",
+      "lastUpdated": "2026-07-31"
+    }
+  },
+  {
+    "id": "PPF-024",
+    "slug": "reducing-tee",
+    "name": "Reducing Tee",
+    "type": "parametric",
+    "status": "active",
+    "family": "reducing-tee",
+    "categoryId": "astm-ansi-b16-9-fittings",
+    "subcategoryId": "tee",
+    "catalogue": {
+      "description": "Pipe tees are widely used in piping systems to transport two phase fluid mixtures and are mainly of two types: Equal and reducing.",
+      "page": 7,
+      "sizes": {
+        "min": "3/4\" x 1/2\"",
+        "max": "24\" x 20\""
+      },
+      "lengths": [],
+      "finish": [],
+      "materials": [
+        "ASTM A.234WPB"
+      ],
+      "standard": "ASTM A.234WPB",
+      "schedule": "STD & XS",
+      "class": null,
+      "notes": "No Reducing Tee entry exists on the SS Fittings page; only Reducing Tee entry in the catalogue. Family has one member."
+    },
+    "technical": {
+      "dimensions": [],
+      "weights": [],
+      "drawing": null,
+      "pressureRating": null,
+      "temperatureRange": null
+    },
+    "search": {
+      "aliases": [],
+      "keywords": [],
+      "tags": []
+    },
+    "related": [],
+    "downloads": {
+      "datasheet": null,
+      "cad": null,
+      "step": null,
+      "certificate": null
+    },
+    "media": {
+      "thumbnail": null,
+      "images": [],
+      "technicalDrawing": null,
+      "viewer360": null,
+      "model3D": null,
+      "video": null
+    },
+    "_meta": {
+      "version": "1.0",
+      "lastUpdated": "2026-07-31"
+    }
+  },
+  {
+    "id": "PPF-025",
+    "slug": "cap-astm-a234",
+    "name": "Caps",
+    "type": "parametric",
+    "status": "active",
+    "family": "cap",
+    "categoryId": "astm-ansi-b16-9-fittings",
+    "subcategoryId": "cap",
+    "catalogue": {
+      "description": "Pipe caps act as protective device and are designed to protect pipe ends of various shapes.",
+      "page": 7,
+      "sizes": {
+        "min": "1/2\"",
+        "max": "32\""
+      },
+      "lengths": [],
+      "finish": [],
+      "materials": [
+        "ASTM A.234WPB"
+      ],
+      "standard": "ASTM A.234WPB",
+      "schedule": "STD and XS",
+      "class": null,
+      "notes": "Same family as PPF-001 (DIN & EN Fittings page, different size range/standard)."
+    },
+    "technical": {
+      "dimensions": [],
+      "weights": [],
+      "drawing": null,
+      "pressureRating": null,
+      "temperatureRange": null
+    },
+    "search": {
+      "aliases": [],
+      "keywords": [],
+      "tags": []
+    },
+    "related": [],
+    "downloads": {
+      "datasheet": null,
+      "cad": null,
+      "step": null,
+      "certificate": null
+    },
+    "media": {
+      "thumbnail": null,
+      "images": [],
+      "technicalDrawing": null,
+      "viewer360": null,
+      "model3D": null,
+      "video": null
+    },
+    "_meta": {
+      "version": "1.0",
+      "lastUpdated": "2026-07-31"
+    }
+  }
+]

@@ -1,0 +1,182 @@
+{
+  "primary": [
+    {
+      "id": "home",
+      "label": "Home",
+      "path": "/",
+      "type": "link"
+    },
+    {
+      "id": "company",
+      "label": "Company",
+      "path": "/about",
+      "type": "dropdown",
+      "children": [
+        {
+          "id": "about",
+          "label": "About Us",
+          "path": "/about"
+        },
+        {
+          "id": "quality",
+          "label": "Quality",
+          "path": "/quality"
+        },
+        {
+          "id": "certifications",
+          "label": "Certifications",
+          "path": "/certifications"
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "label": "Products",
+      "path": "/products",
+      "type": "dropdown",
+      "children": [
+        {
+          "id": "din-en-fittings",
+          "label": "DIN & EN Fittings",
+          "path": "/products/din-en-fittings",
+          "categoryId": "din-en-fittings"
+        },
+        {
+          "id": "ss-fittings",
+          "label": "SS Fittings",
+          "path": "/products/ss-fittings",
+          "categoryId": "ss-fittings"
+        },
+        {
+          "id": "din-en-flanges",
+          "label": "DIN & EN Flanges",
+          "path": "/products/din-en-flanges",
+          "categoryId": "din-en-flanges"
+        },
+        {
+          "id": "astm-ansi-b16-5-flanges",
+          "label": "ASTM-ANSI B16.5 Flanges",
+          "path": "/products/astm-ansi-b16-5-flanges",
+          "categoryId": "astm-ansi-b16-5-flanges"
+        },
+        {
+          "id": "astm-ansi-b16-9-fittings",
+          "label": "ASTM-ANSI B16.9 Fittings",
+          "path": "/products/astm-ansi-b16-9-fittings",
+          "categoryId": "astm-ansi-b16-9-fittings"
+        }
+      ]
+    },
+    {
+      "id": "materials",
+      "label": "Materials",
+      "path": "/materials",
+      "type": "dropdown",
+      "children": [
+        {
+          "id": "stainless-steel",
+          "label": "Stainless Steel",
+          "path": "/materials/stainless-steel",
+          "materialId": "stainless-steel"
+        },
+        {
+          "id": "duplex",
+          "label": "Duplex",
+          "path": "/materials/duplex",
+          "materialId": "duplex"
+        },
+        {
+          "id": "monel",
+          "label": "Monel",
+          "path": "/materials/monel",
+          "materialId": "monel"
+        },
+        {
+          "id": "nickel",
+          "label": "Nickel",
+          "path": "/materials/nickel",
+          "materialId": "nickel"
+        }
+      ]
+    },
+    {
+      "id": "technical-resources",
+      "label": "Technical Resources",
+      "path": "/technical-resources",
+      "type": "dropdown",
+      "children": [
+        {
+          "id": "standards-reference",
+          "label": "Standards Reference",
+          "path": "/technical-resources/standards"
+        },
+        {
+          "id": "dimension-charts",
+          "label": "Dimension Charts",
+          "path": "/technical-resources/dimensions",
+          "status": "available_on_request"
+        },
+        {
+          "id": "weight-charts",
+          "label": "Weight Charts",
+          "path": "/technical-resources/weights",
+          "status": "available_on_request"
+        }
+      ]
+    },
+    {
+      "id": "resources",
+      "label": "Resources",
+      "path": "/resources",
+      "type": "dropdown",
+      "children": [
+        {
+          "id": "product-catalogue",
+          "label": "Product Catalogue",
+          "path": "/resources/catalogue"
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "label": "Contact",
+      "path": "/contact",
+      "type": "link"
+    }
+  ],
+
+  "utility": [
+    {
+      "id": "search",
+      "type": "search",
+      "placeholder": "Search products, fittings, flanges..."
+    }
+  ],
+
+  "future": [
+    {
+      "id": "dealer-portal",
+      "label": "Dealer Portal",
+      "path": "/dealer",
+      "type": "link",
+      "enabled": false
+    },
+    {
+      "id": "customer-portal",
+      "label": "Customer Portal",
+      "path": "/portal",
+      "type": "link",
+      "enabled": false
+    }
+  ],
+
+  "_meta": {
+    "version": "1.0",
+    "notes": [
+      "Products use a dropdown in v1. Upgrade to a mega menu when product families or subcategories require multiple columns.",
+      "Material pages are intentionally lightweight in v1 and can expand with grade information, mechanical properties, and chemical compositions.",
+      "Technical charts marked as 'available_on_request' reflect current business assets and can be updated as downloadable engineering documents become available.",
+      "Resources currently expose the company catalogue only and can later include brochures, datasheets, CAD files, certificates, and installation guides."
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+@theme {
+  /* ===============================
+     Transition & Animation
+  =============================== */
+
+  --ease-premium: cubic-bezier(.22, 1, .36, 1);
+
+  --animate-fast: 200ms;
+  --animate-normal: 350ms;
+  --animate-slow: 600ms;
+}
