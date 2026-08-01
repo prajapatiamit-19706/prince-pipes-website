@@ -1,0 +1,66 @@
+[
+  {
+    "id": "oil-and-gas",
+    "name": "Oil & Gas",
+    "description": "High-performance piping systems for refineries and energy infrastructure.",
+    "applications": ["Pipeline", "Refinery", "Offshore"],
+    "icon": "Droplets",
+    "href": "/industries/oil-and-gas"
+  },
+  {
+    "id": "petrochemical",
+    "name": "Petrochemical",
+    "description": "Corrosion-resistant solutions designed for hazardous chemical processing.",
+    "applications": ["Processing", "Storage", "Transport"],
+    "icon": "Factory",
+    "href": "/industries/petrochemical"
+  },
+  {
+    "id": "chemical",
+    "name": "Chemical",
+    "description": "Precision engineered components ensuring zero-leakage fluid transfer.",
+    "applications": ["Acids", "Solvents", "Reactors"],
+    "icon": "FlaskConical",
+    "href": "/industries/chemical"
+  },
+  {
+    "id": "power-generation",
+    "name": "Power Generation",
+    "description": "Robust materials capable of withstanding extreme thermal environments.",
+    "applications": ["Thermal", "Nuclear", "Renewable"],
+    "icon": "Zap",
+    "href": "/industries/power-generation"
+  },
+  {
+    "id": "pharmaceutical",
+    "name": "Pharmaceutical",
+    "description": "Ultra-pure sanitary fittings meeting the strictest hygiene standards.",
+    "applications": ["Clean Room", "Biotech", "Sanitary"],
+    "icon": "Pill",
+    "href": "/industries/pharmaceutical"
+  },
+  {
+    "id": "marine",
+    "name": "Marine",
+    "description": "Saltwater-resistant alloys designed for demanding offshore applications.",
+    "applications": ["Shipbuilding", "Offshore", "Desalination"],
+    "icon": "Ship",
+    "href": "/industries/marine"
+  },
+  {
+    "id": "food-and-beverage",
+    "name": "Food & Beverage",
+    "description": "Food-grade stainless steel networks ensuring product purity.",
+    "applications": ["Brewery", "Dairy", "Processing"],
+    "icon": "Utensils",
+    "href": "/industries/food-and-beverage"
+  },
+  {
+    "id": "construction",
+    "name": "Construction",
+    "description": "Structural integrity components for heavy duty architectural framing.",
+    "applications": ["HVAC", "Plumbing", "Structural"],
+    "icon": "HardHat",
+    "href": "/industries/construction"
+  }
+]

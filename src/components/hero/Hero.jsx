@@ -9,6 +9,7 @@ import { HeroCategories } from "./HeroCategories";
 import { ScrollIndicator } from "./ScrollIndicator";
 
 import homepageData from "@/data/homepage.json";
+import industriesData from "@/data/industries.json";
 
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
@@ -110,7 +111,7 @@ export function Hero() {
         </div>
       </div>
 
-      <HeroIndustryStrip industries={hero.industries} />
+
 
       <div className="hidden lg:block relative h-0">
         <ScrollIndicator />
@@ -118,6 +119,10 @@ export function Hero() {
 
       <div className="hero-categories-trigger relative z-10 w-full mt-12">
         <HeroCategories categories={featuredCategories} />
+      </div>
+
+      <div className="hero-industry-trigger relative z-10 w-full">
+        <HeroIndustryStrip industries={industriesData} />
       </div>
     </section>
   );
