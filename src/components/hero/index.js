@@ -1,0 +1,9 @@
+export { Hero } from "./Hero";
+export { HeroContent } from "./HeroContent";
+export { HeroBadge } from "./HeroBadge";
+export { HeroButtons } from "./HeroButtons";
+export { HeroStats } from "./HeroStats";
+export { HeroScene } from "./HeroScene";
+export { HeroBackground } from "./HeroBackground";
+export { HeroIndustryStrip } from "./HeroIndustryStrip";
+export { ScrollIndicator } from "./ScrollIndicator";

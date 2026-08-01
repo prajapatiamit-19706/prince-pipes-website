@@ -46,6 +46,7 @@ export const SearchResults = () => {
 
   // Reset selected index when query changes
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setSelectedIndex(-1);
   }, [debouncedQuery]);
 

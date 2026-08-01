@@ -1,5 +1,6 @@
 "use client";
 import Link from 'next/link';
+import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 
 export const MegaMenu = ({ isOpen, data, onMouseEnter, onMouseLeave }) => {
@@ -49,8 +50,8 @@ export const MegaMenu = ({ isOpen, data, onMouseEnter, onMouseLeave }) => {
                     href={item.href}
                     className="group flex items-center gap-4 hover:bg-white p-3 rounded-lg transition-all"
                   >
-                    <div className="w-16 h-16 bg-white rounded-md overflow-hidden flex-shrink-0 shadow-sm border border-border">
-                      <img src={item.image} alt={item.title} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                    <div className="relative w-16 h-16 bg-white rounded-md overflow-hidden flex-shrink-0 shadow-sm border border-border">
+                      <Image src={item.image} alt={item.title} fill sizes="64px" className="object-cover group-hover:scale-110 transition-transform duration-500" />
                     </div>
                     <div>
                       <h5 className="font-semibold text-text-primary group-hover:text-primary transition-colors">

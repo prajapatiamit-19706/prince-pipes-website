@@ -1,9 +1,10 @@
-import Image from "next/image";
+import { Hero } from "@/components/hero";
 
 export default function Home() {
   return (
-    <>
-      <h1>Home Page</h1>
-    </>
+    <main className="w-full min-h-screen">
+      <Hero />
+      {/* Other sections will follow here */}
+    </main>
   );
 }

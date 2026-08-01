@@ -30,6 +30,7 @@ export const HeaderProvider = ({ children }) => {
   
   // Close mobile menu when route changes
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMobileMenuOpen(false);
     setActiveDropdown(null);
   }, [pathname]);

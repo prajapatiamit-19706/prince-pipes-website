@@ -1,4 +1,5 @@
 "use client";
+import React from 'react';
 import Link from 'next/link';
 import { useSearchContext } from '@/context/SearchContext';
 import { ArrowRight, FileText, Package, CheckCircle } from 'lucide-react';
@@ -14,7 +15,7 @@ const getCategoryIcon = (category) => {
 
 export const SearchResultItem = ({ item, isSelected, onMouseEnter }) => {
   const { closeSearch } = useSearchContext();
-  const Icon = getCategoryIcon(item.category);
+  const iconComp = getCategoryIcon(item.category);
 
   return (
     <Link
@@ -31,7 +32,7 @@ export const SearchResultItem = ({ item, isSelected, onMouseEnter }) => {
           "p-2 rounded-md transition-colors",
           isSelected ? "bg-white text-primary shadow-sm" : "bg-surface-2 text-text-secondary group-hover:bg-white group-hover:text-primary group-hover:shadow-sm"
         )}>
-          <Icon className="w-5 h-5" />
+          {React.createElement(iconComp, { className: "w-5 h-5" })}
         </div>
         <div className="flex flex-col">
           <span className={cn(

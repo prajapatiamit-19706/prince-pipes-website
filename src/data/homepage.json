@@ -1,7 +1,105 @@
 {
+  "hero": {
+    "trustBadge": "Premium Engineering",
+    "headline": "Engineering Excellence in Every Pipe",
+    "description": "We build premium industrial products with precision. Trusted globally for reliability and strength.",
+    "buttons": {
+      "primary": {
+        "label": "Explore Products",
+        "href": "/products"
+      },
+      "secondary": {
+        "label": "Request Quote",
+        "href": "/contact"
+      }
+    },
+    "statistics": [
+      {
+        "value": "20+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "50+",
+        "label": "Countries Served"
+      },
+      {
+        "value": "100%",
+        "label": "Quality Tested"
+      }
+    ],
+    "industries": [
+      "Oil & Gas",
+      "Petrochemical",
+      "Chemical",
+      "Power Generation",
+      "Pharmaceutical",
+      "Marine",
+      "Food & Beverage",
+      "Construction"
+    ],
+    "callouts": [
+      {
+        "id": "threads",
+        "title": "PRECISE THREADS",
+        "description": "Leak Proof Connections",
+        "position": "top-left",
+        "delay": 0.2
+      },
+      {
+        "id": "material",
+        "title": "PREMIUM MATERIAL",
+        "description": "SS 304 / SS 316 / DUPLEX / SUPER DUPLEX",
+        "position": "top-right",
+        "delay": 0.4
+      },
+      {
+        "id": "finish",
+        "title": "SUPERIOR FINISH",
+        "description": "Corrosion Resistant",
+        "position": "bottom-left",
+        "delay": 0.6
+      },
+      {
+        "id": "pressure",
+        "title": "HIGH PRESSURE RATING",
+        "description": "Reliable Performance in Extreme Conditions",
+        "position": "bottom-right",
+        "delay": 0.8
+      }
+    ]
+  },
   "heroProduct": null,
   "featuredProducts": [],
-  "featuredCategories": [],
+  "featuredCategories": [
+    {
+      "id": "pipes-tubes",
+      "name": "Pipes & Tubes",
+      "description": "Seamless & Welded solutions for critical industrial applications.",
+      "href": "/categories/pipes-tubes",
+      "image": null
+    },
+    {
+      "id": "fittings",
+      "name": "Fittings",
+      "description": "Precision engineered fittings ensuring leak-proof connections.",
+      "href": "/categories/fittings",
+      "image": null
+    },
+    {
+      "id": "flanges",
+      "name": "Flanges",
+      "description": "High integrity flanges for secure pressure vessel coupling.",
+      "href": "/categories/flanges",
+      "image": null
+    },
+    {
+      "id": "valves",
+      "name": "Valves",
+      "description": "Robust flow control systems for extreme environments.",
+      "href": "/categories/valves",
+      "image": null
+    }
+  ],
   "sections": [
     "hero",
     "about",
