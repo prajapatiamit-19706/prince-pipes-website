@@ -24,11 +24,17 @@ export const Navbar = () => {
           <MobileHeader />
           <MobileDrawer />
         </header>
-        {/* Spacer to prevent content from hiding under sticky header */}
+        {/* Desktop Spacer (xl+) */}
         <div 
-          className="hidden md:block w-full transition-all duration-300" 
+          className="hidden xl:block w-full transition-all duration-300" 
           style={{ height: HEADER_LAYOUT.HEIGHT_LANDING }}
         />
+        {/* Tablet Spacer (md to xl) */}
+        <div 
+          className="hidden md:block xl:hidden w-full transition-all duration-300" 
+          style={{ height: HEADER_LAYOUT.UTILITY_BAR_HEIGHT_TABLET + HEADER_LAYOUT.BRAND_HEADER_HEIGHT }}
+        />
+        {/* Mobile Spacer (<md) */}
         <div 
           className="block md:hidden w-full transition-all duration-300"
           style={{ height: HEADER_LAYOUT.BRAND_HEADER_HEIGHT }}

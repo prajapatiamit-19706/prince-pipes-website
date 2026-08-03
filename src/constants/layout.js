@@ -2,6 +2,7 @@ export const HEADER_LAYOUT = {
   HEIGHT_LANDING: 180, // Utility Bar (40) + Brand Header (80) + Navigation (60)
   HEIGHT_SCROLLED: 90, // Compressed Brand Header + Navigation
   UTILITY_BAR_HEIGHT: 40,
+  UTILITY_BAR_HEIGHT_TABLET: 32,
   BRAND_HEADER_HEIGHT: 80,
   BRAND_HEADER_HEIGHT_SCROLLED: 40,
   PRIMARY_NAV_HEIGHT: 60,

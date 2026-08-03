@@ -17,7 +17,7 @@ export const DynamicHeading = () => {
       <span className="text-[10px] uppercase tracking-[0.2em] text-text-muted font-semibold mb-1">
         {dynamicHeading?.subtitle || pageName}
       </span>
-      <h1 className="text-xl font-heading font-medium text-text-primary tracking-tight">
+      <h1 className="text-sm xl:text-lg font-heading font-medium text-text-primary tracking-tight">
         {dynamicHeading?.title || dynamicHeading}
       </h1>
     </div>

@@ -16,7 +16,7 @@ export const PrimaryNavigation = () => {
         height: isScrolled ? HEADER_LAYOUT.PRIMARY_NAV_HEIGHT_SCROLLED : HEADER_LAYOUT.PRIMARY_NAV_HEIGHT
       }}
       transition={{ duration: 0.3, ease: 'easeInOut' }}
-      className="bg-white hidden md:flex justify-center z-10 relative"
+      className="bg-white hidden xl:flex justify-center z-10 relative"
     >
       <nav className="flex items-center h-full gap-10">
         {NAVIGATION.map((item) => (

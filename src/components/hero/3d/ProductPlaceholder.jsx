@@ -37,4 +37,4 @@ export function ProductPlaceholder(props) {
 }
 
 // Preload the model to prevent popping in
-useGLTF.preload('/models/threaded_barrel_nipple_v2.glb');
+useGLTF.preload('/models/threaded_barrel_nipple_v2_thin.glb');

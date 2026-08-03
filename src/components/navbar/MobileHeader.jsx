@@ -1,12 +1,14 @@
 "use client";
 import { Logo } from './Logo';
-import { Menu } from 'lucide-react';
+import { Menu, Search } from 'lucide-react';
 import { useHeaderContext } from '@/context/HeaderContext';
+import { useSearchContext } from '@/context/SearchContext';
 import { HEADER_LAYOUT } from '@/constants/layout';
 import { motion } from 'framer-motion';
 
 export const MobileHeader = () => {
   const { isScrolled, toggleMobileMenu } = useHeaderContext();
+  const { openSearch } = useSearchContext();
 
   return (
     <motion.div
@@ -18,7 +20,14 @@ export const MobileHeader = () => {
     >
       <Logo variant="icon" className="w-10 h-10" />
       
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-2">
+        <button
+          onClick={openSearch}
+          aria-label="Search"
+          className="p-2 text-text-secondary hover:text-primary transition-colors"
+        >
+          <Search className="w-5 h-5" />
+        </button>
         <button 
           onClick={toggleMobileMenu}
           aria-label="Open Mobile Menu"

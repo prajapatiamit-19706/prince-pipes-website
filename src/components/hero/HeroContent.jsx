@@ -83,7 +83,7 @@ export function HeroContent({ data }) {
   const currentWords = HEADLINES[currentIndex].split(" ");
 
   return (
-    <div className="w-full flex flex-col justify-center h-full relative z-10 py-12 lg:py-0">
+    <div className="w-full flex flex-col justify-center h-full relative z-10 py-4 lg:py-0">
       <div className="hero-badge-anim opacity-0 -translate-y-4">
         <HeroBadge text={data.trustBadge} />
       </div>

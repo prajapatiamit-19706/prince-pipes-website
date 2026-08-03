@@ -1,0 +1,58 @@
+[
+  {
+    "id": "cap-01",
+    "number": "01",
+    "icon": "Cpu",
+    "title": "Precision Engineering",
+    "description": "Manufactured with high dimensional accuracy utilizing state-of-the-art extrusion and injection molding technologies for demanding industrial applications."
+  },
+  {
+    "id": "cap-02",
+    "number": "02",
+    "icon": "ShieldCheck",
+    "title": "Certified Manufacturing",
+    "description": "Our facilities strictly adhere to ISO 9001:2015, ISO 14001:2015, and ISO 45001:2018 standards, ensuring world-class production processes and safety."
+  },
+  {
+    "id": "cap-03",
+    "number": "03",
+    "icon": "Layers",
+    "title": "Premium Materials",
+    "description": "Utilizing high-grade unplasticized polyvinyl chloride (UPVC), chlorinated polyvinyl chloride (CPVC), and polypropylene random copolymer (PPR) for maximum durability."
+  },
+  {
+    "id": "cap-04",
+    "number": "04",
+    "icon": "Globe",
+    "title": "Global Export Standards",
+    "description": "Engineered to withstand extreme environmental conditions, our products are trusted in international markets across the Middle East, Africa, and beyond."
+  },
+  {
+    "id": "cap-05",
+    "number": "05",
+    "icon": "Microscope",
+    "title": "Advanced Quality Inspection",
+    "description": "Subjected to rigorous hydrostatic pressure testing, impact resistance evaluation, and thermal stability checks in our in-house NABL-accredited laboratories."
+  },
+  {
+    "id": "cap-06",
+    "number": "06",
+    "icon": "Truck",
+    "title": "Reliable Delivery",
+    "description": "A robust logistics network and strategically located manufacturing hubs ensure uninterrupted supply chains and rapid deployment for large-scale projects."
+  },
+  {
+    "id": "cap-07",
+    "number": "07",
+    "icon": "Settings",
+    "title": "Custom Engineering Solutions",
+    "description": "Collaborative design and manufacturing capabilities for specialized piping systems tailored to unique industrial, agricultural, and infrastructural requirements."
+  },
+  {
+    "id": "cap-08",
+    "number": "08",
+    "icon": "HardHat",
+    "title": "Technical Support",
+    "description": "Comprehensive on-site assistance, installation guidelines, and post-sales technical consulting provided by our expert engineering teams."
+  }
+]

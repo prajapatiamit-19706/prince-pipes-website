@@ -1,0 +1,126 @@
+{
+  "manufacturing": [
+    {
+      "id": "mfg-01",
+      "name": "Mandrel Machine with LPG Furnace",
+      "purpose": "Heats and expands stainless steel pipes using a mandrel system to achieve precise dimensions and superior structural integrity.",
+      "icon": "Flame",
+      "category": "Pipe Forming",
+      "order": 1
+    },
+    {
+      "id": "mfg-02",
+      "name": "Hydraulic Press",
+      "purpose": "Applies controlled high-pressure force for forming elbows, reducers, tees, and other forged pipe fittings.",
+      "icon": "Hammer",
+      "category": "Metal Forming",
+      "order": 2
+    },
+    {
+      "id": "mfg-03",
+      "name": "CNC Machine",
+      "purpose": "Performs high-precision machining operations to achieve accurate dimensions and superior surface finishes.",
+      "icon": "Settings",
+      "category": "Precision Machining",
+      "order": 3
+    },
+    {
+      "id": "mfg-04",
+      "name": "Lathe Machine",
+      "purpose": "Machines cylindrical components including barrel nipples, threaded fittings, and precision pipe accessories.",
+      "icon": "Cog",
+      "category": "Turning",
+      "order": 4
+    },
+    {
+      "id": "mfg-05",
+      "name": "Heat Treatment Furnace",
+      "purpose": "Optimizes mechanical properties through controlled heating cycles for improved strength, hardness, and durability.",
+      "icon": "Flame",
+      "category": "Heat Treatment",
+      "order": 5
+    },
+    {
+      "id": "mfg-06",
+      "name": "Plasma Cutting Machine",
+      "purpose": "Produces clean and accurate cuts on stainless steel plates and pipes with minimal material distortion.",
+      "icon": "Zap",
+      "category": "Cutting",
+      "order": 6
+    },
+    {
+      "id": "mfg-07",
+      "name": "Dies & Tools",
+      "purpose": "Custom tooling and precision dies used for manufacturing high-quality industrial fittings and forged components.",
+      "icon": "Wrench",
+      "category": "Tooling",
+      "order": 7
+    },
+    {
+      "id": "mfg-08",
+      "name": "Cold Forming Press for Elbows",
+      "purpose": "Manufactures seamless elbows through controlled cold-forming processes while preserving material strength and dimensional accuracy.",
+      "icon": "Factory",
+      "category": "Cold Forming",
+      "order": 8
+    }
+  ],
+  "testing": [
+    {
+      "id": "tst-01",
+      "name": "PMI Machine",
+      "purpose": "Positive Material Identification system used to verify alloy composition before production and dispatch.",
+      "icon": "ShieldCheck",
+      "category": "Material Verification",
+      "order": 1
+    },
+    {
+      "id": "tst-02",
+      "name": "Spectro Analyzer",
+      "purpose": "Analyzes the chemical composition of stainless steel and special alloys with laboratory-grade accuracy.",
+      "icon": "Microscope",
+      "category": "Chemical Analysis",
+      "order": 2
+    },
+    {
+      "id": "tst-03",
+      "name": "Ultrasonic Testing Machine",
+      "purpose": "Detects internal defects, discontinuities, and structural imperfections without damaging the component.",
+      "icon": "ScanSearch",
+      "category": "Non-Destructive Testing",
+      "order": 3
+    },
+    {
+      "id": "tst-04",
+      "name": "Digital Hardness Tester",
+      "purpose": "Measures the hardness of manufactured components to ensure compliance with engineering specifications.",
+      "icon": "Gauge",
+      "category": "Mechanical Testing",
+      "order": 4
+    },
+    {
+      "id": "tst-05",
+      "name": "X-Ray Film Viewer",
+      "purpose": "Reviews radiographic inspection films to identify hidden weld defects and internal discontinuities.",
+      "icon": "ScanEye",
+      "category": "Radiographic Inspection",
+      "order": 5
+    },
+    {
+      "id": "tst-06",
+      "name": "Universal Tensile Testing Machine",
+      "purpose": "Evaluates tensile strength, yield strength, and elongation of raw materials and finished products.",
+      "icon": "Activity",
+      "category": "Mechanical Testing",
+      "order": 6
+    },
+    {
+      "id": "tst-07",
+      "name": "Dye Penetrant Test Kit",
+      "purpose": "Reveals microscopic surface cracks and defects using liquid penetrant inspection techniques.",
+      "icon": "Droplets",
+      "category": "Surface Inspection",
+      "order": 7
+    }
+  ]
+}

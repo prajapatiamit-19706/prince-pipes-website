@@ -29,7 +29,7 @@ export const NavigationItem = ({ item, isMobile = false }) => {
       setActiveDropdown((prev) => (prev === item.path ? null : prev));
     }, 150); // 150ms delay prevents flickering, functional update prevents race conditions
   };
-  
+
   const handleClick = (e) => {
     if (hasDropdown) {
       e.preventDefault();
@@ -60,7 +60,7 @@ export const NavigationItem = ({ item, isMobile = false }) => {
   );
 
   return (
-    <div 
+    <div
       className={isMobile ? "w-full flex flex-col" : "h-full flex items-center relative"}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
@@ -73,27 +73,27 @@ export const NavigationItem = ({ item, isMobile = false }) => {
       >
         <span>{item.label}</span>
         {hasDropdown && (
-          <ChevronDown 
+          <ChevronDown
             className={cn(
               "w-3.5 h-3.5 transition-all duration-300 mt-0.5",
               isActive || isDropdownOpen ? "opacity-100 text-primary rotate-180" : "opacity-50 group-hover:opacity-100"
-            )} 
+            )}
           />
         )}
         {!isMobile && (
-          <span 
+          <span
             className={cn(
               "absolute bottom-0 left-1/2 h-[2px] -translate-x-1/2 transition-all duration-300 ease-out",
-              isActive 
-                ? "w-full bg-primary opacity-100" 
+              isActive
+                ? "w-full bg-primary opacity-100"
                 : isDropdownOpen
                   ? "w-full bg-primary opacity-40"
                   : "w-0 bg-primary opacity-0 group-hover:w-full group-hover:opacity-40"
-            )} 
+            )}
           />
         )}
       </Link>
-      
+
       {/* Mobile Accordion */}
       <AnimatePresence>
         {isMobile && isDropdownOpen && hasDropdown && (
@@ -113,12 +113,12 @@ export const NavigationItem = ({ item, isMobile = false }) => {
           </motion.div>
         )}
       </AnimatePresence>
-      
+
       {/* Desktop Dropdowns */}
       {!isMobile && hasDropdown && (
-        <StandardDropdown 
-          isOpen={isDropdownOpen} 
-          items={item.children} 
+        <StandardDropdown
+          isOpen={isDropdownOpen}
+          items={item.children}
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
         />

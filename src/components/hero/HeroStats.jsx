@@ -43,12 +43,12 @@ export function HeroStats({ statistics }) {
   if (!statistics || statistics.length === 0) return null;
 
   return (
-    <div ref={containerRef} className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+    <div ref={containerRef} className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-4">
       {statistics.slice(0, 3).map((stat, index) => {
         const numMatch = stat.value.match(/(\d+)/);
         const targetNum = numMatch ? parseInt(numMatch[0], 10) : 0;
         const suffix = stat.value.replace(/\d+/g, "");
-        
+
         return (
           <div key={index} className="hero-stat-item flex items-center gap-4 opacity-0 -translate-x-4">
             {getStatIcon(index)}

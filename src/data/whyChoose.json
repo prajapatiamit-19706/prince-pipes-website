@@ -1,0 +1,47 @@
+[
+  {
+    "id": "wc-01",
+    "order": 1,
+    "icon": "Cpu",
+    "title": "Precision Engineering",
+    "description": "Manufactured with high dimensional accuracy utilizing state-of-the-art extrusion and injection molding technologies."
+  },
+  {
+    "id": "wc-02",
+    "order": 2,
+    "icon": "ShieldCheck",
+    "title": "Certified Manufacturing",
+    "description": "Our facilities strictly adhere to ISO 9001:2015, ISO 14001:2015, and ISO 45001:2018 standards."
+  },
+  {
+    "id": "wc-03",
+    "order": 3,
+    "icon": "Layers",
+    "title": "Premium Materials",
+    "description": "Utilizing high-grade UPVC, CPVC, and PPR for maximum durability and reliability."
+  },
+  {
+    "id": "wc-04",
+    "order": 4,
+    "icon": "Globe",
+    "title": "Global Export Standards",
+    "description": "Engineered to withstand extreme environmental conditions, trusted in international markets."
+  },
+  {
+    "id": "wc-05",
+    "order": 5,
+    "icon": "Microscope",
+    "title": "Advanced Quality Inspection",
+    "description": "Rigorous hydrostatic testing and impact resistance evaluation in NABL-accredited labs."
+  },
+  {
+    "id": "wc-06",
+    "order": 6,
+    "icon": "Truck",
+    "title": "Reliable Delivery",
+    "description": "A robust logistics network ensures uninterrupted supply chains for large-scale projects."
+  }
+]
+// A Mumbai-based fittings manufacturer built on getting the fundamentals
+//             right — accurate specs, consistent supply, and a catalogue you can
+//             actually verify against source standards.

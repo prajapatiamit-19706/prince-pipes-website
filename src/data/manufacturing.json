@@ -1,0 +1,38 @@
+[
+  {
+    "id": "mfg-01",
+    "order": 1,
+    "title": "Raw Material Inspection",
+    "description": "Premium grade resins and additives are rigorously tested in our NABL-accredited labs for molecular integrity and purity before entering the production cycle.",
+    "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2400&auto=format&fit=crop",
+    "icon": "Microscope",
+    "certification": "ISO 9001:2015"
+  },
+  {
+    "id": "mfg-03",
+    "order": 2,
+    "title": "State-of-the-Art Extrusion",
+    "description": "High-speed, multi-stage twin-screw extruders form the pipe core with exact dimensional accuracy, maintaining uniform wall thickness throughout the length.",
+    "image": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=2400&auto=format&fit=crop",
+    "icon": "Factory",
+    "certification": "±0.1mm Tolerance"
+  },
+  {
+    "id": "mfg-05",
+    "order": 3,
+    "title": "Automated Cutting & Threading",
+    "description": "Laser-guided cutting and CNC threading stations provide burr-free edges and perfect thread pitch for leak-proof joint integrity.",
+    "image": "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?q=80&w=2400&auto=format&fit=crop",
+    "icon": "Scissors",
+    "certification": "CNC Precision"
+  },
+  {
+    "id": "mfg-06",
+    "order": 4,
+    "title": "Final Quality Assurance",
+    "description": "Every batch undergoes hydrostatic pressure testing, impact resistance evaluation, and dimensional checks before being cleared for dispatch.",
+    "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=2400&auto=format&fit=crop",
+    "icon": "ShieldCheck",
+    "certification": "100% Tested"
+  }
+]
