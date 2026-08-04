@@ -1,4 +1,3 @@
-import { FooterCTA } from './FooterCTA';
 import { FooterGrid } from './FooterGrid';
 import { FooterTrust } from './FooterTrust';
 import { FooterBottom } from './FooterBottom';
@@ -11,7 +10,6 @@ export const Footer = () => {
         Section 1: Premium CTA Banner 
         Transitions from light page body into the dark footer 
       */}
-      <FooterCTA />
 
       {/* 
         Section 2: Main Footer Grid
