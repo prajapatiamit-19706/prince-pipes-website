@@ -5,8 +5,13 @@ import { usePathname } from 'next/navigation';
 import { ChevronDown } from 'lucide-react';
 import { cn } from '@/components/ui/button/buttonVariants';
 import { useHeaderContext } from '@/context/HeaderContext';
-import { MegaMenu } from './MegaMenu';
-import { StandardDropdown } from './StandardDropdown';
+import { MegaMenuContainer } from './mega-menus/MegaMenuContainer';
+import { ProductsMegaMenu } from './mega-menus/ProductsMegaMenu';
+import { CompanyMegaMenu } from './mega-menus/CompanyMegaMenu';
+import { TechnicalMegaMenu } from './mega-menus/TechnicalMegaMenu';
+import { ResourcesMegaMenu } from './mega-menus/ResourcesMegaMenu';
+import { MaterialsMegaMenu } from './mega-menus/MaterialsMegaMenu';
+import { StandardDropdown } from './StandardDropdown'; // fallback if needed
 import { motion, AnimatePresence } from 'framer-motion';
 
 export const NavigationItem = ({ item, isMobile = false }) => {
@@ -27,7 +32,7 @@ export const NavigationItem = ({ item, isMobile = false }) => {
     if (isMobile || !hasDropdown) return;
     timeoutRef.current = setTimeout(() => {
       setActiveDropdown((prev) => (prev === item.path ? null : prev));
-    }, 150); // 150ms delay prevents flickering, functional update prevents race conditions
+    }, 150);
   };
 
   const handleClick = (e) => {
@@ -58,6 +63,26 @@ export const NavigationItem = ({ item, isMobile = false }) => {
     "text-lg py-4 border-b border-border w-full justify-between font-medium transition-colors duration-300",
     isActive ? "text-primary font-semibold" : "text-text-primary hover:text-primary"
   );
+
+  const renderDesktopDropdown = () => {
+    if (isMobile || !hasDropdown) return null;
+    
+    switch(item.id) {
+      case 'products': return <ProductsMegaMenu isOpen={isDropdownOpen} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} />;
+      case 'company': return <CompanyMegaMenu isOpen={isDropdownOpen} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} />;
+      case 'technical-resources': return <TechnicalMegaMenu isOpen={isDropdownOpen} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} />;
+      case 'resources': return <ResourcesMegaMenu isOpen={isDropdownOpen} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} />;
+      case 'materials': return <MaterialsMegaMenu isOpen={isDropdownOpen} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} />;
+      default: return (
+        <StandardDropdown
+          isOpen={isDropdownOpen}
+          items={item.children}
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+        />
+      );
+    }
+  };
 
   return (
     <div
@@ -115,14 +140,7 @@ export const NavigationItem = ({ item, isMobile = false }) => {
       </AnimatePresence>
 
       {/* Desktop Dropdowns */}
-      {!isMobile && hasDropdown && (
-        <StandardDropdown
-          isOpen={isDropdownOpen}
-          items={item.children}
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
-        />
-      )}
+      {renderDesktopDropdown()}
     </div>
   );
 };

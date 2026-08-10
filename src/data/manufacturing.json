@@ -3,36 +3,36 @@
     "id": "mfg-01",
     "order": 1,
     "title": "Raw Material Inspection",
-    "description": "Premium grade resins and additives are rigorously tested in our NABL-accredited labs for molecular integrity and purity before entering the production cycle.",
+    "description": "Incoming pipe, plate, and billet stock is checked against the material grade and standard specified for that product line — ASTM A403, A182, A105, or A234 — before it enters production.",
     "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2400&auto=format&fit=crop",
     "icon": "Microscope",
-    "certification": "ISO 9001:2015"
+    "qualityFocus": "Spec Verification"
   },
   {
     "id": "mfg-03",
     "order": 2,
-    "title": "State-of-the-Art Extrusion",
-    "description": "High-speed, multi-stage twin-screw extruders form the pipe core with exact dimensional accuracy, maintaining uniform wall thickness throughout the length.",
+    "title": "Hot Forming & Shaping",
+    "description": "Seamless pipe and billet stock is heated and press-formed over dies to shape elbows, tees, reducers, and caps to the profile and wall thickness called for by the relevant ASME dimensional standard.",
     "image": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=2400&auto=format&fit=crop",
     "icon": "Factory",
-    "certification": "±0.1mm Tolerance"
+    "qualityFocus": "Dimensional Control"
   },
   {
     "id": "mfg-05",
     "order": 3,
-    "title": "Automated Cutting & Threading",
-    "description": "Laser-guided cutting and CNC threading stations provide burr-free edges and perfect thread pitch for leak-proof joint integrity.",
+    "title": "Cutting, Beveling & Threading",
+    "description": "Ends are cut and beveled for weld-ready buttweld fittings, or threaded to the required pitch for our nipple, socket, and threaded flange lines — matching each product's own dimensional spec.",
     "image": "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?q=80&w=2400&auto=format&fit=crop",
     "icon": "Scissors",
-    "certification": "CNC Precision"
+    "qualityFocus": "Thread & Bevel Check"
   },
   {
     "id": "mfg-06",
     "order": 4,
     "title": "Final Quality Assurance",
-    "description": "Every batch undergoes hydrostatic pressure testing, impact resistance evaluation, and dimensional checks before being cleared for dispatch.",
+    "description": "Finished fittings are checked for dimensional and visual conformance against their stated standard before being cleared, packed, and prepared for dispatch.",
     "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=2400&auto=format&fit=crop",
     "icon": "ShieldCheck",
-    "certification": "100% Tested"
+    "qualityFocus": "Dimensional & Visual Check"
   }
 ]

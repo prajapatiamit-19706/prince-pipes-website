@@ -1,5 +1,5 @@
 "use client";
-import React, { useRef, useState, useEffect } from 'react';
+import React, { useRef, useState, useLayoutEffect, useEffect } from 'react';
 import Image from 'next/image';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
@@ -9,211 +9,272 @@ import * as Icons from 'lucide-react';
 
 gsap.registerPlugin(ScrollTrigger);
 
-const GRID_LINE_COLOR = "#7C3AED"; // Based on the previous section
+// Not in the current @theme token file (which only defines primary/secondary/
+// accent/neutrals/status) -- hardcoded here the same way the existing code
+// already hardcodes GRID_LINE_COLOR. Add these as real tokens
+// (--color-engineering-blue, --color-muted-green) if they should be reusable
+// site-wide rather than local to this section.
+const ENGINEERING_BLUE = "#5D7EA8";
+const MUTED_GREEN = "#4D7A58";
 
 export function Manufacturing() {
   const containerRef = useRef(null);
-  const showcaseRef = useRef(null);
-  const [activeIndex, setActiveIndex] = useState(0);
-
+  // Default to the animated experience; only flip to the fallback if
+  // matchMedia confirms reduced motion, and do it in a layout effect (runs
+  // before paint) so there's no visible flash and -- more importantly -- no
+  // post-paint height change that would desync ScrollTrigger's measurements
+  // for this section or anything else on the page.
+  const [reducedMotion, setReducedMotion] = useState(false);
   const steps = [...manufacturingData].sort((a, b) => a.order - b.order);
-  const activeStep = steps[activeIndex];
-  const ActiveIcon = Icons[activeStep.icon] || Icons.Settings;
+
+  useLayoutEffect(() => {
+    const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setReducedMotion(mq.matches);
+    const handler = (e) => setReducedMotion(e.matches);
+    mq.addEventListener("change", handler);
+    return () => mq.removeEventListener("change", handler);
+  }, []);
+
+  // Safety net: if anything else on the page (images, fonts, other lazy
+  // sections) shifts document height after this section's ScrollTrigger was
+  // first measured, recalculate. Cheap and idempotent -- fine to call once
+  // everything has settled.
+  useEffect(() => {
+    if (document.readyState === "complete") {
+      ScrollTrigger.refresh();
+    } else {
+      window.addEventListener("load", () => ScrollTrigger.refresh(), { once: true });
+    }
+  }, []);
 
   useGSAP(() => {
-    // Reveal animation for the section
+    if (reducedMotion) return; // fallback branch below handles this case, no ScrollTrigger needed
+
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: containerRef.current,
-        start: "top 75%",
-      }
+        start: "top top",
+        end: `+=${(steps.length - 1) * 100}%`,
+        pin: true,
+        scrub: 1,
+        // Uncomment while debugging pin start/end positions:
+        markers: true,
+        invalidateOnRefresh: true,
+      },
     });
 
-    tl.fromTo(".mfg-header", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.8, ease: "power3.out" })
-      .fromTo(".mfg-showcase", { opacity: 0, scale: 0.98, y: 20 }, { opacity: 1, scale: 1, y: 0, duration: 0.8, ease: "power3.out" }, "-=0.4")
-      .fromTo(".mfg-timeline", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6, ease: "power3.out" }, "-=0.4")
-      .fromTo(".mfg-stats", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6, ease: "power3.out" }, "-=0.2");
+    steps.forEach((step, i) => {
+      if (i === 0) return;
+      const prevStep = steps[i - 1];
 
-  }, { scope: containerRef });
+      tl.addLabel(`step-${i}`, i - 1);
 
-  // Handle crossfade transitions when activeIndex changes
-  useEffect(() => {
-    if (!showcaseRef.current) return;
+      tl.to(`.mfg-img-${prevStep.id}`, { opacity: 0, scale: 1.05, duration: 1, ease: "power2.inOut" }, `step-${i}`);
+      tl.fromTo(
+        `.mfg-img-${step.id}`,
+        { opacity: 0, scale: 0.95 },
+        { opacity: 1, scale: 1, duration: 1, ease: "power2.inOut" },
+        `step-${i}`
+      );
 
-    // We animate the inner content of the showcase
-    const elements = showcaseRef.current.querySelectorAll('.mfg-anim-element');
-    const bgImage = showcaseRef.current.querySelector('.mfg-anim-image');
+      tl.to(`.mfg-text-${prevStep.id}`, { opacity: 0, y: -40, duration: 0.5, ease: "power2.in" }, `step-${i}`);
+      tl.fromTo(
+        `.mfg-text-${step.id}`,
+        { opacity: 0, y: 40 },
+        { opacity: 1, y: 0, duration: 0.5, ease: "power2.out" },
+        `step-${i}+=0.5`
+      );
 
-    gsap.fromTo(elements,
-      { opacity: 0, y: 15 },
-      { opacity: 1, y: 0, duration: 0.5, stagger: 0.05, ease: "power2.out", overwrite: true }
+      tl.to(".mfg-progress-fill", { width: `${(i / (steps.length - 1)) * 100}%`, duration: 1, ease: "none" }, `step-${i}`);
+
+      tl.to(`.mfg-node-inactive-${prevStep.id}`, { opacity: 1, duration: 0.1 }, `step-${i}`);
+      tl.to(`.mfg-node-active-${prevStep.id}`, { opacity: 0, duration: 0.1 }, `step-${i}`);
+      tl.to(`.mfg-node-text-${prevStep.id}`, { opacity: 0.3, duration: 0.1 }, `step-${i}`);
+
+      tl.to(`.mfg-node-inactive-${step.id}`, { opacity: 0, duration: 0.1 }, `step-${i}+=0.9`);
+      tl.to(`.mfg-node-active-${step.id}`, { opacity: 1, duration: 0.1 }, `step-${i}+=0.9`);
+      tl.to(`.mfg-node-text-${step.id}`, { opacity: 1, duration: 0.1 }, `step-${i}+=0.9`,);
+
+      // Keep aria-current in sync with the visually active stage for screen readers.
+      tl.call(() => {
+        document.querySelectorAll('[data-mfg-node]').forEach((node) => {
+          node.removeAttribute('aria-current');
+        });
+        document.querySelector(`[data-mfg-node="${step.id}"]`)?.setAttribute('aria-current', 'step');
+      }, [], `step-${i}+=0.9`);
+    });
+  }, { scope: containerRef, dependencies: [reducedMotion] });
+
+  // ---- Reduced-motion fallback: same content, no pin/scrub, normal stacked flow ----
+  if (reducedMotion) {
+    return (
+      <section className="relative w-full bg-surface py-20 md:py-28 border-t border-border/40">
+        <h2 className="sr-only">Our Manufacturing Process</h2>
+        <div className="max-w-7xl mx-auto px-6 md:px-12">
+          <span className="text-xs md:text-sm font-semibold tracking-[0.2em] uppercase mb-12 flex items-center gap-3 text-primary">
+            <span className="w-8 h-[1px] bg-primary" />
+            Manufacturing Journey
+          </span>
+          <ol className="flex flex-col gap-16 md:gap-24">
+            {steps.map((step) => {
+              const StepIcon = Icons[step.icon] || Icons.Settings;
+              return (
+                <li key={step.id} className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                  <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
+                    <Image src={step.image} alt={`${step.title} — Prince Pipes & Fittings manufacturing stage`} fill className="object-cover" loading="lazy" />
+                  </div>
+                  <div>
+                    <div className="flex items-center gap-4 mb-4">
+                      <span className="flex items-center justify-center w-12 h-12 rounded-xl bg-surface border border-border/50 text-primary font-mono font-bold text-xl">
+                        {String(step.order).padStart(2, '0')}
+                      </span>
+                      <h3 className="font-heading font-bold text-2xl md:text-3xl text-text-primary">{step.title}</h3>
+                    </div>
+                    <p className="text-base text-text-secondary leading-relaxed mb-6">{step.description}</p>
+                    <div className="inline-flex items-center gap-2 text-sm font-medium text-text-primary bg-surface-2/80 border border-border/50 rounded-lg px-3 py-2">
+                      <StepIcon className="w-4 h-4 text-primary opacity-80" />
+                      {step.qualityFocus}
+                    </div>
+                  </div>
+                </li>
+              );
+            })}
+          </ol>
+        </div>
+      </section>
     );
+  }
 
-    gsap.fromTo(bgImage,
-      { opacity: 0, scale: 1.05 },
-      { opacity: 1, scale: 1, duration: 0.8, ease: "power2.out", overwrite: true }
-    );
-
-  }, [activeIndex]);
-
+  // ---- Full pinned/scrubbed cinematic experience ----
   return (
-    <section ref={containerRef} className="relative w-full bg-surface-2 overflow-hidden py-24 md:py-32 border-t border-border/40">
+    <section
+      ref={containerRef}
+      className="relative w-full h-[100dvh] bg-surface overflow-hidden border-t border-border/40"
+      aria-label="Our manufacturing process"
+    >
+      <h2 className="sr-only">Our Manufacturing Process</h2>
 
-      {/* Background Grid */}
+      {/* Background CAD Grid Layer */}
       <div
-        className="absolute inset-0 opacity-[0.03] pointer-events-none"
+        aria-hidden="true"
+        className="absolute inset-0 opacity-[0.03] pointer-events-none z-0 mix-blend-multiply"
         style={{
-          backgroundImage: `linear-gradient(${GRID_LINE_COLOR} 1px, transparent 1px), linear-gradient(90deg, ${GRID_LINE_COLOR} 1px, transparent 1px)`,
-          backgroundSize: "48px 48px",
+          backgroundImage: `linear-gradient(${ENGINEERING_BLUE} 1px, transparent 1px), linear-gradient(90deg, ${ENGINEERING_BLUE} 1px, transparent 1px)`,
+          backgroundSize: "4rem 4rem",
         }}
       />
 
-      <div className="container-wide relative z-10 w-full px-4 md:px-8 mx-auto flex flex-col gap-12 md:gap-16">
+      {/* Engineering Reference Circles */}
+      <div aria-hidden="true" className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[60vh] h-[60vh] rounded-full border-[1px] border-primary/10 pointer-events-none z-0" />
+      <div aria-hidden="true" className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90vh] h-[90vh] rounded-full border-[1px] border-primary/5 pointer-events-none z-0" />
 
-        {/* Section Header */}
-        <div className="mfg-header flex flex-col max-w-3xl opacity-0">
-          <span className="text-sm font-semibold tracking-[0.2em] uppercase mb-4 flex items-center gap-3 text-primary">
-            <span className="w-8 h-[1px] bg-primary" />
-            Manufacturing Excellence
-          </span>
-          <h2 className="font-heading font-bold text-4xl md:text-5xl tracking-tight leading-tight mb-6 text-text-primary">
-            From Raw Material to Precision Engineering
-          </h2>
-          <p className="text-lg leading-relaxed text-text-secondary">
-            Every component is manufactured through a carefully controlled engineering process to ensure maximum quality and reliability.
-          </p>
-        </div>
-
-        {/* Showcase Area */}
-        <div className="mfg-showcase w-full opacity-0 rounded-3xl border border-border/50 bg-surface shadow-xl overflow-hidden flex flex-col lg:flex-row">
-
-          {/* Left: Image area */}
-          <div className="relative w-full lg:w-3/5 aspect-video lg:aspect-auto lg:h-[600px] overflow-hidden bg-black">
-            <div ref={showcaseRef} className="absolute inset-0 w-full h-full">
-              <Image
-                key={`img-${activeStep.id}`}
-                src={activeStep.image}
-                alt={activeStep.title}
-                fill
-                className="mfg-anim-image object-cover opacity-80 mix-blend-screen"
-                priority
-              />
-              <div className="absolute inset-0 bg-gradient-to-r from-surface via-surface/40 to-transparent lg:block hidden" />
-              <div className="absolute inset-0 bg-gradient-to-t from-surface via-surface/40 to-transparent lg:hidden block" />
-            </div>
-
-            {/* Blueprint overly on image */}
-            <div className="absolute inset-0 bg-[url('/images/blueprint-pattern.png')] bg-repeat opacity-10 mix-blend-overlay pointer-events-none" />
+      {/* Coordinate tick marks along the left edge -- nod to "coordinate lines" in the brief */}
+      <div aria-hidden="true" className="hidden md:flex absolute left-6 top-0 bottom-0 flex-col justify-between py-24 pointer-events-none z-0 opacity-[0.025]">
+        {Array.from({ length: 10 }).map((_, i) => (
+          <div key={i} className="flex items-center gap-2">
+            <span className="w-2 h-px" style={{ background: MUTED_GREEN }} />
+            <span className="font-mono text-[9px]" style={{ color: MUTED_GREEN }}>{String(i * 10).padStart(3, '0')}</span>
           </div>
+        ))}
+      </div>
 
-          {/* Right: Content area */}
-          <div className="w-full lg:w-2/5 p-8 md:p-12 flex flex-col justify-center bg-surface relative z-10 lg:-ml-10">
-            <div ref={showcaseRef} className="relative z-10 w-full">
-
-              <div className="mfg-anim-element flex items-center gap-4 mb-6">
-                <span className="flex items-center justify-center w-12 h-12 rounded-xl bg-primary/10 text-primary font-mono font-bold text-xl">
-                  {String(activeStep.order).padStart(2, '0')}
-                </span>
-                <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-primary/20 bg-primary/5 text-primary text-xs font-semibold tracking-wider uppercase">
-                  <Icons.ShieldCheck className="w-3 h-3" />
-                  {activeStep.certification}
-                </span>
-              </div>
-
-              <h3 className="mfg-anim-element font-heading font-bold text-3xl md:text-4xl text-text-primary mb-6 leading-tight">
-                {activeStep.title}
-              </h3>
-
-              <p className="mfg-anim-element text-text-secondary leading-relaxed text-base md:text-lg mb-8">
-                {activeStep.description}
-              </p>
-
-              <div className="mfg-anim-element flex items-center gap-3 text-text-muted">
-                <ActiveIcon className="w-6 h-6 opacity-50" />
-                <span className="text-sm font-mono tracking-widest uppercase">System Phase {activeStep.order}</span>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        {/* Interactive Timeline */}
-        <div className="mfg-timeline opacity-0 w-full">
-          <div className="relative flex w-full overflow-x-auto pb-6 pt-2 snap-x [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
-
-            {/* Connecting Line */}
-            <div className="absolute top-1/2 left-0 right-0 h-[2px] bg-border -translate-y-1/2 z-0 hidden md:block" />
-
-            {/* Progress Line */}
-            <div
-              className="absolute top-1/2 left-0 h-[2px] bg-primary -translate-y-1/2 z-0 transition-all duration-500 ease-out hidden md:block"
-              style={{ width: `${((activeIndex) / (steps.length - 1)) * 100}%` }}
+      {/* Images Layer */}
+      <div className="absolute inset-0 z-0 bg-surface">
+        {steps.map((step, i) => (
+          <div key={step.id} className={`absolute inset-0 mfg-img-${step.id} ${i === 0 ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}`}>
+            <Image
+              src={step.image}
+              alt={`${step.title} — Prince Pipes & Fittings manufacturing stage`}
+              fill
+              className="object-cover md:object-right mix-blend-screen opacity-80"
+              priority={i === 0}
+              loading={i === 0 ? undefined : "lazy"}
+              sizes="100vw"
             />
-
-            <div className="flex justify-between w-full min-w-max md:min-w-0 gap-4 md:gap-0 relative z-10 px-2 md:px-0">
-              {steps.map((step, index) => {
-                const isActive = index === activeIndex;
-                const isCompleted = index < activeIndex;
-                const StepIcon = Icons[step.icon] || Icons.Settings;
-
-                return (
-                  <button
-                    key={step.id}
-                    onClick={() => setActiveIndex(index)}
-                    className={`group flex flex-col items-center gap-4 focus:outline-none snap-center transition-all duration-300 w-32 md:w-auto ${isActive ? 'scale-110' : 'hover:scale-105'} cursor-pointer`}
-                    aria-label={`Go to step ${step.order}: ${step.title}`}
-                    aria-current={isActive ? 'step' : undefined}
-                  >
-                    {/* Node */}
-                    <div className={`relative w-12 h-12 md:w-14 md:h-14 rounded-full flex items-center justify-center transition-all duration-500 border-2
-                      ${isActive ? 'bg-primary border-primary text-white shadow-[0_0_20px_rgba(var(--primary-rgb),0.3)]' :
-                        isCompleted ? 'bg-surface border-primary text-primary' :
-                          'bg-surface-2 border-border text-text-muted group-hover:border-primary/50 group-hover:text-primary'
-                      }
-                    `}>
-                      <StepIcon className="w-5 h-5 md:w-6 md:h-6" strokeWidth={isActive ? 2 : 1.5} />
-
-                      {/* Blueprint circle on hover for inactive */}
-                      {!isActive && (
-                        <div className="absolute inset-0 rounded-full bg-[url('/images/blueprint-pattern.png')] bg-repeat opacity-0 group-hover:opacity-10 transition-opacity duration-300" />
-                      )}
-                    </div>
-
-                    {/* Label */}
-                    <div className="text-center w-full">
-                      <div className="font-mono text-[10px] md:text-xs text-text-muted mb-1 tracking-widest uppercase">
-                        Step {String(step.order).padStart(2, '0')}
-                      </div>
-                      <div className={`font-semibold text-xs md:text-sm line-clamp-2 transition-colors duration-300
-                        ${isActive ? 'text-primary' : 'text-text-secondary group-hover:text-primary'}
-                      `}>
-                        {step.title}
-                      </div>
-                    </div>
-                  </button>
-                );
-              })}
-            </div>
+            <div className="absolute inset-0 bg-gradient-to-r from-surface via-surface/90 to-transparent hidden md:block" />
+            <div className="absolute inset-0 bg-gradient-to-t from-surface via-surface/90 to-transparent md:hidden" />
           </div>
+        ))}
+      </div>
+
+      {/* Content Layer */}
+      <div className="relative z-10 w-full h-full max-w-7xl mx-auto px-6 md:px-12 flex flex-col pt-20 pb-12 md:py-24">
+        <div className="flex flex-col max-w-3xl mb-auto">
+          <span className="text-xs md:text-sm font-semibold tracking-[0.2em] uppercase mb-4 flex items-center gap-3 text-primary">
+            <span className="w-8 h-[1px] bg-primary" />
+            Manufacturing Journey
+          </span>
         </div>
 
-        {/* Manufacturing Statistics */}
-        <div className="mfg-stats opacity-0 grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 pt-8 border-t border-border">
-          {[
-            { label: "Manufacturing Capacity", value: "300K+", suffix: " MT" },
-            { label: "Years of Experience", value: "30+", suffix: "" },
-            { label: "Quality Inspection", value: "100%", suffix: " Tested" },
-            { label: "Countries Served", value: "20+", suffix: "" }
-          ].map((stat, i) => (
-            <div key={i} className="flex flex-col gap-2">
-              <div className="font-heading font-bold text-3xl md:text-4xl text-text-primary">
-                {stat.value}<span className="text-xl md:text-2xl text-primary">{stat.suffix}</span>
+        <div className="relative flex-grow flex items-end md:items-center w-full md:w-3/5 lg:w-1/2 mb-16 md:mb-24">
+          {steps.map((step, i) => {
+            const StepIcon = Icons[step.icon] || Icons.Settings;
+            return (
+              <div key={step.id} className={`absolute w-full mfg-text-${step.id} ${i === 0 ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
+                <div className="flex items-center gap-4 mb-6 md:mb-8">
+                  <span className="flex items-center justify-center w-14 h-14 md:w-16 md:h-16 rounded-xl bg-surface border border-border/50 shadow-[0_8px_30px_rgba(15,39,71,0.08)] text-primary font-mono font-bold text-2xl md:text-3xl">
+                    {String(step.order).padStart(2, '0')}
+                  </span>
+                  <h3 className="font-heading font-bold text-3xl md:text-5xl text-text-primary leading-tight">
+                    {step.title}
+                  </h3>
+                </div>
+
+                <p className="text-base md:text-xl text-text-secondary leading-relaxed mb-8 md:mb-10 max-w-xl">
+                  {step.description}
+                </p>
+
+                <div className="grid grid-cols-2 gap-4 max-w-md">
+                  <div className="flex flex-col p-4 bg-surface-2/80 border border-border/50 rounded-lg backdrop-blur-sm">
+                    <span className="text-[10px] md:text-xs font-semibold tracking-wider text-text-muted uppercase mb-1">Process Phase</span>
+                    <span className="text-sm md:text-base font-medium text-text-primary flex items-center gap-2">
+                      <StepIcon className="w-4 h-4 text-primary opacity-80" />
+                      Phase {String(step.order).padStart(2, '0')}
+                    </span>
+                  </div>
+                  <div className="flex flex-col p-4 bg-surface-2/80 border border-border/50 rounded-lg backdrop-blur-sm">
+                    <span className="text-[10px] md:text-xs font-semibold tracking-wider text-text-muted uppercase mb-1">Quality Focus</span>
+                    <span className="text-sm md:text-base font-medium text-text-primary flex items-center gap-2">
+                      <Icons.ShieldCheck className="w-4 h-4 text-primary opacity-80" />
+                      {step.qualityFocus}
+                    </span>
+                  </div>
+                </div>
               </div>
-              <div className="text-sm font-medium text-text-secondary uppercase tracking-wider">{stat.label}</div>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
+        {/* Progress Line */}
+        <nav aria-label="Manufacturing stage progress" className="w-full mt-auto">
+          <ol className="relative w-full h-[2px] bg-border/60 flex items-center justify-between">
+            <div className="absolute top-0 left-0 h-full bg-primary mfg-progress-fill origin-left" style={{ width: '0%' }} aria-hidden="true" />
+
+            {steps.map((step, i) => (
+              <li
+                key={step.id}
+                data-mfg-node={step.id}
+                aria-current={i === 0 ? 'step' : undefined}
+                className="relative z-10 flex flex-col items-center"
+              >
+                <div className={`w-3 h-3 md:w-4 md:h-4 rounded-full border-2 border-border bg-surface absolute -translate-y-1/2 mfg-node-inactive-${step.id} ${i === 0 ? 'opacity-0' : 'opacity-100'}`} aria-hidden="true" />
+                <div
+                  className={`w-3 h-3 md:w-4 md:h-4 rounded-full border-2 border-primary bg-primary absolute -translate-y-1/2 mfg-node-active-${step.id} ${i === 0 ? 'opacity-100' : 'opacity-0'}`}
+                  style={{ boxShadow: `0 0 15px ${ENGINEERING_BLUE}66` }}
+                  aria-hidden="true"
+                />
+                <div
+                  className={`absolute top-4 md:top-6 whitespace-nowrap text-[10px] md:text-xs font-semibold tracking-widest uppercase mfg-node-text-${step.id} text-text-primary`}
+                  style={{ opacity: i === 0 ? 1 : 0.3 }}
+                >
+                  <span className="hidden md:inline">{step.title}</span>
+                  <span className="md:hidden">{step.title.split(' ')[0]}</span>
+                </div>
+              </li>
+            ))}
+          </ol>
+        </nav>
       </div>
     </section>
   );

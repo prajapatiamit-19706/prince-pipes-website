@@ -7,18 +7,24 @@ import { useHeaderContext } from '@/context/HeaderContext';
 import { useSearchContext } from '@/context/SearchContext';
 import { HEADER_LAYOUT } from '@/constants/layout';
 import { motion } from 'framer-motion';
+import navigationData from '@/data/navigation.json';
 
 export const BrandHeader = () => {
-  const { isScrolled, toggleMobileMenu } = useHeaderContext();
+  const { isAtTop, toggleMobileMenu } = useHeaderContext();
   const { openSearch } = useSearchContext();
+
+  const searchUtility = navigationData.utility?.find(item => item.id === 'search') || {};
+  const searchPlaceholder = searchUtility.placeholder || "Search products, fittings, flanges...";
 
   return (
     <motion.div
       animate={{
-        height: isScrolled ? HEADER_LAYOUT.BRAND_HEADER_HEIGHT_SCROLLED : HEADER_LAYOUT.BRAND_HEADER_HEIGHT
+        height: isAtTop ? HEADER_LAYOUT.BRAND_HEADER_HEIGHT : 0,
+        opacity: isAtTop ? 1 : 0
       }}
+      initial={false}
       transition={{ duration: 0.3, ease: 'easeInOut' }}
-      className="bg-white hidden md:flex items-center overflow-hidden z-20 relative shadow-[0_4px_20px_rgba(15,39,71,0.03)]"
+      className="bg-white hidden md:flex items-center overflow-hidden z-20 relative"
     >
       <div className="container-wide w-full flex items-center justify-between">
         <div className="flex-1 flex justify-start items-center">
@@ -33,11 +39,14 @@ export const BrandHeader = () => {
           <button
             onClick={openSearch}
             aria-label="Search"
-            className="text-text-secondary cursor-pointer hover:scale-110 hover:text-primary transition-colors p-2"
+            className="group flex items-center gap-3 border border-border bg-surface rounded-lg py-1 pl-3 pr-1 text-text-secondary cursor-pointer hover:text-primary transition-colors"
           >
-            <Search className="w-5 h-5 xl:w-6 xl:h-6" />
+            <span className="hidden lg:block text-sm font-medium opacity-80 group-hover:opacity-100 transition-opacity whitespace-nowrap">
+              {searchPlaceholder}
+            </span>
+            <Search className="w-5 h-5 xl:w-6 xl:h-6 group-hover:scale-110 transition-transform" />
           </button>
-          <button 
+          <button
             onClick={toggleMobileMenu}
             aria-label="Open Mobile Menu"
             className="flex xl:hidden p-2 -mr-2 text-text-primary hover:text-primary transition-colors"

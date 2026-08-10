@@ -97,7 +97,7 @@ export function FinalCTA() {
         <div className="flex flex-col lg:grid lg:grid-cols-12 gap-8 lg:gap-12 items-center">
 
           {/* 1. Blueprint Hero Container (Order 1 on Mobile, Right Column on Desktop) */}
-          <div className="w-full lg:col-span-7 order-1 lg:order-2 flex items-center justify-center my-2 sm:my-0 scale-[1.38] sm:scale-100 transform origin-center">
+          <div className="w-full lg:col-span-7 order-1 lg:order-2 flex items-center justify-center my-2 sm:my-0 max-sm:scale-[1.25] max-sm:mb-20 transform origin-top">
             <CTADrawing />
           </div>
 

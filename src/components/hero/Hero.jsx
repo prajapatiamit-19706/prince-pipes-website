@@ -118,7 +118,7 @@ export function Hero() {
       </div>
 
       <div className="hero-categories-trigger relative z-10 w-full mt-12">
-        <HeroCategories categories={featuredCategories} />
+        <HeroCategories />
       </div>
 
       <div className="hero-industry-trigger relative z-10 w-full">

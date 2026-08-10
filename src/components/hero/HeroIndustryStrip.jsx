@@ -36,7 +36,7 @@ export function HeroIndustryStrip({ industries }) {
   useGSAP(() => {
     gsap.to(".industry-card", {
       scrollTrigger: {
-        trigger: ".hero-industry-trigger",
+        trigger: containerRef.current,
         start: "top 80%",
       },
       opacity: 1,

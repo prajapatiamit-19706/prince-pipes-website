@@ -36,34 +36,84 @@
       "type": "dropdown",
       "children": [
         {
-          "id": "din-en-fittings",
-          "label": "DIN & EN Fittings",
-          "path": "/products/din-en-fittings",
-          "categoryId": "din-en-fittings"
+          "id": "stainless-steel-pipe-fittings",
+          "label": "Stainless Steel Pipe Fittings",
+          "path": "/products/stainless-steel-pipe-fittings",
+          "categoryId": "stainless-steel-pipe-fittings",
+          "children": [
+            {
+              "id": "threaded-fittings",
+              "label": "Threaded Fittings",
+              "path": "/products/stainless-steel-pipe-fittings/threaded-fittings",
+              "subCategoryId": "threaded-fittings"
+            },
+            {
+              "id": "buttweld-fittings",
+              "label": "Buttweld Fittings",
+              "path": "/products/stainless-steel-pipe-fittings/buttweld-fittings",
+              "subCategoryId": "buttweld-fittings"
+            },
+            {
+              "id": "flanges",
+              "label": "Flanges",
+              "path": "/products/stainless-steel-pipe-fittings/flanges",
+              "subCategoryId": "flanges"
+            },
+            {
+              "id": "forged-fittings",
+              "label": "Forged Fittings",
+              "path": "/products/stainless-steel-pipe-fittings/forged-fittings",
+              "subCategoryId": "forged-fittings"
+            },
+            {
+              "id": "fasteners",
+              "label": "Fasteners",
+              "path": "/products/stainless-steel-pipe-fittings/fasteners",
+              "subCategoryId": "fasteners"
+            },
+            {
+              "id": "ferrule-fittings",
+              "label": "Ferrule Fittings",
+              "path": "/products/stainless-steel-pipe-fittings/ferrule-fittings",
+              "subCategoryId": "ferrule-fittings"
+            },
+            {
+              "id": "dairy-fittings",
+              "label": "Dairy Fittings",
+              "path": "/products/stainless-steel-pipe-fittings/dairy-fittings",
+              "subCategoryId": "dairy-fittings"
+            }
+          ]
         },
         {
-          "id": "ss-fittings",
-          "label": "SS Fittings",
-          "path": "/products/ss-fittings",
-          "categoryId": "ss-fittings"
+          "id": "carbon-steel-pipe-fittings",
+          "label": "Carbon Steel Pipe Fittings",
+          "path": "/products/carbon-steel-pipe-fittings",
+          "categoryId": "carbon-steel-pipe-fittings"
         },
         {
-          "id": "din-en-flanges",
-          "label": "DIN & EN Flanges",
-          "path": "/products/din-en-flanges",
-          "categoryId": "din-en-flanges"
+          "id": "duplex-pipe-fittings",
+          "label": "Duplex Pipe Fittings",
+          "path": "/products/duplex-pipe-fittings",
+          "categoryId": "duplex-pipe-fittings"
         },
         {
-          "id": "astm-ansi-b16-5-flanges",
-          "label": "ASTM-ANSI B16.5 Flanges",
-          "path": "/products/astm-ansi-b16-5-flanges",
-          "categoryId": "astm-ansi-b16-5-flanges"
+          "id": "super-duplex-pipe-fittings",
+          "label": "Super Duplex Pipe Fittings",
+          "path": "/products/super-duplex-pipe-fittings",
+          "categoryId": "super-duplex-pipe-fittings"
         },
         {
-          "id": "astm-ansi-b16-9-fittings",
-          "label": "ASTM-ANSI B16.9 Fittings",
-          "path": "/products/astm-ansi-b16-9-fittings",
-          "categoryId": "astm-ansi-b16-9-fittings"
+          "id": "alloy-steel-pipe-fittings",
+          "label": "Alloy Steel Pipe Fittings",
+          "path": "/products/alloy-steel-pipe-fittings",
+          "categoryId": "alloy-steel-pipe-fittings"
+        },
+        {
+          "id": "inconel-625-pipe-fittings",
+          "label": "Inconel 625 Pipe Fittings",
+          "path": "/products/inconel-625-pipe-fittings",
+          "categoryId": "inconel-625-pipe-fittings"
         }
       ]
     },
@@ -144,15 +194,13 @@
       "type": "link"
     }
   ],
-
   "utility": [
     {
       "id": "search",
       "type": "search",
-      "placeholder": "Search products, fittings, flanges..."
+      "placeholder": "Search..."
     }
   ],
-
   "future": [
     {
       "id": "dealer-portal",
@@ -169,7 +217,6 @@
       "enabled": false
     }
   ],
-
   "_meta": {
     "version": "1.0",
     "notes": [

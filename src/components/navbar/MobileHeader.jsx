@@ -7,18 +7,21 @@ import { HEADER_LAYOUT } from '@/constants/layout';
 import { motion } from 'framer-motion';
 
 export const MobileHeader = () => {
-  const { isScrolled, toggleMobileMenu } = useHeaderContext();
+  const { isAtTop, toggleMobileMenu } = useHeaderContext();
   const { openSearch } = useSearchContext();
 
   return (
     <motion.div
       animate={{ 
-        height: isScrolled ? HEADER_LAYOUT.PRIMARY_NAV_HEIGHT_SCROLLED : HEADER_LAYOUT.BRAND_HEADER_HEIGHT 
+        height: isAtTop ? HEADER_LAYOUT.BRAND_HEADER_HEIGHT : HEADER_LAYOUT.PRIMARY_NAV_HEIGHT_SCROLLED 
       }}
+      initial={false}
       transition={{ duration: 0.3, ease: 'easeInOut' }}
-      className="bg-white border-b border-border md:hidden flex items-center justify-between px-4 w-full"
+      className={`bg-white md:hidden flex items-center justify-between px-4 w-full relative z-20 ${!isAtTop ? 'border-b border-border' : ''}`}
     >
-      <Logo variant="icon" className="w-10 h-10" />
+      <div className="flex-1">
+        <Logo variant={isAtTop ? 'full' : 'icon'} className={isAtTop ? '' : 'scale-90 origin-left'} />
+      </div>
       
       <div className="flex items-center gap-2">
         <button

@@ -1,15 +1,15 @@
 import { Hero } from "@/components/hero";
 import { WhyChoose } from "@/components/why-choose/WhyChoose";
-import { Manufacturing } from "@/components/manufacturing/Manufacturing";
-import { AdvancedFacility } from "@/components/manufacturing/AdvancedFacility";
+import { ManufacturingJourney } from "@/components/manufacturing";
 import { FinalCTA } from "@/components/cta";
+import { AdvancedFacility } from "@/components/AdvancedFacility/AdvancedFacility";
 
 export default function Home() {
   return (
     <main className="w-full min-h-screen flex flex-col">
       <Hero />
       <WhyChoose />
-      <Manufacturing />
+      <ManufacturingJourney />
       <AdvancedFacility />
       {/* Other sections will follow here */}
       <FinalCTA />

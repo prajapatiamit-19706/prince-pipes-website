@@ -18,6 +18,9 @@ import { SmoothScroll } from "@/components/providers/SmoothScroll";
 export const metadata = {
   title: "Prince Pipes & Fittings",
   description: "Engineered Flow Solutions",
+  icons: {
+    icon: "/logo/ppfIcon.png",
+  },
 };
 
 export default function RootLayout({ children }) {

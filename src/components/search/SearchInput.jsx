@@ -1,11 +1,18 @@
 "use client";
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useMemo } from 'react';
 import { useSearchContext } from '@/context/SearchContext';
 import { Search, X } from 'lucide-react';
+import navigationData from '@/data/navigation.json';
 
 export const SearchInput = () => {
   const { searchQuery, setSearchQuery, closeSearch } = useSearchContext();
   const inputRef = useRef(null);
+
+  const searchUtility = useMemo(() => {
+    return navigationData.utility?.find(item => item.id === 'search') || {};
+  }, []);
+
+  const placeholderText = searchUtility.placeholder || "Search products, fittings, flanges...";
 
   // Auto-focus on mount
   useEffect(() => {
@@ -22,7 +29,7 @@ export const SearchInput = () => {
       <input
         ref={inputRef}
         type="text"
-        placeholder="Search engineering products, materials, standards..."
+        placeholder={placeholderText}
         className="w-full bg-transparent text-lg lg:text-xl font-heading font-medium text-text-primary placeholder:text-text-muted outline-none pl-12 pr-12"
         value={searchQuery}
         onChange={(e) => setSearchQuery(e.target.value)}

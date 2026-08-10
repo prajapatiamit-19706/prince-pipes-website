@@ -1,0 +1,4476 @@
+{
+  "catalog": {
+    "id": "stainless-steel-pipe-fittings",
+    "name": "Stainless Steel Pipe Fittings",
+    "slug": "stainless-steel-pipe-fittings",
+    "description": "Stainless steel pipe fittings including threaded fittings, buttweld fittings, flanges, forged fittings, fasteners, ferrule fittings and dairy fittings.",
+    "material": "Stainless Steel",
+    "subCategories": [
+      {
+        "id": "threaded-fittings",
+        "name": "Threaded Fittings",
+        "slug": "threaded-fittings",
+        "description": "Threaded stainless steel fittings including nipples, hex nipples, sockets and plugs.",
+        "order": 1,
+        "products": [
+          {
+            "id": "ss-nipple",
+            "name": "Stainless Steel Nipple",
+            "slug": "stainless-steel-nipple",
+            "type": "Barrel Nipple / Hex Nipple",
+            "categoryId": "stainless-steel-pipe-fittings",
+            "subCategoryId": "threaded-fittings",
+            "status": "available",
+            "featured": false,
+            "order": 1,
+            "description": {
+              "short": "Stainless Steel Nipple available as barrel nipple / hex nipple with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/8\" to 6\" to ASME B16.11, ASTM A182 with threaded, male × male connections.",
+              "full": "Stainless Steel Nipple available as barrel nipple / hex nipple with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/8\" to 6\" to ASME B16.11, ASTM A182 with threaded, male × male connections."
+            },
+            "technicalSpecifications": {
+              "material": "Stainless Steel",
+              "grades": [
+                "SS 304",
+                "SS 304L",
+                "SS 316",
+                "SS 316L"
+              ],
+              "sizeRange": "1/8\" to 6\"",
+              "manufacturing": [
+                "CNC",
+                "Lathe",
+                "Seamless",
+                "Welded"
+              ],
+              "standards": [
+                "ASME B16.11",
+                "ASTM A182"
+              ],
+              "schedule": [
+                "SCH 5",
+                "SCH 10",
+                "SCH 40",
+                "SCH 80"
+              ],
+              "connection": [
+                "Threaded",
+                "Male × Male"
+              ],
+              "threadType": [
+                "BSP",
+                "BSPT",
+                "NPT"
+              ]
+            },
+            "testing": [
+              "Dimensional & visual inspection",
+              "Additional testing as required"
+            ],
+            "applications": [
+              "Chemical",
+              "Pharmaceutical",
+              "Food Processing",
+              "Oil & Gas",
+              "Petrochemical",
+              "Water Treatment",
+              "General Engineering"
+            ],
+            "features": [],
+            "options": {
+              "types": [
+                "Barrel Nipple / Hex Nipple"
+              ],
+              "connections": [
+                "Threaded",
+                "Male × Male"
+              ],
+              "finishes": [],
+              "sizes": [
+                "1/8\" to 6\""
+              ]
+            },
+            "media": {
+              "primaryImage": null,
+              "gallery": [],
+              "technicalDrawing": null,
+              "dimensionDrawing": null,
+              "thumbnail": null
+            },
+            "documents": {
+              "catalogue": null,
+              "datasheet": null,
+              "dimensionChart": null,
+              "weightChart": null,
+              "technicalDocument": null
+            },
+            "cad": {
+              "available": false,
+              "formats": [],
+              "files": []
+            },
+            "threeD": {
+              "available": false,
+              "modelUrl": null,
+              "formats": []
+            },
+            "seo": {
+              "title": "Stainless Steel Nipple | Stainless Steel Threaded Fittings | Prince Pipes & Fittings",
+              "description": "Stainless Steel Nipple from Prince Pipes & Fittings. View available specifications, sizes, standards, connections and technical details.",
+              "primaryKeyword": "Stainless Steel Nipple",
+              "secondaryKeywords": [
+                "stainless steel nipple",
+                "stainless steel nipple manufacturer",
+                "stainless steel nipple supplier",
+                "stainless steel nipple exporter"
+              ],
+              "longTailKeywords": [
+                "stainless steel nipple manufacturer",
+                "stainless steel nipple supplier",
+                "stainless steel nipple specifications",
+                "stainless steel nipple sizes and standards"
+              ],
+              "searchIntent": "commercial",
+              "keywords": [
+                "stainless steel nipple",
+                "stainless steel nipple manufacturer",
+                "stainless steel nipple supplier"
+              ],
+              "canonicalPath": "/products/stainless-steel-nipple"
+            },
+            "relatedProducts": [
+              "ss-hex-nipple",
+              "ss-socket"
+            ],
+            "metadata": {
+              "createdAt": null,
+              "updatedAt": null
+            }
+          },
+          {
+            "id": "ss-hex-nipple",
+            "name": "Stainless Steel Hex Nipple",
+            "slug": "stainless-steel-hex-nipple",
+            "type": "Hex Nipple / Reducing Hex Nipple",
+            "categoryId": "stainless-steel-pipe-fittings",
+            "subCategoryId": "threaded-fittings",
+            "status": "available",
+            "featured": false,
+            "order": 2,
+            "description": {
+              "short": "Stainless Steel Hex Nipple available as hex nipple / reducing hex nipple with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/8\" to 4\" to ASME B16.11 with male × male threaded connections.",
+              "full": "Stainless Steel Hex Nipple available as hex nipple / reducing hex nipple with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/8\" to 4\" to ASME B16.11 with male × male threaded connections."
+            },
+            "technicalSpecifications": {
+              "material": "Stainless Steel",
+              "grades": [
+                "SS 304",
+                "SS 304L",
+                "SS 316",
+                "SS 316L"
+              ],
+              "sizeRange": "1/8\" to 4\"",
+              "manufacturing": [
+                "Forged",
+                "CNC Machined"
+              ],
+              "standards": [
+                "ASME B16.11"
+              ],
+              "materialStandards": [
+                "ASTM A182"
+              ],
+              "connection": [
+                "Male × Male Threaded"
+              ],
+              "threadType": [
+                "NPT",
+                "BSP",
+                "BSPT"
+              ]
+            },
+            "testing": [
+              "Dimensional & visual inspection",
+              "Additional testing as required"
+            ],
+            "applications": [
+              "Chemical",
+              "Pharmaceutical",
+              "Food Processing",
+              "Oil & Gas",
+              "Petrochemical",
+              "Water Treatment",
+              "General Engineering"
+            ],
+            "features": [],
+            "options": {
+              "types": [
+                "Hex Nipple / Reducing Hex Nipple"
+              ],
+              "connections": [
+                "Male × Male Threaded"
+              ],
+              "finishes": [],
+              "sizes": [
+                "1/8\" to 4\""
+              ]
+            },
+            "media": {
+              "primaryImage": null,
+              "gallery": [],
+              "technicalDrawing": null,
+              "dimensionDrawing": null,
+              "thumbnail": null
+            },
+            "documents": {
+              "catalogue": null,
+              "datasheet": null,
+              "dimensionChart": null,
+              "weightChart": null,
+              "technicalDocument": null
+            },
+            "cad": {
+              "available": false,
+              "formats": [],
+              "files": []
+            },
+            "threeD": {
+              "available": false,
+              "modelUrl": null,
+              "formats": []
+            },
+            "seo": {
+              "title": "Stainless Steel Hex Nipple | Stainless Steel Threaded Fittings | Prince Pipes & Fittings",
+              "description": "Stainless Steel Hex Nipple from Prince Pipes & Fittings. View available specifications, sizes, standards, connections and technical details.",
+              "primaryKeyword": "Stainless Steel Hex Nipple",
+              "secondaryKeywords": [
+                "stainless steel hex nipple",
+                "stainless steel hex nipple manufacturer",
+                "stainless steel hex nipple supplier",
+                "stainless steel hex nipple exporter"
+              ],
+              "longTailKeywords": [
+                "stainless steel hex nipple manufacturer",
+                "stainless steel hex nipple supplier",
+                "stainless steel hex nipple specifications",
+                "stainless steel hex nipple sizes and standards"
+              ],
+              "searchIntent": "commercial",
+              "keywords": [
+                "stainless steel hex nipple",
+                "stainless steel hex nipple manufacturer",
+                "stainless steel hex nipple supplier"
+              ],
+              "canonicalPath": "/products/stainless-steel-hex-nipple"
+            },
+            "relatedProducts": [
+              "ss-nipple",
+              "ss-socket",
+              "ss-plug"
+            ],
+            "metadata": {
+              "createdAt": null,
+              "updatedAt": null
+            }
+          },
+          {
+            "id": "ss-socket",
+            "name": "Stainless Steel Socket",
+            "slug": "stainless-steel-socket",
+            "type": "Full Coupling / Half Coupling",
+            "categoryId": "stainless-steel-pipe-fittings",
+            "subCategoryId": "threaded-fittings",
+            "status": "available",
+            "featured": false,
+            "order": 3,
+            "description": {
+              "short": "Stainless Steel Socket available as full coupling / half coupling with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/4\" to 4\" to ASME B16.11, ASTM A182 with threaded, socket weld connections.",
+              "full": "Stainless Steel Socket available as full coupling / half coupling with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/4\" to 4\" to ASME B16.11, ASTM A182 with threaded, socket weld connections."
+            },
+            "technicalSpecifications": {
+              "material": "Stainless Steel",
+              "grades": [
+                "SS 304",
+                "SS 304L",
+                "SS 316",
+                "SS 316L"
+              ],
+              "sizeRange": "1/4\" to 4\"",
+              "manufacturing": [
+                "Forged",
+                "CNC",
+                "Machined"
+              ],
+              "standards": [
+                "ASME B16.11",
+                "ASTM A182"
+              ],
+              "connection": [
+                "Threaded",
+                "Socket Weld"
+              ],
+              "threadType": [
+                "BSP",
+                "BSPT",
+                "NPT"
+              ]
+            },
+            "testing": [
+              "Dimensional & visual inspection",
+              "Additional testing as required"
+            ],
+            "applications": [
+              "Chemical",
+              "Pharmaceutical",
+              "Food Processing",
+              "Oil & Gas",
+              "Petrochemical",
+              "Water Treatment",
+              "General Engineering"
+            ],
+            "features": [],
+            "options": {
+              "types": [
+                "Full Coupling / Half Coupling"
+              ],
+              "connections": [
+                "Threaded",
+                "Socket Weld"
+              ],
+              "finishes": [],
+              "sizes": [
+                "1/4\" to 4\""
+              ]
+            },
+            "media": {
+              "primaryImage": null,
+              "gallery": [],
+              "technicalDrawing": null,
+              "dimensionDrawing": null,
+              "thumbnail": null
+            },
+            "documents": {
+              "catalogue": null,
+              "datasheet": null,
+              "dimensionChart": null,
+              "weightChart": null,
+              "technicalDocument": null
+            },
+            "cad": {
+              "available": false,
+              "formats": [],
+              "files": []
+            },
+            "threeD": {
+              "available": false,
+              "modelUrl": null,
+              "formats": []
+            },
+            "seo": {
+              "title": "Stainless Steel Socket | Stainless Steel Threaded Fittings | Prince Pipes & Fittings",
+              "description": "Stainless Steel Socket from Prince Pipes & Fittings. View available specifications, sizes, standards, connections and technical details.",
+              "primaryKeyword": "Stainless Steel Socket",
+              "secondaryKeywords": [
+                "stainless steel socket",
+                "stainless steel socket manufacturer",
+                "stainless steel socket supplier",
+                "stainless steel socket exporter"
+              ],
+              "longTailKeywords": [
+                "stainless steel socket manufacturer",
+                "stainless steel socket supplier",
+                "stainless steel socket specifications",
+                "stainless steel socket sizes and standards"
+              ],
+              "searchIntent": "commercial",
+              "keywords": [
+                "stainless steel socket",
+                "stainless steel socket manufacturer",
+                "stainless steel socket supplier"
+              ],
+              "canonicalPath": "/products/stainless-steel-socket"
+            },
+            "relatedProducts": [
+              "ss-nipple",
+              "ss-hex-nipple",
+              "ss-plug"
+            ],
+            "metadata": {
+              "createdAt": null,
+              "updatedAt": null
+            }
+          },
+          {
+            "id": "ss-plug",
+            "name": "Stainless Steel Plug",
+            "slug": "stainless-steel-plug",
+            "type": "Hex Plug",
+            "categoryId": "stainless-steel-pipe-fittings",
+            "subCategoryId": "threaded-fittings",
+            "status": "available",
+            "featured": false,
+            "order": 4,
+            "description": {
+              "short": "Stainless Steel Plug available as hex plug with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/8\" to 4\" to ASME B16.11, ASTM A182 with male threaded connections.",
+              "full": "Stainless Steel Plug available as hex plug with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/8\" to 4\" to ASME B16.11, ASTM A182 with male threaded connections. Available pressure classes include 3000, 6000."
+            },
+            "technicalSpecifications": {
+              "material": "Stainless Steel",
+              "grades": [
+                "SS 304",
+                "SS 304L",
+                "SS 316",
+                "SS 316L"
+              ],
+              "sizeRange": "1/8\" to 4\"",
+              "manufacturing": [
+                "CNC",
+                "Machined"
+              ],
+              "standards": [
+                "ASME B16.11",
+                "ASTM A182"
+              ],
+              "connection": [
+                "Male Threaded"
+              ],
+              "threadType": [
+                "BSP",
+                "BSPT",
+                "NPT"
+              ],
+              "pressureClass": [
+                "3000",
+                "6000"
+              ]
+            },
+            "testing": [
+              "Dimensional & visual inspection",
+              "Additional testing as required"
+            ],
+            "applications": [
+              "Chemical",
+              "Pharmaceutical",
+              "Food Processing",
+              "Oil & Gas",
+              "Petrochemical",
+              "Water Treatment",
+              "General Engineering"
+            ],
+            "features": [],
+            "options": {
+              "types": [
+                "Hex Plug"
+              ],
+              "connections": [
+                "Male Threaded"
+              ],
+              "finishes": [],
+              "sizes": [
+                "1/8\" to 4\""
+              ]
+            },
+            "media": {
+              "primaryImage": null,
+              "gallery": [],
+              "technicalDrawing": null,
+              "dimensionDrawing": null,
+              "thumbnail": null
+            },
+            "documents": {
+              "catalogue": null,
+              "datasheet": null,
+              "dimensionChart": null,
+              "weightChart": null,
+              "technicalDocument": null
+            },
+            "cad": {
+              "available": false,
+              "formats": [],
+              "files": []
+            },
+            "threeD": {
+              "available": false,
+              "modelUrl": null,
+              "formats": []
+            },
+            "seo": {
+              "title": "Stainless Steel Plug | Stainless Steel Threaded Fittings | Prince Pipes & Fittings",
+              "description": "Stainless Steel Plug from Prince Pipes & Fittings. View available specifications, sizes, standards, connections and technical details.",
+              "primaryKeyword": "Stainless Steel Plug",
+              "secondaryKeywords": [
+                "stainless steel plug",
+                "stainless steel plug manufacturer",
+                "stainless steel plug supplier",
+                "stainless steel plug exporter"
+              ],
+              "longTailKeywords": [
+                "stainless steel plug manufacturer",
+                "stainless steel plug supplier",
+                "stainless steel plug specifications",
+                "stainless steel plug sizes and standards"
+              ],
+              "searchIntent": "commercial",
+              "keywords": [
+                "stainless steel plug",
+                "stainless steel plug manufacturer",
+                "stainless steel plug supplier"
+              ],
+              "canonicalPath": "/products/stainless-steel-plug"
+            },
+            "relatedProducts": [
+              "ss-hex-nipple",
+              "ss-socket"
+            ],
+            "metadata": {
+              "createdAt": null,
+              "updatedAt": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "buttweld-fittings",
+        "name": "Buttweld Fittings",
+        "slug": "buttweld-fittings",
+        "description": "Buttweld stainless steel fittings including tees, elbows, reducers and stub ends.",
+        "order": 2,
+        "products": [
+          {
+            "id": "ss-tee",
+            "name": "Stainless Steel Tee",
+            "slug": "stainless-steel-tee",
+            "type": "Equal Tee / Reducing Tee / Cross Tee / Y Tee",
+            "categoryId": "stainless-steel-pipe-fittings",
+            "subCategoryId": "buttweld-fittings",
+            "status": "available",
+            "featured": false,
+            "order": 1,
+            "description": {
+              "short": "Stainless Steel Tee available as equal tee / reducing tee / cross tee / y tee with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/4\" to 24\" to ASME B16.9 with butt weld connections.",
+              "full": "Stainless Steel Tee available as equal tee / reducing tee / cross tee / y tee with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/4\" to 24\" to ASME B16.9 with butt weld connections."
+            },
+            "technicalSpecifications": {
+              "material": "Stainless Steel",
+              "grades": [
+                "SS 304",
+                "SS 304L",
+                "SS 316",
+                "SS 316L"
+              ],
+              "standards": [
+                "ASME B16.9"
+              ],
+              "connection": [
+                "Butt Weld"
+              ],
+              "schedule": [
+                "SCH 5",
+                "SCH 10",
+                "SCH 20",
+                "SCH 40",
+                "SCH 80",
+                "SCH 160",
+                "XXS"
+              ],
+              "manufacturing": [
+                "Seamless",
+                "Welded"
+              ],
+              "sizeRange": "1/4\" to 24\""
+            },
+            "testing": [
+              "Dimensional & visual inspection",
+              "Additional testing as required"
+            ],
+            "applications": [
+              "Chemical",
+              "Pharmaceutical",
+              "Food Processing",
+              "Oil & Gas",
+              "Petrochemical",
+              "Water Treatment",
+              "General Engineering"
+            ],
+            "features": [],
+            "options": {
+              "types": [
+                "Equal Tee / Reducing Tee / Cross Tee / Y Tee"
+              ],
+              "connections": [
+                "Butt Weld"
+              ],
+              "finishes": [],
+              "sizes": [
+                "1/4\" to 24\""
+              ]
+            },
+            "media": {
+              "primaryImage": null,
+              "gallery": [],
+              "technicalDrawing": null,
+              "dimensionDrawing": null,
+              "thumbnail": null
+            },
+            "documents": {
+              "catalogue": null,
+              "datasheet": null,
+              "dimensionChart": null,
+              "weightChart": null,
+              "technicalDocument": null
+            },
+            "cad": {
+              "available": false,
+              "formats": [],
+              "files": []
+            },
+            "threeD": {
+              "available": false,
+              "modelUrl": null,
+              "formats": []
+            },
+            "seo": {
+              "title": "Stainless Steel Tee | Stainless Steel Buttweld Fittings | Prince Pipes & Fittings",
+              "description": "Stainless Steel Tee from Prince Pipes & Fittings. View available specifications, sizes, standards, connections and technical details.",
+              "primaryKeyword": "Stainless Steel Tee",
+              "secondaryKeywords": [
+                "stainless steel tee",
+                "stainless steel tee manufacturer",
+                "stainless steel tee supplier",
+                "stainless steel tee exporter"
+              ],
+              "longTailKeywords": [
+                "stainless steel tee manufacturer",
+                "stainless steel tee supplier",
+                "stainless steel tee specifications",
+                "stainless steel tee sizes and standards"
+              ],
+              "searchIntent": "commercial",
+              "keywords": [
+                "stainless steel tee",
+                "stainless steel tee manufacturer",
+                "stainless steel tee supplier"
+              ],
+              "canonicalPath": "/products/stainless-steel-tee"
+            },
+            "relatedProducts": [
+              "ss-elbow",
+              "ss-reducer"
+            ],
+            "metadata": {
+              "createdAt": null,
+              "updatedAt": null
+            }
+          },
+          {
+            "id": "ss-elbow",
+            "name": "Stainless Steel Elbow",
+            "slug": "stainless-steel-elbow",
+            "type": "45° Elbow / 90° Elbow / 180° Elbow",
+            "categoryId": "stainless-steel-pipe-fittings",
+            "subCategoryId": "buttweld-fittings",
+            "status": "available",
+            "featured": false,
+            "order": 2,
+            "description": {
+              "short": "Stainless Steel Elbow available as 45° elbow / 90° elbow / 180° elbow with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/4\" to 24\" to ASME B16.9 with butt weld connections.",
+              "full": "Stainless Steel Elbow available as 45° elbow / 90° elbow / 180° elbow with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/4\" to 24\" to ASME B16.9 with butt weld connections."
+            },
+            "technicalSpecifications": {
+              "material": "Stainless Steel",
+              "grades": [
+                "SS 304",
+                "SS 304L",
+                "SS 316",
+                "SS 316L"
+              ],
+              "standards": [
+                "ASME B16.9"
+              ],
+              "connection": [
+                "Butt Weld"
+              ],
+              "schedule": [
+                "SCH 5",
+                "SCH 10",
+                "SCH 20",
+                "SCH 40",
+                "SCH 80",
+                "SCH 160",
+                "XXS"
+              ],
+              "manufacturing": [
+                "Seamless",
+                "Welded"
+              ],
+              "sizeRange": "1/4\" to 24\""
+            },
+            "testing": [
+              "Dimensional & visual inspection",
+              "Additional testing as required"
+            ],
+            "applications": [
+              "Chemical",
+              "Pharmaceutical",
+              "Food Processing",
+              "Oil & Gas",
+              "Petrochemical",
+              "Water Treatment",
+              "General Engineering"
+            ],
+            "features": [],
+            "options": {
+              "types": [
+                "45° Elbow / 90° Elbow / 180° Elbow"
+              ],
+              "connections": [
+                "Butt Weld"
+              ],
+              "finishes": [],
+              "sizes": [
+                "1/4\" to 24\""
+              ]
+            },
+            "media": {
+              "primaryImage": null,
+              "gallery": [],
+              "technicalDrawing": null,
+              "dimensionDrawing": null,
+              "thumbnail": null
+            },
+            "documents": {
+              "catalogue": null,
+              "datasheet": null,
+              "dimensionChart": null,
+              "weightChart": null,
+              "technicalDocument": null
+            },
+            "cad": {
+              "available": false,
+              "formats": [],
+              "files": []
+            },
+            "threeD": {
+              "available": false,
+              "modelUrl": null,
+              "formats": []
+            },
+            "seo": {
+              "title": "Stainless Steel Elbow | Stainless Steel Buttweld Fittings | Prince Pipes & Fittings",
+              "description": "Stainless Steel Elbow from Prince Pipes & Fittings. View available specifications, sizes, standards, connections and technical details.",
+              "primaryKeyword": "Stainless Steel Elbow",
+              "secondaryKeywords": [
+                "stainless steel elbow",
+                "stainless steel elbow manufacturer",
+                "stainless steel elbow supplier",
+                "stainless steel elbow exporter"
+              ],
+              "longTailKeywords": [
+                "stainless steel elbow manufacturer",
+                "stainless steel elbow supplier",
+                "stainless steel elbow specifications",
+                "stainless steel elbow sizes and standards"
+              ],
+              "searchIntent": "commercial",
+              "keywords": [
+                "stainless steel elbow",
+                "stainless steel elbow manufacturer",
+                "stainless steel elbow supplier"
+              ],
+              "canonicalPath": "/products/stainless-steel-elbow"
+            },
+            "relatedProducts": [
+              "ss-tee",
+              "ss-reducer",
+              "ss-stub-end"
+            ],
+            "metadata": {
+              "createdAt": null,
+              "updatedAt": null
+            }
+          },
+          {
+            "id": "ss-reducer",
+            "name": "Stainless Steel Reducer",
+            "slug": "stainless-steel-reducer",
+            "type": "Concentric Reducer / Eccentric Reducer",
+            "categoryId": "stainless-steel-pipe-fittings",
+            "subCategoryId": "buttweld-fittings",
+            "status": "available",
+            "featured": false,
+            "order": 3,
+            "description": {
+              "short": "Stainless Steel Reducer available as concentric reducer / eccentric reducer with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/4\" to 24\" to ASME B16.9 with butt weld connections.",
+              "full": "Stainless Steel Reducer available as concentric reducer / eccentric reducer with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/4\" to 24\" to ASME B16.9 with butt weld connections."
+            },
+            "technicalSpecifications": {
+              "material": "Stainless Steel",
+              "grades": [
+                "SS 304",
+                "SS 304L",
+                "SS 316",
+                "SS 316L"
+              ],
+              "standards": [
+                "ASME B16.9"
+              ],
+              "connection": [
+                "Butt Weld"
+              ],
+              "schedule": [
+                "SCH 5",
+                "SCH 10",
+                "SCH 20",
+                "SCH 40",
+                "SCH 80",
+                "SCH 160",
+                "XXS"
+              ],
+              "manufacturing": [
+                "Seamless",
+                "Welded"
+              ],
+              "sizeRange": "1/4\" to 24\""
+            },
+            "testing": [
+              "Dimensional & visual inspection",
+              "Additional testing as required"
+            ],
+            "applications": [
+              "Chemical",
+              "Pharmaceutical",
+              "Food Processing",
+              "Oil & Gas",
+              "Petrochemical",
+              "Water Treatment",
+              "General Engineering"
+            ],
+            "features": [],
+            "options": {
+              "types": [
+                "Concentric Reducer / Eccentric Reducer"
+              ],
+              "connections": [
+                "Butt Weld"
+              ],
+              "finishes": [],
+              "sizes": [
+                "1/4\" to 24\""
+              ]
+            },
+            "media": {
+              "primaryImage": null,
+              "gallery": [],
+              "technicalDrawing": null,
+              "dimensionDrawing": null,
+              "thumbnail": null
+            },
+            "documents": {
+              "catalogue": null,
+              "datasheet": null,
+              "dimensionChart": null,
+              "weightChart": null,
+              "technicalDocument": null
+            },
+            "cad": {
+              "available": false,
+              "formats": [],
+              "files": []
+            },
+            "threeD": {
+              "available": false,
+              "modelUrl": null,
+              "formats": []
+            },
+            "seo": {
+              "title": "Stainless Steel Reducer | Stainless Steel Buttweld Fittings | Prince Pipes & Fittings",
+              "description": "Stainless Steel Reducer from Prince Pipes & Fittings. View available specifications, sizes, standards, connections and technical details.",
+              "primaryKeyword": "Stainless Steel Reducer",
+              "secondaryKeywords": [
+                "stainless steel reducer",
+                "stainless steel reducer manufacturer",
+                "stainless steel reducer supplier",
+                "stainless steel reducer exporter"
+              ],
+              "longTailKeywords": [
+                "stainless steel reducer manufacturer",
+                "stainless steel reducer supplier",
+                "stainless steel reducer specifications",
+                "stainless steel reducer sizes and standards"
+              ],
+              "searchIntent": "commercial",
+              "keywords": [
+                "stainless steel reducer",
+                "stainless steel reducer manufacturer",
+                "stainless steel reducer supplier"
+              ],
+              "canonicalPath": "/products/stainless-steel-reducer"
+            },
+            "relatedProducts": [
+              "ss-tee",
+              "ss-elbow",
+              "ss-stub-end"
+            ],
+            "metadata": {
+              "createdAt": null,
+              "updatedAt": null
+            }
+          },
+          {
+            "id": "ss-stub-end",
+            "name": "Stainless Steel Stub End",
+            "slug": "stainless-steel-stub-end",
+            "type": "Short Pattern / Long Pattern",
+            "categoryId": "stainless-steel-pipe-fittings",
+            "subCategoryId": "buttweld-fittings",
+            "status": "available",
+            "featured": false,
+            "order": 4,
+            "description": {
+              "short": "Stainless Steel Stub End available as short pattern / long pattern with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/2\" to 24\" to ASME B16.9 with butt weld connections.",
+              "full": "Stainless Steel Stub End available as short pattern / long pattern with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/2\" to 24\" to ASME B16.9 with butt weld connections."
+            },
+            "technicalSpecifications": {
+              "material": "Stainless Steel",
+              "grades": [
+                "SS 304",
+                "SS 304L",
+                "SS 316",
+                "SS 316L"
+              ],
+              "standards": [
+                "ASME B16.9"
+              ],
+              "connection": [
+                "Butt Weld"
+              ],
+              "schedule": [
+                "SCH 5",
+                "SCH 10",
+                "SCH 20",
+                "SCH 40",
+                "SCH 80",
+                "SCH 160",
+                "XXS"
+              ],
+              "manufacturing": [
+                "Seamless",
+                "Welded"
+              ],
+              "sizeRange": "1/2\" to 24\""
+            },
+            "testing": [
+              "Dimensional & visual inspection",
+              "Additional testing as required"
+            ],
+            "applications": [
+              "Chemical",
+              "Pharmaceutical",
+              "Food Processing",
+              "Oil & Gas",
+              "Petrochemical",
+              "Water Treatment",
+              "General Engineering"
+            ],
+            "features": [],
+            "options": {
+              "types": [
+                "Short Pattern / Long Pattern"
+              ],
+              "connections": [
+                "Butt Weld"
+              ],
+              "finishes": [],
+              "sizes": [
+                "1/2\" to 24\""
+              ]
+            },
+            "media": {
+              "primaryImage": null,
+              "gallery": [],
+              "technicalDrawing": null,
+              "dimensionDrawing": null,
+              "thumbnail": null
+            },
+            "documents": {
+              "catalogue": null,
+              "datasheet": null,
+              "dimensionChart": null,
+              "weightChart": null,
+              "technicalDocument": null
+            },
+            "cad": {
+              "available": false,
+              "formats": [],
+              "files": []
+            },
+            "threeD": {
+              "available": false,
+              "modelUrl": null,
+              "formats": []
+            },
+            "seo": {
+              "title": "Stainless Steel Stub End | Stainless Steel Buttweld Fittings | Prince Pipes & Fittings",
+              "description": "Stainless Steel Stub End from Prince Pipes & Fittings. View available specifications, sizes, standards, connections and technical details.",
+              "primaryKeyword": "Stainless Steel Stub End",
+              "secondaryKeywords": [
+                "stainless steel stub end",
+                "stainless steel stub end manufacturer",
+                "stainless steel stub end supplier",
+                "stainless steel stub end exporter"
+              ],
+              "longTailKeywords": [
+                "stainless steel stub end manufacturer",
+                "stainless steel stub end supplier",
+                "stainless steel stub end specifications",
+                "stainless steel stub end sizes and standards"
+              ],
+              "searchIntent": "commercial",
+              "keywords": [
+                "stainless steel stub end",
+                "stainless steel stub end manufacturer",
+                "stainless steel stub end supplier"
+              ],
+              "canonicalPath": "/products/stainless-steel-stub-end"
+            },
+            "relatedProducts": [
+              "ss-elbow",
+              "ss-reducer"
+            ],
+            "metadata": {
+              "createdAt": null,
+              "updatedAt": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "flanges",
+        "name": "Flanges",
+        "slug": "flanges",
+        "description": "Stainless steel flanges for bolted pipe connections in a range of pressure classes, sizes and face types.",
+        "order": 3,
+        "products": [
+          {
+            "id": "ss-blind-flange",
+            "name": "Stainless Steel Blind Flange",
+            "slug": "ss-blind-flange",
+            "type": "BLRF",
+            "categoryId": "stainless-steel-pipe-fittings",
+            "subCategoryId": "flanges",
+            "status": "available",
+            "featured": false,
+            "order": 1,
+            "description": {
+              "short": "Stainless Steel Blind Flange available as blrf with grades including ASTM A182 F304, F304L, F316, F316L, F321, F347, 904L, 17-4PH with a size range of 1/2\"–48\" / 15–1200 NB to ASME B16.5, ASME B16.47 A/B, BS 4504, DIN, EN 1092-1.",
+              "full": "Stainless Steel Blind Flange available as blrf with grades including ASTM A182 F304, F304L, F316, F316L, F321, F347, 904L, 17-4PH with a size range of 1/2\"–48\" / 15–1200 NB to ASME B16.5, ASME B16.47 A/B, BS 4504, DIN, EN 1092-1. Available pressure classes include 150, 300, 600, 900, 1500, 2500."
+            },
+            "technicalSpecifications": {
+              "material": "Stainless Steel",
+              "grades": [
+                "ASTM A182 F304",
+                "F304L",
+                "F316",
+                "F316L",
+                "F321",
+                "F347",
+                "904L",
+                "17-4PH"
+              ],
+              "sizeRange": "1/2\"–48\" / 15–1200 NB",
+              "pressureClass": [
+                "150",
+                "300",
+                "600",
+                "900",
+                "1500",
+                "2500"
+              ],
+              "pnRating": [
+                "PN6",
+                "PN10",
+                "PN16",
+                "PN25",
+                "PN40"
+              ],
+              "standards": [
+                "ASME B16.5",
+                "ASME B16.47 A/B",
+                "BS 4504",
+                "DIN",
+                "EN 1092-1"
+              ],
+              "faceType": [
+                "RF",
+                "FF",
+                "RTJ"
+              ],
+              "manufacturing": [
+                "Forged",
+                "Plate",
+                "Fabricated"
+              ]
+            },
+            "testing": [],
+            "applications": [
+              "Oil & Gas",
+              "Petrochemical",
+              "Chemical",
+              "Marine",
+              "Power",
+              "Water Treatment"
+            ],
+            "features": [],
+            "options": {
+              "types": [
+                "BLRF"
+              ],
+              "connections": [],
+              "finishes": [],
+              "sizes": [
+                "1/2\"–48\" / 15–1200 NB"
+              ]
+            },
+            "media": {
+              "primaryImage": null,
+              "gallery": [],
+              "technicalDrawing": null,
+              "dimensionDrawing": null,
+              "thumbnail": null
+            },
+            "documents": {
+              "catalogue": null,
+              "datasheet": null,
+              "dimensionChart": null,
+              "weightChart": null,
+              "technicalDocument": null
+            },
+            "cad": {
+              "available": false,
+              "formats": [],
+              "files": []
+            },
+            "threeD": {
+              "available": false,
+              "modelUrl": null,
+              "formats": []
+            },
+            "seo": {
+              "title": "Stainless Steel Blind Flange | Stainless Steel Flanges | Prince Pipes & Fittings",
+              "description": "Stainless Steel Blind Flange from Prince Pipes & Fittings. View available specifications, sizes, standards, connections and technical details.",
+              "primaryKeyword": "Stainless Steel Blind Flange",
+              "secondaryKeywords": [
+                "stainless steel blind flange",
+                "stainless steel blind flange manufacturer",
+                "stainless steel blind flange supplier",
+                "stainless steel blind flange exporter"
+              ],
+              "longTailKeywords": [
+                "stainless steel blind flange manufacturer",
+                "stainless steel blind flange supplier",
+                "stainless steel blind flange specifications",
+                "stainless steel blind flange sizes and standards"
+              ],
+              "searchIntent": "commercial",
+              "keywords": [
+                "stainless steel blind flange",
+                "stainless steel blind flange manufacturer",
+                "stainless steel blind flange supplier"
+              ],
+              "canonicalPath": "/products/ss-blind-flange"
+            },
+            "relatedProducts": [
+              "ss-weld-neck-flange",
+              "ss-slip-on-flange"
+            ],
+            "metadata": {
+              "createdAt": null,
+              "updatedAt": null
+            }
+          },
+          {
+            "id": "ss-weld-neck-flange",
+            "name": "Stainless Steel Weld Neck Flange",
+            "slug": "ss-weld-neck-flange",
+            "type": "WNRF",
+            "categoryId": "stainless-steel-pipe-fittings",
+            "subCategoryId": "flanges",
+            "status": "available",
+            "featured": false,
+            "order": 2,
+            "description": {
+              "short": "Stainless Steel Weld Neck Flange available as wnrf with grades including ASTM A182 F304, F304L, F316, F316L, F321, F347, 904L, 17-4PH with a size range of 1/2\"–48\" / 15–1200 NB to ASME B16.5, ASME B16.47 A/B, BS 4504, DIN, EN 1092-1.",
+              "full": "Stainless Steel Weld Neck Flange available as wnrf with grades including ASTM A182 F304, F304L, F316, F316L, F321, F347, 904L, 17-4PH with a size range of 1/2\"–48\" / 15–1200 NB to ASME B16.5, ASME B16.47 A/B, BS 4504, DIN, EN 1092-1. Available pressure classes include 150, 300, 600, 900, 1500, 2500."
+            },
+            "technicalSpecifications": {
+              "material": "Stainless Steel",
+              "grades": [
+                "ASTM A182 F304",
+                "F304L",
+                "F316",
+                "F316L",
+                "F321",
+                "F347",
+                "904L",
+                "17-4PH"
+              ],
+              "sizeRange": "1/2\"–48\" / 15–1200 NB",
+              "pressureClass": [
+                "150",
+                "300",
+                "600",
+                "900",
+                "1500",
+                "2500"
+              ],
+              "pnRating": [
+                "PN6",
+                "PN10",
+                "PN16",
+                "PN25",
+                "PN40"
+              ],
+              "standards": [
+                "ASME B16.5",
+                "ASME B16.47 A/B",
+                "BS 4504",
+                "DIN",
+                "EN 1092-1"
+              ],
+              "faceType": [
+                "RF",
+                "FF",
+                "RTJ"
+              ],
+              "manufacturing": [
+                "Forged",
+                "Plate",
+                "Fabricated"
+              ]
+            },
+            "testing": [],
+            "applications": [
+              "Oil & Gas",
+              "Petrochemical",
+              "Chemical",
+              "Marine",
+              "Power"
+            ],
+            "features": [],
+            "options": {
+              "types": [
+                "WNRF"
+              ],
+              "connections": [],
+              "finishes": [],
+              "sizes": [
+                "1/2\"–48\" / 15–1200 NB"
+              ]
+            },
+            "media": {
+              "primaryImage": null,
+              "gallery": [],
+              "technicalDrawing": null,
+              "dimensionDrawing": null,
+              "thumbnail": null
+            },
+            "documents": {
+              "catalogue": null,
+              "datasheet": null,
+              "dimensionChart": null,
+              "weightChart": null,
+              "technicalDocument": null
+            },
+            "cad": {
+              "available": false,
+              "formats": [],
+              "files": []
+            },
+            "threeD": {
+              "available": false,
+              "modelUrl": null,
+              "formats": []
+            },
+            "seo": {
+              "title": "Stainless Steel Weld Neck Flange | Stainless Steel Flanges | Prince Pipes & Fittings",
+              "description": "Stainless Steel Weld Neck Flange from Prince Pipes & Fittings. View available specifications, sizes, standards, connections and technical details.",
+              "primaryKeyword": "Stainless Steel Weld Neck Flange",
+              "secondaryKeywords": [
+                "stainless steel weld neck flange",
+                "stainless steel weld neck flange manufacturer",
+                "stainless steel weld neck flange supplier",
+                "stainless steel weld neck flange exporter"
+              ],
+              "longTailKeywords": [
+                "stainless steel weld neck flange manufacturer",
+                "stainless steel weld neck flange supplier",
+                "stainless steel weld neck flange specifications",
+                "stainless steel weld neck flange sizes and standards"
+              ],
+              "searchIntent": "commercial",
+              "keywords": [
+                "stainless steel weld neck flange",
+                "stainless steel weld neck flange manufacturer",
+                "stainless steel weld neck flange supplier"
+              ],
+              "canonicalPath": "/products/ss-weld-neck-flange"
+            },
+            "relatedProducts": [
+              "ss-blind-flange",
+              "ss-slip-on-flange",
+              "ss-socket-weld-flange"
+            ],
+            "metadata": {
+              "createdAt": null,
+              "updatedAt": null
+            }
+          },
+          {
+            "id": "ss-slip-on-flange",
+            "name": "Stainless Steel Slip-On Flange",
+            "slug": "ss-slip-on-flange",
+            "type": "SORF",
+            "categoryId": "stainless-steel-pipe-fittings",
+            "subCategoryId": "flanges",
+            "status": "available",
+            "featured": false,
+            "order": 3,
+            "description": {
+              "short": "Stainless Steel Slip-On Flange available as sorf with grades including ASTM A182 F304, F304L, F316, F316L, F321, F347, 904L, 17-4PH with a size range of 1/2\"–48\" / 15–1200 NB to ASME B16.5, ASME B16.47 A/B, BS 4504, DIN, EN 1092-1.",
+              "full": "Stainless Steel Slip-On Flange available as sorf with grades including ASTM A182 F304, F304L, F316, F316L, F321, F347, 904L, 17-4PH with a size range of 1/2\"–48\" / 15–1200 NB to ASME B16.5, ASME B16.47 A/B, BS 4504, DIN, EN 1092-1. Available pressure classes include 150, 300, 600, 900, 1500, 2500."
+            },
+            "technicalSpecifications": {
+              "material": "Stainless Steel",
+              "grades": [
+                "ASTM A182 F304",
+                "F304L",
+                "F316",
+                "F316L",
+                "F321",
+                "F347",
+                "904L",
+                "17-4PH"
+              ],
+              "sizeRange": "1/2\"–48\" / 15–1200 NB",
+              "pressureClass": [
+                "150",
+                "300",
+                "600",
+                "900",
+                "1500",
+                "2500"
+              ],
+              "pnRating": [
+                "PN6",
+                "PN10",
+                "PN16",
+                "PN25",
+                "PN40"
+              ],
+              "standards": [
+                "ASME B16.5",
+                "ASME B16.47 A/B",
+                "BS 4504",
+                "DIN",
+                "EN 1092-1"
+              ],
+              "faceType": [
+                "RF",
+                "FF",
+                "RTJ"
+              ],
+              "manufacturing": [
+                "Forged",
+                "Plate",
+                "Fabricated"
+              ]
+            },
+            "testing": [],
+            "applications": [
+              "General Industrial",
+              "Chemical",
+              "Oil & Gas",
+              "Marine"
+            ],
+            "features": [],
+            "options": {
+              "types": [
+                "SORF"
+              ],
+              "connections": [],
+              "finishes": [],
+              "sizes": [
+                "1/2\"–48\" / 15–1200 NB"
+              ]
+            },
+            "media": {
+              "primaryImage": null,
+              "gallery": [],
+              "technicalDrawing": null,
+              "dimensionDrawing": null,
+              "thumbnail": null
+            },
+            "documents": {
+              "catalogue": null,
+              "datasheet": null,
+              "dimensionChart": null,
+              "weightChart": null,
+              "technicalDocument": null
+            },
+            "cad": {
+              "available": false,
+              "formats": [],
+              "files": []
+            },
+            "threeD": {
+              "available": false,
+              "modelUrl": null,
+              "formats": []
+            },
+            "seo": {
+              "title": "Stainless Steel Slip-On Flange | Stainless Steel Flanges | Prince Pipes & Fittings",
+              "description": "Stainless Steel Slip-On Flange from Prince Pipes & Fittings. View available specifications, sizes, standards, connections and technical details.",
+              "primaryKeyword": "Stainless Steel Slip-On Flange",
+              "secondaryKeywords": [
+                "stainless steel slip-on flange",
+                "stainless steel slip-on flange manufacturer",
+                "stainless steel slip-on flange supplier",
+                "stainless steel slip-on flange exporter"
+              ],
+              "longTailKeywords": [
+                "stainless steel slip-on flange manufacturer",
+                "stainless steel slip-on flange supplier",
+                "stainless steel slip-on flange specifications",
+                "stainless steel slip-on flange sizes and standards"
+              ],
+              "searchIntent": "commercial",
+              "keywords": [
+                "stainless steel slip-on flange",
+                "stainless steel slip-on flange manufacturer",
+                "stainless steel slip-on flange supplier"
+              ],
+              "canonicalPath": "/products/ss-slip-on-flange"
+            },
+            "relatedProducts": [
+              "ss-blind-flange",
+              "ss-weld-neck-flange",
+              "ss-socket-weld-flange",
+              "ss-threaded-flange"
+            ],
+            "metadata": {
+              "createdAt": null,
+              "updatedAt": null
+            }
+          },
+          {
+            "id": "ss-socket-weld-flange",
+            "name": "Stainless Steel Socket Weld Flange",
+            "slug": "ss-socket-weld-flange",
+            "type": "SWRF",
+            "categoryId": "stainless-steel-pipe-fittings",
+            "subCategoryId": "flanges",
+            "status": "available",
+            "featured": false,
+            "order": 4,
+            "description": {
+              "short": "Stainless Steel Socket Weld Flange available as swrf with grades including ASTM A182 F304, F304L, F316, F316L, F321, F347, 904L, 17-4PH with a size range of 1/2\"–48\" / 15–1200 NB to ASME B16.5, ASME B16.47 A/B, BS 4504, DIN, EN 1092-1.",
+              "full": "Stainless Steel Socket Weld Flange available as swrf with grades including ASTM A182 F304, F304L, F316, F316L, F321, F347, 904L, 17-4PH with a size range of 1/2\"–48\" / 15–1200 NB to ASME B16.5, ASME B16.47 A/B, BS 4504, DIN, EN 1092-1. Available pressure classes include 150, 300, 600, 900, 1500, 2500."
+            },
+            "technicalSpecifications": {
+              "material": "Stainless Steel",
+              "grades": [
+                "ASTM A182 F304",
+                "F304L",
+                "F316",
+                "F316L",
+                "F321",
+                "F347",
+                "904L",
+                "17-4PH"
+              ],
+              "sizeRange": "1/2\"–48\" / 15–1200 NB",
+              "pressureClass": [
+                "150",
+                "300",
+                "600",
+                "900",
+                "1500",
+                "2500"
+              ],
+              "pnRating": [
+                "PN6",
+                "PN10",
+                "PN16",
+                "PN25",
+                "PN40"
+              ],
+              "standards": [
+                "ASME B16.5",
+                "ASME B16.47 A/B",
+                "BS 4504",
+                "DIN",
+                "EN 1092-1"
+              ],
+              "faceType": [
+                "RF",
+                "FF",
+                "RTJ"
+              ],
+              "manufacturing": [
+                "Forged",
+                "Plate",
+                "Fabricated"
+              ]
+            },
+            "testing": [],
+            "applications": [
+              "Chemical",
+              "Petrochemical",
+              "Power",
+              "Industrial"
+            ],
+            "features": [],
+            "options": {
+              "types": [
+                "SWRF"
+              ],
+              "connections": [],
+              "finishes": [],
+              "sizes": [
+                "1/2\"–48\" / 15–1200 NB"
+              ]
+            },
+            "media": {
+              "primaryImage": null,
+              "gallery": [],
+              "technicalDrawing": null,
+              "dimensionDrawing": null,
+              "thumbnail": null
+            },
+            "documents": {
+              "catalogue": null,
+              "datasheet": null,
+              "dimensionChart": null,
+              "weightChart": null,
+              "technicalDocument": null
+            },
+            "cad": {
+              "available": false,
+              "formats": [],
+              "files": []
+            },
+            "threeD": {
+              "available": false,
+              "modelUrl": null,
+              "formats": []
+            },
+            "seo": {
+              "title": "Stainless Steel Socket Weld Flange | Stainless Steel Flanges | Prince Pipes & Fittings",
+              "description": "Stainless Steel Socket Weld Flange from Prince Pipes & Fittings. View available specifications, sizes, standards, connections and technical details.",
+              "primaryKeyword": "Stainless Steel Socket Weld Flange",
+              "secondaryKeywords": [
+                "stainless steel socket weld flange",
+                "stainless steel socket weld flange manufacturer",
+                "stainless steel socket weld flange supplier",
+                "stainless steel socket weld flange exporter"
+              ],
+              "longTailKeywords": [
+                "stainless steel socket weld flange manufacturer",
+                "stainless steel socket weld flange supplier",
+                "stainless steel socket weld flange specifications",
+                "stainless steel socket weld flange sizes and standards"
+              ],
+              "searchIntent": "commercial",
+              "keywords": [
+                "stainless steel socket weld flange",
+                "stainless steel socket weld flange manufacturer",
+                "stainless steel socket weld flange supplier"
+              ],
+              "canonicalPath": "/products/ss-socket-weld-flange"
+            },
+            "relatedProducts": [
+              "ss-weld-neck-flange",
+              "ss-slip-on-flange",
+              "ss-threaded-flange",
+              "ss-lap-joint-flange"
+            ],
+            "metadata": {
+              "createdAt": null,
+              "updatedAt": null
+            }
+          },
+          {
+            "id": "ss-threaded-flange",
+            "name": "Stainless Steel Threaded Flange",
+            "slug": "ss-threaded-flange",
+            "type": "THRF",
+            "categoryId": "stainless-steel-pipe-fittings",
+            "subCategoryId": "flanges",
+            "status": "available",
+            "featured": false,
+            "order": 5,
+            "description": {
+              "short": "Stainless Steel Threaded Flange available as thrf with grades including ASTM A182 F304, F304L, F316, F316L, F321, F347, 904L, 17-4PH with a size range of 1/2\"–48\" / 15–1200 NB to ASME B16.5, ASME B16.47 A/B, BS 4504, DIN, EN 1092-1.",
+              "full": "Stainless Steel Threaded Flange available as thrf with grades including ASTM A182 F304, F304L, F316, F316L, F321, F347, 904L, 17-4PH with a size range of 1/2\"–48\" / 15–1200 NB to ASME B16.5, ASME B16.47 A/B, BS 4504, DIN, EN 1092-1. Available pressure classes include 150, 300, 600, 900, 1500, 2500."
+            },
+            "technicalSpecifications": {
+              "material": "Stainless Steel",
+              "grades": [
+                "ASTM A182 F304",
+                "F304L",
+                "F316",
+                "F316L",
+                "F321",
+                "F347",
+                "904L",
+                "17-4PH"
+              ],
+              "sizeRange": "1/2\"–48\" / 15–1200 NB",
+              "pressureClass": [
+                "150",
+                "300",
+                "600",
+                "900",
+                "1500",
+                "2500"
+              ],
+              "pnRating": [
+                "PN6",
+                "PN10",
+                "PN16",
+                "PN25",
+                "PN40"
+              ],
+              "standards": [
+                "ASME B16.5",
+                "ASME B16.47 A/B",
+                "BS 4504",
+                "DIN",
+                "EN 1092-1"
+              ],
+              "faceType": [
+                "RF",
+                "FF",
+                "RTJ"
+              ],
+              "manufacturing": [
+                "Forged",
+                "Plate",
+                "Fabricated"
+              ]
+            },
+            "testing": [],
+            "applications": [
+              "Chemical",
+              "Oil & Gas",
+              "General Industrial"
+            ],
+            "features": [],
+            "options": {
+              "types": [
+                "THRF"
+              ],
+              "connections": [],
+              "finishes": [],
+              "sizes": [
+                "1/2\"–48\" / 15–1200 NB"
+              ]
+            },
+            "media": {
+              "primaryImage": null,
+              "gallery": [],
+              "technicalDrawing": null,
+              "dimensionDrawing": null,
+              "thumbnail": null
+            },
+            "documents": {
+              "catalogue": null,
+              "datasheet": null,
+              "dimensionChart": null,
+              "weightChart": null,
+              "technicalDocument": null
+            },
+            "cad": {
+              "available": false,
+              "formats": [],
+              "files": []
+            },
+            "threeD": {
+              "available": false,
+              "modelUrl": null,
+              "formats": []
+            },
+            "seo": {
+              "title": "Stainless Steel Threaded Flange | Stainless Steel Flanges | Prince Pipes & Fittings",
+              "description": "Stainless Steel Threaded Flange from Prince Pipes & Fittings. View available specifications, sizes, standards, connections and technical details.",
+              "primaryKeyword": "Stainless Steel Threaded Flange",
+              "secondaryKeywords": [
+                "stainless steel threaded flange",
+                "stainless steel threaded flange manufacturer",
+                "stainless steel threaded flange supplier",
+                "stainless steel threaded flange exporter"
+              ],
+              "longTailKeywords": [
+                "stainless steel threaded flange manufacturer",
+                "stainless steel threaded flange supplier",
+                "stainless steel threaded flange specifications",
+                "stainless steel threaded flange sizes and standards"
+              ],
+              "searchIntent": "commercial",
+              "keywords": [
+                "stainless steel threaded flange",
+                "stainless steel threaded flange manufacturer",
+                "stainless steel threaded flange supplier"
+              ],
+              "canonicalPath": "/products/ss-threaded-flange"
+            },
+            "relatedProducts": [
+              "ss-slip-on-flange",
+              "ss-socket-weld-flange",
+              "ss-lap-joint-flange",
+              "ss-orifice-flange"
+            ],
+            "metadata": {
+              "createdAt": null,
+              "updatedAt": null
+            }
+          },
+          {
+            "id": "ss-lap-joint-flange",
+            "name": "Stainless Steel Lap Joint Flange",
+            "slug": "ss-lap-joint-flange",
+            "type": "LJ",
+            "categoryId": "stainless-steel-pipe-fittings",
+            "subCategoryId": "flanges",
+            "status": "available",
+            "featured": false,
+            "order": 6,
+            "description": {
+              "short": "Stainless Steel Lap Joint Flange available as lj with grades including ASTM A182 F304, F304L, F316, F316L, F321, F347, 904L, 17-4PH with a size range of 1/2\"–48\" / 15–1200 NB to ASME B16.5, ASME B16.47 A/B, BS 4504, DIN, EN 1092-1.",
+              "full": "Stainless Steel Lap Joint Flange available as lj with grades including ASTM A182 F304, F304L, F316, F316L, F321, F347, 904L, 17-4PH with a size range of 1/2\"–48\" / 15–1200 NB to ASME B16.5, ASME B16.47 A/B, BS 4504, DIN, EN 1092-1. Available pressure classes include 150, 300, 600, 900, 1500, 2500."
+            },
+            "technicalSpecifications": {
+              "material": "Stainless Steel",
+              "grades": [
+                "ASTM A182 F304",
+                "F304L",
+                "F316",
+                "F316L",
+                "F321",
+                "F347",
+                "904L",
+                "17-4PH"
+              ],
+              "sizeRange": "1/2\"–48\" / 15–1200 NB",
+              "pressureClass": [
+                "150",
+                "300",
+                "600",
+                "900",
+                "1500",
+                "2500"
+              ],
+              "pnRating": [
+                "PN6",
+                "PN10",
+                "PN16",
+                "PN25",
+                "PN40"
+              ],
+              "standards": [
+                "ASME B16.5",
+                "ASME B16.47 A/B",
+                "BS 4504",
+                "DIN",
+                "EN 1092-1"
+              ],
+              "faceType": [
+                "RF",
+                "FF",
+                "RTJ"
+              ],
+              "manufacturing": [
+                "Forged",
+                "Plate",
+                "Fabricated"
+              ]
+            },
+            "testing": [],
+            "applications": [
+              "Chemical",
+              "Marine",
+              "Petrochemical",
+              "General Industrial"
+            ],
+            "features": [],
+            "options": {
+              "types": [
+                "LJ"
+              ],
+              "connections": [],
+              "finishes": [],
+              "sizes": [
+                "1/2\"–48\" / 15–1200 NB"
+              ]
+            },
+            "media": {
+              "primaryImage": null,
+              "gallery": [],
+              "technicalDrawing": null,
+              "dimensionDrawing": null,
+              "thumbnail": null
+            },
+            "documents": {
+              "catalogue": null,
+              "datasheet": null,
+              "dimensionChart": null,
+              "weightChart": null,
+              "technicalDocument": null
+            },
+            "cad": {
+              "available": false,
+              "formats": [],
+              "files": []
+            },
+            "threeD": {
+              "available": false,
+              "modelUrl": null,
+              "formats": []
+            },
+            "seo": {
+              "title": "Stainless Steel Lap Joint Flange | Stainless Steel Flanges | Prince Pipes & Fittings",
+              "description": "Stainless Steel Lap Joint Flange from Prince Pipes & Fittings. View available specifications, sizes, standards, connections and technical details.",
+              "primaryKeyword": "Stainless Steel Lap Joint Flange",
+              "secondaryKeywords": [
+                "stainless steel lap joint flange",
+                "stainless steel lap joint flange manufacturer",
+                "stainless steel lap joint flange supplier",
+                "stainless steel lap joint flange exporter"
+              ],
+              "longTailKeywords": [
+                "stainless steel lap joint flange manufacturer",
+                "stainless steel lap joint flange supplier",
+                "stainless steel lap joint flange specifications",
+                "stainless steel lap joint flange sizes and standards"
+              ],
+              "searchIntent": "commercial",
+              "keywords": [
+                "stainless steel lap joint flange",
+                "stainless steel lap joint flange manufacturer",
+                "stainless steel lap joint flange supplier"
+              ],
+              "canonicalPath": "/products/ss-lap-joint-flange"
+            },
+            "relatedProducts": [
+              "ss-socket-weld-flange",
+              "ss-threaded-flange",
+              "ss-orifice-flange",
+              "ss-long-weld-neck-flange"
+            ],
+            "metadata": {
+              "createdAt": null,
+              "updatedAt": null
+            }
+          },
+          {
+            "id": "ss-orifice-flange",
+            "name": "Stainless Steel Orifice Flange",
+            "slug": "ss-orifice-flange",
+            "type": "Orifice Flange",
+            "categoryId": "stainless-steel-pipe-fittings",
+            "subCategoryId": "flanges",
+            "status": "available",
+            "featured": false,
+            "order": 7,
+            "description": {
+              "short": "Stainless Steel Orifice Flange available as orifice flange with grades including ASTM A182 F304, F304L, F316, F316L, F321, F347, 904L, 17-4PH with a size range of 1/2\"–48\" / 15–1200 NB to ASME B16.5, ASME B16.47 A/B, BS 4504, DIN, EN 1092-1.",
+              "full": "Stainless Steel Orifice Flange available as orifice flange with grades including ASTM A182 F304, F304L, F316, F316L, F321, F347, 904L, 17-4PH with a size range of 1/2\"–48\" / 15–1200 NB to ASME B16.5, ASME B16.47 A/B, BS 4504, DIN, EN 1092-1. Available pressure classes include 150, 300, 600, 900, 1500, 2500."
+            },
+            "technicalSpecifications": {
+              "material": "Stainless Steel",
+              "grades": [
+                "ASTM A182 F304",
+                "F304L",
+                "F316",
+                "F316L",
+                "F321",
+                "F347",
+                "904L",
+                "17-4PH"
+              ],
+              "sizeRange": "1/2\"–48\" / 15–1200 NB",
+              "pressureClass": [
+                "150",
+                "300",
+                "600",
+                "900",
+                "1500",
+                "2500"
+              ],
+              "pnRating": [
+                "PN6",
+                "PN10",
+                "PN16",
+                "PN25",
+                "PN40"
+              ],
+              "standards": [
+                "ASME B16.5",
+                "ASME B16.47 A/B",
+                "BS 4504",
+                "DIN",
+                "EN 1092-1"
+              ],
+              "faceType": [
+                "RF",
+                "FF",
+                "RTJ"
+              ],
+              "manufacturing": [
+                "Forged",
+                "Plate",
+                "Fabricated"
+              ]
+            },
+            "testing": [],
+            "applications": [
+              "Oil & Gas",
+              "Chemical",
+              "Process Industries"
+            ],
+            "features": [],
+            "options": {
+              "types": [
+                "Orifice Flange"
+              ],
+              "connections": [],
+              "finishes": [],
+              "sizes": [
+                "1/2\"–48\" / 15–1200 NB"
+              ]
+            },
+            "media": {
+              "primaryImage": null,
+              "gallery": [],
+              "technicalDrawing": null,
+              "dimensionDrawing": null,
+              "thumbnail": null
+            },
+            "documents": {
+              "catalogue": null,
+              "datasheet": null,
+              "dimensionChart": null,
+              "weightChart": null,
+              "technicalDocument": null
+            },
+            "cad": {
+              "available": false,
+              "formats": [],
+              "files": []
+            },
+            "threeD": {
+              "available": false,
+              "modelUrl": null,
+              "formats": []
+            },
+            "seo": {
+              "title": "Stainless Steel Orifice Flange | Stainless Steel Flanges | Prince Pipes & Fittings",
+              "description": "Stainless Steel Orifice Flange from Prince Pipes & Fittings. View available specifications, sizes, standards, connections and technical details.",
+              "primaryKeyword": "Stainless Steel Orifice Flange",
+              "secondaryKeywords": [
+                "stainless steel orifice flange",
+                "stainless steel orifice flange manufacturer",
+                "stainless steel orifice flange supplier",
+                "stainless steel orifice flange exporter"
+              ],
+              "longTailKeywords": [
+                "stainless steel orifice flange manufacturer",
+                "stainless steel orifice flange supplier",
+                "stainless steel orifice flange specifications",
+                "stainless steel orifice flange sizes and standards"
+              ],
+              "searchIntent": "commercial",
+              "keywords": [
+                "stainless steel orifice flange",
+                "stainless steel orifice flange manufacturer",
+                "stainless steel orifice flange supplier"
+              ],
+              "canonicalPath": "/products/ss-orifice-flange"
+            },
+            "relatedProducts": [
+              "ss-threaded-flange",
+              "ss-lap-joint-flange",
+              "ss-long-weld-neck-flange"
+            ],
+            "metadata": {
+              "createdAt": null,
+              "updatedAt": null
+            }
+          },
+          {
+            "id": "ss-long-weld-neck-flange",
+            "name": "Stainless Steel Long Weld Neck Flange",
+            "slug": "ss-long-weld-neck-flange",
+            "type": "LWN",
+            "categoryId": "stainless-steel-pipe-fittings",
+            "subCategoryId": "flanges",
+            "status": "available",
+            "featured": false,
+            "order": 8,
+            "description": {
+              "short": "Stainless Steel Long Weld Neck Flange available as lwn with grades including ASTM A182 F304, F304L, F316, F316L, F321, F347, 904L, 17-4PH with a size range of 1/2\"–48\" / 15–1200 NB to ASME B16.5, ASME B16.47 A/B, BS 4504, DIN, EN 1092-1.",
+              "full": "Stainless Steel Long Weld Neck Flange available as lwn with grades including ASTM A182 F304, F304L, F316, F316L, F321, F347, 904L, 17-4PH with a size range of 1/2\"–48\" / 15–1200 NB to ASME B16.5, ASME B16.47 A/B, BS 4504, DIN, EN 1092-1. Available pressure classes include 150, 300, 600, 900, 1500, 2500."
+            },
+            "technicalSpecifications": {
+              "material": "Stainless Steel",
+              "grades": [
+                "ASTM A182 F304",
+                "F304L",
+                "F316",
+                "F316L",
+                "F321",
+                "F347",
+                "904L",
+                "17-4PH"
+              ],
+              "sizeRange": "1/2\"–48\" / 15–1200 NB",
+              "pressureClass": [
+                "150",
+                "300",
+                "600",
+                "900",
+                "1500",
+                "2500"
+              ],
+              "pnRating": [
+                "PN6",
+                "PN10",
+                "PN16",
+                "PN25",
+                "PN40"
+              ],
+              "standards": [
+                "ASME B16.5",
+                "ASME B16.47 A/B",
+                "BS 4504",
+                "DIN",
+                "EN 1092-1"
+              ],
+              "faceType": [
+                "RF",
+                "FF",
+                "RTJ"
+              ],
+              "manufacturing": [
+                "Forged",
+                "Plate",
+                "Fabricated"
+              ]
+            },
+            "testing": [],
+            "applications": [
+              "High-pressure",
+              "Oil & Gas",
+              "Chemical",
+              "Marine"
+            ],
+            "features": [],
+            "options": {
+              "types": [
+                "LWN"
+              ],
+              "connections": [],
+              "finishes": [],
+              "sizes": [
+                "1/2\"–48\" / 15–1200 NB"
+              ]
+            },
+            "media": {
+              "primaryImage": null,
+              "gallery": [],
+              "technicalDrawing": null,
+              "dimensionDrawing": null,
+              "thumbnail": null
+            },
+            "documents": {
+              "catalogue": null,
+              "datasheet": null,
+              "dimensionChart": null,
+              "weightChart": null,
+              "technicalDocument": null
+            },
+            "cad": {
+              "available": false,
+              "formats": [],
+              "files": []
+            },
+            "threeD": {
+              "available": false,
+              "modelUrl": null,
+              "formats": []
+            },
+            "seo": {
+              "title": "Stainless Steel Long Weld Neck Flange | Stainless Steel Flanges | Prince Pipes & Fittings",
+              "description": "Stainless Steel Long Weld Neck Flange from Prince Pipes & Fittings. View available specifications, sizes, standards, connections and technical details.",
+              "primaryKeyword": "Stainless Steel Long Weld Neck Flange",
+              "secondaryKeywords": [
+                "stainless steel long weld neck flange",
+                "stainless steel long weld neck flange manufacturer",
+                "stainless steel long weld neck flange supplier",
+                "stainless steel long weld neck flange exporter"
+              ],
+              "longTailKeywords": [
+                "stainless steel long weld neck flange manufacturer",
+                "stainless steel long weld neck flange supplier",
+                "stainless steel long weld neck flange specifications",
+                "stainless steel long weld neck flange sizes and standards"
+              ],
+              "searchIntent": "commercial",
+              "keywords": [
+                "stainless steel long weld neck flange",
+                "stainless steel long weld neck flange manufacturer",
+                "stainless steel long weld neck flange supplier"
+              ],
+              "canonicalPath": "/products/ss-long-weld-neck-flange"
+            },
+            "relatedProducts": [
+              "ss-lap-joint-flange",
+              "ss-orifice-flange"
+            ],
+            "metadata": {
+              "createdAt": null,
+              "updatedAt": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "forged-fittings",
+        "name": "Forged Fittings",
+        "slug": "forged-fittings",
+        "description": "Forged stainless steel fittings including socket weld elbows, tees, couplings, plugs and unions.",
+        "order": 4,
+        "products": [
+          {
+            "id": "forged-socket-weld-elbow",
+            "name": "Forged Socket Weld Elbow",
+            "slug": "forged-socket-weld-elbow",
+            "type": "90° / 45° Elbow",
+            "categoryId": "stainless-steel-pipe-fittings",
+            "subCategoryId": "forged-fittings",
+            "status": "available",
+            "featured": false,
+            "order": 1,
+            "description": {
+              "short": "Forged Socket Weld Elbow available as 90° / 45° elbow with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/8\" to 4\" to ASME B16.11 with socket weld connections.",
+              "full": "Forged Socket Weld Elbow available as 90° / 45° elbow with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/8\" to 4\" to ASME B16.11 with socket weld connections. Available finishes include Forged, Machined. Available classes include 3000, 6000, 9000."
+            },
+            "technicalSpecifications": {
+              "material": "Stainless Steel",
+              "grades": [
+                "SS 304",
+                "SS 304L",
+                "SS 316",
+                "SS 316L"
+              ],
+              "sizeRange": "1/8\" to 4\"",
+              "class": [
+                "3000",
+                "6000",
+                "9000"
+              ],
+              "standards": [
+                "ASME B16.11"
+              ],
+              "finish": [
+                "Forged",
+                "Machined"
+              ],
+              "connection": [
+                "Socket Weld"
+              ]
+            },
+            "testing": [],
+            "applications": [],
+            "features": [],
+            "options": {
+              "types": [
+                "90° / 45° Elbow"
+              ],
+              "connections": [
+                "Socket Weld"
+              ],
+              "finishes": [
+                "Forged",
+                "Machined"
+              ],
+              "sizes": [
+                "1/8\" to 4\""
+              ]
+            },
+            "media": {
+              "primaryImage": null,
+              "gallery": [],
+              "technicalDrawing": null,
+              "dimensionDrawing": null,
+              "thumbnail": null
+            },
+            "documents": {
+              "catalogue": null,
+              "datasheet": null,
+              "dimensionChart": null,
+              "weightChart": null,
+              "technicalDocument": null
+            },
+            "cad": {
+              "available": false,
+              "formats": [],
+              "files": []
+            },
+            "threeD": {
+              "available": false,
+              "modelUrl": null,
+              "formats": []
+            },
+            "seo": {
+              "title": "Forged Socket Weld Elbow | Stainless Steel Forged Fittings | Prince Pipes & Fittings",
+              "description": "Forged Socket Weld Elbow from Prince Pipes & Fittings. View available specifications, sizes, standards, connections and technical details.",
+              "primaryKeyword": "Forged Socket Weld Elbow",
+              "secondaryKeywords": [
+                "forged socket weld elbow",
+                "forged socket weld elbow manufacturer",
+                "forged socket weld elbow supplier",
+                "forged socket weld elbow exporter"
+              ],
+              "longTailKeywords": [
+                "forged socket weld elbow manufacturer",
+                "forged socket weld elbow supplier",
+                "forged socket weld elbow specifications",
+                "forged socket weld elbow sizes and standards"
+              ],
+              "searchIntent": "commercial",
+              "keywords": [
+                "forged socket weld elbow",
+                "forged socket weld elbow manufacturer",
+                "forged socket weld elbow supplier"
+              ],
+              "canonicalPath": "/products/forged-socket-weld-elbow"
+            },
+            "relatedProducts": [
+              "forged-socket-weld-tee",
+              "forged-coupling"
+            ],
+            "metadata": {
+              "createdAt": null,
+              "updatedAt": null
+            }
+          },
+          {
+            "id": "forged-socket-weld-tee",
+            "name": "Forged Socket Weld Tee",
+            "slug": "forged-socket-weld-tee",
+            "type": "Equal / Reducing Tee",
+            "categoryId": "stainless-steel-pipe-fittings",
+            "subCategoryId": "forged-fittings",
+            "status": "available",
+            "featured": false,
+            "order": 2,
+            "description": {
+              "short": "Forged Socket Weld Tee available as equal / reducing tee with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/8\" to 4\" to ASME B16.11 with socket weld connections.",
+              "full": "Forged Socket Weld Tee available as equal / reducing tee with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/8\" to 4\" to ASME B16.11 with socket weld connections. Available finishes include Forged, Machined. Available classes include 3000, 6000, 9000."
+            },
+            "technicalSpecifications": {
+              "material": "Stainless Steel",
+              "grades": [
+                "SS 304",
+                "SS 304L",
+                "SS 316",
+                "SS 316L"
+              ],
+              "sizeRange": "1/8\" to 4\"",
+              "class": [
+                "3000",
+                "6000",
+                "9000"
+              ],
+              "standards": [
+                "ASME B16.11"
+              ],
+              "finish": [
+                "Forged",
+                "Machined"
+              ],
+              "connection": [
+                "Socket Weld"
+              ]
+            },
+            "testing": [],
+            "applications": [],
+            "features": [],
+            "options": {
+              "types": [
+                "Equal / Reducing Tee"
+              ],
+              "connections": [
+                "Socket Weld"
+              ],
+              "finishes": [
+                "Forged",
+                "Machined"
+              ],
+              "sizes": [
+                "1/8\" to 4\""
+              ]
+            },
+            "media": {
+              "primaryImage": null,
+              "gallery": [],
+              "technicalDrawing": null,
+              "dimensionDrawing": null,
+              "thumbnail": null
+            },
+            "documents": {
+              "catalogue": null,
+              "datasheet": null,
+              "dimensionChart": null,
+              "weightChart": null,
+              "technicalDocument": null
+            },
+            "cad": {
+              "available": false,
+              "formats": [],
+              "files": []
+            },
+            "threeD": {
+              "available": false,
+              "modelUrl": null,
+              "formats": []
+            },
+            "seo": {
+              "title": "Forged Socket Weld Tee | Stainless Steel Forged Fittings | Prince Pipes & Fittings",
+              "description": "Forged Socket Weld Tee from Prince Pipes & Fittings. View available specifications, sizes, standards, connections and technical details.",
+              "primaryKeyword": "Forged Socket Weld Tee",
+              "secondaryKeywords": [
+                "forged socket weld tee",
+                "forged socket weld tee manufacturer",
+                "forged socket weld tee supplier",
+                "forged socket weld tee exporter"
+              ],
+              "longTailKeywords": [
+                "forged socket weld tee manufacturer",
+                "forged socket weld tee supplier",
+                "forged socket weld tee specifications",
+                "forged socket weld tee sizes and standards"
+              ],
+              "searchIntent": "commercial",
+              "keywords": [
+                "forged socket weld tee",
+                "forged socket weld tee manufacturer",
+                "forged socket weld tee supplier"
+              ],
+              "canonicalPath": "/products/forged-socket-weld-tee"
+            },
+            "relatedProducts": [
+              "forged-socket-weld-elbow",
+              "forged-coupling",
+              "forged-hex-head-plug"
+            ],
+            "metadata": {
+              "createdAt": null,
+              "updatedAt": null
+            }
+          },
+          {
+            "id": "forged-coupling",
+            "name": "Forged Coupling",
+            "slug": "forged-coupling",
+            "type": "Full / Half / Reducing Coupling",
+            "categoryId": "stainless-steel-pipe-fittings",
+            "subCategoryId": "forged-fittings",
+            "status": "available",
+            "featured": false,
+            "order": 3,
+            "description": {
+              "short": "Forged Coupling available as full / half / reducing coupling with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/8\" to 4\" to ASME B16.11 with socket weld, threaded connections.",
+              "full": "Forged Coupling available as full / half / reducing coupling with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/8\" to 4\" to ASME B16.11 with socket weld, threaded connections. Available finishes include Forged, Machined. Available classes include 3000, 6000, 9000."
+            },
+            "technicalSpecifications": {
+              "material": "Stainless Steel",
+              "grades": [
+                "SS 304",
+                "SS 304L",
+                "SS 316",
+                "SS 316L"
+              ],
+              "sizeRange": "1/8\" to 4\"",
+              "class": [
+                "3000",
+                "6000",
+                "9000"
+              ],
+              "standards": [
+                "ASME B16.11"
+              ],
+              "finish": [
+                "Forged",
+                "Machined"
+              ],
+              "connection": [
+                "Socket Weld",
+                "Threaded"
+              ]
+            },
+            "testing": [],
+            "applications": [],
+            "features": [],
+            "options": {
+              "types": [
+                "Full / Half / Reducing Coupling"
+              ],
+              "connections": [
+                "Socket Weld",
+                "Threaded"
+              ],
+              "finishes": [
+                "Forged",
+                "Machined"
+              ],
+              "sizes": [
+                "1/8\" to 4\""
+              ]
+            },
+            "media": {
+              "primaryImage": null,
+              "gallery": [],
+              "technicalDrawing": null,
+              "dimensionDrawing": null,
+              "thumbnail": null
+            },
+            "documents": {
+              "catalogue": null,
+              "datasheet": null,
+              "dimensionChart": null,
+              "weightChart": null,
+              "technicalDocument": null
+            },
+            "cad": {
+              "available": false,
+              "formats": [],
+              "files": []
+            },
+            "threeD": {
+              "available": false,
+              "modelUrl": null,
+              "formats": []
+            },
+            "seo": {
+              "title": "Forged Coupling | Stainless Steel Forged Fittings | Prince Pipes & Fittings",
+              "description": "Forged Coupling from Prince Pipes & Fittings. View available specifications, sizes, standards, connections and technical details.",
+              "primaryKeyword": "Forged Coupling",
+              "secondaryKeywords": [
+                "forged coupling",
+                "forged coupling manufacturer",
+                "forged coupling supplier",
+                "forged coupling exporter"
+              ],
+              "longTailKeywords": [
+                "forged coupling manufacturer",
+                "forged coupling supplier",
+                "forged coupling specifications",
+                "forged coupling sizes and standards"
+              ],
+              "searchIntent": "commercial",
+              "keywords": [
+                "forged coupling",
+                "forged coupling manufacturer",
+                "forged coupling supplier"
+              ],
+              "canonicalPath": "/products/forged-coupling"
+            },
+            "relatedProducts": [
+              "forged-socket-weld-elbow",
+              "forged-socket-weld-tee",
+              "forged-hex-head-plug",
+              "forged-union"
+            ],
+            "metadata": {
+              "createdAt": null,
+              "updatedAt": null
+            }
+          },
+          {
+            "id": "forged-hex-head-plug",
+            "name": "Forged Hex Head Plug",
+            "slug": "forged-hex-head-plug",
+            "type": "Hex Head Plug",
+            "categoryId": "stainless-steel-pipe-fittings",
+            "subCategoryId": "forged-fittings",
+            "status": "available",
+            "featured": false,
+            "order": 4,
+            "description": {
+              "short": "Forged Hex Head Plug available as hex head plug with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/8\" to 4\" to ASME B16.11 with threaded connections.",
+              "full": "Forged Hex Head Plug available as hex head plug with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/8\" to 4\" to ASME B16.11 with threaded connections. Available finishes include Forged, Machined. Available classes include 3000, 6000, 9000."
+            },
+            "technicalSpecifications": {
+              "material": "Stainless Steel",
+              "grades": [
+                "SS 304",
+                "SS 304L",
+                "SS 316",
+                "SS 316L"
+              ],
+              "sizeRange": "1/8\" to 4\"",
+              "class": [
+                "3000",
+                "6000",
+                "9000"
+              ],
+              "standards": [
+                "ASME B16.11"
+              ],
+              "finish": [
+                "Forged",
+                "Machined"
+              ],
+              "connection": [
+                "Threaded"
+              ],
+              "threadType": [
+                "NPT",
+                "BSP"
+              ]
+            },
+            "testing": [],
+            "applications": [],
+            "features": [],
+            "options": {
+              "types": [
+                "Hex Head Plug"
+              ],
+              "connections": [
+                "Threaded"
+              ],
+              "finishes": [
+                "Forged",
+                "Machined"
+              ],
+              "sizes": [
+                "1/8\" to 4\""
+              ]
+            },
+            "media": {
+              "primaryImage": null,
+              "gallery": [],
+              "technicalDrawing": null,
+              "dimensionDrawing": null,
+              "thumbnail": null
+            },
+            "documents": {
+              "catalogue": null,
+              "datasheet": null,
+              "dimensionChart": null,
+              "weightChart": null,
+              "technicalDocument": null
+            },
+            "cad": {
+              "available": false,
+              "formats": [],
+              "files": []
+            },
+            "threeD": {
+              "available": false,
+              "modelUrl": null,
+              "formats": []
+            },
+            "seo": {
+              "title": "Forged Hex Head Plug | Stainless Steel Forged Fittings | Prince Pipes & Fittings",
+              "description": "Forged Hex Head Plug from Prince Pipes & Fittings. View available specifications, sizes, standards, connections and technical details.",
+              "primaryKeyword": "Forged Hex Head Plug",
+              "secondaryKeywords": [
+                "forged hex head plug",
+                "forged hex head plug manufacturer",
+                "forged hex head plug supplier",
+                "forged hex head plug exporter"
+              ],
+              "longTailKeywords": [
+                "forged hex head plug manufacturer",
+                "forged hex head plug supplier",
+                "forged hex head plug specifications",
+                "forged hex head plug sizes and standards"
+              ],
+              "searchIntent": "commercial",
+              "keywords": [
+                "forged hex head plug",
+                "forged hex head plug manufacturer",
+                "forged hex head plug supplier"
+              ],
+              "canonicalPath": "/products/forged-hex-head-plug"
+            },
+            "relatedProducts": [
+              "forged-socket-weld-tee",
+              "forged-coupling",
+              "forged-union"
+            ],
+            "metadata": {
+              "createdAt": null,
+              "updatedAt": null
+            }
+          },
+          {
+            "id": "forged-union",
+            "name": "Forged Union",
+            "slug": "forged-union",
+            "type": "Socket Weld / Threaded Union",
+            "categoryId": "stainless-steel-pipe-fittings",
+            "subCategoryId": "forged-fittings",
+            "status": "available",
+            "featured": false,
+            "order": 5,
+            "description": {
+              "short": "Forged Union available as socket weld / threaded union with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/8\" to 4\" to ASME B16.11 with socket weld, threaded connections.",
+              "full": "Forged Union available as socket weld / threaded union with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/8\" to 4\" to ASME B16.11 with socket weld, threaded connections. Available finishes include Forged, Machined. Available classes include 3000, 6000, 9000."
+            },
+            "technicalSpecifications": {
+              "material": "Stainless Steel",
+              "grades": [
+                "SS 304",
+                "SS 304L",
+                "SS 316",
+                "SS 316L"
+              ],
+              "sizeRange": "1/8\" to 4\"",
+              "class": [
+                "3000",
+                "6000",
+                "9000"
+              ],
+              "standards": [
+                "ASME B16.11"
+              ],
+              "finish": [
+                "Forged",
+                "Machined"
+              ],
+              "connection": [
+                "Socket Weld",
+                "Threaded"
+              ],
+              "threadType": [
+                "NPT",
+                "BSP"
+              ]
+            },
+            "testing": [],
+            "applications": [],
+            "features": [],
+            "options": {
+              "types": [
+                "Socket Weld / Threaded Union"
+              ],
+              "connections": [
+                "Socket Weld",
+                "Threaded"
+              ],
+              "finishes": [
+                "Forged",
+                "Machined"
+              ],
+              "sizes": [
+                "1/8\" to 4\""
+              ]
+            },
+            "media": {
+              "primaryImage": null,
+              "gallery": [],
+              "technicalDrawing": null,
+              "dimensionDrawing": null,
+              "thumbnail": null
+            },
+            "documents": {
+              "catalogue": null,
+              "datasheet": null,
+              "dimensionChart": null,
+              "weightChart": null,
+              "technicalDocument": null
+            },
+            "cad": {
+              "available": false,
+              "formats": [],
+              "files": []
+            },
+            "threeD": {
+              "available": false,
+              "modelUrl": null,
+              "formats": []
+            },
+            "seo": {
+              "title": "Forged Union | Stainless Steel Forged Fittings | Prince Pipes & Fittings",
+              "description": "Forged Union from Prince Pipes & Fittings. View available specifications, sizes, standards, connections and technical details.",
+              "primaryKeyword": "Forged Union",
+              "secondaryKeywords": [
+                "forged union",
+                "forged union manufacturer",
+                "forged union supplier",
+                "forged union exporter"
+              ],
+              "longTailKeywords": [
+                "forged union manufacturer",
+                "forged union supplier",
+                "forged union specifications",
+                "forged union sizes and standards"
+              ],
+              "searchIntent": "commercial",
+              "keywords": [
+                "forged union",
+                "forged union manufacturer",
+                "forged union supplier"
+              ],
+              "canonicalPath": "/products/forged-union"
+            },
+            "relatedProducts": [
+              "forged-coupling",
+              "forged-hex-head-plug"
+            ],
+            "metadata": {
+              "createdAt": null,
+              "updatedAt": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "fasteners",
+        "name": "Fasteners",
+        "slug": "fasteners",
+        "description": "Stainless steel pipe and industrial fasteners including U-bolts, nuts, washers, stud bolts and socket head cap screws.",
+        "order": 5,
+        "products": [
+          {
+            "id": "u-bolts",
+            "name": "U-Bolts",
+            "slug": "u-bolts",
+            "type": "U-Bolt / Pipe U-Bolt",
+            "categoryId": "stainless-steel-pipe-fittings",
+            "subCategoryId": "fasteners",
+            "status": "available",
+            "featured": false,
+            "order": 1,
+            "description": {
+              "short": "U-Bolts available as u-bolt / pipe u-bolt with grades including SS 304, SS 316, SS 316L with a size range of M6 to M24 to DIN 3570, ASTM.",
+              "full": "U-Bolts available as u-bolt / pipe u-bolt with grades including SS 304, SS 316, SS 316L with a size range of M6 to M24 to DIN 3570, ASTM. Available finishes include Plain, Polished."
+            },
+            "technicalSpecifications": {
+              "material": "Stainless Steel",
+              "grades": [
+                "SS 304",
+                "SS 316",
+                "SS 316L"
+              ],
+              "sizeRange": "M6 to M24",
+              "standards": [
+                "DIN 3570",
+                "ASTM"
+              ],
+              "threadType": [
+                "Metric",
+                "UNC",
+                "UNF"
+              ],
+              "finish": [
+                "Plain",
+                "Polished"
+              ],
+              "length": "As required"
+            },
+            "testing": [],
+            "applications": [],
+            "features": [],
+            "options": {
+              "types": [
+                "U-Bolt / Pipe U-Bolt"
+              ],
+              "connections": [],
+              "finishes": [
+                "Plain",
+                "Polished"
+              ],
+              "sizes": [
+                "M6 to M24"
+              ]
+            },
+            "media": {
+              "primaryImage": null,
+              "gallery": [],
+              "technicalDrawing": null,
+              "dimensionDrawing": null,
+              "thumbnail": null
+            },
+            "documents": {
+              "catalogue": null,
+              "datasheet": null,
+              "dimensionChart": null,
+              "weightChart": null,
+              "technicalDocument": null
+            },
+            "cad": {
+              "available": false,
+              "formats": [],
+              "files": []
+            },
+            "threeD": {
+              "available": false,
+              "modelUrl": null,
+              "formats": []
+            },
+            "seo": {
+              "title": "U-Bolts | Stainless Steel Fasteners | Prince Pipes & Fittings",
+              "description": "U-Bolts from Prince Pipes & Fittings. View available specifications, sizes, standards, connections and technical details.",
+              "primaryKeyword": "U-Bolts",
+              "secondaryKeywords": [
+                "u-bolts",
+                "u-bolts manufacturer",
+                "u-bolts supplier",
+                "u-bolts exporter"
+              ],
+              "longTailKeywords": [
+                "u-bolts manufacturer",
+                "u-bolts supplier",
+                "u-bolts specifications",
+                "u-bolts sizes and standards"
+              ],
+              "searchIntent": "commercial",
+              "keywords": [
+                "u-bolts",
+                "u-bolts manufacturer",
+                "u-bolts supplier"
+              ],
+              "canonicalPath": "/products/u-bolts"
+            },
+            "relatedProducts": [
+              "hex-nuts",
+              "washers"
+            ],
+            "metadata": {
+              "createdAt": null,
+              "updatedAt": null
+            }
+          },
+          {
+            "id": "hex-nuts",
+            "name": "Hex Nuts",
+            "slug": "hex-nuts",
+            "type": "Hex Nut",
+            "categoryId": "stainless-steel-pipe-fittings",
+            "subCategoryId": "fasteners",
+            "status": "available",
+            "featured": false,
+            "order": 2,
+            "description": {
+              "short": "Hex Nuts available as hex nut with grades including SS 304, SS 316, SS 316L with a size range of M3 to M24 to DIN 934, ISO 4032.",
+              "full": "Hex Nuts available as hex nut with grades including SS 304, SS 316, SS 316L with a size range of M3 to M24 to DIN 934, ISO 4032. Available finishes include Plain, Polished."
+            },
+            "technicalSpecifications": {
+              "material": "Stainless Steel",
+              "grades": [
+                "SS 304",
+                "SS 316",
+                "SS 316L"
+              ],
+              "sizeRange": "M3 to M24",
+              "standards": [
+                "DIN 934",
+                "ISO 4032"
+              ],
+              "threadType": [
+                "Metric"
+              ],
+              "finish": [
+                "Plain",
+                "Polished"
+              ]
+            },
+            "testing": [],
+            "applications": [],
+            "features": [],
+            "options": {
+              "types": [
+                "Hex Nut"
+              ],
+              "connections": [],
+              "finishes": [
+                "Plain",
+                "Polished"
+              ],
+              "sizes": [
+                "M3 to M24"
+              ]
+            },
+            "media": {
+              "primaryImage": null,
+              "gallery": [],
+              "technicalDrawing": null,
+              "dimensionDrawing": null,
+              "thumbnail": null
+            },
+            "documents": {
+              "catalogue": null,
+              "datasheet": null,
+              "dimensionChart": null,
+              "weightChart": null,
+              "technicalDocument": null
+            },
+            "cad": {
+              "available": false,
+              "formats": [],
+              "files": []
+            },
+            "threeD": {
+              "available": false,
+              "modelUrl": null,
+              "formats": []
+            },
+            "seo": {
+              "title": "Hex Nuts | Stainless Steel Fasteners | Prince Pipes & Fittings",
+              "description": "Hex Nuts from Prince Pipes & Fittings. View available specifications, sizes, standards, connections and technical details.",
+              "primaryKeyword": "Hex Nuts",
+              "secondaryKeywords": [
+                "hex nuts",
+                "hex nuts manufacturer",
+                "hex nuts supplier",
+                "hex nuts exporter"
+              ],
+              "longTailKeywords": [
+                "hex nuts manufacturer",
+                "hex nuts supplier",
+                "hex nuts specifications",
+                "hex nuts sizes and standards"
+              ],
+              "searchIntent": "commercial",
+              "keywords": [
+                "hex nuts",
+                "hex nuts manufacturer",
+                "hex nuts supplier"
+              ],
+              "canonicalPath": "/products/hex-nuts"
+            },
+            "relatedProducts": [
+              "u-bolts",
+              "washers",
+              "stud-bolts"
+            ],
+            "metadata": {
+              "createdAt": null,
+              "updatedAt": null
+            }
+          },
+          {
+            "id": "washers",
+            "name": "Washers",
+            "slug": "washers",
+            "type": "Plain / Flat Washer",
+            "categoryId": "stainless-steel-pipe-fittings",
+            "subCategoryId": "fasteners",
+            "status": "available",
+            "featured": false,
+            "order": 3,
+            "description": {
+              "short": "Washers available as plain / flat washer with grades including SS 304, SS 316, SS 316L with a size range of M3 to M24 to DIN 125, ISO 7089.",
+              "full": "Washers available as plain / flat washer with grades including SS 304, SS 316, SS 316L with a size range of M3 to M24 to DIN 125, ISO 7089. Available finishes include Plain, Polished."
+            },
+            "technicalSpecifications": {
+              "material": "Stainless Steel",
+              "grades": [
+                "SS 304",
+                "SS 316",
+                "SS 316L"
+              ],
+              "sizeRange": "M3 to M24",
+              "standards": [
+                "DIN 125",
+                "ISO 7089"
+              ],
+              "threadType": [],
+              "finish": [
+                "Plain",
+                "Polished"
+              ]
+            },
+            "testing": [],
+            "applications": [],
+            "features": [],
+            "options": {
+              "types": [
+                "Plain / Flat Washer"
+              ],
+              "connections": [],
+              "finishes": [
+                "Plain",
+                "Polished"
+              ],
+              "sizes": [
+                "M3 to M24"
+              ]
+            },
+            "media": {
+              "primaryImage": null,
+              "gallery": [],
+              "technicalDrawing": null,
+              "dimensionDrawing": null,
+              "thumbnail": null
+            },
+            "documents": {
+              "catalogue": null,
+              "datasheet": null,
+              "dimensionChart": null,
+              "weightChart": null,
+              "technicalDocument": null
+            },
+            "cad": {
+              "available": false,
+              "formats": [],
+              "files": []
+            },
+            "threeD": {
+              "available": false,
+              "modelUrl": null,
+              "formats": []
+            },
+            "seo": {
+              "title": "Washers | Stainless Steel Fasteners | Prince Pipes & Fittings",
+              "description": "Washers from Prince Pipes & Fittings. View available specifications, sizes, standards, connections and technical details.",
+              "primaryKeyword": "Washers",
+              "secondaryKeywords": [
+                "washers",
+                "washers manufacturer",
+                "washers supplier",
+                "washers exporter"
+              ],
+              "longTailKeywords": [
+                "washers manufacturer",
+                "washers supplier",
+                "washers specifications",
+                "washers sizes and standards"
+              ],
+              "searchIntent": "commercial",
+              "keywords": [
+                "washers",
+                "washers manufacturer",
+                "washers supplier"
+              ],
+              "canonicalPath": "/products/washers"
+            },
+            "relatedProducts": [
+              "u-bolts",
+              "hex-nuts",
+              "stud-bolts",
+              "socket-head-cap-screws"
+            ],
+            "metadata": {
+              "createdAt": null,
+              "updatedAt": null
+            }
+          },
+          {
+            "id": "stud-bolts",
+            "name": "Stud Bolts",
+            "slug": "stud-bolts",
+            "type": "Fully / Partially Threaded Stud",
+            "categoryId": "stainless-steel-pipe-fittings",
+            "subCategoryId": "fasteners",
+            "status": "available",
+            "featured": false,
+            "order": 4,
+            "description": {
+              "short": "Stud Bolts available as fully / partially threaded stud with grades including SS 304, SS 316, SS 316L with a size range of M6 to M30 to ASTM A193, ASME B18.31.2.",
+              "full": "Stud Bolts available as fully / partially threaded stud with grades including SS 304, SS 316, SS 316L with a size range of M6 to M30 to ASTM A193, ASME B18.31.2. Available finishes include Plain, Polished."
+            },
+            "technicalSpecifications": {
+              "material": "Stainless Steel",
+              "grades": [
+                "SS 304",
+                "SS 316",
+                "SS 316L"
+              ],
+              "sizeRange": "M6 to M30",
+              "standards": [
+                "ASTM A193",
+                "ASME B18.31.2"
+              ],
+              "threadType": [
+                "Metric",
+                "UNC",
+                "UNF"
+              ],
+              "finish": [
+                "Plain",
+                "Polished"
+              ],
+              "length": "As required"
+            },
+            "testing": [],
+            "applications": [],
+            "features": [],
+            "options": {
+              "types": [
+                "Fully / Partially Threaded Stud"
+              ],
+              "connections": [],
+              "finishes": [
+                "Plain",
+                "Polished"
+              ],
+              "sizes": [
+                "M6 to M30"
+              ]
+            },
+            "media": {
+              "primaryImage": null,
+              "gallery": [],
+              "technicalDrawing": null,
+              "dimensionDrawing": null,
+              "thumbnail": null
+            },
+            "documents": {
+              "catalogue": null,
+              "datasheet": null,
+              "dimensionChart": null,
+              "weightChart": null,
+              "technicalDocument": null
+            },
+            "cad": {
+              "available": false,
+              "formats": [],
+              "files": []
+            },
+            "threeD": {
+              "available": false,
+              "modelUrl": null,
+              "formats": []
+            },
+            "seo": {
+              "title": "Stud Bolts | Stainless Steel Fasteners | Prince Pipes & Fittings",
+              "description": "Stud Bolts from Prince Pipes & Fittings. View available specifications, sizes, standards, connections and technical details.",
+              "primaryKeyword": "Stud Bolts",
+              "secondaryKeywords": [
+                "stud bolts",
+                "stud bolts manufacturer",
+                "stud bolts supplier",
+                "stud bolts exporter"
+              ],
+              "longTailKeywords": [
+                "stud bolts manufacturer",
+                "stud bolts supplier",
+                "stud bolts specifications",
+                "stud bolts sizes and standards"
+              ],
+              "searchIntent": "commercial",
+              "keywords": [
+                "stud bolts",
+                "stud bolts manufacturer",
+                "stud bolts supplier"
+              ],
+              "canonicalPath": "/products/stud-bolts"
+            },
+            "relatedProducts": [
+              "hex-nuts",
+              "washers",
+              "socket-head-cap-screws"
+            ],
+            "metadata": {
+              "createdAt": null,
+              "updatedAt": null
+            }
+          },
+          {
+            "id": "socket-head-cap-screws",
+            "name": "Socket Head Cap Screws",
+            "slug": "socket-head-cap-screws",
+            "type": "Socket Head Cap Screw",
+            "categoryId": "stainless-steel-pipe-fittings",
+            "subCategoryId": "fasteners",
+            "status": "available",
+            "featured": false,
+            "order": 5,
+            "description": {
+              "short": "Socket Head Cap Screws available as socket head cap screw with grades including SS 304, SS 316, SS 316L with a size range of M3 to M24 to DIN 912, ISO 4762.",
+              "full": "Socket Head Cap Screws available as socket head cap screw with grades including SS 304, SS 316, SS 316L with a size range of M3 to M24 to DIN 912, ISO 4762. Available finishes include Plain, Polished."
+            },
+            "technicalSpecifications": {
+              "material": "Stainless Steel",
+              "grades": [
+                "SS 304",
+                "SS 316",
+                "SS 316L"
+              ],
+              "sizeRange": "M3 to M24",
+              "standards": [
+                "DIN 912",
+                "ISO 4762"
+              ],
+              "threadType": [
+                "Metric"
+              ],
+              "finish": [
+                "Plain",
+                "Polished"
+              ],
+              "length": "5 mm to 150 mm"
+            },
+            "testing": [],
+            "applications": [],
+            "features": [],
+            "options": {
+              "types": [
+                "Socket Head Cap Screw"
+              ],
+              "connections": [],
+              "finishes": [
+                "Plain",
+                "Polished"
+              ],
+              "sizes": [
+                "M3 to M24"
+              ]
+            },
+            "media": {
+              "primaryImage": null,
+              "gallery": [],
+              "technicalDrawing": null,
+              "dimensionDrawing": null,
+              "thumbnail": null
+            },
+            "documents": {
+              "catalogue": null,
+              "datasheet": null,
+              "dimensionChart": null,
+              "weightChart": null,
+              "technicalDocument": null
+            },
+            "cad": {
+              "available": false,
+              "formats": [],
+              "files": []
+            },
+            "threeD": {
+              "available": false,
+              "modelUrl": null,
+              "formats": []
+            },
+            "seo": {
+              "title": "Socket Head Cap Screws | Stainless Steel Fasteners | Prince Pipes & Fittings",
+              "description": "Socket Head Cap Screws from Prince Pipes & Fittings. View available specifications, sizes, standards, connections and technical details.",
+              "primaryKeyword": "Socket Head Cap Screws",
+              "secondaryKeywords": [
+                "socket head cap screws",
+                "socket head cap screws manufacturer",
+                "socket head cap screws supplier",
+                "socket head cap screws exporter"
+              ],
+              "longTailKeywords": [
+                "socket head cap screws manufacturer",
+                "socket head cap screws supplier",
+                "socket head cap screws specifications",
+                "socket head cap screws sizes and standards"
+              ],
+              "searchIntent": "commercial",
+              "keywords": [
+                "socket head cap screws",
+                "socket head cap screws manufacturer",
+                "socket head cap screws supplier"
+              ],
+              "canonicalPath": "/products/socket-head-cap-screws"
+            },
+            "relatedProducts": [
+              "washers",
+              "stud-bolts"
+            ],
+            "metadata": {
+              "createdAt": null,
+              "updatedAt": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "ferrule-fittings",
+        "name": "Ferrule Fittings",
+        "slug": "ferrule-fittings",
+        "description": "Stainless steel ferrule and compression tube fittings for tube-to-tube and tube-to-thread connections.",
+        "order": 6,
+        "products": [
+          {
+            "id": "double-ferrule-tube-fitting",
+            "name": "Double Ferrule Tube Fitting",
+            "slug": "double-ferrule-tube-fitting",
+            "type": "Double Ferrule Compression Fitting",
+            "categoryId": "stainless-steel-pipe-fittings",
+            "subCategoryId": "ferrule-fittings",
+            "status": "available",
+            "featured": false,
+            "order": 1,
+            "description": {
+              "short": "Double Ferrule Tube Fitting available as double ferrule compression fitting with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/8\" to 1\" to ASTM F1387, ASME B31.3 with tube to tube, tube to thread connections.",
+              "full": "Double Ferrule Tube Fitting available as double ferrule compression fitting with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/8\" to 1\" to ASTM F1387, ASME B31.3 with tube to tube, tube to thread connections. Available finishes include Bright, Polished."
+            },
+            "technicalSpecifications": {
+              "material": "Stainless Steel",
+              "grades": [
+                "SS 304",
+                "SS 304L",
+                "SS 316",
+                "SS 316L"
+              ],
+              "sizeRange": "1/8\" to 1\"",
+              "tubeOD": "1/8\" to 1\"",
+              "threadType": [
+                "NPT",
+                "BSP"
+              ],
+              "finish": [
+                "Bright",
+                "Polished"
+              ],
+              "standards": [
+                "ASTM F1387",
+                "ASME B31.3"
+              ],
+              "connection": [
+                "Tube to Tube",
+                "Tube to Thread"
+              ]
+            },
+            "testing": [],
+            "applications": [],
+            "features": [],
+            "options": {
+              "types": [
+                "Double Ferrule Compression Fitting"
+              ],
+              "connections": [
+                "Tube to Tube",
+                "Tube to Thread"
+              ],
+              "finishes": [
+                "Bright",
+                "Polished"
+              ],
+              "sizes": [
+                "1/8\" to 1\""
+              ]
+            },
+            "media": {
+              "primaryImage": null,
+              "gallery": [],
+              "technicalDrawing": null,
+              "dimensionDrawing": null,
+              "thumbnail": null
+            },
+            "documents": {
+              "catalogue": null,
+              "datasheet": null,
+              "dimensionChart": null,
+              "weightChart": null,
+              "technicalDocument": null
+            },
+            "cad": {
+              "available": false,
+              "formats": [],
+              "files": []
+            },
+            "threeD": {
+              "available": false,
+              "modelUrl": null,
+              "formats": []
+            },
+            "seo": {
+              "title": "Double Ferrule Tube Fitting | Stainless Steel Ferrule Fittings | Prince Pipes & Fittings",
+              "description": "Double Ferrule Tube Fitting from Prince Pipes & Fittings. View available specifications, sizes, standards, connections and technical details.",
+              "primaryKeyword": "Double Ferrule Tube Fitting",
+              "secondaryKeywords": [
+                "double ferrule tube fitting",
+                "double ferrule tube fitting manufacturer",
+                "double ferrule tube fitting supplier",
+                "double ferrule tube fitting exporter"
+              ],
+              "longTailKeywords": [
+                "double ferrule tube fitting manufacturer",
+                "double ferrule tube fitting supplier",
+                "double ferrule tube fitting specifications",
+                "double ferrule tube fitting sizes and standards"
+              ],
+              "searchIntent": "commercial",
+              "keywords": [
+                "double ferrule tube fitting",
+                "double ferrule tube fitting manufacturer",
+                "double ferrule tube fitting supplier"
+              ],
+              "canonicalPath": "/products/double-ferrule-tube-fitting"
+            },
+            "relatedProducts": [
+              "tube-union",
+              "tube-elbow"
+            ],
+            "metadata": {
+              "createdAt": null,
+              "updatedAt": null
+            }
+          },
+          {
+            "id": "tube-union",
+            "name": "Tube Union",
+            "slug": "tube-union",
+            "type": "Straight Tube Union",
+            "categoryId": "stainless-steel-pipe-fittings",
+            "subCategoryId": "ferrule-fittings",
+            "status": "available",
+            "featured": false,
+            "order": 2,
+            "description": {
+              "short": "Tube Union available as straight tube union with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/8\" to 1\" to ASTM F1387 with double ferrule compression connections.",
+              "full": "Tube Union available as straight tube union with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/8\" to 1\" to ASTM F1387 with double ferrule compression connections. Available finishes include Bright, Polished."
+            },
+            "technicalSpecifications": {
+              "material": "Stainless Steel",
+              "grades": [
+                "SS 304",
+                "SS 304L",
+                "SS 316",
+                "SS 316L"
+              ],
+              "sizeRange": "1/8\" to 1\"",
+              "tubeOD": "1/8\" to 1\"",
+              "threadType": [
+                "NPT",
+                "BSP"
+              ],
+              "finish": [
+                "Bright",
+                "Polished"
+              ],
+              "standards": [
+                "ASTM F1387"
+              ],
+              "connection": [
+                "Double Ferrule Compression"
+              ]
+            },
+            "testing": [],
+            "applications": [],
+            "features": [],
+            "options": {
+              "types": [
+                "Straight Tube Union"
+              ],
+              "connections": [
+                "Double Ferrule Compression"
+              ],
+              "finishes": [
+                "Bright",
+                "Polished"
+              ],
+              "sizes": [
+                "1/8\" to 1\""
+              ]
+            },
+            "media": {
+              "primaryImage": null,
+              "gallery": [],
+              "technicalDrawing": null,
+              "dimensionDrawing": null,
+              "thumbnail": null
+            },
+            "documents": {
+              "catalogue": null,
+              "datasheet": null,
+              "dimensionChart": null,
+              "weightChart": null,
+              "technicalDocument": null
+            },
+            "cad": {
+              "available": false,
+              "formats": [],
+              "files": []
+            },
+            "threeD": {
+              "available": false,
+              "modelUrl": null,
+              "formats": []
+            },
+            "seo": {
+              "title": "Tube Union | Stainless Steel Ferrule Fittings | Prince Pipes & Fittings",
+              "description": "Tube Union from Prince Pipes & Fittings. View available specifications, sizes, standards, connections and technical details.",
+              "primaryKeyword": "Tube Union",
+              "secondaryKeywords": [
+                "tube union",
+                "tube union manufacturer",
+                "tube union supplier",
+                "tube union exporter"
+              ],
+              "longTailKeywords": [
+                "tube union manufacturer",
+                "tube union supplier",
+                "tube union specifications",
+                "tube union sizes and standards"
+              ],
+              "searchIntent": "commercial",
+              "keywords": [
+                "tube union",
+                "tube union manufacturer",
+                "tube union supplier"
+              ],
+              "canonicalPath": "/products/tube-union"
+            },
+            "relatedProducts": [
+              "double-ferrule-tube-fitting",
+              "tube-elbow",
+              "tube-tee"
+            ],
+            "metadata": {
+              "createdAt": null,
+              "updatedAt": null
+            }
+          },
+          {
+            "id": "tube-elbow",
+            "name": "Tube Elbow",
+            "slug": "tube-elbow",
+            "type": "90° / 45° Tube Elbow",
+            "categoryId": "stainless-steel-pipe-fittings",
+            "subCategoryId": "ferrule-fittings",
+            "status": "available",
+            "featured": false,
+            "order": 3,
+            "description": {
+              "short": "Tube Elbow available as 90° / 45° tube elbow with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/8\" to 1\" to ASTM F1387 with double ferrule compression connections.",
+              "full": "Tube Elbow available as 90° / 45° tube elbow with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/8\" to 1\" to ASTM F1387 with double ferrule compression connections. Available finishes include Bright, Polished."
+            },
+            "technicalSpecifications": {
+              "material": "Stainless Steel",
+              "grades": [
+                "SS 304",
+                "SS 304L",
+                "SS 316",
+                "SS 316L"
+              ],
+              "sizeRange": "1/8\" to 1\"",
+              "tubeOD": "1/8\" to 1\"",
+              "threadType": [
+                "NPT",
+                "BSP"
+              ],
+              "finish": [
+                "Bright",
+                "Polished"
+              ],
+              "standards": [
+                "ASTM F1387"
+              ],
+              "connection": [
+                "Double Ferrule Compression"
+              ]
+            },
+            "testing": [],
+            "applications": [],
+            "features": [],
+            "options": {
+              "types": [
+                "90° / 45° Tube Elbow"
+              ],
+              "connections": [
+                "Double Ferrule Compression"
+              ],
+              "finishes": [
+                "Bright",
+                "Polished"
+              ],
+              "sizes": [
+                "1/8\" to 1\""
+              ]
+            },
+            "media": {
+              "primaryImage": null,
+              "gallery": [],
+              "technicalDrawing": null,
+              "dimensionDrawing": null,
+              "thumbnail": null
+            },
+            "documents": {
+              "catalogue": null,
+              "datasheet": null,
+              "dimensionChart": null,
+              "weightChart": null,
+              "technicalDocument": null
+            },
+            "cad": {
+              "available": false,
+              "formats": [],
+              "files": []
+            },
+            "threeD": {
+              "available": false,
+              "modelUrl": null,
+              "formats": []
+            },
+            "seo": {
+              "title": "Tube Elbow | Stainless Steel Ferrule Fittings | Prince Pipes & Fittings",
+              "description": "Tube Elbow from Prince Pipes & Fittings. View available specifications, sizes, standards, connections and technical details.",
+              "primaryKeyword": "Tube Elbow",
+              "secondaryKeywords": [
+                "tube elbow",
+                "tube elbow manufacturer",
+                "tube elbow supplier",
+                "tube elbow exporter"
+              ],
+              "longTailKeywords": [
+                "tube elbow manufacturer",
+                "tube elbow supplier",
+                "tube elbow specifications",
+                "tube elbow sizes and standards"
+              ],
+              "searchIntent": "commercial",
+              "keywords": [
+                "tube elbow",
+                "tube elbow manufacturer",
+                "tube elbow supplier"
+              ],
+              "canonicalPath": "/products/tube-elbow"
+            },
+            "relatedProducts": [
+              "double-ferrule-tube-fitting",
+              "tube-union",
+              "tube-tee",
+              "tube-connector"
+            ],
+            "metadata": {
+              "createdAt": null,
+              "updatedAt": null
+            }
+          },
+          {
+            "id": "tube-tee",
+            "name": "Tube Tee",
+            "slug": "tube-tee",
+            "type": "Equal / Reducing Tube Tee",
+            "categoryId": "stainless-steel-pipe-fittings",
+            "subCategoryId": "ferrule-fittings",
+            "status": "available",
+            "featured": false,
+            "order": 4,
+            "description": {
+              "short": "Tube Tee available as equal / reducing tube tee with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/8\" to 1\" to ASTM F1387 with double ferrule compression connections.",
+              "full": "Tube Tee available as equal / reducing tube tee with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/8\" to 1\" to ASTM F1387 with double ferrule compression connections. Available finishes include Bright, Polished."
+            },
+            "technicalSpecifications": {
+              "material": "Stainless Steel",
+              "grades": [
+                "SS 304",
+                "SS 304L",
+                "SS 316",
+                "SS 316L"
+              ],
+              "sizeRange": "1/8\" to 1\"",
+              "tubeOD": "1/8\" to 1\"",
+              "threadType": [
+                "NPT",
+                "BSP"
+              ],
+              "finish": [
+                "Bright",
+                "Polished"
+              ],
+              "standards": [
+                "ASTM F1387"
+              ],
+              "connection": [
+                "Double Ferrule Compression"
+              ]
+            },
+            "testing": [],
+            "applications": [],
+            "features": [],
+            "options": {
+              "types": [
+                "Equal / Reducing Tube Tee"
+              ],
+              "connections": [
+                "Double Ferrule Compression"
+              ],
+              "finishes": [
+                "Bright",
+                "Polished"
+              ],
+              "sizes": [
+                "1/8\" to 1\""
+              ]
+            },
+            "media": {
+              "primaryImage": null,
+              "gallery": [],
+              "technicalDrawing": null,
+              "dimensionDrawing": null,
+              "thumbnail": null
+            },
+            "documents": {
+              "catalogue": null,
+              "datasheet": null,
+              "dimensionChart": null,
+              "weightChart": null,
+              "technicalDocument": null
+            },
+            "cad": {
+              "available": false,
+              "formats": [],
+              "files": []
+            },
+            "threeD": {
+              "available": false,
+              "modelUrl": null,
+              "formats": []
+            },
+            "seo": {
+              "title": "Tube Tee | Stainless Steel Ferrule Fittings | Prince Pipes & Fittings",
+              "description": "Tube Tee from Prince Pipes & Fittings. View available specifications, sizes, standards, connections and technical details.",
+              "primaryKeyword": "Tube Tee",
+              "secondaryKeywords": [
+                "tube tee",
+                "tube tee manufacturer",
+                "tube tee supplier",
+                "tube tee exporter"
+              ],
+              "longTailKeywords": [
+                "tube tee manufacturer",
+                "tube tee supplier",
+                "tube tee specifications",
+                "tube tee sizes and standards"
+              ],
+              "searchIntent": "commercial",
+              "keywords": [
+                "tube tee",
+                "tube tee manufacturer",
+                "tube tee supplier"
+              ],
+              "canonicalPath": "/products/tube-tee"
+            },
+            "relatedProducts": [
+              "tube-union",
+              "tube-elbow",
+              "tube-connector"
+            ],
+            "metadata": {
+              "createdAt": null,
+              "updatedAt": null
+            }
+          },
+          {
+            "id": "tube-connector",
+            "name": "Tube Connector",
+            "slug": "tube-connector",
+            "type": "Male / Female Connector",
+            "categoryId": "stainless-steel-pipe-fittings",
+            "subCategoryId": "ferrule-fittings",
+            "status": "available",
+            "featured": false,
+            "order": 5,
+            "description": {
+              "short": "Tube Connector available as male / female connector with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/8\" to 1\" to ASTM F1387 with tube to thread, compression connections.",
+              "full": "Tube Connector available as male / female connector with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/8\" to 1\" to ASTM F1387 with tube to thread, compression connections. Available finishes include Bright, Polished."
+            },
+            "technicalSpecifications": {
+              "material": "Stainless Steel",
+              "grades": [
+                "SS 304",
+                "SS 304L",
+                "SS 316",
+                "SS 316L"
+              ],
+              "sizeRange": "1/8\" to 1\"",
+              "tubeOD": "1/8\" to 1\"",
+              "threadType": [
+                "NPT",
+                "BSP"
+              ],
+              "finish": [
+                "Bright",
+                "Polished"
+              ],
+              "standards": [
+                "ASTM F1387"
+              ],
+              "connection": [
+                "Tube to Thread",
+                "Compression"
+              ]
+            },
+            "testing": [],
+            "applications": [],
+            "features": [],
+            "options": {
+              "types": [
+                "Male / Female Connector"
+              ],
+              "connections": [
+                "Tube to Thread",
+                "Compression"
+              ],
+              "finishes": [
+                "Bright",
+                "Polished"
+              ],
+              "sizes": [
+                "1/8\" to 1\""
+              ]
+            },
+            "media": {
+              "primaryImage": null,
+              "gallery": [],
+              "technicalDrawing": null,
+              "dimensionDrawing": null,
+              "thumbnail": null
+            },
+            "documents": {
+              "catalogue": null,
+              "datasheet": null,
+              "dimensionChart": null,
+              "weightChart": null,
+              "technicalDocument": null
+            },
+            "cad": {
+              "available": false,
+              "formats": [],
+              "files": []
+            },
+            "threeD": {
+              "available": false,
+              "modelUrl": null,
+              "formats": []
+            },
+            "seo": {
+              "title": "Tube Connector | Stainless Steel Ferrule Fittings | Prince Pipes & Fittings",
+              "description": "Tube Connector from Prince Pipes & Fittings. View available specifications, sizes, standards, connections and technical details.",
+              "primaryKeyword": "Tube Connector",
+              "secondaryKeywords": [
+                "tube connector",
+                "tube connector manufacturer",
+                "tube connector supplier",
+                "tube connector exporter"
+              ],
+              "longTailKeywords": [
+                "tube connector manufacturer",
+                "tube connector supplier",
+                "tube connector specifications",
+                "tube connector sizes and standards"
+              ],
+              "searchIntent": "commercial",
+              "keywords": [
+                "tube connector",
+                "tube connector manufacturer",
+                "tube connector supplier"
+              ],
+              "canonicalPath": "/products/tube-connector"
+            },
+            "relatedProducts": [
+              "tube-elbow",
+              "tube-tee"
+            ],
+            "metadata": {
+              "createdAt": null,
+              "updatedAt": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "dairy-fittings",
+        "name": "Dairy Fittings",
+        "slug": "dairy-fittings",
+        "description": "Stainless steel sanitary dairy fittings including elbows, tees, crosses, unions and clamps.",
+        "order": 7,
+        "products": [
+          {
+            "id": "dairy-elbow",
+            "name": "Dairy Elbow",
+            "slug": "dairy-elbow",
+            "type": "90° / 45° Elbow",
+            "categoryId": "stainless-steel-pipe-fittings",
+            "subCategoryId": "dairy-fittings",
+            "status": "available",
+            "featured": false,
+            "order": 1,
+            "description": {
+              "short": "Dairy Elbow available as 90° / 45° elbow with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/2\" to 4\" to DIN 11850, ISO 2037 with tri-clamp, butt weld, threaded connections.",
+              "full": "Dairy Elbow available as 90° / 45° elbow with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/2\" to 4\" to DIN 11850, ISO 2037 with tri-clamp, butt weld, threaded connections. Available finishes include Polished, Mirror Finish."
+            },
+            "technicalSpecifications": {
+              "material": "Stainless Steel",
+              "grades": [
+                "SS 304",
+                "SS 304L",
+                "SS 316",
+                "SS 316L"
+              ],
+              "sizeRange": "1/2\" to 4\"",
+              "finish": [
+                "Polished",
+                "Mirror Finish"
+              ],
+              "standards": [
+                "DIN 11850",
+                "ISO 2037"
+              ],
+              "connection": [
+                "Tri-Clamp",
+                "Butt Weld",
+                "Threaded"
+              ]
+            },
+            "testing": [],
+            "applications": [],
+            "features": [],
+            "options": {
+              "types": [
+                "90° / 45° Elbow"
+              ],
+              "connections": [
+                "Tri-Clamp",
+                "Butt Weld",
+                "Threaded"
+              ],
+              "finishes": [
+                "Polished",
+                "Mirror Finish"
+              ],
+              "sizes": [
+                "1/2\" to 4\""
+              ]
+            },
+            "media": {
+              "primaryImage": null,
+              "gallery": [],
+              "technicalDrawing": null,
+              "dimensionDrawing": null,
+              "thumbnail": null
+            },
+            "documents": {
+              "catalogue": null,
+              "datasheet": null,
+              "dimensionChart": null,
+              "weightChart": null,
+              "technicalDocument": null
+            },
+            "cad": {
+              "available": false,
+              "formats": [],
+              "files": []
+            },
+            "threeD": {
+              "available": false,
+              "modelUrl": null,
+              "formats": []
+            },
+            "seo": {
+              "title": "Dairy Elbow | Stainless Steel Dairy Fittings | Prince Pipes & Fittings",
+              "description": "Dairy Elbow from Prince Pipes & Fittings. View available specifications, sizes, standards, connections and technical details.",
+              "primaryKeyword": "Dairy Elbow",
+              "secondaryKeywords": [
+                "dairy elbow",
+                "dairy elbow manufacturer",
+                "dairy elbow supplier",
+                "dairy elbow exporter"
+              ],
+              "longTailKeywords": [
+                "dairy elbow manufacturer",
+                "dairy elbow supplier",
+                "dairy elbow specifications",
+                "dairy elbow sizes and standards"
+              ],
+              "searchIntent": "commercial",
+              "keywords": [
+                "dairy elbow",
+                "dairy elbow manufacturer",
+                "dairy elbow supplier"
+              ],
+              "canonicalPath": "/products/dairy-elbow"
+            },
+            "relatedProducts": [
+              "dairy-tee",
+              "dairy-cross"
+            ],
+            "metadata": {
+              "createdAt": null,
+              "updatedAt": null
+            }
+          },
+          {
+            "id": "dairy-tee",
+            "name": "Dairy Tee",
+            "slug": "dairy-tee",
+            "type": "Equal / Reducing Tee",
+            "categoryId": "stainless-steel-pipe-fittings",
+            "subCategoryId": "dairy-fittings",
+            "status": "available",
+            "featured": false,
+            "order": 2,
+            "description": {
+              "short": "Dairy Tee available as equal / reducing tee with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/2\" to 4\" to DIN 11850, ISO 2037 with tri-clamp, butt weld connections.",
+              "full": "Dairy Tee available as equal / reducing tee with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/2\" to 4\" to DIN 11850, ISO 2037 with tri-clamp, butt weld connections. Available finishes include Polished, Mirror Finish."
+            },
+            "technicalSpecifications": {
+              "material": "Stainless Steel",
+              "grades": [
+                "SS 304",
+                "SS 304L",
+                "SS 316",
+                "SS 316L"
+              ],
+              "sizeRange": "1/2\" to 4\"",
+              "finish": [
+                "Polished",
+                "Mirror Finish"
+              ],
+              "standards": [
+                "DIN 11850",
+                "ISO 2037"
+              ],
+              "connection": [
+                "Tri-Clamp",
+                "Butt Weld"
+              ]
+            },
+            "testing": [],
+            "applications": [],
+            "features": [],
+            "options": {
+              "types": [
+                "Equal / Reducing Tee"
+              ],
+              "connections": [
+                "Tri-Clamp",
+                "Butt Weld"
+              ],
+              "finishes": [
+                "Polished",
+                "Mirror Finish"
+              ],
+              "sizes": [
+                "1/2\" to 4\""
+              ]
+            },
+            "media": {
+              "primaryImage": null,
+              "gallery": [],
+              "technicalDrawing": null,
+              "dimensionDrawing": null,
+              "thumbnail": null
+            },
+            "documents": {
+              "catalogue": null,
+              "datasheet": null,
+              "dimensionChart": null,
+              "weightChart": null,
+              "technicalDocument": null
+            },
+            "cad": {
+              "available": false,
+              "formats": [],
+              "files": []
+            },
+            "threeD": {
+              "available": false,
+              "modelUrl": null,
+              "formats": []
+            },
+            "seo": {
+              "title": "Dairy Tee | Stainless Steel Dairy Fittings | Prince Pipes & Fittings",
+              "description": "Dairy Tee from Prince Pipes & Fittings. View available specifications, sizes, standards, connections and technical details.",
+              "primaryKeyword": "Dairy Tee",
+              "secondaryKeywords": [
+                "dairy tee",
+                "dairy tee manufacturer",
+                "dairy tee supplier",
+                "dairy tee exporter"
+              ],
+              "longTailKeywords": [
+                "dairy tee manufacturer",
+                "dairy tee supplier",
+                "dairy tee specifications",
+                "dairy tee sizes and standards"
+              ],
+              "searchIntent": "commercial",
+              "keywords": [
+                "dairy tee",
+                "dairy tee manufacturer",
+                "dairy tee supplier"
+              ],
+              "canonicalPath": "/products/dairy-tee"
+            },
+            "relatedProducts": [
+              "dairy-elbow",
+              "dairy-cross",
+              "dairy-union"
+            ],
+            "metadata": {
+              "createdAt": null,
+              "updatedAt": null
+            }
+          },
+          {
+            "id": "dairy-cross",
+            "name": "Dairy Cross",
+            "slug": "dairy-cross",
+            "type": "Equal Cross",
+            "categoryId": "stainless-steel-pipe-fittings",
+            "subCategoryId": "dairy-fittings",
+            "status": "available",
+            "featured": false,
+            "order": 3,
+            "description": {
+              "short": "Dairy Cross available as equal cross with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/2\" to 4\" to DIN 11850, ISO 2037 with tri-clamp, butt weld connections.",
+              "full": "Dairy Cross available as equal cross with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/2\" to 4\" to DIN 11850, ISO 2037 with tri-clamp, butt weld connections. Available finishes include Polished, Mirror Finish."
+            },
+            "technicalSpecifications": {
+              "material": "Stainless Steel",
+              "grades": [
+                "SS 304",
+                "SS 304L",
+                "SS 316",
+                "SS 316L"
+              ],
+              "sizeRange": "1/2\" to 4\"",
+              "finish": [
+                "Polished",
+                "Mirror Finish"
+              ],
+              "standards": [
+                "DIN 11850",
+                "ISO 2037"
+              ],
+              "connection": [
+                "Tri-Clamp",
+                "Butt Weld"
+              ]
+            },
+            "testing": [],
+            "applications": [],
+            "features": [],
+            "options": {
+              "types": [
+                "Equal Cross"
+              ],
+              "connections": [
+                "Tri-Clamp",
+                "Butt Weld"
+              ],
+              "finishes": [
+                "Polished",
+                "Mirror Finish"
+              ],
+              "sizes": [
+                "1/2\" to 4\""
+              ]
+            },
+            "media": {
+              "primaryImage": null,
+              "gallery": [],
+              "technicalDrawing": null,
+              "dimensionDrawing": null,
+              "thumbnail": null
+            },
+            "documents": {
+              "catalogue": null,
+              "datasheet": null,
+              "dimensionChart": null,
+              "weightChart": null,
+              "technicalDocument": null
+            },
+            "cad": {
+              "available": false,
+              "formats": [],
+              "files": []
+            },
+            "threeD": {
+              "available": false,
+              "modelUrl": null,
+              "formats": []
+            },
+            "seo": {
+              "title": "Dairy Cross | Stainless Steel Dairy Fittings | Prince Pipes & Fittings",
+              "description": "Dairy Cross from Prince Pipes & Fittings. View available specifications, sizes, standards, connections and technical details.",
+              "primaryKeyword": "Dairy Cross",
+              "secondaryKeywords": [
+                "dairy cross",
+                "dairy cross manufacturer",
+                "dairy cross supplier",
+                "dairy cross exporter"
+              ],
+              "longTailKeywords": [
+                "dairy cross manufacturer",
+                "dairy cross supplier",
+                "dairy cross specifications",
+                "dairy cross sizes and standards"
+              ],
+              "searchIntent": "commercial",
+              "keywords": [
+                "dairy cross",
+                "dairy cross manufacturer",
+                "dairy cross supplier"
+              ],
+              "canonicalPath": "/products/dairy-cross"
+            },
+            "relatedProducts": [
+              "dairy-elbow",
+              "dairy-tee",
+              "dairy-union",
+              "dairy-clamp"
+            ],
+            "metadata": {
+              "createdAt": null,
+              "updatedAt": null
+            }
+          },
+          {
+            "id": "dairy-union",
+            "name": "Dairy Union",
+            "slug": "dairy-union",
+            "type": "Sanitary Union",
+            "categoryId": "stainless-steel-pipe-fittings",
+            "subCategoryId": "dairy-fittings",
+            "status": "available",
+            "featured": false,
+            "order": 4,
+            "description": {
+              "short": "Dairy Union available as sanitary union with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/2\" to 4\" to DIN 11851, SMS 1145 with union, threaded connections.",
+              "full": "Dairy Union available as sanitary union with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/2\" to 4\" to DIN 11851, SMS 1145 with union, threaded connections. Available finishes include Polished, Mirror Finish."
+            },
+            "technicalSpecifications": {
+              "material": "Stainless Steel",
+              "grades": [
+                "SS 304",
+                "SS 304L",
+                "SS 316",
+                "SS 316L"
+              ],
+              "sizeRange": "1/2\" to 4\"",
+              "finish": [
+                "Polished",
+                "Mirror Finish"
+              ],
+              "standards": [
+                "DIN 11851",
+                "SMS 1145"
+              ],
+              "connection": [
+                "Union",
+                "Threaded"
+              ]
+            },
+            "testing": [],
+            "applications": [],
+            "features": [],
+            "options": {
+              "types": [
+                "Sanitary Union"
+              ],
+              "connections": [
+                "Union",
+                "Threaded"
+              ],
+              "finishes": [
+                "Polished",
+                "Mirror Finish"
+              ],
+              "sizes": [
+                "1/2\" to 4\""
+              ]
+            },
+            "media": {
+              "primaryImage": null,
+              "gallery": [],
+              "technicalDrawing": null,
+              "dimensionDrawing": null,
+              "thumbnail": null
+            },
+            "documents": {
+              "catalogue": null,
+              "datasheet": null,
+              "dimensionChart": null,
+              "weightChart": null,
+              "technicalDocument": null
+            },
+            "cad": {
+              "available": false,
+              "formats": [],
+              "files": []
+            },
+            "threeD": {
+              "available": false,
+              "modelUrl": null,
+              "formats": []
+            },
+            "seo": {
+              "title": "Dairy Union | Stainless Steel Dairy Fittings | Prince Pipes & Fittings",
+              "description": "Dairy Union from Prince Pipes & Fittings. View available specifications, sizes, standards, connections and technical details.",
+              "primaryKeyword": "Dairy Union",
+              "secondaryKeywords": [
+                "dairy union",
+                "dairy union manufacturer",
+                "dairy union supplier",
+                "dairy union exporter"
+              ],
+              "longTailKeywords": [
+                "dairy union manufacturer",
+                "dairy union supplier",
+                "dairy union specifications",
+                "dairy union sizes and standards"
+              ],
+              "searchIntent": "commercial",
+              "keywords": [
+                "dairy union",
+                "dairy union manufacturer",
+                "dairy union supplier"
+              ],
+              "canonicalPath": "/products/dairy-union"
+            },
+            "relatedProducts": [
+              "dairy-tee",
+              "dairy-cross",
+              "dairy-clamp"
+            ],
+            "metadata": {
+              "createdAt": null,
+              "updatedAt": null
+            }
+          },
+          {
+            "id": "dairy-clamp",
+            "name": "Dairy Clamp",
+            "slug": "dairy-clamp",
+            "type": "Sanitary Clamp",
+            "categoryId": "stainless-steel-pipe-fittings",
+            "subCategoryId": "dairy-fittings",
+            "status": "available",
+            "featured": false,
+            "order": 5,
+            "description": {
+              "short": "Dairy Clamp available as sanitary clamp with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/2\" to 4\" to ISO 2852, ASME BPE with tri-clamp connections.",
+              "full": "Dairy Clamp available as sanitary clamp with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/2\" to 4\" to ISO 2852, ASME BPE with tri-clamp connections. Available finishes include Polished, Mirror Finish."
+            },
+            "technicalSpecifications": {
+              "material": "Stainless Steel",
+              "grades": [
+                "SS 304",
+                "SS 304L",
+                "SS 316",
+                "SS 316L"
+              ],
+              "sizeRange": "1/2\" to 4\"",
+              "finish": [
+                "Polished",
+                "Mirror Finish"
+              ],
+              "standards": [
+                "ISO 2852",
+                "ASME BPE"
+              ],
+              "connection": [
+                "Tri-Clamp"
+              ]
+            },
+            "testing": [],
+            "applications": [],
+            "features": [],
+            "options": {
+              "types": [
+                "Sanitary Clamp"
+              ],
+              "connections": [
+                "Tri-Clamp"
+              ],
+              "finishes": [
+                "Polished",
+                "Mirror Finish"
+              ],
+              "sizes": [
+                "1/2\" to 4\""
+              ]
+            },
+            "media": {
+              "primaryImage": null,
+              "gallery": [],
+              "technicalDrawing": null,
+              "dimensionDrawing": null,
+              "thumbnail": null
+            },
+            "documents": {
+              "catalogue": null,
+              "datasheet": null,
+              "dimensionChart": null,
+              "weightChart": null,
+              "technicalDocument": null
+            },
+            "cad": {
+              "available": false,
+              "formats": [],
+              "files": []
+            },
+            "threeD": {
+              "available": false,
+              "modelUrl": null,
+              "formats": []
+            },
+            "seo": {
+              "title": "Dairy Clamp | Stainless Steel Dairy Fittings | Prince Pipes & Fittings",
+              "description": "Dairy Clamp from Prince Pipes & Fittings. View available specifications, sizes, standards, connections and technical details.",
+              "primaryKeyword": "Dairy Clamp",
+              "secondaryKeywords": [
+                "dairy clamp",
+                "dairy clamp manufacturer",
+                "dairy clamp supplier",
+                "dairy clamp exporter"
+              ],
+              "longTailKeywords": [
+                "dairy clamp manufacturer",
+                "dairy clamp supplier",
+                "dairy clamp specifications",
+                "dairy clamp sizes and standards"
+              ],
+              "searchIntent": "commercial",
+              "keywords": [
+                "dairy clamp",
+                "dairy clamp manufacturer",
+                "dairy clamp supplier"
+              ],
+              "canonicalPath": "/products/dairy-clamp"
+            },
+            "relatedProducts": [
+              "dairy-cross",
+              "dairy-union"
+            ],
+            "metadata": {
+              "createdAt": null,
+              "updatedAt": null
+            }
+          }
+        ]
+      }
+    ],
+    "seo": {
+      "title": "Stainless Steel Pipe Fittings | Prince Pipes & Fittings",
+      "description": "Explore stainless steel pipe fittings including threaded fittings, buttweld fittings, flanges, forged fittings, fasteners, ferrule fittings and dairy fittings.",
+      "primaryKeyword": "stainless steel pipe fittings",
+      "secondaryKeywords": [
+        "stainless steel pipe fittings manufacturer",
+        "stainless steel pipe fittings supplier",
+        "stainless steel fittings manufacturer",
+        "stainless steel fittings supplier",
+        "stainless steel pipe fittings exporter"
+      ],
+      "searchIntent": "commercial"
+    },
+    "dataQuality": {
+      "status": "refined",
+      "technicalDataPolicy": "Technical specifications are preserved from the supplied source data. Missing values remain null or empty arrays and have not been replaced with unsupported specifications.",
+      "seoPolicy": "Duplicate and repetitive SEO phrases have been removed while retaining commercial search intent.",
+      "assetPolicy": "Unavailable images, documents and CAD/3D assets remain null or marked unavailable."
+    }
+  }
+}

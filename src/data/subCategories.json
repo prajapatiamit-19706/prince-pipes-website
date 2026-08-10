@@ -1,0 +1,51 @@
+[
+    {
+        "id": "threaded-fittings",
+        "categoryId": "stainless-steel-pipe-fittings",
+        "name": "Threaded Fittings",
+        "slug": "threaded-fittings",
+        "order": 1
+    },
+    {
+        "id": "buttweld-fittings",
+        "categoryId": "stainless-steel-pipe-fittings",
+        "name": "Buttweld Fittings",
+        "slug": "buttweld-fittings",
+        "order": 2
+    },
+    {
+        "id": "flanges",
+        "categoryId": "stainless-steel-pipe-fittings",
+        "name": "Flanges",
+        "slug": "flanges",
+        "order": 3
+    },
+    {
+        "id": "forged-fittings",
+        "categoryId": "stainless-steel-pipe-fittings",
+        "name": "Forged Fittings",
+        "slug": "forged-fittings",
+        "order": 4
+    },
+    {
+        "id": "fasteners",
+        "categoryId": "stainless-steel-pipe-fittings",
+        "name": "Fasteners",
+        "slug": "fasteners",
+        "order": 5
+    },
+    {
+        "id": "ferrule-fittings",
+        "categoryId": "stainless-steel-pipe-fittings",
+        "name": "Ferrule Fittings",
+        "slug": "ferrule-fittings",
+        "order": 6
+    },
+    {
+        "id": "dairy-fittings",
+        "categoryId": "stainless-steel-pipe-fittings",
+        "name": "Dairy Fittings",
+        "slug": "dairy-fittings",
+        "order": 7
+    }
+]

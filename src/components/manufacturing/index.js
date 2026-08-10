@@ -1,0 +1,1 @@
+export { ManufacturingJourney } from './ManufacturingJourney';

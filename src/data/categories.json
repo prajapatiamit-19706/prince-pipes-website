@@ -1,32 +1,68 @@
 [
   {
-    "id": "din-en-fittings",
-    "name": "DIN & EN Fittings",
-    "slug": "din-en-fittings",
-    "description": null
+    "id": "stainless-steel-pipe-fittings",
+    "name": "Stainless Steel Pipe Fittings",
+    "slug": "stainless-steel-pipe-fittings",
+    "description": "Premium stainless steel pipe fittings manufactured to international quality standards.",
+    "featured": true,
+    "order": 1,
+    "icon": "Factory",
+    "image": "/images/categories/stainless-steel-pipe-fittings.png",
+    "indicator": "SS 304 / 316L"
   },
   {
-    "id": "ss-fittings",
-    "name": "SS Fittings",
-    "slug": "ss-fittings",
-    "description": null
+    "id": "carbon-steel-pipe-fittings",
+    "name": "Carbon Steel Pipe Fittings",
+    "slug": "carbon-steel-pipe-fittings",
+    "description": "Carbon steel pipe fittings for industrial piping systems.",
+    "featured": false,
+    "order": 2,
+    "icon": "Layers",
+    "image": "/images/categories/carbon-steel-pipe-fittings.png",
+    "indicator": "A234 WPB"
   },
   {
-    "id": "din-en-flanges",
-    "name": "DIN & EN Flanges",
-    "slug": "din-en-flanges",
-    "description": null
+    "id": "duplex-pipe-fittings",
+    "name": "Duplex Pipe Fittings",
+    "slug": "duplex-pipe-fittings",
+    "description": "High-strength duplex stainless steel pipe fittings.",
+    "featured": false,
+    "order": 3,
+    "icon": "Shield",
+    "image": "/images/categories/duplex-pipe-fittings.png",
+    "indicator": "UNS S31803"
   },
   {
-    "id": "astm-ansi-b16-5-flanges",
-    "name": "ASTM-ANSI B16.5 Flanges",
-    "slug": "astm-ansi-b16-5-flanges",
-    "description": null
+    "id": "super-duplex-pipe-fittings",
+    "name": "Super Duplex Pipe Fittings",
+    "slug": "super-duplex-pipe-fittings",
+    "description": "Corrosion-resistant super duplex pipe fittings for demanding applications.",
+    "featured": false,
+    "order": 4,
+    "icon": "Sparkles",
+    "image": "/images/categories/super-duplex-pipe-fittings.png",
+    "indicator": "UNS S32750"
   },
   {
-    "id": "astm-ansi-b16-9-fittings",
-    "name": "ASTM-ANSI B16.9 Fittings",
-    "slug": "astm-ansi-b16-9-fittings",
-    "description": null
+    "id": "alloy-steel-pipe-fittings",
+    "name": "Alloy Steel Pipe Fittings",
+    "slug": "alloy-steel-pipe-fittings",
+    "description": "Premium alloy steel pipe fittings for high-temperature and high-pressure environments.",
+    "featured": false,
+    "order": 5,
+    "icon": "Hammer",
+    "image": "/images/categories/alloy-steel-pipe-fittings.png",
+    "indicator": "WP11 / WP22"
+  },
+  {
+    "id": "inconel-625-pipe-fittings",
+    "name": "Inconel 625 Pipe Fittings",
+    "slug": "inconel-625-pipe-fittings",
+    "description": "Nickel alloy Inconel 625 pipe fittings for extreme corrosion and temperature resistance.",
+    "featured": false,
+    "order": 6,
+    "icon": "Flame",
+    "image": "/images/categories/inconel-625-pipe-fittings.png",
+    "indicator": "Alloy 625"
   }
 ]
