@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useState, useMemo } from 'react';
+import { useRef, useState, useMemo, useEffect } from 'react';
 import { Search, Package, ArrowRight } from 'lucide-react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -12,11 +12,21 @@ gsap.registerPlugin(ScrollTrigger);
 export function ProductFinder({ searchIndex }) {
   const containerRef = useRef(null);
   const searchContainerRef = useRef(null);
-  
+
   const [searchQuery, setSearchQuery] = useState('');
   const [isSearchFocused, setIsSearchFocused] = useState(false);
 
   const { items = [] } = searchIndex || {};
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (containerRef.current && !containerRef.current.contains(event.target)) {
+        setIsSearchFocused(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
 
   // Compute filtered results
   const filteredResults = useMemo(() => {
@@ -49,12 +59,12 @@ export function ProductFinder({ searchIndex }) {
       { opacity: 0, y: 15 },
       { opacity: 1, y: 0, duration: 0.5, ease: "power2.out" }
     )
-    .fromTo(
-      ".finder-search",
-      { opacity: 0, y: 15 },
-      { opacity: 1, y: 0, duration: 0.5, ease: "power2.out" },
-      "-=0.3"
-    );
+      .fromTo(
+        ".finder-search",
+        { opacity: 0, y: 15 },
+        { opacity: 1, y: 0, duration: 0.5, ease: "power2.out" },
+        "-=0.3"
+      );
   }, { scope: containerRef });
 
   return (
@@ -78,7 +88,6 @@ export function ProductFinder({ searchIndex }) {
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             onFocus={() => setIsSearchFocused(true)}
-            onBlur={() => setTimeout(() => setIsSearchFocused(false), 200)}
           />
         </div>
       </div>
@@ -92,15 +101,16 @@ export function ProductFinder({ searchIndex }) {
               No products found matching your filters.
             </div>
           ) : (
-            <ul className="py-2 max-h-[500px] overflow-y-auto">
+            <ul className="py-2 max-h-[500px] overflow-y-auto overscroll-contain [&::-webkit-scrollbar]:w-3 [&::-webkit-scrollbar-track]:bg-transparent [&::-webkit-scrollbar-thumb]:bg-neutral-200 hover:[&::-webkit-scrollbar-thumb]:bg-neutral-300 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:border-2 [&::-webkit-scrollbar-thumb]:border-solid [&::-webkit-scrollbar-thumb]:border-white">
               <li className="px-4 py-3 text-xs font-semibold text-neutral-400 uppercase tracking-wider bg-neutral-50 border-b border-neutral-100 sticky top-0 z-10">
                 {filteredResults.length} Result{filteredResults.length !== 1 ? 's' : ''} Found
               </li>
               {filteredResults.slice(0, 15).map(item => (
                 <li key={item.slug}>
-                  <Link 
+                  <Link
                     href={item.url}
                     className="flex items-center justify-between px-6 py-4 hover:bg-neutral-50 transition-colors border-b border-neutral-50 last:border-0 group"
+                    onClick={() => setIsSearchFocused(false)}
                   >
                     <div>
                       <div className="font-medium text-neutral-900 group-hover:text-primary transition-colors">
@@ -109,10 +119,10 @@ export function ProductFinder({ searchIndex }) {
                       <div className="text-xs text-neutral-500 mt-2 flex flex-wrap gap-2">
                         <span className="bg-neutral-100 px-2 py-1 rounded-md text-neutral-600">{item.material}</span>
                         <span className="bg-neutral-100 px-2 py-1 rounded-md text-neutral-600">{item.connection}</span>
-                        
+
                         {/* Dynamic Proof Tags */}
                         {searchQuery && item.specs && item.specs
-                          .filter(spec => 
+                          .filter(spec =>
                             searchQuery.toLowerCase().split(' ').filter(Boolean).some(term => spec.toLowerCase().includes(term))
                           )
                           // Exclude if it's already exactly the material or connection to avoid duplicates
@@ -122,7 +132,7 @@ export function ProductFinder({ searchIndex }) {
                             <span key={`match-${idx}`} className="bg-primary/5 text-primary px-2 py-1 rounded-md border border-primary/10 font-medium">
                               {match}
                             </span>
-                        ))}
+                          ))}
                       </div>
                     </div>
                     <ArrowRight className="w-4 h-4 text-neutral-300 group-hover:text-primary group-hover:translate-x-1 transition-all" />

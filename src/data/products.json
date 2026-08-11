@@ -762,8 +762,11 @@
                   ]
                 },
                 "media": {
-                  "primaryImage": null,
-                  "gallery": [],
+                  "primaryImage": "/images/products/stainless-steel-tee/main.webp",
+                  "gallery": [
+                    "/images/products/stainless-steel-tee/angle.webp",
+                    "/images/products/stainless-steel-tee/detail.webp"
+                  ],
                   "technicalDrawing": null,
                   "dimensionDrawing": null,
                   "thumbnail": null
@@ -918,8 +921,11 @@
                   ]
                 },
                 "media": {
-                  "primaryImage": null,
-                  "gallery": [],
+                  "primaryImage": "/images/products/stainless-steel-elbow/main.webp",
+                  "gallery": [
+                    "/images/products/stainless-steel-elbow/angle.webp",
+                    "/images/products/stainless-steel-elbow/detail.webp"
+                  ],
                   "technicalDrawing": null,
                   "dimensionDrawing": null,
                   "thumbnail": null
@@ -1075,8 +1081,11 @@
                   ]
                 },
                 "media": {
-                  "primaryImage": null,
-                  "gallery": [],
+                  "primaryImage": "/images/products/stainless-steel-reducer/main.webp",
+                  "gallery": [
+                    "/images/products/stainless-steel-reducer/angle.webp",
+                    "/images/products/stainless-steel-reducer/detail.webp"
+                  ],
                   "technicalDrawing": null,
                   "dimensionDrawing": null,
                   "thumbnail": null
@@ -1232,8 +1241,11 @@
                   ]
                 },
                 "media": {
-                  "primaryImage": null,
-                  "gallery": [],
+                  "primaryImage": "/images/products/ss-stub-end/main.webp",
+                  "gallery": [
+                    "/images/products/ss-stub-end/angle.webp",
+                    "/images/products/ss-stub-end/detail.webp"
+                  ],
                   "technicalDrawing": null,
                   "dimensionDrawing": null,
                   "thumbnail": null
