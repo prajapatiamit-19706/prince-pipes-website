@@ -128,7 +128,6 @@ export function WhyChoose() {
             src={PLACEHOLDER_FACTORY_IMAGE}
             alt="Placeholder factory image — temporary, replace with real facility photography"
             fill
-            priority
             className="object-cover"
             sizes="100vw"
           />

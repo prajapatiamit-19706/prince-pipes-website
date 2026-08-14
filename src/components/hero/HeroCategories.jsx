@@ -10,7 +10,7 @@ export function HeroCategories() {
   if (!categories || categories.length === 0) return null;
 
   return (
-    <div className="w-full bg-[#F7F9FC] py-20 border-t border-gray-200 mt-auto">
+    <div id="categories" className="w-full bg-[#F7F9FC] py-20 border-t border-gray-200 mt-auto">
       <div className="max-w-[1340px] mx-auto px-6 md:px-12">
 
         {/* Header Section */}

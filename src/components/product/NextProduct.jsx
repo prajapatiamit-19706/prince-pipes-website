@@ -49,17 +49,17 @@ export function NextProduct({ product }) {
   if (!product) return null;
 
   return (
-    <section ref={containerRef} className="py-24 group cursor-pointer relative overflow-hidden bg-neutral-900 text-white">
+    <section ref={containerRef} className="py-24 group cursor-pointer relative overflow-hidden bg-white text-[#0F2748]">
       <Link href={`/products/${product.slug}`} className="absolute inset-0 z-20" aria-label={`View next product: ${product.name}`} />
       
       {/* Background Hover Effect */}
-      <div className="absolute inset-0 bg-primary opacity-0 group-hover:opacity-10 transition-opacity duration-700" />
+      <div className="absolute inset-0 bg-[#0F2748] opacity-0 group-hover:opacity-[0.02] transition-opacity duration-700" />
       
       <div className="container mx-auto px-4 md:px-8 max-w-7xl relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           
           <div className="flex flex-col">
-            <h2 className="next-label text-sm font-bold tracking-[0.2em] text-neutral-400 uppercase mb-6">
+            <h2 className="next-label text-sm font-bold tracking-[0.2em] text-neutral-500 uppercase mb-6">
               NEXT PRODUCT
             </h2>
             
@@ -67,31 +67,52 @@ export function NextProduct({ product }) {
               {product.name}
             </h3>
             
-            <div className="next-meta flex flex-col gap-2 text-neutral-400 mb-10">
+            {/* Added extra content: Short Description */}
+            {product.description?.short && (
+              <p className="next-meta text-neutral-600 mb-8 max-w-xl leading-relaxed line-clamp-3">
+                {product.description.short}
+              </p>
+            )}
+
+            <div className="next-meta flex flex-col gap-2 text-neutral-500 mb-6">
               {product.technicalSpecifications?.material && (
-                <span className="text-lg">{product.technicalSpecifications.material}</span>
+                <span className="text-lg font-medium text-[#0F2748]">{product.technicalSpecifications.material}</span>
               )}
               {product.type && (
-                <span className="text-lg">{product.type}</span>
+                <span className="text-md">{product.type}</span>
               )}
             </div>
+
+            {/* Added extra content: Specification Badges */}
+            <div className="next-meta flex flex-wrap gap-2 mb-10">
+              {product.technicalSpecifications?.sizeRange && (
+                <span className="px-3 py-1.5 bg-neutral-100 text-[#0F2748] border border-neutral-200 text-xs font-semibold rounded-sm">
+                  {product.technicalSpecifications.sizeRange}
+                </span>
+              )}
+              {product.technicalSpecifications?.standards && product.technicalSpecifications.standards.slice(0, 2).map((std) => (
+                <span key={std} className="px-3 py-1.5 bg-neutral-100 text-[#0F2748] border border-neutral-200 text-xs font-semibold rounded-sm">
+                  {std}
+                </span>
+              ))}
+            </div>
             
-            <div className="flex items-center text-sm font-bold tracking-[0.2em] uppercase text-white group-hover:text-primary transition-colors">
+            <div className="flex items-center text-sm font-bold tracking-[0.2em] uppercase text-[#0F2748] group-hover:text-primary transition-colors">
               VIEW PRODUCT
               <ArrowRight className="w-5 h-5 ml-4 transform group-hover:translate-x-2 transition-transform duration-500" />
             </div>
           </div>
           
-          <div className="next-image relative w-full aspect-[4/3] bg-neutral-800 rounded-xl overflow-hidden border border-neutral-700">
+          <div className="next-image relative w-full aspect-[4/3] bg-neutral-50 rounded-xl overflow-hidden border border-neutral-200">
             {product.media?.primaryImage ? (
               <Image 
                 src={product.media.primaryImage} 
                 alt={product.name} 
                 fill 
-                className="object-cover opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 ease-out"
+                className="object-cover opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 ease-out"
               />
             ) : (
-              <div className="w-full h-full flex items-center justify-center text-neutral-500 text-sm font-medium">
+              <div className="w-full h-full flex items-center justify-center text-neutral-400 text-sm font-medium">
                 No Image
               </div>
             )}

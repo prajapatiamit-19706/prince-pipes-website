@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import { X, CheckCircle2 } from 'lucide-react';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
@@ -23,6 +23,17 @@ export function RequestQuoteModal({ productName }) {
     email: '',
     message: ''
   });
+
+  const close = useCallback(() => {
+    setIsOpen(false);
+    document.body.style.overflow = '';
+    // Reset after animation completes
+    setTimeout(() => {
+      setIsSuccess(false);
+      setIsError(false);
+      setFormData(prev => ({ ...prev, quantity: '', email: '', message: '' }));
+    }, 500);
+  }, []);
 
   // Listen for the custom event to open and ESC to close
   useEffect(() => {
@@ -47,18 +58,7 @@ export function RequestQuoteModal({ productName }) {
       window.removeEventListener('open-quote-modal', handleOpen);
       window.removeEventListener('keydown', handleKeyDown);
     };
-  }, []);
-
-  const close = () => {
-    setIsOpen(false);
-    document.body.style.overflow = '';
-    // Reset after animation completes
-    setTimeout(() => {
-      setIsSuccess(false);
-      setIsError(false);
-      setFormData(prev => ({ ...prev, quantity: '', email: '', message: '' }));
-    }, 500);
-  };
+  }, [close]);
 
   useGSAP(() => {
     if (isOpen) {

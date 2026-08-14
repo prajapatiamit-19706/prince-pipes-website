@@ -1,40 +1,41 @@
 "use client";
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import Lenis from 'lenis';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { usePathname } from 'next/navigation';
 
 if (typeof window !== "undefined") {
   gsap.registerPlugin(ScrollTrigger);
+  if ('scrollRestoration' in history) {
+    history.scrollRestoration = 'manual';
+  }
 }
 
 export const SmoothScroll = ({ children }) => {
+  const pathname = usePathname();
+  const [lenisInstance, setLenisInstance] = useState(null);
+
   useEffect(() => {
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     if (prefersReducedMotion) return;
 
+    window.scrollTo(0, 0);
+
     const lenis = new Lenis({
       duration: 0.8,
       easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-      orientation: 'vertical',        // renamed from `direction` in Lenis 1.x
-      gestureOrientation: 'vertical', // renamed from `gestureDirection` in Lenis 1.x
-      // `smooth` was removed in 1.x -- smooth scrolling is on by default now.
-      // `smoothTouch` was removed -- `syncTouch` is the current equivalent;
-      // left off (defaults to false) to match the original smoothTouch:false intent.
-      wheelMultiplier: 1,   // this is the real option name -- `mouseMultiplier` doesn't exist
+      orientation: 'vertical',
+      gestureOrientation: 'vertical',
+      wheelMultiplier: 1,
       touchMultiplier: 2,
       infinite: false,
     });
+    
+    setLenisInstance(lenis);
 
     lenis.on('scroll', ScrollTrigger.update);
 
-    // Store the exact function reference so it can actually be removed later.
-    // gsap.ticker.remove() requires reference equality -- passing a fresh
-    // arrow function to .remove() (as in the original) never matches what
-    // was added, so the old callback keeps running after "cleanup," and a
-    // second one gets added on every remount. Multiple competing raf loops
-    // driving ScrollTrigger.update() is what was desyncing the pinned
-    // Manufacturing section's timing.
     const rafCallback = (time) => {
       lenis.raf(time * 1000);
     };
@@ -44,8 +45,17 @@ export const SmoothScroll = ({ children }) => {
     return () => {
       gsap.ticker.remove(rafCallback);
       lenis.destroy();
+      setLenisInstance(null);
     };
   }, []);
+
+  useEffect(() => {
+    if (lenisInstance) {
+      lenisInstance.scrollTo(0, { immediate: true });
+    } else {
+      window.scrollTo(0, 0);
+    }
+  }, [pathname, lenisInstance]);
 
   return <>{children}</>;
 };

@@ -1,7 +1,7 @@
 "use client";
 
-import { useRef, useState, useMemo, useEffect } from 'react';
-import { Search, Package, ArrowRight } from 'lucide-react';
+import { useRef, useState, useEffect } from 'react';
+import { Search, Package, ArrowRight, Loader2 } from 'lucide-react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useGSAP } from '@gsap/react';
@@ -9,14 +9,16 @@ import Link from 'next/link';
 
 gsap.registerPlugin(ScrollTrigger);
 
-export function ProductFinder({ searchIndex }) {
+export function ProductFinder() {
   const containerRef = useRef(null);
   const searchContainerRef = useRef(null);
 
   const [searchQuery, setSearchQuery] = useState('');
   const [isSearchFocused, setIsSearchFocused] = useState(false);
-
-  const { items = [] } = searchIndex || {};
+  const [results, setResults] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState(null);
+  const [totalMatches, setTotalMatches] = useState(0);
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -28,23 +30,49 @@ export function ProductFinder({ searchIndex }) {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
-  // Compute filtered results
-  const filteredResults = useMemo(() => {
-    if (!items.length) return [];
-    return items.filter(item => {
-      if (searchQuery) {
-        // Deep search match
-        const queryTerms = searchQuery.toLowerCase().split(' ').filter(Boolean);
-        // All query terms must be found somewhere in the item's search string
-        if (!queryTerms.every(term => item.searchString.includes(term))) {
-          return false;
-        }
-      }
-      return true;
-    });
-  }, [items, searchQuery]);
+  useEffect(() => {
+    if (!searchQuery.trim()) {
+      setResults([]);
+      setTotalMatches(0);
+      setIsLoading(false);
+      setError(null);
+      return;
+    }
 
-  const showResults = isSearchFocused || searchQuery;
+    const abortController = new AbortController();
+    
+    setIsLoading(true);
+    setError(null);
+
+    const timer = setTimeout(async () => {
+      try {
+        const res = await fetch(`/api/products/search?q=${encodeURIComponent(searchQuery)}`, {
+          signal: abortController.signal
+        });
+        
+        if (!res.ok) throw new Error('Search failed');
+        
+        const data = await res.json();
+        setResults(data.items || []);
+        setTotalMatches(data.total || 0);
+      } catch (err) {
+        if (err.name !== 'AbortError') {
+          console.error('Search error:', err);
+          setError('Failed to fetch results.');
+          setResults([]);
+        }
+      } finally {
+        setIsLoading(false);
+      }
+    }, 300); // 300ms debounce
+
+    return () => {
+      clearTimeout(timer);
+      abortController.abort();
+    };
+  }, [searchQuery]);
+
+  const showResults = isSearchFocused && searchQuery.trim().length > 0;
 
   useGSAP(() => {
     const tl = gsap.timeline({
@@ -89,23 +117,30 @@ export function ProductFinder({ searchIndex }) {
             onChange={(e) => setSearchQuery(e.target.value)}
             onFocus={() => setIsSearchFocused(true)}
           />
+          {isLoading && (
+            <Loader2 className="absolute right-4 top-1/2 -translate-y-1/2 w-5 h-5 text-primary animate-spin" />
+          )}
         </div>
       </div>
 
       {/* Inline Results Section */}
       {showResults && (
         <div className="max-w-6xl mx-auto mt-12 bg-white border border-neutral-200 shadow-sm rounded-xl overflow-hidden" onClick={(e) => e.stopPropagation()}>
-          {filteredResults.length === 0 ? (
+          {error ? (
+             <div className="p-8 text-center text-red-500">{error}</div>
+          ) : results.length === 0 && !isLoading ? (
             <div className="p-8 text-center text-neutral-500">
               <Package className="w-8 h-8 mx-auto mb-3 opacity-20" />
               No products found matching your filters.
             </div>
           ) : (
             <ul className="py-2 max-h-[500px] overflow-y-auto overscroll-contain [&::-webkit-scrollbar]:w-3 [&::-webkit-scrollbar-track]:bg-transparent [&::-webkit-scrollbar-thumb]:bg-neutral-200 hover:[&::-webkit-scrollbar-thumb]:bg-neutral-300 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:border-2 [&::-webkit-scrollbar-thumb]:border-solid [&::-webkit-scrollbar-thumb]:border-white">
-              <li className="px-4 py-3 text-xs font-semibold text-neutral-400 uppercase tracking-wider bg-neutral-50 border-b border-neutral-100 sticky top-0 z-10">
-                {filteredResults.length} Result{filteredResults.length !== 1 ? 's' : ''} Found
-              </li>
-              {filteredResults.slice(0, 15).map(item => (
+              {!isLoading && (
+                <li className="px-4 py-3 text-xs font-semibold text-neutral-400 uppercase tracking-wider bg-neutral-50 border-b border-neutral-100 sticky top-0 z-10">
+                  {totalMatches} Result{totalMatches !== 1 ? 's' : ''} Found
+                </li>
+              )}
+              {results.map(item => (
                 <li key={item.slug}>
                   <Link
                     href={item.url}
@@ -139,7 +174,7 @@ export function ProductFinder({ searchIndex }) {
                   </Link>
                 </li>
               ))}
-              {filteredResults.length > 15 && (
+              {totalMatches > 15 && (
                 <li className="px-6 py-4 text-center text-sm text-neutral-500 bg-neutral-50">
                   Refine your search to see more specific results.
                 </li>

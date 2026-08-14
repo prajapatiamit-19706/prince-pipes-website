@@ -1,6 +1,8 @@
 import { notFound, redirect } from 'next/navigation';
-import { getProductBySlug, getAllProductSlugs, getNextProduct, getRelatedProducts, getProductBreadcrumbs, getProductUrl, getFallbackRedirectUrl, getProductSearchIndex } from '@/utils/productData';
+import { getProductBySlug, getAllProductSlugs, getNextProduct, getRelatedProducts, getProductBreadcrumbs, getProductUrl, getFallbackRedirectUrl, getProductSearchIndex, getCategoryBySlug, getSubcategoryBySlug } from '@/utils/productData';
 
+import { CategoryTemplate } from '@/components/products/CategoryTemplate';
+import { SubcategoryTemplate } from '@/components/products/SubcategoryTemplate';
 import { ProductBreadcrumb } from '@/components/product/ProductBreadcrumb';
 import { ProductHero } from '@/components/product/ProductHero';
 import { QuickSpecs } from '@/components/product/QuickSpecs';
@@ -25,6 +27,27 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;
+  
+  if (slug.length === 1) {
+    const category = getCategoryBySlug(slug[0]);
+    if (category) {
+      return {
+        title: category.seo?.title || `${category.name} | Prince Pipes & Fittings`,
+        description: category.seo?.description || category.description || '',
+        alternates: { canonical: `/products/${category.slug}` }
+      };
+    }
+  } else if (slug.length === 2) {
+    const subcategory = getSubcategoryBySlug(slug[0], slug[1]);
+    if (subcategory) {
+      return {
+        title: subcategory.seo?.title || `${subcategory.name} | Prince Pipes & Fittings`,
+        description: subcategory.seo?.description || subcategory.description || '',
+        alternates: { canonical: `/products/${slug[0]}/${subcategory.slug}` }
+      };
+    }
+  }
+
   const productSlug = Array.isArray(slug) ? slug[slug.length - 1] : slug;
   const result = getProductBySlug(productSlug);
 
@@ -50,6 +73,19 @@ export async function generateMetadata({ params }) {
 export default async function ProductDetailPage({ params }) {
   const { slug } = await params;
   
+  if (slug.length === 1) {
+    const category = getCategoryBySlug(slug[0]);
+    if (category) {
+      return <CategoryTemplate category={category} />;
+    }
+  } else if (slug.length === 2) {
+    const subcategory = getSubcategoryBySlug(slug[0], slug[1]);
+    if (subcategory) {
+      const category = getCategoryBySlug(slug[0]);
+      return <SubcategoryTemplate category={category} subcategory={subcategory} />;
+    }
+  }
+
   // Extract the product slug from the catch-all array
   const productSlug = Array.isArray(slug) ? slug[slug.length - 1] : slug;
   const result = getProductBySlug(productSlug);
@@ -75,7 +111,6 @@ export default async function ProductDetailPage({ params }) {
   const nextProduct = getNextProduct(productSlug);
   const relatedProducts = getRelatedProducts(product.relatedProducts);
   const dynamicBreadcrumbs = getProductBreadcrumbs(productSlug);
-  const searchIndex = getProductSearchIndex();
 
   let structuredData = null;
   if (product.structuredData) {
@@ -110,7 +145,7 @@ export default async function ProductDetailPage({ params }) {
       {/* Full-width section for Finder & Identification */}
       <div className="bg-neutral-50 py-16 mt-16 border-y border-neutral-200">
         <div className="container mx-auto px-4 md:px-8 max-w-7xl">
-          <ProductFinder searchIndex={searchIndex} />
+          <ProductFinder />
           <div className="mt-16">
              <ProductIdentification currentProductType={product.type} />
           </div>

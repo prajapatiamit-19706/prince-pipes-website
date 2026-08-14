@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, useCallback } from 'react';
 import Image from 'next/image';
 import { X, ChevronLeft, ChevronRight, ZoomIn, ZoomOut } from 'lucide-react';
 import gsap from 'gsap';
@@ -17,10 +17,18 @@ export function FullscreenImageViewer({ images, currentIndex, isOpen, onClose })
   const minSwipeDistance = 50;
 
   // Sync index when opened
-  useEffect(() => {
+  const [prevIsOpen, setPrevIsOpen] = useState(isOpen);
+  if (isOpen !== prevIsOpen) {
+    setPrevIsOpen(isOpen);
     if (isOpen) {
       setIndex(currentIndex);
       setScale(1);
+    }
+  }
+
+  // Body overflow
+  useEffect(() => {
+    if (isOpen) {
       document.body.style.overflow = 'hidden';
     } else {
       document.body.style.overflow = '';
@@ -28,7 +36,7 @@ export function FullscreenImageViewer({ images, currentIndex, isOpen, onClose })
     return () => {
       document.body.style.overflow = '';
     };
-  }, [isOpen, currentIndex]);
+  }, [isOpen]);
 
   useGSAP(() => {
     if (isOpen) {
@@ -45,19 +53,19 @@ export function FullscreenImageViewer({ images, currentIndex, isOpen, onClose })
     }
   }, [isOpen]);
 
-  if (!isOpen || !images || images.length === 0) return null;
-
-  const handleNext = (e) => {
+  const handleNext = useCallback((e) => {
     e?.stopPropagation();
+    if (!images || images.length === 0) return;
     setIndex((prev) => (prev === images.length - 1 ? 0 : prev + 1));
     setScale(1);
-  };
+  }, [images]);
 
-  const handlePrev = (e) => {
+  const handlePrev = useCallback((e) => {
     e?.stopPropagation();
+    if (!images || images.length === 0) return;
     setIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1));
     setScale(1);
-  };
+  }, [images]);
 
   const handleZoomIn = (e) => {
     e?.stopPropagation();
@@ -79,7 +87,9 @@ export function FullscreenImageViewer({ images, currentIndex, isOpen, onClose })
     };
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [isOpen]);
+  }, [isOpen, handleNext, handlePrev, onClose]);
+
+  if (!isOpen || !images || images.length === 0) return null;
 
   const onTouchStart = (e) => {
     setTouchEnd(null);

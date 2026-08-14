@@ -1,8 +1,10 @@
+import dynamic from "next/dynamic";
 import { Hero } from "@/components/hero";
-import { WhyChoose } from "@/components/why-choose/WhyChoose";
-import { ManufacturingJourney } from "@/components/manufacturing";
-import { FinalCTA } from "@/components/cta";
-import { AdvancedFacility } from "@/components/AdvancedFacility/AdvancedFacility";
+
+const WhyChoose = dynamic(() => import("@/components/why-choose/WhyChoose").then(mod => mod.WhyChoose), { ssr: true });
+const ManufacturingJourney = dynamic(() => import("@/components/manufacturing").then(mod => mod.ManufacturingJourney), { ssr: true });
+const FinalCTA = dynamic(() => import("@/components/cta").then(mod => mod.FinalCTA), { ssr: true });
+const AdvancedFacility = dynamic(() => import("@/components/AdvancedFacility/AdvancedFacility").then(mod => mod.AdvancedFacility), { ssr: true });
 
 export default function Home() {
   return (

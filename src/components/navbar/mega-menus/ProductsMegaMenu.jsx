@@ -44,7 +44,8 @@ export const ProductsMegaMenu = ({ isOpen, onMouseEnter, onMouseLeave }) => {
               
               return (
                 <li key={cat.id}>
-                  <button
+                  <Link
+                    href={cat.path || '#'}
                     onMouseEnter={() => setActiveCategory(cat.id)}
                     className={`w-full text-left group relative flex items-center justify-between px-4 py-3 rounded-xl transition-all duration-300 ${isActive ? 'bg-surface-2 shadow-sm' : 'hover:bg-surface-2 hover:shadow-sm'}`}
                   >
@@ -57,7 +58,7 @@ export const ProductsMegaMenu = ({ isOpen, onMouseEnter, onMouseLeave }) => {
                     </div>
                     {/* Only show chevron if there are actual subcategories to expand */}
                     <ChevronRight className={`w-4 h-4 transition-all duration-300 ${isActive && catHasSub ? 'text-[#c29b62] translate-x-1 opacity-100' : 'text-text-muted opacity-0 -translate-x-2'}`} />
-                  </button>
+                  </Link>
                 </li>
               );
             })}

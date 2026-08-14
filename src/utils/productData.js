@@ -84,7 +84,7 @@ export function getProductBreadcrumbs(slug) {
 
   const { product, category, subCategory } = result;
   const breadcrumbs = [
-    { name: "Products", path: "/products" },
+    { name: "Products", path: "/#categories" },
     { name: category.name, path: `/products/${category.slug}` }
   ];
 
@@ -287,4 +287,99 @@ export function getProductSearchIndex() {
   });
 
   return { items };
+}
+
+/**
+ * Gets all product categories.
+ * @returns {Array<Object>} Array of category objects.
+ */
+export function getAllCategories() {
+  return productsData?.catalog?.categories || [];
+}
+
+/**
+ * Gets a category by its slug.
+ * @param {string} slug - The category slug.
+ * @returns {Object|null} The category object or null.
+ */
+export function getCategoryBySlug(slug) {
+  if (!productsData?.catalog?.categories) return null;
+  return productsData.catalog.categories.find(c => c.slug === slug) || null;
+}
+
+/**
+ * Gets a subcategory by its category slug and subcategory slug.
+ * @param {string} categorySlug - The parent category slug.
+ * @param {string} subcategorySlug - The subcategory slug.
+ * @returns {Object|null} The subcategory object or null.
+ */
+export function getSubcategoryBySlug(categorySlug, subcategorySlug) {
+  const category = getCategoryBySlug(categorySlug);
+  if (!category || !category.subCategories) return null;
+  return category.subCategories.find(s => s.slug === subcategorySlug) || null;
+}
+
+/**
+ * Gets all products for a given category.
+ * @param {string} categoryId - The category ID.
+ * @returns {Array<Object>} Array of product objects.
+ */
+export function getProductsByCategory(categoryId) {
+  if (!productsData?.catalog?.categories) return [];
+  const category = productsData.catalog.categories.find(c => c.id === categoryId);
+  if (!category) return [];
+  
+  // Return direct products
+  return category.products || [];
+}
+
+/**
+ * Gets all products for a given subcategory.
+ * @param {string} categoryId - The category ID.
+ * @param {string} subcategoryId - The subcategory ID.
+ * @returns {Array<Object>} Array of product objects.
+ */
+export function getProductsBySubcategory(categoryId, subcategoryId) {
+  if (!productsData?.catalog?.categories) return [];
+  const category = productsData.catalog.categories.find(c => c.id === categoryId);
+  if (!category || !category.subCategories) return [];
+  
+  const subcategory = category.subCategories.find(s => s.id === subcategoryId);
+  if (!subcategory) return [];
+  
+  return subcategory.products || [];
+}
+
+/**
+ * Generates dynamic breadcrumbs for a category.
+ * @param {string} categorySlug - The category slug.
+ * @returns {Array<{name: string, path: string}>} Array of breadcrumb objects.
+ */
+export function getCategoryBreadcrumbs(categorySlug) {
+  const category = getCategoryBySlug(categorySlug);
+  if (!category) return [];
+
+  return [
+    { name: "Products", path: "/#categories" },
+    { name: category.name, path: `/products/${category.slug}` }
+  ];
+}
+
+/**
+ * Generates dynamic breadcrumbs for a subcategory.
+ * @param {string} categorySlug - The category slug.
+ * @param {string} subcategorySlug - The subcategory slug.
+ * @returns {Array<{name: string, path: string}>} Array of breadcrumb objects.
+ */
+export function getSubcategoryBreadcrumbs(categorySlug, subcategorySlug) {
+  const category = getCategoryBySlug(categorySlug);
+  const subcategory = getSubcategoryBySlug(categorySlug, subcategorySlug);
+  
+  if (!category || !subcategory) return [];
+
+  return [
+    { name: "Products", path: "/#categories" },
+    { name: category.name, path: `/products/${category.slug}` },
+    { name: subcategory.name, path: `/products/${category.slug}/${subcategory.slug}` }
+  ];
 }

@@ -23,7 +23,7 @@ export function FinalCTA() {
         toggleActions: "play none none none",
       },
       defaults: { ease: "power2.out" },
-    }).timeScale(1.4);
+    }).timeScale(2.5);
 
     const drawElements = (selector, duration = 0.8, overlap = "-=0.4") => {
       gsap.set(selector, { strokeDasharray: 2000, strokeDashoffset: 2000, opacity: 1 });
