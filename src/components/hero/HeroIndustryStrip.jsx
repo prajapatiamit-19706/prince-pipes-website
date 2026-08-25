@@ -72,9 +72,8 @@ export function HeroIndustryStrip({ industries }) {
             const IconComponent = IconMap[industry.icon];
 
             return (
-              <Link
+              <div
                 key={industry.id}
-                href={industry.href}
                 className="industry-card opacity-0 translate-y-8 group flex flex-col h-full p-6 rounded-xl border border-border bg-background transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.15)] hover:border-primary/40 relative overflow-hidden"
               >
                 {/* Subtle blueprint background fade in on hover */}
@@ -114,7 +113,7 @@ export function HeroIndustryStrip({ industries }) {
 
 
                 </div>
-              </Link>
+                </div>
             );
           })}
         </div>

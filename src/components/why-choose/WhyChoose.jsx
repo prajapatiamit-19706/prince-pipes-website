@@ -204,7 +204,7 @@ export function WhyChoose() {
                   Downloads pattern already defined in navigation.json, rather
                   than adding decorative-only filler. */}
               <a
-                href="/technical-resources"
+                href="technical-resources/dimension-charts"
                 className="group flex items-center justify-between w-full rounded-lg border border-border bg-surface-2 px-4 py-3.5 transition-colors duration-300 hover:border-secondary/50 hover:bg-secondary/5"
               >
                 <span className="text-sm font-medium text-text">
