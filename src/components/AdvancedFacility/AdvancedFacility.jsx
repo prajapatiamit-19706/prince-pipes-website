@@ -36,32 +36,28 @@ function EquipmentPanel({ title, iconName, machines }) {
   }, [sortedMachines.length]);
 
   useEffect(() => {
-    // Only rotate if not hovering
-    if (isHovering) {
-      if (timerRef.current) clearInterval(timerRef.current);
-      return;
+    let intervalId;
+    let isIntersecting = false;
+
+    const observer = new IntersectionObserver((entries) => {
+      isIntersecting = entries[0].isIntersecting;
+    }, { threshold: 0.1 });
+
+    if (panelRef.current) {
+      observer.observe(panelRef.current);
     }
 
-    // Set auto-rotation interval
-    timerRef.current = setInterval(() => {
-      // Create IntersectionObserver to check if panel is in viewport
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-            nextMachine();
-          }
-        });
-      }, { threshold: 0.1 });
-
-      if (panelRef.current) {
-        observer.observe(panelRef.current);
-        // After observing once, we immediately disconnect to just do a point-in-time check
-        observer.disconnect();
-      }
-    }, 4500);
+    if (!isHovering && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      intervalId = setInterval(() => {
+        if (isIntersecting) {
+          nextMachine();
+        }
+      }, 4500);
+    }
 
     return () => {
-      if (timerRef.current) clearInterval(timerRef.current);
+      if (intervalId) clearInterval(intervalId);
+      observer.disconnect();
     };
   }, [isHovering, nextMachine]);
 
@@ -84,7 +80,7 @@ function EquipmentPanel({ title, iconName, machines }) {
       <div className="flex flex-col md:flex-row flex-grow">
         {/* Left: Shared Info Panel */}
         <div className="w-full md:w-5/12 p-6 md:p-8 border-b md:border-b-0 md:border-r border-border/50 bg-surface relative">
-          <div className="absolute inset-0 bg-[url('/images/blueprint-pattern.png')] bg-repeat opacity-[0.02] mix-blend-overlay pointer-events-none" />
+          <div className="absolute inset-0 bg-[url('/images/blueprint-pattern.png')] bg-repeat opacity-5 pointer-events-none" />
           <div ref={infoRef} className="relative z-10 flex flex-col h-full justify-center min-h-[160px]">
             <span className="machine-anim-element font-mono text-[10px] md:text-xs tracking-widest uppercase text-primary mb-3 flex items-center gap-2">
               <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse" />
@@ -111,7 +107,7 @@ function EquipmentPanel({ title, iconName, machines }) {
                   key={machine.id}
                   onMouseEnter={() => setActiveIndex(idx)}
                   className={`
-                    relative group flex items-center gap-3 p-3 rounded-xl border text-left transition-all duration-400
+                    relative group flex items-center gap-3 p-3 rounded-xl border text-left transition-all duration-300 transform-gpu
                     ${isActive
                       ? 'bg-primary border-primary shadow-[0_4px_20px_rgba(var(--primary-rgb),0.25)] scale-[1.02]'
                       : 'bg-surface border-border hover:border-primary/30 hover:bg-surface-2'
@@ -119,13 +115,13 @@ function EquipmentPanel({ title, iconName, machines }) {
                   `}
                 >
                   <div className={`
-                    flex items-center justify-center w-8 h-8 rounded-lg transition-colors duration-400
+                    flex items-center justify-center w-8 h-8 rounded-lg transition-colors duration-300
                     ${isActive ? 'bg-white/20 text-white' : 'bg-surface-2 text-text-muted group-hover:text-primary'}
                   `}>
                     <MachineIcon className={`w-4 h-4 transition-transform duration-500 ${isActive ? 'rotate-12 scale-110' : ''}`} />
                   </div>
                   <span className={`
-                    font-medium text-sm transition-colors duration-400 line-clamp-1
+                    font-medium text-sm transition-colors duration-300 line-clamp-1
                     ${isActive ? 'text-white' : 'text-text-secondary group-hover:text-text-primary'}
                   `}>
                     {machine.name}
@@ -133,7 +129,7 @@ function EquipmentPanel({ title, iconName, machines }) {
 
                   {/* Active Indicator Strip */}
                   <div className={`
-                    absolute left-0 top-1/2 -translate-y-1/2 w-1 h-1/2 bg-white rounded-r-full transition-all duration-400
+                    absolute left-0 top-1/2 -translate-y-1/2 w-1 h-1/2 bg-white rounded-r-full transition-all duration-300 transform-gpu
                     ${isActive ? 'opacity-100 scale-y-100' : 'opacity-0 scale-y-0'}
                   `} />
                 </button>
