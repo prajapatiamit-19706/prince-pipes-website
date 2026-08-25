@@ -130,10 +130,28 @@
           "materialId": "stainless-steel"
         },
         {
-          "id": "duplex",
-          "label": "Duplex",
-          "path": "/materials/duplex",
-          "materialId": "duplex"
+          "id": "carbon-steel",
+          "label": "Carbon Steel",
+          "path": "/materials/carbon-steel",
+          "materialId": "carbon-steel"
+        },
+        {
+          "id": "duplex-steel",
+          "label": "Duplex Steel",
+          "path": "/materials/duplex-steel",
+          "materialId": "duplex-steel"
+        },
+        {
+          "id": "super-duplex-steel",
+          "label": "Super Duplex Steel",
+          "path": "/materials/super-duplex-steel",
+          "materialId": "super-duplex-steel"
+        },
+        {
+          "id": "alloy-steel",
+          "label": "Alloy Steel",
+          "path": "/materials/alloy-steel",
+          "materialId": "alloy-steel"
         },
         {
           "id": "monel",
@@ -142,10 +160,16 @@
           "materialId": "monel"
         },
         {
-          "id": "nickel",
-          "label": "Nickel",
-          "path": "/materials/nickel",
-          "materialId": "nickel"
+          "id": "inconel",
+          "label": "Inconel",
+          "path": "/materials/inconel",
+          "materialId": "inconel"
+        },
+        {
+          "id": "hastelloy",
+          "label": "Hastelloy",
+          "path": "/materials/hastelloy",
+          "materialId": "hastelloy"
         }
       ]
     },
@@ -163,14 +187,13 @@
         {
           "id": "dimension-charts",
           "label": "Dimension Charts",
-          "path": "/technical-resources/dimensions",
+          "path": "/technical-resources/dimension-charts",
           "status": "available_on_request"
         },
         {
           "id": "weight-charts",
           "label": "Weight Charts",
-          "path": "/technical-resources/weights",
-          "status": "available_on_request"
+          "path": "/technical-resources/weight-charts"
         }
       ]
     },

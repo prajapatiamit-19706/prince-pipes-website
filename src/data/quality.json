@@ -1,0 +1,434 @@
+{
+    "page": {
+        "id": "quality",
+        "slug": "/quality",
+        "status": "published",
+        "seo": {
+            "title": "Quality Standards & Inspection | Industrial Pipe Fittings | Prince Pipes & Fittings",
+            "description": "Explore quality standards, inspection methods, testing practices, technical specifications and packaging information for industrial pipe fittings from Prince Pipes & Fittings.",
+            "keywords": [
+                "industrial pipe fittings quality",
+                "pipe fittings quality standards",
+                "pipe fitting inspection",
+                "pipe fitting testing",
+                "industrial pipe fitting standards",
+                "pipe fittings inspection",
+                "pipe fittings testing",
+                "PMI testing pipe fittings",
+                "NDT testing pipe fittings",
+                "hardness testing pipe fittings",
+                "ultrasonic testing pipe fittings",
+                "carbon steel fittings quality",
+                "stainless steel fittings quality",
+                "alloy steel fittings quality",
+                "ASME pipe fitting standards",
+                "ASTM pipe fittings",
+                "pipe fittings supplier India",
+                "industrial pipe fittings supplier India"
+            ],
+            "canonical": "/quality",
+            "ogTitle": "Quality & Technical Control | Prince Pipes & Fittings",
+            "ogDescription": "Technical standards, inspection, testing and product quality information for industrial pipe fittings."
+        },
+        "hero": {
+            "eyebrow": "QUALITY & TECHNICAL CONTROL",
+            "title": "Quality Built Around Precision",
+            "description": "Our product range is defined around material specifications, dimensional requirements, applicable standards, manufacturing processes and inspection requirements for industrial piping applications.",
+            "breadcrumb": [
+                {
+                    "label": "Home",
+                    "href": "/"
+                },
+                {
+                    "label": "Quality",
+                    "href": "/quality"
+                }
+            ],
+            "image": {
+                "src": "",
+                "alt": "Industrial pipe fittings quality inspection",
+                "priority": true
+            }
+        },
+        "qualityPhilosophy": {
+            "eyebrow": "OUR APPROACH",
+            "title": "Precision at Every Stage",
+            "description": "Reliable industrial fittings depend on more than the finished component. Material specifications, manufacturing requirements, dimensional considerations and applicable testing all contribute to product conformity.",
+            "highlights": [
+                {
+                    "number": "01",
+                    "title": "Specification",
+                    "description": "Material grades, dimensions, standards and application requirements define the technical basis of the product."
+                },
+                {
+                    "number": "02",
+                    "title": "Inspection",
+                    "description": "Applicable visual, dimensional and technical checks support product conformity."
+                },
+                {
+                    "number": "03",
+                    "title": "Verification",
+                    "description": "Testing and technical documentation can be applied according to product and customer requirements."
+                }
+            ]
+        },
+        "qualityFramework": {
+            "eyebrow": "QUALITY CONTROL FRAMEWORK",
+            "title": "From Specification to Supply",
+            "description": "Our product data is organized around the technical requirements that matter to industrial piping buyers and engineering teams.",
+            "items": [
+                {
+                    "number": "01",
+                    "title": "Material Verification",
+                    "description": "Product specifications identify applicable materials and grades for the selected fitting."
+                },
+                {
+                    "number": "02",
+                    "title": "Dimensional Inspection",
+                    "description": "Product information defines applicable size ranges, schedules, ends and dimensional standards."
+                },
+                {
+                    "number": "03",
+                    "title": "Manufacturing Control",
+                    "description": "Applicable manufacturing methods include forging, heat treatment and hydro testing."
+                },
+                {
+                    "number": "04",
+                    "title": "Testing & Verification",
+                    "description": "Testing options documented across the product range include PMI, NDT and hardness testing, with additional testing where specified."
+                },
+                {
+                    "number": "05",
+                    "title": "Final Review",
+                    "description": "Product requirements, applicable specifications, testing requirements and packaging requirements are considered before supply."
+                }
+            ]
+        },
+        "inspectionTesting": {
+            "eyebrow": "INSPECTION & TESTING",
+            "title": "Technical Inspection & Testing",
+            "description": "Different products and applications may require different inspection and testing methods. The applicable requirements are determined by product specifications and customer requirements.",
+            "tests": [
+                {
+                    "id": "pmi",
+                    "title": "PMI Test",
+                    "shortTitle": "PMI",
+                    "description": "Positive Material Identification used where specified to verify material composition.",
+                    "icon": "scan-search",
+                    "availability": "documented"
+                },
+                {
+                    "id": "ndt",
+                    "title": "NDT Test",
+                    "shortTitle": "NDT",
+                    "description": "Non-destructive testing for applicable product and inspection requirements.",
+                    "icon": "waves",
+                    "availability": "documented"
+                },
+                {
+                    "id": "hardness",
+                    "title": "Hardness Test",
+                    "shortTitle": "Hardness",
+                    "description": "Hardness verification where required by the applicable product specification.",
+                    "icon": "gauge",
+                    "availability": "documented"
+                },
+                {
+                    "id": "ultrasonic",
+                    "title": "Ultrasonic Test",
+                    "shortTitle": "Ultrasonic",
+                    "description": "Ultrasonic testing for applicable material and product requirements.",
+                    "icon": "activity",
+                    "availability": "applicable"
+                },
+                {
+                    "id": "hic",
+                    "title": "HIC Testing",
+                    "shortTitle": "HIC",
+                    "description": "Hydrogen-induced cracking testing for applicable requirements.",
+                    "icon": "shield-check",
+                    "availability": "applicable"
+                },
+                {
+                    "id": "visual-dimensional",
+                    "title": "Visual & Dimensional Inspection",
+                    "shortTitle": "Inspection",
+                    "description": "Visual and dimensional requirements are considered according to the applicable product specification.",
+                    "icon": "ruler",
+                    "availability": "standard-check"
+                }
+            ]
+        },
+        "standards": {
+            "eyebrow": "STANDARDS & SPECIFICATIONS",
+            "title": "Built Around Recognized Specifications",
+            "description": "Applicable standards vary by product type, material, manufacturing method and customer requirement.",
+            "standards": [
+                {
+                    "code": "ASME B16.9",
+                    "name": "Factory-Made Wrought Butt-Welding Fittings",
+                    "category": "Pipe Fittings"
+                },
+                {
+                    "code": "ASME B16.11",
+                    "name": "Forged Fittings",
+                    "category": "Forged Fittings"
+                },
+                {
+                    "code": "MSS-SP-75",
+                    "name": "Specification for High-Test Wrought Butt-Welding Fittings",
+                    "category": "Butt-Weld Fittings"
+                },
+                {
+                    "code": "ASTM A234",
+                    "name": "Specification for Piping Fittings of Wrought Carbon Steel and Alloy Steel",
+                    "category": "Material Standard"
+                },
+                {
+                    "code": "ASTM A420",
+                    "name": "Specification for Piping Fittings of Wrought Carbon Steel and Alloy Steel for Low-Temperature Service",
+                    "category": "Material Standard"
+                },
+                {
+                    "code": "ASTM A105",
+                    "name": "Carbon Steel Forgings for Piping Applications",
+                    "category": "Material Standard"
+                },
+                {
+                    "code": "ASTM A182",
+                    "name": "Forged or Rolled Alloy and Stainless Steel Flanges and Fittings",
+                    "category": "Material Standard"
+                },
+                {
+                    "code": "ASME SA234",
+                    "name": "Carbon Steel and Alloy Steel Piping Components",
+                    "category": "Material Standard"
+                }
+            ]
+        },
+        "technicalAssurance": {
+            "eyebrow": "TECHNICAL ASSURANCE",
+            "title": "A Clear Technical Path",
+            "description": "A structured product journey helps engineering and procurement teams understand the technical requirements associated with each fitting.",
+            "steps": [
+                {
+                    "number": "01",
+                    "title": "Material",
+                    "description": "Material and applicable grade"
+                },
+                {
+                    "number": "02",
+                    "title": "Specification",
+                    "description": "Size, schedule and applicable standard"
+                },
+                {
+                    "number": "03",
+                    "title": "Manufacturing",
+                    "description": "Applicable manufacturing process"
+                },
+                {
+                    "number": "04",
+                    "title": "Inspection",
+                    "description": "Visual and dimensional requirements"
+                },
+                {
+                    "number": "05",
+                    "title": "Testing",
+                    "description": "Applicable testing requirements"
+                },
+                {
+                    "number": "06",
+                    "title": "Packaging",
+                    "description": "Product protection for handling and dispatch"
+                }
+            ]
+        },
+        "manufacturing": {
+            "eyebrow": "MANUFACTURING & PROCESS",
+            "title": "Process Requirements That Support Product Consistency",
+            "description": "Depending on the product, material and specification, manufacturing information may include forging, heat treatment and hydro testing.",
+            "methods": [
+                {
+                    "title": "Forged",
+                    "description": "Applicable forged manufacturing processes for specified fittings."
+                },
+                {
+                    "title": "Heat Treated",
+                    "description": "Heat treatment where required by the applicable specification."
+                },
+                {
+                    "title": "Hydro Tested",
+                    "description": "Hydro testing where specified for the applicable product."
+                }
+            ]
+        },
+        "packaging": {
+            "eyebrow": "PACKAGING & DISPATCH",
+            "title": "Prepared for Safe Handling",
+            "description": "Packaging options are selected according to product requirements and handling considerations.",
+            "options": [
+                {
+                    "title": "Box Packing",
+                    "description": "Suitable protection for applicable fittings and components.",
+                    "icon": "package"
+                },
+                {
+                    "title": "Bubble Wrap",
+                    "description": "Additional protective wrapping for applicable products.",
+                    "icon": "layers"
+                },
+                {
+                    "title": "Wooden Case",
+                    "description": "Protective case packaging for applicable industrial products.",
+                    "icon": "box"
+                }
+            ]
+        },
+        "applications": {
+            "eyebrow": "INDUSTRIES",
+            "title": "Quality Requirements Across Critical Industries",
+            "description": "Our product data covers industrial applications where material, specification and testing requirements are important to product selection.",
+            "industries": [
+                {
+                    "name": "Oil & Gas",
+                    "slug": "oil-gas"
+                },
+                {
+                    "name": "Petrochemical",
+                    "slug": "petrochemical"
+                },
+                {
+                    "name": "Chemical Processing",
+                    "slug": "chemical-processing"
+                },
+                {
+                    "name": "Power Plants",
+                    "slug": "power-plants"
+                },
+                {
+                    "name": "Offshore Industries",
+                    "slug": "offshore-industries"
+                }
+            ]
+        },
+        "technicalResources": {
+            "eyebrow": "TECHNICAL RESOURCES",
+            "title": "Need More Technical Information?",
+            "description": "Explore product specifications, material information and applicable technical details before selecting your fitting.",
+            "links": [
+                {
+                    "label": "Explore Products",
+                    "href": "/products",
+                    "type": "primary"
+                },
+                {
+                    "label": "Explore Materials",
+                    "href": "/materials",
+                    "type": "secondary"
+                },
+                {
+                    "label": "Contact Technical Team",
+                    "href": "/contact",
+                    "type": "secondary"
+                }
+            ]
+        },
+        "cta": {
+            "eyebrow": "TECHNICAL REQUIREMENT?",
+            "title": "Have a Specific Requirement?",
+            "description": "Share your material, grade, size, standard or application requirement with our team.",
+            "primaryButton": {
+                "label": "Request a Quote",
+                "href": "/contact"
+            },
+            "secondaryButton": {
+                "label": "Contact Us",
+                "href": "/contact"
+            }
+        },
+        "relatedNavigation": {
+            "eyebrow": "EXPLORE MORE",
+            "items": [
+                {
+                    "label": "About Us",
+                    "href": "/about",
+                    "description": "Learn about our company and product capabilities."
+                },
+                {
+                    "label": "Materials",
+                    "href": "/materials",
+                    "description": "Explore materials, grades and technical properties."
+                },
+                {
+                    "label": "Products",
+                    "href": "/products",
+                    "description": "Browse industrial pipe fittings and components."
+                },
+                {
+                    "label": "Certifications",
+                    "href": "/certifications",
+                    "description": "View available certifications and documentation."
+                }
+            ]
+        },
+        "structuredData": {
+            "type": "WebPage",
+            "name": "Quality Standards & Inspection | Prince Pipes & Fittings",
+            "description": "Quality standards, inspection methods, testing practices and technical information for industrial pipe fittings.",
+            "url": "/quality"
+        },
+        "ui": {
+            "theme": {
+                "background": "#FFFFFF",
+                "surface": "#F8FAFC",
+                "primary": "#102B4E",
+                "accent": "#2563EB",
+                "text": "#101828",
+                "mutedText": "#52627A",
+                "border": "#E2E8F0"
+            },
+            "layout": {
+                "maxWidth": "1400px",
+                "sectionSpacing": "compact",
+                "avoidLargeCards": true,
+                "avoidExcessiveWhitespace": true,
+                "editorialLayout": true
+            },
+            "animation": {
+                "enabled": true,
+                "style": "subtle",
+                "preferred": [
+                    "fade-up",
+                    "stagger",
+                    "line-reveal",
+                    "micro-hover"
+                ],
+                "duration": "0.5s",
+                "staggerDelay": "80ms",
+                "disableOnReducedMotion": true
+            },
+            "responsive": {
+                "desktop": {
+                    "columns": 4,
+                    "layout": "editorial-grid"
+                },
+                "tablet": {
+                    "columns": 2,
+                    "layout": "two-column"
+                },
+                "mobile": {
+                    "columns": 1,
+                    "layout": "single-column"
+                }
+            },
+            "performance": {
+                "avoidThreeJS": true,
+                "avoidHeavyAnimations": true,
+                "lazyLoadBelowFoldImages": true,
+                "useNextImage": true,
+                "avoidLargeClientPayloads": true,
+                "serverRenderStaticContent": true
+            }
+        }
+    }
+}

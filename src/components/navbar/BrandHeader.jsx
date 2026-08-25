@@ -39,6 +39,7 @@ export const BrandHeader = () => {
           <button
             onClick={openSearch}
             aria-label="Search"
+            suppressHydrationWarning
             className="group flex items-center gap-3 border border-border bg-surface rounded-lg py-1 pl-3 pr-1 text-text-secondary cursor-pointer hover:text-primary transition-colors"
           >
             <span className="hidden lg:block text-sm font-medium opacity-80 group-hover:opacity-100 transition-opacity whitespace-nowrap">
@@ -49,11 +50,12 @@ export const BrandHeader = () => {
           <button
             onClick={toggleMobileMenu}
             aria-label="Open Mobile Menu"
+            suppressHydrationWarning
             className="flex xl:hidden p-2 -mr-2 text-text-primary hover:text-primary transition-colors"
           >
             <Menu className="w-6 h-6" />
           </button>
-          <Button variant="primary" className="hidden xl:flex px-6 tracking-wide">
+          <Button variant="primary" className="hidden xl:flex px-6 tracking-wide" suppressHydrationWarning>
             Request Quote
           </Button>
         </div>

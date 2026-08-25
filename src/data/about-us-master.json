@@ -1,0 +1,378 @@
+{
+  "page": {
+    "id": "about-us",
+    "name": "About Us",
+    "slug": "about-us",
+    "path": "/about-us",
+    "language": "en-IN",
+    "contentSource": "PPF CATALOGUE.pdf"
+  },
+  "company": {
+    "name": "Prince Pipes & Fittings",
+    "shortName": "PPF",
+    "established": 2022,
+    "businessType": [
+      "Manufacturer",
+      "Supplier"
+    ],
+    "location": "Mumbai, India",
+    "facility": "Fully stocked warehouse",
+    "overview": "Prince Pipes & Fittings was established in 2022 with a young, dynamic and hardworking team committed to excellence in quality. The company supplies Buttweld and Socketweld fittings and related steel pipe fittings to the Indian market.",
+    "customerPromise": "Reliable supply, prompt service and quality-focused sourcing."
+  },
+  "hero": {
+    "eyebrow": "ABOUT PRINCE PIPES & FITTINGS",
+    "title": "Engineering Supply Built Around Quality and Reliability",
+    "description": "Established in 2022, Prince Pipes & Fittings supplies Threaded, Buttweld, Socketweld, Flanges and related steel pipe fittings with a strong focus on quality, dependable availability and prompt customer service.",
+    "points": [
+      "Established in 2022",
+      "Fully stocked warehouse in Mumbai",
+      "Threaded, Buttweld, Socketweld, Flanges and related steel pipe fittings",
+      "Quality-focused supply"
+    ],
+    "cta": {
+      "primary": {
+        "label": "Explore Products",
+        "path": "/products"
+      },
+      "secondary": {
+        "label": "Request a Quote",
+        "path": "/contact"
+      }
+    }
+  },
+  "trustSignals": [
+    {
+      "label": "Established",
+      "value": "2022"
+    },
+    {
+      "label": "Operations",
+      "value": "Mumbai"
+    },
+    {
+      "label": "Core Supply",
+      "value": "SS Threaded Fittings"
+    },
+    {
+      "label": "Focus",
+      "value": "Quality"
+    }
+  ],
+  "story": {
+    "sectionLabel": "OUR STORY",
+    "title": "Built to Make Industrial Sourcing More Reliable",
+    "paragraphs": [
+      "Prince Pipes & Fittings was established in 2022 with a clear focus on quality, dependable supply and customer service.",
+      "The company operates from a fully stocked warehouse in Mumbai, helping maintain product availability and support prompt service.",
+      "PPF specialises in the supply and sale of steel fittings for pipes, including Buttweld and Socketweld fittings, flanges and related industrial components.",
+      "The catalogue highlights close coordination with manufacturers to supply products conforming to relevant European standards and certification requirements."
+    ],
+    "timeline": [
+      {
+        "year": "2022",
+        "title": "Company Established",
+        "description": "PPF was established with a focus on quality and customer service."
+      },
+      {
+        "year": "Present",
+        "title": "Industrial Supply",
+        "description": "Operations are supported by a fully stocked Mumbai warehouse and a broad steel fitting portfolio."
+      }
+    ]
+  },
+  "whatWeDo": {
+    "title": "Steel Pipe Fittings for Industrial Piping Requirements",
+    "description": "PPF specialises in supplying steel fittings for piping systems, combining product availability, quality-focused sourcing and responsive customer service.",
+    "capabilities": [
+      {
+        "title": "SS Pipes Fittings",
+        "keywords": [
+          "stainless steel pipes",
+          "stainless steel fittings"
+        ]
+      },
+      {
+        "title": "CNC Threaded Fittings",
+        "keywords": [
+          "CNC machined",
+          "threaded fittings"
+        ]
+      },
+      {
+        "title": "Buttweld Fittings",
+        "keywords": [
+          "buttweld fittings",
+          "butt weld pipe fittings"
+        ]
+      },
+      {
+        "title": "Flanges",
+        "keywords": [
+          "steel flanges",
+          "industrial flanges"
+        ]
+      }
+    ]
+  },
+  "productPortfolio": {
+    "categories": [
+      "SS Fittings",
+      "ASTM Fittings",
+      "ASTM Flanges",
+      "DIN & EN Flanges",
+      "DIN & EN Fittings"
+    ],
+    "listedProductsAndComponents": [
+      "Tee",
+      "Barrel Nipple",
+      "Coupling",
+      "Hex Nipple",
+      "Plug",
+      "Concentric Reducer",
+      "Eccentric Reducer",
+      "Elbow Union",
+      "Bushing",
+      "Threaded Elbow",
+      "Valves",
+      "Flanges",
+      "Nuts",
+      "Bolts",
+      "Studs",
+      "U-Clamps"
+    ],
+    "sourceOfTruth": "product.json",
+    "rule": "Use product.json for live product counts, names and URLs; do not hardcode counts on the About page."
+  },
+  "quality": {
+    "title": "Quality You Can Trust",
+    "description": "PPF follows stringent and widely accepted quality standards and works closely with manufacturers to supply Buttweld and Socketweld fittings that conform to relevant European standards and certification requirements.",
+    "principles": [
+      "Quality-focused sourcing",
+      "Manufacturer coordination",
+      "Standards and certification awareness",
+      "Experience in industrial fitting supply"
+    ],
+    "certifications": {
+      "verifiedInCatalogue": [],
+      "rule": "Do not display specific certification numbers or logos unless separately verified."
+    }
+  },
+  "supplyAndService": {
+    "title": "Reliable Availability. Responsive Service.",
+    "strengths": [
+      "Fully stocked warehouse in Mumbai",
+      "Large and permanent material stock",
+      "Steel pipe fitting specialisation",
+      "Prompt customer service",
+      "Quality-focused sourcing"
+    ],
+    "customerJourney": [
+      {
+        "step": 1,
+        "title": "Share Your Requirement"
+      },
+      {
+        "step": 2,
+        "title": "Product Matching"
+      },
+      {
+        "step": 3,
+        "title": "Supply Coordination"
+      },
+      {
+        "step": 4,
+        "title": "Prompt Service"
+      }
+    ]
+  },
+  "whyChooseUs": [
+    {
+      "title": "Quality First",
+      "description": "A quality-focused approach to sourcing and supply."
+    },
+    {
+      "title": "Stock Availability",
+      "description": "A fully stocked Mumbai warehouse supports product availability."
+    },
+    {
+      "title": "Broad Product Range",
+      "description": "Steel fittings, flanges and related piping components across multiple categories."
+    },
+    {
+      "title": "Prompt Service",
+      "description": "Responsive communication and reliable supply coordination."
+    },
+    {
+      "title": "Standards Awareness",
+      "description": "Sourcing aligned with widely accepted industry standards."
+    },
+    {
+      "title": "Manufacturer Coordination",
+      "description": "Close working relationships with manufacturers support product sourcing."
+    }
+  ],
+  "interactiveModules": [
+    {
+      "type": "animated-stat-strip",
+      "purpose": "Show established year, location, core supply and quality focus."
+    },
+    {
+      "type": "company-timeline",
+      "purpose": "Present the company story without a long text wall."
+    },
+    {
+      "type": "supply-step-flow",
+      "purpose": "Explain enquiry-to-supply coordination."
+    },
+    {
+      "type": "product-navigation",
+      "purpose": "Move visitors from company information to products."
+    },
+    {
+      "type": "quality-trust-panel",
+      "purpose": "Explain quality practices without unverified claims."
+    }
+  ],
+  "cta": {
+    "title": "Have a Specific Piping Requirement?",
+    "description": "Share your required material, fitting, size or standard with our team.",
+    "primary": {
+      "label": "Request a Quote",
+      "path": "/contact"
+    },
+    "secondary": {
+      "label": "Explore Products",
+      "path": "/products"
+    }
+  },
+  "seo": {
+    "title": "About Prince Pipes & Fittings | Steel Pipe Fittings Supplier in India",
+    "description": "Learn about Prince Pipes & Fittings, established in 2022 in Mumbai. Explore our steel pipe fittings, Buttweld and Socketweld fittings, flanges, quality-focused supply and customer service.",
+    "primaryKeyword": "steel pipe fittings supplier in India",
+    "secondaryKeywords": [
+      "Prince Pipes & Fittings",
+      "pipe fittings supplier in India",
+      "steel pipe fittings supplier",
+      "industrial pipe fittings supplier",
+      "buttweld fittings supplier",
+      "socketweld fittings supplier",
+      "steel fittings supplier Mumbai",
+      "pipe fittings supplier Mumbai",
+      "industrial steel fittings",
+      "steel flanges supplier",
+      "Buttweld pipe fittings",
+      "Socketweld pipe fittings"
+    ],
+    "longTailKeywords": [
+      "steel pipe fittings supplier in Mumbai India",
+      "CNC Threaded fittings supplier in India",
+      "buttweld fittings supplier in India",
+      "socketweld fittings supplier in India",
+      "industrial steel pipe fittings supplier in India",
+      "steel pipe fittings and flanges supplier in India",
+      "Buttweld and Socketweld fittings supplier"
+    ],
+    "semanticKeywords": [
+      "pipe fittings",
+      "steel fittings",
+      "industrial piping",
+      "CNC Threaded",
+      "Buttweld",
+      "Socketweld",
+      "ASTM fittings",
+      "ASTM flanges",
+      "DIN fittings",
+      "EN fittings",
+      "industrial components",
+      "quality standards",
+      "Mumbai warehouse",
+      "industrial supply"
+    ],
+    "searchIntent": "commercial",
+    "canonicalPath": "/about-us",
+    "robots": "index,follow",
+    "keywordRule": "Use keywords naturally in headings, body copy, internal links, image alt text and metadata. Never keyword-stuff."
+  },
+  "structuredData": {
+    "organization": {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Prince Pipes & Fittings",
+      "foundingDate": "2022",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Mumbai",
+        "addressCountry": "IN"
+      }
+    },
+    "webPage": {
+      "@context": "https://schema.org",
+      "@type": "AboutPage",
+      "name": "About Prince Pipes & Fittings",
+      "url": "/about-us"
+    },
+    "breadcrumb": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "About Us",
+        "item": "/about-us"
+      }
+    ]
+  },
+  "media": {
+    "heroImage": "",
+    "heroImageAlt": "Prince Pipes & Fittings industrial steel pipe fittings",
+    "warehouseImage": "",
+    "warehouseImageAlt": "Prince Pipes & Fittings warehouse in Mumbai",
+    "teamImage": "",
+    "teamImageAlt": "Prince Pipes & Fittings team",
+    "qualityImage": "",
+    "qualityImageAlt": "Quality-focused steel pipe fitting supply"
+  },
+  "internalLinks": [
+    {
+      "label": "Products",
+      "path": "/products"
+    },
+    {
+      "label": "Materials",
+      "path": "/materials"
+    },
+    {
+      "label": "Quality",
+      "path": "/company/quality"
+    },
+    {
+      "label": "Certifications",
+      "path": "/company/certifications"
+    },
+    {
+      "label": "Contact",
+      "path": "/contact"
+    }
+  ],
+  "contentRules": {
+    "mustDo": [
+      "Keep factual claims aligned with the current catalogue and verified company information.",
+      "Use product.json as the source of truth for live product data.",
+      "Keep the About page focused on company credibility, supply capability, quality and customer experience.",
+      "Use semantic headings and natural keyword placement."
+    ],
+    "mustNotDo": [
+      "Do not invent certifications.",
+      "Do not claim specific manufacturing facilities unless verified.",
+      "Do not hardcode product counts.",
+      "Do not duplicate the complete product catalogue.",
+      "Do not keyword-stuff.",
+      "Do not create duplicate product URLs."
+    ]
+  }
+}

@@ -1,0 +1,3291 @@
+[
+  {
+    "name": "Carbon Steel",
+    "source": "https://harshtubefittings.com/cs-material.html",
+    "sections": {
+      "Introduction": [],
+      "Carbon Steel": [],
+      "Carbon Steel Products Supplier and Exporter in India": [
+        {
+          "type": "paragraph",
+          "content": "Asian Metal & Engineering Co. is a prominent Carbon Steel Products Manufacturer, Supplier, and Exporter in India, offering a wide range of Carbon Steel Pipes, Tubes, Plates, Sheets, Flanges, Fittings, and Fasteners. Our carbon steel products are known for superior strength, toughness, and reliability. Manufactured as per ASTM and ASME standards, they are widely used in oil & gas, power plants, construction, petrochemical, and marine industries for high-performance applications."
+        }
+      ],
+      "Types of Carbon Steel": [
+        {
+          "type": "list",
+          "items": [
+            "Low Carbon Steel (Mild Steel): Highly ductile, formable, and easy to weld, ideal for a wide range of everyday items.",
+            "Medium Carbon Steel: Good balance of strength and ductility, often heat-treated for enhanced mechanical properties.",
+            "High Carbon Steel: Very strong and hard but less ductile, suitable for high-wear applications.",
+            "Ultra-High Carbon Steel: Highest carbon content, extremely hard but brittle."
+          ]
+        }
+      ],
+      "Carbon Steel Chemical Composition": [
+        {
+          "type": "paragraph",
+          "content": "Carbon steel is an alloy of iron and carbon, with small amounts of other elements like manganese, sulfur, phosphorus, and silicon to enhance its properties."
+        }
+      ],
+      "Low Carbon Steel Chemical Composition": [
+        {
+          "type": "paragraph",
+          "content": "Low carbon steel is easy to shape and weld, making it a common choice for general construction."
+        },
+        {
+          "type": "table",
+          "data": [
+            {
+              "Grade": "1010",
+              "UNS Number": "G10100",
+              "C (max)": "0.08-0.13%",
+              "Mn (max)": "0.30-0.60%",
+              "S (max)": "0.05%",
+              "P (max)": "0.04%"
+            },
+            {
+              "Grade": "1018",
+              "UNS Number": "G10180",
+              "C (max)": "0.14-0.20%",
+              "Mn (max)": "0.60-0.90%",
+              "S (max)": "0.05%",
+              "P (max)": "0.04%"
+            },
+            {
+              "Grade": "1020",
+              "UNS Number": "G10200",
+              "C (max)": "0.17-0.23%",
+              "Mn (max)": "0.30-0.60%",
+              "S (max)": "0.05%",
+              "P (max)": "0.04%"
+            }
+          ]
+        }
+      ],
+      "Medium Carbon Steel Chemical Composition": [
+        {
+          "type": "table",
+          "data": [
+            {
+              "Grade": "1045",
+              "UNS Number": "G10450",
+              "C (max)": "0.43-0.50%",
+              "Mn (max)": "0.60-0.90%",
+              "S (max)": "0.05%",
+              "P (max)": "0.04%"
+            },
+            {
+              "Grade": "1060",
+              "UNS Number": "G10600",
+              "C (max)": "0.55-0.65%",
+              "Mn (max)": "0.60-0.90%",
+              "S (max)": "0.05%",
+              "P (max)": "0.04%"
+            }
+          ]
+        }
+      ],
+      "High Carbon Steel Chemical Composition": [
+        {
+          "type": "table",
+          "data": [
+            {
+              "Grade": "1080",
+              "UNS Number": "G10800",
+              "C (max)": "0.75–0.88%",
+              "Mn (max)": "0.60–0.90%",
+              "S (max)": "0.05%",
+              "P (max)": "0.04%"
+            },
+            {
+              "Grade": "1095",
+              "UNS Number": "G10950",
+              "C (max)": "0.90–1.03%",
+              "Mn (max)": "0.30–0.50%",
+              "S (max)": "0.05%",
+              "P (max)": "0.04%"
+            }
+          ]
+        }
+      ],
+      "Mechanical Properties of Carbon Steel": [
+        {
+          "type": "table",
+          "data": [
+            {
+              "Alloy Type": "Low",
+              "AISI Grade": "1010",
+              "Carbon Content": "0.10%",
+              "Yield Strength (MPa)": "180",
+              "Tensile Strength (MPa)": "325",
+              "Ductility (% elongation)": "28"
+            },
+            {
+              "Alloy Type": "Low",
+              "AISI Grade": "1020",
+              "Carbon Content": "0.20%",
+              "Yield Strength (MPa)": "205",
+              "Tensile Strength (MPa)": "380",
+              "Ductility (% elongation)": "25"
+            },
+            {
+              "Alloy Type": "Low",
+              "AISI Grade": "A36",
+              "Carbon Content": "0.29%",
+              "Yield Strength (MPa)": "220",
+              "Tensile Strength (MPa)": "400",
+              "Ductility (% elongation)": "23"
+            },
+            {
+              "Alloy Type": "Medium",
+              "AISI Grade": "1040",
+              "Carbon Content": "0.37–0.44%",
+              "Yield Strength (MPa)": "415",
+              "Tensile Strength (MPa)": "620",
+              "Ductility (% elongation)": "25"
+            },
+            {
+              "Alloy Type": "High",
+              "AISI Grade": "1080",
+              "Carbon Content": "0.75–0.88%",
+              "Yield Strength (MPa)": "440",
+              "Tensile Strength (MPa)": "924",
+              "Ductility (% elongation)": "12"
+            },
+            {
+              "Alloy Type": "High",
+              "AISI Grade": "1095",
+              "Carbon Content": "0.90–1.04%",
+              "Yield Strength (MPa)": "380",
+              "Tensile Strength (MPa)": "665",
+              "Ductility (% elongation)": "10"
+            }
+          ]
+        }
+      ],
+      "Carbon Steel Grades": [
+        {
+          "type": "list",
+          "items": [
+            "A36: Popular structural steel grade for construction and general fabrication.",
+            "1018: Low carbon steel known for weldability and machinability.",
+            "1045: Medium carbon steel used for shafts, gears, bolts.",
+            "1095: High carbon steel for tools and springs with excellent hardness and wear resistance."
+          ]
+        }
+      ],
+      "Carbon Steel Applications": [
+        {
+          "type": "list",
+          "items": [
+            "A36: Construction and fabrication.",
+            "1018: Weldable and machinable applications.",
+            "1045: Heavy-duty components.",
+            "1095: Tools, springs, and high-wear applications."
+          ]
+        }
+      ],
+      "Products": [
+        {
+          "type": "list",
+          "items": [
+            "CS Pipe Fittings",
+            "SS Pipe Fittings",
+            "Duplex Pipe Fittings",
+            "Super Duplex Fittings",
+            "Alloy Steel Pipe Fittings",
+            "Inconol Pipe Fittings",
+            "SS Flanges"
+          ]
+        }
+      ],
+      "Materials": [
+        {
+          "type": "list",
+          "items": [
+            "Stainless Steel",
+            "Carbon Steel",
+            "Duplex Steel",
+            "Super Duplex Steel",
+            "Alloy Steel",
+            "Monel",
+            "Inconol",
+            "Hastelloy"
+          ]
+        }
+      ],
+      "Our Office": [
+        {
+          "type": "paragraph",
+          "content": "SHOP NO 1/2, 44 ISLAMPURA STREET DUDHWALA CHAWL, M-400004."
+        },
+        {
+          "type": "paragraph",
+          "content": "+91 8369149673"
+        },
+        {
+          "type": "paragraph",
+          "content": "info@harshtubefittings.com"
+        }
+      ],
+      "Services": [],
+      "Quick Links": [],
+      "Company": [
+        {
+          "type": "paragraph",
+          "content": "HARSH TUBES & FITTINGS, established in 2012, has grown into a leading Mumbai-based manufacturer and supplier of flanges and fittings across India with a dynamic team."
+        }
+      ]
+    },
+    "grades": [
+      {
+        "gradeName": "1010",
+        "details": {
+          "Grade": "1010",
+          "UNS Number": "G10100",
+          "C (max)": "0.08-0.13%",
+          "Mn (max)": "0.30-0.60%",
+          "S (max)": "0.05%",
+          "P (max)": "0.04%"
+        },
+        "section": "Low Carbon Steel Chemical Composition"
+      },
+      {
+        "gradeName": "1018",
+        "details": {
+          "Grade": "1018",
+          "UNS Number": "G10180",
+          "C (max)": "0.14-0.20%",
+          "Mn (max)": "0.60-0.90%",
+          "S (max)": "0.05%",
+          "P (max)": "0.04%"
+        },
+        "section": "Low Carbon Steel Chemical Composition"
+      },
+      {
+        "gradeName": "1020",
+        "details": {
+          "Grade": "1020",
+          "UNS Number": "G10200",
+          "C (max)": "0.17-0.23%",
+          "Mn (max)": "0.30-0.60%",
+          "S (max)": "0.05%",
+          "P (max)": "0.04%"
+        },
+        "section": "Low Carbon Steel Chemical Composition"
+      },
+      {
+        "gradeName": "1045",
+        "details": {
+          "Grade": "1045",
+          "UNS Number": "G10450",
+          "C (max)": "0.43-0.50%",
+          "Mn (max)": "0.60-0.90%",
+          "S (max)": "0.05%",
+          "P (max)": "0.04%"
+        },
+        "section": "Medium Carbon Steel Chemical Composition"
+      },
+      {
+        "gradeName": "1060",
+        "details": {
+          "Grade": "1060",
+          "UNS Number": "G10600",
+          "C (max)": "0.55-0.65%",
+          "Mn (max)": "0.60-0.90%",
+          "S (max)": "0.05%",
+          "P (max)": "0.04%"
+        },
+        "section": "Medium Carbon Steel Chemical Composition"
+      },
+      {
+        "gradeName": "1080",
+        "details": {
+          "Grade": "1080",
+          "UNS Number": "G10800",
+          "C (max)": "0.75–0.88%",
+          "Mn (max)": "0.60–0.90%",
+          "S (max)": "0.05%",
+          "P (max)": "0.04%"
+        },
+        "section": "High Carbon Steel Chemical Composition"
+      },
+      {
+        "gradeName": "1095",
+        "details": {
+          "Grade": "1095",
+          "UNS Number": "G10950",
+          "C (max)": "0.90–1.03%",
+          "Mn (max)": "0.30–0.50%",
+          "S (max)": "0.05%",
+          "P (max)": "0.04%"
+        },
+        "section": "High Carbon Steel Chemical Composition"
+      },
+      {
+        "gradeName": "Low",
+        "details": {
+          "Alloy Type": "Low",
+          "AISI Grade": "1010",
+          "Carbon Content": "0.10%",
+          "Yield Strength (MPa)": "180",
+          "Tensile Strength (MPa)": "325",
+          "Ductility (% elongation)": "28"
+        },
+        "section": "Mechanical Properties of Carbon Steel"
+      },
+      {
+        "gradeName": "Low",
+        "details": {
+          "Alloy Type": "Low",
+          "AISI Grade": "1020",
+          "Carbon Content": "0.20%",
+          "Yield Strength (MPa)": "205",
+          "Tensile Strength (MPa)": "380",
+          "Ductility (% elongation)": "25"
+        },
+        "section": "Mechanical Properties of Carbon Steel"
+      },
+      {
+        "gradeName": "Low",
+        "details": {
+          "Alloy Type": "Low",
+          "AISI Grade": "A36",
+          "Carbon Content": "0.29%",
+          "Yield Strength (MPa)": "220",
+          "Tensile Strength (MPa)": "400",
+          "Ductility (% elongation)": "23"
+        },
+        "section": "Mechanical Properties of Carbon Steel"
+      },
+      {
+        "gradeName": "Medium",
+        "details": {
+          "Alloy Type": "Medium",
+          "AISI Grade": "1040",
+          "Carbon Content": "0.37–0.44%",
+          "Yield Strength (MPa)": "415",
+          "Tensile Strength (MPa)": "620",
+          "Ductility (% elongation)": "25"
+        },
+        "section": "Mechanical Properties of Carbon Steel"
+      },
+      {
+        "gradeName": "High",
+        "details": {
+          "Alloy Type": "High",
+          "AISI Grade": "1080",
+          "Carbon Content": "0.75–0.88%",
+          "Yield Strength (MPa)": "440",
+          "Tensile Strength (MPa)": "924",
+          "Ductility (% elongation)": "12"
+        },
+        "section": "Mechanical Properties of Carbon Steel"
+      },
+      {
+        "gradeName": "High",
+        "details": {
+          "Alloy Type": "High",
+          "AISI Grade": "1095",
+          "Carbon Content": "0.90–1.04%",
+          "Yield Strength (MPa)": "380",
+          "Tensile Strength (MPa)": "665",
+          "Ductility (% elongation)": "10"
+        },
+        "section": "Mechanical Properties of Carbon Steel"
+      }
+    ],
+    "tables": [
+      {
+        "section": "Low Carbon Steel Chemical Composition",
+        "data": [
+          {
+            "Grade": "1010",
+            "UNS Number": "G10100",
+            "C (max)": "0.08-0.13%",
+            "Mn (max)": "0.30-0.60%",
+            "S (max)": "0.05%",
+            "P (max)": "0.04%"
+          },
+          {
+            "Grade": "1018",
+            "UNS Number": "G10180",
+            "C (max)": "0.14-0.20%",
+            "Mn (max)": "0.60-0.90%",
+            "S (max)": "0.05%",
+            "P (max)": "0.04%"
+          },
+          {
+            "Grade": "1020",
+            "UNS Number": "G10200",
+            "C (max)": "0.17-0.23%",
+            "Mn (max)": "0.30-0.60%",
+            "S (max)": "0.05%",
+            "P (max)": "0.04%"
+          }
+        ]
+      },
+      {
+        "section": "Medium Carbon Steel Chemical Composition",
+        "data": [
+          {
+            "Grade": "1045",
+            "UNS Number": "G10450",
+            "C (max)": "0.43-0.50%",
+            "Mn (max)": "0.60-0.90%",
+            "S (max)": "0.05%",
+            "P (max)": "0.04%"
+          },
+          {
+            "Grade": "1060",
+            "UNS Number": "G10600",
+            "C (max)": "0.55-0.65%",
+            "Mn (max)": "0.60-0.90%",
+            "S (max)": "0.05%",
+            "P (max)": "0.04%"
+          }
+        ]
+      },
+      {
+        "section": "High Carbon Steel Chemical Composition",
+        "data": [
+          {
+            "Grade": "1080",
+            "UNS Number": "G10800",
+            "C (max)": "0.75–0.88%",
+            "Mn (max)": "0.60–0.90%",
+            "S (max)": "0.05%",
+            "P (max)": "0.04%"
+          },
+          {
+            "Grade": "1095",
+            "UNS Number": "G10950",
+            "C (max)": "0.90–1.03%",
+            "Mn (max)": "0.30–0.50%",
+            "S (max)": "0.05%",
+            "P (max)": "0.04%"
+          }
+        ]
+      },
+      {
+        "section": "Mechanical Properties of Carbon Steel",
+        "data": [
+          {
+            "Alloy Type": "Low",
+            "AISI Grade": "1010",
+            "Carbon Content": "0.10%",
+            "Yield Strength (MPa)": "180",
+            "Tensile Strength (MPa)": "325",
+            "Ductility (% elongation)": "28"
+          },
+          {
+            "Alloy Type": "Low",
+            "AISI Grade": "1020",
+            "Carbon Content": "0.20%",
+            "Yield Strength (MPa)": "205",
+            "Tensile Strength (MPa)": "380",
+            "Ductility (% elongation)": "25"
+          },
+          {
+            "Alloy Type": "Low",
+            "AISI Grade": "A36",
+            "Carbon Content": "0.29%",
+            "Yield Strength (MPa)": "220",
+            "Tensile Strength (MPa)": "400",
+            "Ductility (% elongation)": "23"
+          },
+          {
+            "Alloy Type": "Medium",
+            "AISI Grade": "1040",
+            "Carbon Content": "0.37–0.44%",
+            "Yield Strength (MPa)": "415",
+            "Tensile Strength (MPa)": "620",
+            "Ductility (% elongation)": "25"
+          },
+          {
+            "Alloy Type": "High",
+            "AISI Grade": "1080",
+            "Carbon Content": "0.75–0.88%",
+            "Yield Strength (MPa)": "440",
+            "Tensile Strength (MPa)": "924",
+            "Ductility (% elongation)": "12"
+          },
+          {
+            "Alloy Type": "High",
+            "AISI Grade": "1095",
+            "Carbon Content": "0.90–1.04%",
+            "Yield Strength (MPa)": "380",
+            "Tensile Strength (MPa)": "665",
+            "Ductility (% elongation)": "10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Stainless Steel",
+    "source": "https://harshtubefittings.com/ss-material.html",
+    "sections": {
+      "Introduction": [],
+      "Stainless Steel": [],
+      "Stainless Steel Product Supplier In India": [
+        {
+          "type": "paragraph",
+          "content": "Asian Metal & Engineering Co. is a leading manufacturer and supplier of premium-quality Stainless Steel Pipes & Tubes, Plates & Sheets, Bars & Rods, Flanges, Fasteners, and Fittings. We deliver precision-engineered products designed for exceptional strength, durability, and corrosion resistance. Our stainless steel materials meet global standards such as ASTM, ASME, and ANSI, ensuring reliability across diverse industries including oil & gas, petrochemical, power generation, marine, and construction sectors. Quality, performance, and customer satisfaction define our commitment."
+        }
+      ],
+      "Stainless Steel Composition": [
+        {
+          "type": "paragraph",
+          "content": "Stainless steel is an alloy primarily composed of iron and chromium, with other elements added to enhance its properties. The table below outlines the typical chemical composition ranges for the main grades of stainless steel."
+        }
+      ],
+      "Grade Type & Composition": [
+        {
+          "type": "table",
+          "data": [
+            {
+              "Grade Type": "Austenitic",
+              "Chromium (Cr)": "16% - 20%",
+              "Nickel (Ni)": "7% - 13%",
+              "Molybdenum (Mo)": "Varies",
+              "Other Key Elements": "Carbon, Manganese"
+            },
+            {
+              "Grade Type": "Ferritic",
+              "Chromium (Cr)": "10.5% - 17%",
+              "Nickel (Ni)": "-",
+              "Molybdenum (Mo)": "-",
+              "Other Key Elements": "Low Carbon"
+            },
+            {
+              "Grade Type": "Martensitic",
+              "Chromium (Cr)": "12% - 15%",
+              "Nickel (Ni)": "-",
+              "Molybdenum (Mo)": "0.2% - 1%",
+              "Other Key Elements": "Carbon (controlled), Nitrogen"
+            },
+            {
+              "Grade Type": "Duplex",
+              "Chromium (Cr)": "21% - 26%",
+              "Nickel (Ni)": "3.5% - 6.5%",
+              "Molybdenum (Mo)": "Varies",
+              "Other Key Elements": "Nitrogen"
+            }
+          ]
+        }
+      ],
+      "Stainless Steel Grades": [
+        {
+          "type": "paragraph",
+          "content": "Stainless steel is classified into different grades based on its chemical composition and crystalline structure:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Austenitic (300 series): Includes grades like 304 and 316. Non-magnetic, highly formable, weldable, used in kitchenware, architecture.",
+            "Ferritic (400 series): Magnetic, chromium-based, used in automotive exhaust systems and appliances.",
+            "Martensitic (400 series): Known for hardness and strength, magnetic, heat-treatable, used in cutlery and surgical tools.",
+            "Duplex: Mixed microstructure, higher strength, resistance to stress corrosion cracking, used in offshore platforms and chemical plants."
+          ]
+        }
+      ],
+      "Stainless Steel Products HSN Code (India)": [
+        {
+          "type": "table",
+          "data": [
+            {
+              "HSN Code": "7218",
+              "Description": "Stainless steel in ingots or other primary forms"
+            },
+            {
+              "HSN Code": "7219, 7220",
+              "Description": "Flat-rolled products (sheets, plates, coils)"
+            },
+            {
+              "HSN Code": "7222",
+              "Description": "Bars and rods of stainless steel"
+            },
+            {
+              "HSN Code": "7304, 7306",
+              "Description": "Tubes, pipes, and hollow profiles"
+            },
+            {
+              "HSN Code": "7307",
+              "Description": "Tube or pipe fittings"
+            }
+          ]
+        }
+      ],
+      "Applications of Stainless Steel": [
+        {
+          "type": "list",
+          "items": [
+            "Food & Beverage: Kitchenware, food processing, storage tanks.",
+            "Automotive: Exhaust systems, trim, structural components.",
+            "Medical: Surgical instruments, implants, hospital equipment.",
+            "Construction & Architecture: Cladding, handrails, structural supports.",
+            "Chemical & Petrochemical: Pipelines, reactors, storage vessels.",
+            "Marine: Hardware and fittings resistant to saltwater corrosion."
+          ]
+        }
+      ],
+      "Stainless Steel Price Factors": [
+        {
+          "type": "list",
+          "items": [
+            "Grade & Composition: Higher-grade alloys cost more due to nickel and molybdenum.",
+            "Product Form & Size: Price per kilogram varies by product type.",
+            "Market Conditions: Demand, raw material prices, currency fluctuations."
+          ]
+        }
+      ],
+      "Products": [
+        {
+          "type": "list",
+          "items": [
+            "CS Pipe Fittings",
+            "SS Pipe Fittings",
+            "Duplex Pipe Fittings",
+            "Super Duplex Fittings",
+            "Alloy Steel Pipe Fittings",
+            "Inconol Pipe Fittings",
+            "SS Flanges"
+          ]
+        }
+      ],
+      "Materials": [
+        {
+          "type": "list",
+          "items": [
+            "Stainless Steel",
+            "Carbon Steel",
+            "Duplex Steel",
+            "Super Duplex Steel",
+            "Alloy Steel",
+            "Monel",
+            "Inconol",
+            "Hastelloy"
+          ]
+        }
+      ],
+      "Our Office": [
+        {
+          "type": "paragraph",
+          "content": "SHOP NO 1/2, 44 ISLAMPURA STREET DUDHWALA CHAWL, M-400004."
+        },
+        {
+          "type": "paragraph",
+          "content": "+91 8369149673"
+        },
+        {
+          "type": "paragraph",
+          "content": "info@harshtubefittings.com"
+        }
+      ],
+      "Services": [],
+      "Quick Links": [],
+      "Company": [
+        {
+          "type": "paragraph",
+          "content": "HARSH TUBES & FITTINGS, established in 2012, has grown into a leading Mumbai-based manufacturer and supplier of flanges and fittings across India with a dynamic team."
+        }
+      ]
+    },
+    "grades": [
+      {
+        "gradeName": "Austenitic",
+        "details": {
+          "Grade Type": "Austenitic",
+          "Chromium (Cr)": "16% - 20%",
+          "Nickel (Ni)": "7% - 13%",
+          "Molybdenum (Mo)": "Varies",
+          "Other Key Elements": "Carbon, Manganese"
+        },
+        "section": "Grade Type & Composition"
+      },
+      {
+        "gradeName": "Ferritic",
+        "details": {
+          "Grade Type": "Ferritic",
+          "Chromium (Cr)": "10.5% - 17%",
+          "Nickel (Ni)": "-",
+          "Molybdenum (Mo)": "-",
+          "Other Key Elements": "Low Carbon"
+        },
+        "section": "Grade Type & Composition"
+      },
+      {
+        "gradeName": "Martensitic",
+        "details": {
+          "Grade Type": "Martensitic",
+          "Chromium (Cr)": "12% - 15%",
+          "Nickel (Ni)": "-",
+          "Molybdenum (Mo)": "0.2% - 1%",
+          "Other Key Elements": "Carbon (controlled), Nitrogen"
+        },
+        "section": "Grade Type & Composition"
+      },
+      {
+        "gradeName": "Duplex",
+        "details": {
+          "Grade Type": "Duplex",
+          "Chromium (Cr)": "21% - 26%",
+          "Nickel (Ni)": "3.5% - 6.5%",
+          "Molybdenum (Mo)": "Varies",
+          "Other Key Elements": "Nitrogen"
+        },
+        "section": "Grade Type & Composition"
+      }
+    ],
+    "tables": [
+      {
+        "section": "Grade Type & Composition",
+        "data": [
+          {
+            "Grade Type": "Austenitic",
+            "Chromium (Cr)": "16% - 20%",
+            "Nickel (Ni)": "7% - 13%",
+            "Molybdenum (Mo)": "Varies",
+            "Other Key Elements": "Carbon, Manganese"
+          },
+          {
+            "Grade Type": "Ferritic",
+            "Chromium (Cr)": "10.5% - 17%",
+            "Nickel (Ni)": "-",
+            "Molybdenum (Mo)": "-",
+            "Other Key Elements": "Low Carbon"
+          },
+          {
+            "Grade Type": "Martensitic",
+            "Chromium (Cr)": "12% - 15%",
+            "Nickel (Ni)": "-",
+            "Molybdenum (Mo)": "0.2% - 1%",
+            "Other Key Elements": "Carbon (controlled), Nitrogen"
+          },
+          {
+            "Grade Type": "Duplex",
+            "Chromium (Cr)": "21% - 26%",
+            "Nickel (Ni)": "3.5% - 6.5%",
+            "Molybdenum (Mo)": "Varies",
+            "Other Key Elements": "Nitrogen"
+          }
+        ]
+      },
+      {
+        "section": "Stainless Steel Products HSN Code (India)",
+        "data": [
+          {
+            "HSN Code": "7218",
+            "Description": "Stainless steel in ingots or other primary forms"
+          },
+          {
+            "HSN Code": "7219, 7220",
+            "Description": "Flat-rolled products (sheets, plates, coils)"
+          },
+          {
+            "HSN Code": "7222",
+            "Description": "Bars and rods of stainless steel"
+          },
+          {
+            "HSN Code": "7304, 7306",
+            "Description": "Tubes, pipes, and hollow profiles"
+          },
+          {
+            "HSN Code": "7307",
+            "Description": "Tube or pipe fittings"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Duplex Steel",
+    "source": "https://harshtubefittings.com/duplex-steel.html",
+    "sections": {
+      "Introduction": [],
+      "Duplex Steel": [],
+      "Duplex Steel Products Manufacturers, Supplier and Exporter in India": [
+        {
+          "type": "paragraph",
+          "content": "Asian Metal & Engineering Co. is a renowned manufacturer, supplier, and exporter of Duplex Steel Pipes & Tubes, Plates, Sheets & Coils, Bars, Rods & Wires, Fittings, Flanges, and Fasteners. Our Duplex Steel products offer excellent strength, corrosion resistance, and durability. Manufactured in compliance with ASTM and ASME standards, they are ideal for applications in oil & gas, chemical processing, marine, and power generation industries, ensuring long-lasting performance in demanding environments."
+        }
+      ],
+      "Duplex Steel Specifications": [
+        {
+          "type": "paragraph",
+          "content": "When sourcing duplex material, defining the correct specifications is crucial for project success. We provide products that adhere to major international standards like ASTM, ensuring their integrity and performance. Our products can be supplied with specific tolerances, testing, and documentation to meet your project's precise requirements."
+        }
+      ],
+      "Duplex Steel Specifications Table": [
+        {
+          "type": "table",
+          "data": [
+            {
+              "Item": "Common Grades",
+              "Specification": "UNS S31803 / S32205 (2205), DIN 1.4462; A182 F51 (forgings)"
+            },
+            {
+              "Item": "Product Standards",
+              "Specification": "ASTM A790 (pipe), A789 (tube), A240 (plate/sheet), A182 (flanges/forgings), A276/A479 (bars), A815 (buttweld fittings); EN 10088-3"
+            },
+            {
+              "Item": "Dimensional Refs",
+              "Specification": "ASME B36.19M (pipe), ASME B16.5/B16.47 (flanges), ASME B16.9 (BW fittings), ASME B16.11 (forged fittings)"
+            },
+            {
+              "Item": "Finishes / Condition",
+              "Specification": "Hot rolled, cold drawn, pickled & passivated, polished; solution annealed"
+            },
+            {
+              "Item": "Documentation",
+              "Specification": "EN 10204 3.1 / 3.2 MTC, PMI, heat charts"
+            },
+            {
+              "Item": "Testing (options)",
+              "Specification": "ASTM A923 (intermetallic), ASTM G48 (pitting), UT/ET, hydrostatic"
+            },
+            {
+              "Item": "Tolerances",
+              "Specification": "Per ASTM/ASME/EN; tight tolerances & cut lengths on request"
+            }
+          ]
+        }
+      ],
+      "Duplex Steel Chemical Composition": [
+        {
+          "type": "paragraph",
+          "content": "The unique properties of duplex steel come from its balanced chemical composition. The key alloying elements—Chromium, Molybdenum, and Nitrogen—provide enhanced strength and resistance to pitting and stress corrosion cracking."
+        },
+        {
+          "type": "table",
+          "data": [
+            {
+              "Grade (UNS)": "S31803",
+              "Cr %": "21.0–23.0",
+              "Ni %": "4.5–6.5",
+              "Mo %": "2.5–3.5",
+              "N %": "0.08–0.20",
+              "Others": "C ≤0.03, Mn ≤2.0"
+            },
+            {
+              "Grade (UNS)": "S32205",
+              "Cr %": "22.0–23.0",
+              "Ni %": "4.5–6.5",
+              "Mo %": "3.0–3.5",
+              "N %": "0.14–0.20",
+              "Others": "C ≤0.03, Mn ≤2.0"
+            }
+          ]
+        }
+      ],
+      "Duplex Steel Material Properties": [
+        {
+          "type": "paragraph",
+          "content": "Duplex Stainless Steel offers a superior combination of high tensile strength and ductility, along with excellent resistance to corrosion. These properties make it a powerful alternative to many austenitic grades."
+        },
+        {
+          "type": "table",
+          "data": [
+            {
+              "Property": "Tensile Strength (min)",
+              "S31803 (2205)": "620 MPa (90 ksi)",
+              "S32205 (2205)": "620 MPa (90 ksi)"
+            },
+            {
+              "Property": "Yield Strength 0.2% (min)",
+              "S31803 (2205)": "450 MPa (65 ksi)",
+              "S32205 (2205)": "450 MPa (65 ksi)"
+            },
+            {
+              "Property": "Elongation (min)",
+              "S31803 (2205)": "25%",
+              "S32205 (2205)": "25%"
+            }
+          ]
+        }
+      ],
+      "Applications of Duplex Stainless Steel": [
+        {
+          "type": "list",
+          "items": [
+            "Oil & Gas: Pipelines, risers, process equipment for resistance to chloride stress corrosion cracking (CSCC).",
+            "Chemical Processing: Heat exchangers, pressure vessels, tanks handling aggressive media.",
+            "Marine & Shipbuilding: Propellers, shafts, desalination plants for seawater resistance.",
+            "Pulp & Paper Industry: Digesters, bleaching equipment resistant to corrosive chemicals."
+          ]
+        }
+      ],
+      "Duplex Steel Price": [
+        {
+          "type": "paragraph",
+          "content": "The cost of duplex steel is influenced by several factors, including grade, product form, and global market conditions for alloying elements such as nickel and molybdenum."
+        },
+        {
+          "type": "paragraph",
+          "content": "While the initial purchase price is typically higher than standard austenitic grades like 304 or 316, its superior strength and corrosion resistance provide significant long-term value by reducing maintenance and replacement costs."
+        },
+        {
+          "type": "paragraph",
+          "content": "For a precise quotation tailored to your project's specific requirements, please contact our sales team."
+        }
+      ],
+      "Products": [
+        {
+          "type": "list",
+          "items": [
+            "CS Pipe Fittings",
+            "SS Pipe Fittings",
+            "Duplex Pipe Fittings",
+            "Super Duplex Fittings",
+            "Alloy Steel Pipe Fittings",
+            "Inconol Pipe Fittings",
+            "SS Flanges"
+          ]
+        }
+      ],
+      "Materials": [
+        {
+          "type": "list",
+          "items": [
+            "Stainless Steel",
+            "Carbon Steel",
+            "Duplex Steel",
+            "Super Duplex Steel",
+            "Alloy Steel",
+            "Monel",
+            "Inconol",
+            "Hastelloy"
+          ]
+        }
+      ],
+      "Our Office": [
+        {
+          "type": "paragraph",
+          "content": "SHOP NO 1/2, 44 ISLAMPURA STREET DUDHWALA CHAWL, M-400004."
+        },
+        {
+          "type": "paragraph",
+          "content": "+91 8369149673"
+        },
+        {
+          "type": "paragraph",
+          "content": "info@harshtubefittings.com"
+        }
+      ],
+      "Services": [],
+      "Quick Links": [],
+      "Company": [
+        {
+          "type": "paragraph",
+          "content": "HARSH TUBES & FITTINGS, established in 2012, has grown into a leading Mumbai-based manufacturer and supplier of flanges and fittings across India with a dynamic team."
+        }
+      ]
+    },
+    "grades": [
+      {
+        "gradeName": "S31803",
+        "details": {
+          "Grade (UNS)": "S31803",
+          "Cr %": "21.0–23.0",
+          "Ni %": "4.5–6.5",
+          "Mo %": "2.5–3.5",
+          "N %": "0.08–0.20",
+          "Others": "C ≤0.03, Mn ≤2.0"
+        },
+        "section": "Duplex Steel Chemical Composition"
+      },
+      {
+        "gradeName": "S32205",
+        "details": {
+          "Grade (UNS)": "S32205",
+          "Cr %": "22.0–23.0",
+          "Ni %": "4.5–6.5",
+          "Mo %": "3.0–3.5",
+          "N %": "0.14–0.20",
+          "Others": "C ≤0.03, Mn ≤2.0"
+        },
+        "section": "Duplex Steel Chemical Composition"
+      }
+    ],
+    "tables": [
+      {
+        "section": "Duplex Steel Specifications Table",
+        "data": [
+          {
+            "Item": "Common Grades",
+            "Specification": "UNS S31803 / S32205 (2205), DIN 1.4462; A182 F51 (forgings)"
+          },
+          {
+            "Item": "Product Standards",
+            "Specification": "ASTM A790 (pipe), A789 (tube), A240 (plate/sheet), A182 (flanges/forgings), A276/A479 (bars), A815 (buttweld fittings); EN 10088-3"
+          },
+          {
+            "Item": "Dimensional Refs",
+            "Specification": "ASME B36.19M (pipe), ASME B16.5/B16.47 (flanges), ASME B16.9 (BW fittings), ASME B16.11 (forged fittings)"
+          },
+          {
+            "Item": "Finishes / Condition",
+            "Specification": "Hot rolled, cold drawn, pickled & passivated, polished; solution annealed"
+          },
+          {
+            "Item": "Documentation",
+            "Specification": "EN 10204 3.1 / 3.2 MTC, PMI, heat charts"
+          },
+          {
+            "Item": "Testing (options)",
+            "Specification": "ASTM A923 (intermetallic), ASTM G48 (pitting), UT/ET, hydrostatic"
+          },
+          {
+            "Item": "Tolerances",
+            "Specification": "Per ASTM/ASME/EN; tight tolerances & cut lengths on request"
+          }
+        ]
+      },
+      {
+        "section": "Duplex Steel Chemical Composition",
+        "data": [
+          {
+            "Grade (UNS)": "S31803",
+            "Cr %": "21.0–23.0",
+            "Ni %": "4.5–6.5",
+            "Mo %": "2.5–3.5",
+            "N %": "0.08–0.20",
+            "Others": "C ≤0.03, Mn ≤2.0"
+          },
+          {
+            "Grade (UNS)": "S32205",
+            "Cr %": "22.0–23.0",
+            "Ni %": "4.5–6.5",
+            "Mo %": "3.0–3.5",
+            "N %": "0.14–0.20",
+            "Others": "C ≤0.03, Mn ≤2.0"
+          }
+        ]
+      },
+      {
+        "section": "Duplex Steel Material Properties",
+        "data": [
+          {
+            "Property": "Tensile Strength (min)",
+            "S31803 (2205)": "620 MPa (90 ksi)",
+            "S32205 (2205)": "620 MPa (90 ksi)"
+          },
+          {
+            "Property": "Yield Strength 0.2% (min)",
+            "S31803 (2205)": "450 MPa (65 ksi)",
+            "S32205 (2205)": "450 MPa (65 ksi)"
+          },
+          {
+            "Property": "Elongation (min)",
+            "S31803 (2205)": "25%",
+            "S32205 (2205)": "25%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Super Duplex Steel",
+    "source": "https://harshtubefittings.com/super-duplex.html",
+    "sections": {
+      "Introduction": [],
+      "Super Duplex Steel": [],
+      "Super Duplex Stainless Steel Products Manufacturers, Super Duplex Steel Supplier and Super Duplex Steel Exporter": [
+        {
+          "type": "paragraph",
+          "content": "Asian Metal & Engineering Co. is a leading Super Duplex Stainless Steel Products Manufacturer, Supplier, and Exporter in India. We offer a comprehensive range of Super Duplex Steel Pipes & Tubes, Plates, Sheets & Coils, Bars, Rods, Fittings, Flanges, and Fasteners. Known for superior strength, excellent corrosion resistance, and durability, our Super Duplex Steel products meet ASTM and ASME standards and are widely used in offshore, marine, petrochemical, and power generation industries."
+        }
+      ],
+      "Super Duplex Steel Specifications": [
+        {
+          "type": "paragraph",
+          "content": "We supply super duplex stainless steel that conforms to major international standards, ensuring reliability for demanding applications. Our products can be supplied with specific tolerances and third-party documentation for a seamless approval process."
+        }
+      ],
+      "Super Duplex Steel Specifications Table": [
+        {
+          "type": "table",
+          "data": [
+            {
+              "Item": "Common Grades",
+              "Specification": "UNS S32750 (2507), UNS S32760; A182 F53/F55; DIN 1.4410 / 1.4501"
+            },
+            {
+              "Item": "Product Standards",
+              "Specification": "ASTM A790 (pipe), A789 (tube), A240 (plate/sheet), A182 (flanges/forgings), A276/A479 (bars), A815 (buttweld fittings); EN 10088-3"
+            },
+            {
+              "Item": "Dimensional Refs",
+              "Specification": "ASME B36.19M, ASME B16.5/B16.47, ASME B16.9, ASME B16.11"
+            },
+            {
+              "Item": "Finishes / Condition",
+              "Specification": "Hot rolled, cold drawn, pickled & passivated, polished; solution annealed"
+            },
+            {
+              "Item": "Documentation",
+              "Specification": "EN 10204 3.1 / 3.2 MTC, PMI, heat charts"
+            },
+            {
+              "Item": "Testing (options)",
+              "Specification": "ASTM A923, ASTM G48 Method A, UT/ET, hydrostatic"
+            },
+            {
+              "Item": "Tolerances",
+              "Specification": "Per ASTM/ASME/EN; tight tolerances & cut lengths on request"
+            }
+          ]
+        }
+      ],
+      "Super Duplex Stainless Steel Chemical Composition": [
+        {
+          "type": "paragraph",
+          "content": "The high performance of super duplex stainless steel is derived from its rich alloy content. The elevated levels of Chromium, Molybdenum, and Nitrogen are key to its exceptional resistance to pitting and crevice corrosion."
+        },
+        {
+          "type": "table",
+          "data": [
+            {
+              "Grade (UNS)": "S32750",
+              "Cr %": "24.0–26.0",
+              "Ni %": "6.0–8.0",
+              "Mo %": "3.0–5.0",
+              "N %": "0.24–0.32",
+              "Others": "C ≤0.03, Cu ≤0.5"
+            },
+            {
+              "Grade (UNS)": "S32760",
+              "Cr %": "24.0–26.0",
+              "Ni %": "6.0–8.0",
+              "Mo %": "3.0–4.0",
+              "N %": "0.20–0.30",
+              "Others": "C ≤0.05, Cu 0.5–1.0, W 0.5–1.0"
+            }
+          ]
+        }
+      ],
+      "Super Duplex Steel Material Properties": [
+        {
+          "type": "paragraph",
+          "content": "Super duplex material offers superior mechanical properties, including high tensile and yield strength, making it a strong alternative to standard stainless steels in high-stress environments."
+        },
+        {
+          "type": "table",
+          "data": [
+            {
+              "Property": "Tensile Strength (min)",
+              "S32750 (2507)": "800 MPa (116 ksi)",
+              "S32760": "750 MPa (109 ksi)"
+            },
+            {
+              "Property": "Yield Strength 0.2% (min)",
+              "S32750 (2507)": "550 MPa (80 ksi)",
+              "S32760": "550 MPa (80 ksi)"
+            },
+            {
+              "Property": "Elongation (min)",
+              "S32750 (2507)": "25%",
+              "S32760": "25%"
+            },
+            {
+              "Property": "Hardness (max)",
+              "S32750 (2507)": "310 HBW",
+              "S32760": "290 HBW"
+            }
+          ]
+        }
+      ],
+      "Super Duplex Stainless Steel Equivalent": [
+        {
+          "type": "table",
+          "data": [
+            {
+              "Grade": "UNS S32750",
+              "Equivalent Names": "Duplex 2507, SAF 2507"
+            },
+            {
+              "Grade": "UNS S32760",
+              "Equivalent Names": "Zeron 100"
+            }
+          ]
+        }
+      ],
+      "Super Duplex Material Code": [
+        {
+          "type": "table",
+          "data": [
+            {
+              "Material Code": "F53, 1.4410",
+              "Corresponding Grade": "UNS S32750"
+            },
+            {
+              "Material Code": "F55, 1.4501",
+              "Corresponding Grade": "UNS S32760"
+            }
+          ]
+        }
+      ],
+      "Super Duplex Material Grade": [
+        {
+          "type": "list",
+          "items": [
+            "UNS S32750: Known for excellent resistance to pitting and crevice corrosion, suitable for harsh environments such as offshore platforms and chemical processing plants.",
+            "UNS S32760: Highly-alloyed grade containing tungsten and copper, offering greater corrosion resistance for extremely corrosive applications such as sulfuric and phosphoric acid environments."
+          ]
+        }
+      ],
+      "Super Duplex Steel Applications": [
+        {
+          "type": "list",
+          "items": [
+            "Oil & Gas: Pipelines, risers, offshore platforms for seawater and chloride stress corrosion cracking resistance.",
+            "Chemical Processing: Heat exchangers, pressure vessels, tanks handling aggressive media like sulfuric acid.",
+            "Marine & Shipbuilding: Propellers, shafts, desalination plants requiring high corrosion resistance.",
+            "Pulp & Paper Industry: Bleaching equipment, digesters resistant to corrosive chemicals and high temperatures."
+          ]
+        }
+      ],
+      "Products": [
+        {
+          "type": "list",
+          "items": [
+            "CS Pipe Fittings",
+            "SS Pipe Fittings",
+            "Duplex Pipe Fittings",
+            "Super Duplex Fittings",
+            "Alloy Steel Pipe Fittings",
+            "Inconol Pipe Fittings",
+            "SS Flanges"
+          ]
+        }
+      ],
+      "Materials": [
+        {
+          "type": "list",
+          "items": [
+            "Stainless Steel",
+            "Carbon Steel",
+            "Duplex Steel",
+            "Super Duplex Steel",
+            "Alloy Steel",
+            "Monel",
+            "Inconol",
+            "Hastelloy"
+          ]
+        }
+      ],
+      "Our Office": [
+        {
+          "type": "paragraph",
+          "content": "SHOP NO 1/2, 44 ISLAMPURA STREET DUDHWALA CHAWL, M-400004."
+        },
+        {
+          "type": "paragraph",
+          "content": "+91 8369149673"
+        },
+        {
+          "type": "paragraph",
+          "content": "info@harshtubefittings.com"
+        }
+      ],
+      "Services": [],
+      "Quick Links": [],
+      "Company": [
+        {
+          "type": "paragraph",
+          "content": "HARSH TUBES & FITTINGS, established in 2012, has grown into a leading Mumbai-based manufacturer and supplier of flanges and fittings across India with a dynamic team."
+        }
+      ]
+    },
+    "grades": [
+      {
+        "gradeName": "S32750",
+        "details": {
+          "Grade (UNS)": "S32750",
+          "Cr %": "24.0–26.0",
+          "Ni %": "6.0–8.0",
+          "Mo %": "3.0–5.0",
+          "N %": "0.24–0.32",
+          "Others": "C ≤0.03, Cu ≤0.5"
+        },
+        "section": "Super Duplex Stainless Steel Chemical Composition"
+      },
+      {
+        "gradeName": "S32760",
+        "details": {
+          "Grade (UNS)": "S32760",
+          "Cr %": "24.0–26.0",
+          "Ni %": "6.0–8.0",
+          "Mo %": "3.0–4.0",
+          "N %": "0.20–0.30",
+          "Others": "C ≤0.05, Cu 0.5–1.0, W 0.5–1.0"
+        },
+        "section": "Super Duplex Stainless Steel Chemical Composition"
+      },
+      {
+        "gradeName": "UNS S32750",
+        "details": {
+          "Grade": "UNS S32750",
+          "Equivalent Names": "Duplex 2507, SAF 2507"
+        },
+        "section": "Super Duplex Stainless Steel Equivalent"
+      },
+      {
+        "gradeName": "UNS S32760",
+        "details": {
+          "Grade": "UNS S32760",
+          "Equivalent Names": "Zeron 100"
+        },
+        "section": "Super Duplex Stainless Steel Equivalent"
+      },
+      {
+        "gradeName": "UNS S32750",
+        "details": {
+          "Material Code": "F53, 1.4410",
+          "Corresponding Grade": "UNS S32750"
+        },
+        "section": "Super Duplex Material Code"
+      },
+      {
+        "gradeName": "UNS S32760",
+        "details": {
+          "Material Code": "F55, 1.4501",
+          "Corresponding Grade": "UNS S32760"
+        },
+        "section": "Super Duplex Material Code"
+      }
+    ],
+    "tables": [
+      {
+        "section": "Super Duplex Steel Specifications Table",
+        "data": [
+          {
+            "Item": "Common Grades",
+            "Specification": "UNS S32750 (2507), UNS S32760; A182 F53/F55; DIN 1.4410 / 1.4501"
+          },
+          {
+            "Item": "Product Standards",
+            "Specification": "ASTM A790 (pipe), A789 (tube), A240 (plate/sheet), A182 (flanges/forgings), A276/A479 (bars), A815 (buttweld fittings); EN 10088-3"
+          },
+          {
+            "Item": "Dimensional Refs",
+            "Specification": "ASME B36.19M, ASME B16.5/B16.47, ASME B16.9, ASME B16.11"
+          },
+          {
+            "Item": "Finishes / Condition",
+            "Specification": "Hot rolled, cold drawn, pickled & passivated, polished; solution annealed"
+          },
+          {
+            "Item": "Documentation",
+            "Specification": "EN 10204 3.1 / 3.2 MTC, PMI, heat charts"
+          },
+          {
+            "Item": "Testing (options)",
+            "Specification": "ASTM A923, ASTM G48 Method A, UT/ET, hydrostatic"
+          },
+          {
+            "Item": "Tolerances",
+            "Specification": "Per ASTM/ASME/EN; tight tolerances & cut lengths on request"
+          }
+        ]
+      },
+      {
+        "section": "Super Duplex Stainless Steel Chemical Composition",
+        "data": [
+          {
+            "Grade (UNS)": "S32750",
+            "Cr %": "24.0–26.0",
+            "Ni %": "6.0–8.0",
+            "Mo %": "3.0–5.0",
+            "N %": "0.24–0.32",
+            "Others": "C ≤0.03, Cu ≤0.5"
+          },
+          {
+            "Grade (UNS)": "S32760",
+            "Cr %": "24.0–26.0",
+            "Ni %": "6.0–8.0",
+            "Mo %": "3.0–4.0",
+            "N %": "0.20–0.30",
+            "Others": "C ≤0.05, Cu 0.5–1.0, W 0.5–1.0"
+          }
+        ]
+      },
+      {
+        "section": "Super Duplex Steel Material Properties",
+        "data": [
+          {
+            "Property": "Tensile Strength (min)",
+            "S32750 (2507)": "800 MPa (116 ksi)",
+            "S32760": "750 MPa (109 ksi)"
+          },
+          {
+            "Property": "Yield Strength 0.2% (min)",
+            "S32750 (2507)": "550 MPa (80 ksi)",
+            "S32760": "550 MPa (80 ksi)"
+          },
+          {
+            "Property": "Elongation (min)",
+            "S32750 (2507)": "25%",
+            "S32760": "25%"
+          },
+          {
+            "Property": "Hardness (max)",
+            "S32750 (2507)": "310 HBW",
+            "S32760": "290 HBW"
+          }
+        ]
+      },
+      {
+        "section": "Super Duplex Stainless Steel Equivalent",
+        "data": [
+          {
+            "Grade": "UNS S32750",
+            "Equivalent Names": "Duplex 2507, SAF 2507"
+          },
+          {
+            "Grade": "UNS S32760",
+            "Equivalent Names": "Zeron 100"
+          }
+        ]
+      },
+      {
+        "section": "Super Duplex Material Code",
+        "data": [
+          {
+            "Material Code": "F53, 1.4410",
+            "Corresponding Grade": "UNS S32750"
+          },
+          {
+            "Material Code": "F55, 1.4501",
+            "Corresponding Grade": "UNS S32760"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Alloy Steel",
+    "source": "https://harshtubefittings.com/alloy-steel.html",
+    "sections": {
+      "Introduction": [],
+      "Alloy Steel": [],
+      "Alloy Steel Products in India, Alloy Steel Manufacturer, Alloy Steel Supplier, Alloy Steel Exporter": [
+        {
+          "type": "paragraph",
+          "content": "Asian Metal & Engineering Co. is a trusted Alloy Steel Products Manufacturer, Supplier, and Exporter in India, offering a wide range of Alloy Steel Pipes, Tubes, Plates, Sheets, Bars, Rods, Fittings, Flanges, and Fasteners. Our alloy steel products are known for their high strength, toughness, and heat resistance. Manufactured as per ASTM and ASME standards, they are widely used in power plants, oil & gas, petrochemical, and engineering industries for demanding applications."
+        }
+      ],
+      "Types of Alloy Steel": [
+        {
+          "type": "paragraph",
+          "content": "Alloy steel is a type of steel that is alloyed with a variety of elements, such as manganese, chromium, nickel, tungsten, vanadium, and silicon, to improve its properties. Depending on the alloying elements and their proportions, alloy steel can be classified into different types."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Low-Alloy Steel: Contains less than 5% of alloying elements. Used for enhanced strength and toughness in applications like pipes, fittings, and structural components.",
+            "High-Alloy Steel: Contains more than 5% of alloying elements, including stainless and tool steels for high corrosion resistance, heat resistance, or wear resistance.",
+            "Structural Alloy Steel: Engineered for construction and heavy machinery offering high strength, ductility, and weldability.",
+            "Tool Steel: Exceptional hardness, wear resistance, and ability to hold a sharp edge, used for cutting tools, dies, and molds."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": "We provide a detailed alloy steel products list covering a wide range of types and forms, ensuring you find the right material for your project. For specific product pricing, please contact us for our alloy steel products price list."
+        }
+      ],
+      "Alloy Steel Specifications Table": [
+        {
+          "type": "table",
+          "data": [
+            {
+              "Product Form": "Pipes & Tubes",
+              "Common Grades": "ASTM A335 P11, P22",
+              "Size Range": "1/2\" to 24\" (OD)",
+              "Key Standards": "ASTM, ASME, DIN"
+            },
+            {
+              "Product Form": "Plates & Sheets",
+              "Common Grades": "ASTM A387 Gr. 11, Gr. 22",
+              "Size Range": "5mm to 150mm (Thickness)",
+              "Key Standards": "ASTM, JIS, EN"
+            },
+            {
+              "Product Form": "Bars & Rods",
+              "Common Grades": "SAE 4140, 4340",
+              "Size Range": "10mm to 300mm (Diameter)",
+              "Key Standards": "ASTM, AISI, DIN"
+            },
+            {
+              "Product Form": "Fittings",
+              "Common Grades": "ASTM A234 WP11, WP22",
+              "Size Range": "1/2\" to 24\" (Size)",
+              "Key Standards": "ASTM, ASME"
+            },
+            {
+              "Product Form": "Forgings",
+              "Common Grades": "F5, F9, F11, F22",
+              "Size Range": "As per customer drawing",
+              "Key Standards": "ASTM, ASME, API"
+            },
+            {
+              "Product Form": "Flanges",
+              "Common Grades": "ASTM A182 F11, F22",
+              "Size Range": "1/2\" to 24\" (Size)",
+              "Key Standards": "ASTM, ASME, ANSI"
+            }
+          ]
+        }
+      ],
+      "Alloy Steel Chemical Composition": [
+        {
+          "type": "paragraph",
+          "content": "The chemical composition is what gives alloy steel its unique properties. Below is the typical chemical composition for some of the most popular grades."
+        },
+        {
+          "type": "table",
+          "data": [
+            {
+              "Grade": "ASTM A335 P11",
+              "Carbon (C) %": "0.05 - 0.15",
+              "Manganese (Mn) %": "0.30 - 0.60",
+              "Chromium (Cr) %": "1.00 - 1.50",
+              "Molybdenum (Mo) %": "0.44 - 0.65",
+              "Silicon (Si) %": "0.50 - 1.00"
+            },
+            {
+              "Grade": "ASTM A335 P22",
+              "Carbon (C) %": "0.05 - 0.15",
+              "Manganese (Mn) %": "0.30 - 0.60",
+              "Chromium (Cr) %": "1.90 - 2.60",
+              "Molybdenum (Mo) %": "0.87 - 1.13",
+              "Silicon (Si) %": "0.50 - 1.00"
+            },
+            {
+              "Grade": "SAE 4140",
+              "Carbon (C) %": "0.38 - 0.43",
+              "Manganese (Mn) %": "0.75 - 1.00",
+              "Chromium (Cr) %": "0.80 - 1.10",
+              "Molybdenum (Mo) %": "0.15 - 0.25",
+              "Silicon (Si) %": "0.15 - 0.35"
+            },
+            {
+              "Grade": "SAE 4340",
+              "Carbon (C) %": "0.38 - 0.43",
+              "Manganese (Mn) %": "0.60 - 0.80",
+              "Chromium (Cr) %": "0.70 - 0.90",
+              "Molybdenum (Mo) %": "0.20 - 0.30",
+              "Silicon (Si) %": "0.15 - 0.35"
+            }
+          ]
+        }
+      ],
+      "Alloy Steel Grades Chart": [
+        {
+          "type": "table",
+          "data": [
+            {
+              "Grades": "AS 4140",
+              "ASTM Equivalent": "4140",
+              "DIN Equivalent": "1.7225 (42CrMo4)",
+              "BS Equivalent": "709M40",
+              "Key Characteristics": "High strength, good toughness, and excellent wear resistance."
+            },
+            {
+              "Grades": "AS 4340",
+              "ASTM Equivalent": "4340",
+              "DIN Equivalent": "1.6582 (34CrNiMo6)",
+              "BS Equivalent": "817M40",
+              "Key Characteristics": "High hardenability and impact strength; great for heavy-duty parts."
+            },
+            {
+              "Grades": "AS T22",
+              "ASTM Equivalent": "ASTM A213 T22",
+              "DIN Equivalent": "10CrMo9-10",
+              "BS Equivalent": "629",
+              "Key Characteristics": "Excellent for high-temperature service with good creep resistance."
+            },
+            {
+              "Grades": "AS P11",
+              "ASTM Equivalent": "ASTM A335 P11",
+              "DIN Equivalent": "13CrMo4-5",
+              "BS Equivalent": "620",
+              "Key Characteristics": "Good weldability and strength at elevated temperatures."
+            }
+          ]
+        }
+      ],
+      "Applications of Alloy Steel": [
+        {
+          "type": "list",
+          "items": [
+            "Oil & Gas: Pipes, fittings, flanges, and valves for high-pressure and high-temperature environments.",
+            "Power Generation: Boiler tubes, turbine components, heat exchangers due to heat and creep resistance.",
+            "Automotive: Crankshafts, gears, axles, and transmission components requiring high strength and fatigue resistance.",
+            "Aerospace: Landing gear, engine mounts, structural components where a high strength-to-weight ratio is crucial.",
+            "Heavy Machinery: Construction equipment, mining tools, industrial gears for extreme wear and stress."
+          ]
+        }
+      ],
+      "Related Products": [],
+      "Alloy Steel Seamless Pipes & Tubes Grades": [
+        {
+          "type": "list",
+          "items": [
+            "ASTM A335 Alloy P Seamless Pipes",
+            "ASTM A213 Alloy T Seamless Tubes",
+            "ASTM A335 P1 Alloy Seamless Pipes",
+            "ASTM A213 T2 Alloy Seamless Tube",
+            "ASTM A335 P2 Alloy Seamless Pipes",
+            "ASTM A213 T5 Alloy Seamless Tube",
+            "ASTM A335 P5/5b/5c Seamless Pipes",
+            "ASTM A213 T5b Alloy Seamless Tube",
+            "ASTM A335 P9 Alloy Seamless Pipes",
+            "ASTM A213 T5c Alloy Seamless Tube",
+            "ASTM A335 P11 Alloy Seamless Pipes"
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "ASTM A213 T9 Alloy Seamless Tube",
+            "ASTM A335 P12 Alloy Seamless Pipes",
+            "ASTM A213 T11 Alloy Seamless Tube",
+            "ASTM A335 P22 Alloy Seamless Pipes",
+            "ASTM A213 T12 Alloy Seamless Tube",
+            "ASTM A335 P23 Alloy Seamless Pipes",
+            "ASTM A213 T22 Alloy Seamless Tube",
+            "ASTM A335 P91 Alloy Seamless Pipes",
+            "ASTM A213 T23 Alloy Seamless Tube",
+            "ASTM A335 P92 Alloy Seamless Pipes",
+            "ASTM A213 T91/T92 Alloy Seamless Tube"
+          ]
+        }
+      ],
+      "Products": [
+        {
+          "type": "list",
+          "items": [
+            "CS Pipe Fittings",
+            "SS Pipe Fittings",
+            "Duplex Pipe Fittings",
+            "Super Duplex Fittings",
+            "Alloy Steel Pipe Fittings",
+            "Inconol Pipe Fittings",
+            "SS Flanges"
+          ]
+        }
+      ],
+      "Materials": [
+        {
+          "type": "list",
+          "items": [
+            "Stainless Steel",
+            "Carbon Steel",
+            "Duplex Steel",
+            "Super Duplex Steel",
+            "Alloy Steel",
+            "Monel",
+            "Inconol",
+            "Hastelloy"
+          ]
+        }
+      ],
+      "Our Office": [
+        {
+          "type": "paragraph",
+          "content": "SHOP NO 1/2, 44 ISLAMPURA STREET DUDHWALA CHAWL, M-400004."
+        },
+        {
+          "type": "paragraph",
+          "content": "+91 8369149673"
+        },
+        {
+          "type": "paragraph",
+          "content": "info@harshtubefittings.com"
+        }
+      ],
+      "Services": [],
+      "Quick Links": [],
+      "Company": [
+        {
+          "type": "paragraph",
+          "content": "HARSH TUBES & FITTINGS, established in 2012, has grown into a leading Mumbai-based manufacturer and supplier of flanges and fittings across India with a dynamic team."
+        }
+      ]
+    },
+    "grades": [
+      {
+        "gradeName": "ASTM A335 P11, P22",
+        "details": {
+          "Product Form": "Pipes & Tubes",
+          "Common Grades": "ASTM A335 P11, P22",
+          "Size Range": "1/2\" to 24\" (OD)",
+          "Key Standards": "ASTM, ASME, DIN"
+        },
+        "section": "Alloy Steel Specifications Table"
+      },
+      {
+        "gradeName": "ASTM A387 Gr. 11, Gr. 22",
+        "details": {
+          "Product Form": "Plates & Sheets",
+          "Common Grades": "ASTM A387 Gr. 11, Gr. 22",
+          "Size Range": "5mm to 150mm (Thickness)",
+          "Key Standards": "ASTM, JIS, EN"
+        },
+        "section": "Alloy Steel Specifications Table"
+      },
+      {
+        "gradeName": "SAE 4140, 4340",
+        "details": {
+          "Product Form": "Bars & Rods",
+          "Common Grades": "SAE 4140, 4340",
+          "Size Range": "10mm to 300mm (Diameter)",
+          "Key Standards": "ASTM, AISI, DIN"
+        },
+        "section": "Alloy Steel Specifications Table"
+      },
+      {
+        "gradeName": "ASTM A234 WP11, WP22",
+        "details": {
+          "Product Form": "Fittings",
+          "Common Grades": "ASTM A234 WP11, WP22",
+          "Size Range": "1/2\" to 24\" (Size)",
+          "Key Standards": "ASTM, ASME"
+        },
+        "section": "Alloy Steel Specifications Table"
+      },
+      {
+        "gradeName": "F5, F9, F11, F22",
+        "details": {
+          "Product Form": "Forgings",
+          "Common Grades": "F5, F9, F11, F22",
+          "Size Range": "As per customer drawing",
+          "Key Standards": "ASTM, ASME, API"
+        },
+        "section": "Alloy Steel Specifications Table"
+      },
+      {
+        "gradeName": "ASTM A182 F11, F22",
+        "details": {
+          "Product Form": "Flanges",
+          "Common Grades": "ASTM A182 F11, F22",
+          "Size Range": "1/2\" to 24\" (Size)",
+          "Key Standards": "ASTM, ASME, ANSI"
+        },
+        "section": "Alloy Steel Specifications Table"
+      },
+      {
+        "gradeName": "ASTM A335 P11",
+        "details": {
+          "Grade": "ASTM A335 P11",
+          "Carbon (C) %": "0.05 - 0.15",
+          "Manganese (Mn) %": "0.30 - 0.60",
+          "Chromium (Cr) %": "1.00 - 1.50",
+          "Molybdenum (Mo) %": "0.44 - 0.65",
+          "Silicon (Si) %": "0.50 - 1.00"
+        },
+        "section": "Alloy Steel Chemical Composition"
+      },
+      {
+        "gradeName": "ASTM A335 P22",
+        "details": {
+          "Grade": "ASTM A335 P22",
+          "Carbon (C) %": "0.05 - 0.15",
+          "Manganese (Mn) %": "0.30 - 0.60",
+          "Chromium (Cr) %": "1.90 - 2.60",
+          "Molybdenum (Mo) %": "0.87 - 1.13",
+          "Silicon (Si) %": "0.50 - 1.00"
+        },
+        "section": "Alloy Steel Chemical Composition"
+      },
+      {
+        "gradeName": "SAE 4140",
+        "details": {
+          "Grade": "SAE 4140",
+          "Carbon (C) %": "0.38 - 0.43",
+          "Manganese (Mn) %": "0.75 - 1.00",
+          "Chromium (Cr) %": "0.80 - 1.10",
+          "Molybdenum (Mo) %": "0.15 - 0.25",
+          "Silicon (Si) %": "0.15 - 0.35"
+        },
+        "section": "Alloy Steel Chemical Composition"
+      },
+      {
+        "gradeName": "SAE 4340",
+        "details": {
+          "Grade": "SAE 4340",
+          "Carbon (C) %": "0.38 - 0.43",
+          "Manganese (Mn) %": "0.60 - 0.80",
+          "Chromium (Cr) %": "0.70 - 0.90",
+          "Molybdenum (Mo) %": "0.20 - 0.30",
+          "Silicon (Si) %": "0.15 - 0.35"
+        },
+        "section": "Alloy Steel Chemical Composition"
+      },
+      {
+        "gradeName": "AS 4140",
+        "details": {
+          "Grades": "AS 4140",
+          "ASTM Equivalent": "4140",
+          "DIN Equivalent": "1.7225 (42CrMo4)",
+          "BS Equivalent": "709M40",
+          "Key Characteristics": "High strength, good toughness, and excellent wear resistance."
+        },
+        "section": "Alloy Steel Grades Chart"
+      },
+      {
+        "gradeName": "AS 4340",
+        "details": {
+          "Grades": "AS 4340",
+          "ASTM Equivalent": "4340",
+          "DIN Equivalent": "1.6582 (34CrNiMo6)",
+          "BS Equivalent": "817M40",
+          "Key Characteristics": "High hardenability and impact strength; great for heavy-duty parts."
+        },
+        "section": "Alloy Steel Grades Chart"
+      },
+      {
+        "gradeName": "AS T22",
+        "details": {
+          "Grades": "AS T22",
+          "ASTM Equivalent": "ASTM A213 T22",
+          "DIN Equivalent": "10CrMo9-10",
+          "BS Equivalent": "629",
+          "Key Characteristics": "Excellent for high-temperature service with good creep resistance."
+        },
+        "section": "Alloy Steel Grades Chart"
+      },
+      {
+        "gradeName": "AS P11",
+        "details": {
+          "Grades": "AS P11",
+          "ASTM Equivalent": "ASTM A335 P11",
+          "DIN Equivalent": "13CrMo4-5",
+          "BS Equivalent": "620",
+          "Key Characteristics": "Good weldability and strength at elevated temperatures."
+        },
+        "section": "Alloy Steel Grades Chart"
+      }
+    ],
+    "tables": [
+      {
+        "section": "Alloy Steel Specifications Table",
+        "data": [
+          {
+            "Product Form": "Pipes & Tubes",
+            "Common Grades": "ASTM A335 P11, P22",
+            "Size Range": "1/2\" to 24\" (OD)",
+            "Key Standards": "ASTM, ASME, DIN"
+          },
+          {
+            "Product Form": "Plates & Sheets",
+            "Common Grades": "ASTM A387 Gr. 11, Gr. 22",
+            "Size Range": "5mm to 150mm (Thickness)",
+            "Key Standards": "ASTM, JIS, EN"
+          },
+          {
+            "Product Form": "Bars & Rods",
+            "Common Grades": "SAE 4140, 4340",
+            "Size Range": "10mm to 300mm (Diameter)",
+            "Key Standards": "ASTM, AISI, DIN"
+          },
+          {
+            "Product Form": "Fittings",
+            "Common Grades": "ASTM A234 WP11, WP22",
+            "Size Range": "1/2\" to 24\" (Size)",
+            "Key Standards": "ASTM, ASME"
+          },
+          {
+            "Product Form": "Forgings",
+            "Common Grades": "F5, F9, F11, F22",
+            "Size Range": "As per customer drawing",
+            "Key Standards": "ASTM, ASME, API"
+          },
+          {
+            "Product Form": "Flanges",
+            "Common Grades": "ASTM A182 F11, F22",
+            "Size Range": "1/2\" to 24\" (Size)",
+            "Key Standards": "ASTM, ASME, ANSI"
+          }
+        ]
+      },
+      {
+        "section": "Alloy Steel Chemical Composition",
+        "data": [
+          {
+            "Grade": "ASTM A335 P11",
+            "Carbon (C) %": "0.05 - 0.15",
+            "Manganese (Mn) %": "0.30 - 0.60",
+            "Chromium (Cr) %": "1.00 - 1.50",
+            "Molybdenum (Mo) %": "0.44 - 0.65",
+            "Silicon (Si) %": "0.50 - 1.00"
+          },
+          {
+            "Grade": "ASTM A335 P22",
+            "Carbon (C) %": "0.05 - 0.15",
+            "Manganese (Mn) %": "0.30 - 0.60",
+            "Chromium (Cr) %": "1.90 - 2.60",
+            "Molybdenum (Mo) %": "0.87 - 1.13",
+            "Silicon (Si) %": "0.50 - 1.00"
+          },
+          {
+            "Grade": "SAE 4140",
+            "Carbon (C) %": "0.38 - 0.43",
+            "Manganese (Mn) %": "0.75 - 1.00",
+            "Chromium (Cr) %": "0.80 - 1.10",
+            "Molybdenum (Mo) %": "0.15 - 0.25",
+            "Silicon (Si) %": "0.15 - 0.35"
+          },
+          {
+            "Grade": "SAE 4340",
+            "Carbon (C) %": "0.38 - 0.43",
+            "Manganese (Mn) %": "0.60 - 0.80",
+            "Chromium (Cr) %": "0.70 - 0.90",
+            "Molybdenum (Mo) %": "0.20 - 0.30",
+            "Silicon (Si) %": "0.15 - 0.35"
+          }
+        ]
+      },
+      {
+        "section": "Alloy Steel Grades Chart",
+        "data": [
+          {
+            "Grades": "AS 4140",
+            "ASTM Equivalent": "4140",
+            "DIN Equivalent": "1.7225 (42CrMo4)",
+            "BS Equivalent": "709M40",
+            "Key Characteristics": "High strength, good toughness, and excellent wear resistance."
+          },
+          {
+            "Grades": "AS 4340",
+            "ASTM Equivalent": "4340",
+            "DIN Equivalent": "1.6582 (34CrNiMo6)",
+            "BS Equivalent": "817M40",
+            "Key Characteristics": "High hardenability and impact strength; great for heavy-duty parts."
+          },
+          {
+            "Grades": "AS T22",
+            "ASTM Equivalent": "ASTM A213 T22",
+            "DIN Equivalent": "10CrMo9-10",
+            "BS Equivalent": "629",
+            "Key Characteristics": "Excellent for high-temperature service with good creep resistance."
+          },
+          {
+            "Grades": "AS P11",
+            "ASTM Equivalent": "ASTM A335 P11",
+            "DIN Equivalent": "13CrMo4-5",
+            "BS Equivalent": "620",
+            "Key Characteristics": "Good weldability and strength at elevated temperatures."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Monel",
+    "source": "https://harshtubefittings.com/monel.html",
+    "sections": {
+      "Introduction": [],
+      "Monel": [],
+      "Monel Products Supplier, Manufacturer & Exporter in India": [
+        {
+          "type": "paragraph",
+          "content": "Asian Metal & Engineering Co. is a leading Monel Products Manufacturer, Supplier, and Exporter in India, offering a premium range of Monel Pipes & Tubes, Plates, Sheets & Coils, Bars, Rods, Fittings, Flanges, and Fasteners. Our Monel products are highly resistant to corrosion, acids, and seawater, making them ideal for marine, chemical processing, and oil & gas industries. We ensure top quality, precision, and international standard compliance in every product we deliver."
+        }
+      ],
+      "Monel Products Specifications & Monel Material Grade": [
+        {
+          "type": "paragraph",
+          "content": "We supply Monel products in various forms conforming to major international standards. Monel is a nickel-copper alloy with excellent corrosion resistance, especially in marine and chemical environments."
+        }
+      ],
+      "Monel Products Specifications": [
+        {
+          "type": "table",
+          "data": [
+            {
+              "Standard": "ASTM B127 / ASME SB127",
+              "Grade": "Monel 400, K500",
+              "Form": "Sheets & Plates",
+              "Size Range": "0.5 mm – 50 mm thick",
+              "Schedule / Thickness": "Custom",
+              "Surface Finish": "Hot Rolled, Cold Rolled, Polished",
+              "End Type": "–",
+              "Length": "Up to 6000 mm"
+            },
+            {
+              "Standard": "ASTM B164 / ASME SB164",
+              "Grade": "Monel 400, K500",
+              "Form": "Rods, Bars & Wires",
+              "Size Range": "Dia: 10 mm – 200 mm",
+              "Schedule / Thickness": "–",
+              "Surface Finish": "Bright, Black, Polished, Annealed",
+              "End Type": "–",
+              "Length": "Cut Length / Random"
+            },
+            {
+              "Standard": "ASTM B165 / ASME SB165",
+              "Grade": "Monel 400, K500",
+              "Form": "Pipes & Tubes (Seamless, Welded)",
+              "Size Range": "½” – 12” NB (OD: 6 mm – 219 mm)",
+              "Schedule / Thickness": "Sch 5S to Sch XXS",
+              "Surface Finish": "Annealed, Pickled, Polished",
+              "End Type": "Plain End / Beveled End / Threaded",
+              "Length": "Single Random, Double Random, Custom"
+            },
+            {
+              "Standard": "ASTM B366 / ASME SB366",
+              "Grade": "Monel 400, K500",
+              "Form": "Fittings (Elbow, Tee, Reducer, Stub End, Cap)",
+              "Size Range": "½” – 24”",
+              "Schedule / Thickness": "Sch 5S to Sch XXS",
+              "Surface Finish": "Shot Blasted, Sand Blasted, Polished",
+              "End Type": "Beveled / Plain End",
+              "Length": "–"
+            },
+            {
+              "Standard": "ASTM B163 / ASME SB163",
+              "Grade": "Monel 400",
+              "Form": "Condenser & Heat Exchanger Tubes",
+              "Size Range": "OD: 6 mm – 114 mm",
+              "Schedule / Thickness": "0.7 mm – 12 mm",
+              "Surface Finish": "Bright Annealed, Pickled",
+              "End Type": "Plain End",
+              "Length": "Up to 12 M"
+            },
+            {
+              "Standard": "ASTM B564 / ASME SB564",
+              "Grade": "Monel 400, K500",
+              "Form": "Flanges",
+              "Size Range": "½” – 48”",
+              "Schedule / Thickness": "Class 150 – 2500",
+              "Surface Finish": "Forged, Machined, Polished",
+              "End Type": "RF / RTJ / FF",
+              "Length": "–"
+            },
+            {
+              "Standard": "ASTM B163 / B725",
+              "Grade": "Monel 400",
+              "Form": "Welded Tubes",
+              "Size Range": "OD: ½” – 8”",
+              "Schedule / Thickness": "Sch 5 – Sch 40",
+              "Surface Finish": "Annealed, Polished",
+              "End Type": "Plain End / Beveled End",
+              "Length": "Custom"
+            }
+          ]
+        }
+      ],
+      "Chemical Composition of Monel Products": [
+        {
+          "type": "table",
+          "data": [
+            {
+              "Element": "Nickel (Ni)",
+              "Monel 400 (%)": "63 min",
+              "Monel K500 (%)": "63 min"
+            },
+            {
+              "Element": "Copper (Cu)",
+              "Monel 400 (%)": "28–34",
+              "Monel K500 (%)": "27–33"
+            },
+            {
+              "Element": "Iron (Fe)",
+              "Monel 400 (%)": "2.5 max",
+              "Monel K500 (%)": "2.5 max"
+            },
+            {
+              "Element": "Carbon (C)",
+              "Monel 400 (%)": "0.30 max",
+              "Monel K500 (%)": "0.25 max"
+            },
+            {
+              "Element": "Manganese (Mn)",
+              "Monel 400 (%)": "2.0 max",
+              "Monel K500 (%)": "1.5 max"
+            },
+            {
+              "Element": "Silicon (Si)",
+              "Monel 400 (%)": "0.5 max",
+              "Monel K500 (%)": "0.5 max"
+            },
+            {
+              "Element": "Aluminum (Al)",
+              "Monel 400 (%)": "–",
+              "Monel K500 (%)": "2.3–3.15"
+            },
+            {
+              "Element": "Titanium (Ti)",
+              "Monel 400 (%)": "–",
+              "Monel K500 (%)": "0.35–0.85"
+            }
+          ]
+        }
+      ],
+      "Mechanical Properties of Monel Products": [
+        {
+          "type": "table",
+          "data": [
+            {
+              "Properties": "Tensile Strength",
+              "Monel 400": "480 MPa",
+              "Monel K500": "965 MPa"
+            },
+            {
+              "Properties": "Yield Strength",
+              "Monel 400": "170 MPa",
+              "Monel K500": "655 MPa"
+            },
+            {
+              "Properties": "Elongation",
+              "Monel 400": "35%",
+              "Monel K500": "20%"
+            },
+            {
+              "Properties": "Hardness",
+              "Monel 400": "110 HB",
+              "Monel K500": "200 HB"
+            }
+          ]
+        }
+      ],
+      "Physical Properties of Monel Products": [
+        {
+          "type": "table",
+          "data": [
+            {
+              "Property": "Density",
+              "Value": "8.8 g/cm³"
+            },
+            {
+              "Property": "Melting Point",
+              "Value": "1300–1350°C"
+            },
+            {
+              "Property": "Electrical Resistivity",
+              "Value": "344 nΩ·m"
+            },
+            {
+              "Property": "Thermal Conductivity",
+              "Value": "21.8 W/m·K"
+            },
+            {
+              "Property": "Magnetic Properties",
+              "Value": "Non-magnetic to slightly magnetic"
+            }
+          ]
+        }
+      ],
+      "Monel Products Equivalent Standards": [
+        {
+          "type": "table",
+          "data": [
+            {
+              "Standard": "UNS",
+              "Monel 400": "N04400",
+              "Monel K500": "N05500"
+            },
+            {
+              "Standard": "WNR",
+              "Monel 400": "2.4360 / 2.4361",
+              "Monel K500": "2.4375"
+            },
+            {
+              "Standard": "BS",
+              "Monel 400": "NA 13",
+              "Monel K500": "NA 18"
+            },
+            {
+              "Standard": "AFNOR",
+              "Monel 400": "NU-30M",
+              "Monel K500": "NU-30AT"
+            }
+          ]
+        }
+      ],
+      "Applications of Monel Products": [
+        {
+          "type": "list",
+          "items": [
+            "Marine Industry: Pump shafts, seawater valves, and heat exchangers.",
+            "Oil & Gas: Offshore drilling, pipelines, and refinery equipment.",
+            "Chemical Processing: Vessels, reactors, and heat exchangers.",
+            "Aerospace: Springs, fasteners, and structural components.",
+            "Power Generation: Nuclear plants and turbines."
+          ]
+        }
+      ],
+      "Products": [
+        {
+          "type": "list",
+          "items": [
+            "CS Pipe Fittings",
+            "SS Pipe Fittings",
+            "Duplex Pipe Fittings",
+            "Super Duplex Fittings",
+            "Alloy Steel Pipe Fittings",
+            "Inconol Pipe Fittings",
+            "SS Flanges"
+          ]
+        }
+      ],
+      "Materials": [
+        {
+          "type": "list",
+          "items": [
+            "Stainless Steel",
+            "Carbon Steel",
+            "Duplex Steel",
+            "Super Duplex Steel",
+            "Alloy Steel",
+            "Monel",
+            "Inconol",
+            "Hastelloy"
+          ]
+        }
+      ],
+      "Our Office": [
+        {
+          "type": "paragraph",
+          "content": "SHOP NO 1/2, 44 ISLAMPURA STREET DUDHWALA CHAWL, M-400004."
+        },
+        {
+          "type": "paragraph",
+          "content": "+91 8369149673"
+        },
+        {
+          "type": "paragraph",
+          "content": "info@harshtubefittings.com"
+        }
+      ],
+      "Services": [],
+      "Quick Links": [],
+      "Company": [
+        {
+          "type": "paragraph",
+          "content": "HARSH TUBES & FITTINGS, established in 2012, has grown into a leading Mumbai-based manufacturer and supplier of flanges and fittings across India with a dynamic team."
+        }
+      ]
+    },
+    "grades": [
+      {
+        "gradeName": "Monel 400, K500",
+        "details": {
+          "Standard": "ASTM B127 / ASME SB127",
+          "Grade": "Monel 400, K500",
+          "Form": "Sheets & Plates",
+          "Size Range": "0.5 mm – 50 mm thick",
+          "Schedule / Thickness": "Custom",
+          "Surface Finish": "Hot Rolled, Cold Rolled, Polished",
+          "End Type": "–",
+          "Length": "Up to 6000 mm"
+        },
+        "section": "Monel Products Specifications"
+      },
+      {
+        "gradeName": "Monel 400, K500",
+        "details": {
+          "Standard": "ASTM B164 / ASME SB164",
+          "Grade": "Monel 400, K500",
+          "Form": "Rods, Bars & Wires",
+          "Size Range": "Dia: 10 mm – 200 mm",
+          "Schedule / Thickness": "–",
+          "Surface Finish": "Bright, Black, Polished, Annealed",
+          "End Type": "–",
+          "Length": "Cut Length / Random"
+        },
+        "section": "Monel Products Specifications"
+      },
+      {
+        "gradeName": "Monel 400, K500",
+        "details": {
+          "Standard": "ASTM B165 / ASME SB165",
+          "Grade": "Monel 400, K500",
+          "Form": "Pipes & Tubes (Seamless, Welded)",
+          "Size Range": "½” – 12” NB (OD: 6 mm – 219 mm)",
+          "Schedule / Thickness": "Sch 5S to Sch XXS",
+          "Surface Finish": "Annealed, Pickled, Polished",
+          "End Type": "Plain End / Beveled End / Threaded",
+          "Length": "Single Random, Double Random, Custom"
+        },
+        "section": "Monel Products Specifications"
+      },
+      {
+        "gradeName": "Monel 400, K500",
+        "details": {
+          "Standard": "ASTM B366 / ASME SB366",
+          "Grade": "Monel 400, K500",
+          "Form": "Fittings (Elbow, Tee, Reducer, Stub End, Cap)",
+          "Size Range": "½” – 24”",
+          "Schedule / Thickness": "Sch 5S to Sch XXS",
+          "Surface Finish": "Shot Blasted, Sand Blasted, Polished",
+          "End Type": "Beveled / Plain End",
+          "Length": "–"
+        },
+        "section": "Monel Products Specifications"
+      },
+      {
+        "gradeName": "Monel 400",
+        "details": {
+          "Standard": "ASTM B163 / ASME SB163",
+          "Grade": "Monel 400",
+          "Form": "Condenser & Heat Exchanger Tubes",
+          "Size Range": "OD: 6 mm – 114 mm",
+          "Schedule / Thickness": "0.7 mm – 12 mm",
+          "Surface Finish": "Bright Annealed, Pickled",
+          "End Type": "Plain End",
+          "Length": "Up to 12 M"
+        },
+        "section": "Monel Products Specifications"
+      },
+      {
+        "gradeName": "Monel 400, K500",
+        "details": {
+          "Standard": "ASTM B564 / ASME SB564",
+          "Grade": "Monel 400, K500",
+          "Form": "Flanges",
+          "Size Range": "½” – 48”",
+          "Schedule / Thickness": "Class 150 – 2500",
+          "Surface Finish": "Forged, Machined, Polished",
+          "End Type": "RF / RTJ / FF",
+          "Length": "–"
+        },
+        "section": "Monel Products Specifications"
+      },
+      {
+        "gradeName": "Monel 400",
+        "details": {
+          "Standard": "ASTM B163 / B725",
+          "Grade": "Monel 400",
+          "Form": "Welded Tubes",
+          "Size Range": "OD: ½” – 8”",
+          "Schedule / Thickness": "Sch 5 – Sch 40",
+          "Surface Finish": "Annealed, Polished",
+          "End Type": "Plain End / Beveled End",
+          "Length": "Custom"
+        },
+        "section": "Monel Products Specifications"
+      }
+    ],
+    "tables": [
+      {
+        "section": "Monel Products Specifications",
+        "data": [
+          {
+            "Standard": "ASTM B127 / ASME SB127",
+            "Grade": "Monel 400, K500",
+            "Form": "Sheets & Plates",
+            "Size Range": "0.5 mm – 50 mm thick",
+            "Schedule / Thickness": "Custom",
+            "Surface Finish": "Hot Rolled, Cold Rolled, Polished",
+            "End Type": "–",
+            "Length": "Up to 6000 mm"
+          },
+          {
+            "Standard": "ASTM B164 / ASME SB164",
+            "Grade": "Monel 400, K500",
+            "Form": "Rods, Bars & Wires",
+            "Size Range": "Dia: 10 mm – 200 mm",
+            "Schedule / Thickness": "–",
+            "Surface Finish": "Bright, Black, Polished, Annealed",
+            "End Type": "–",
+            "Length": "Cut Length / Random"
+          },
+          {
+            "Standard": "ASTM B165 / ASME SB165",
+            "Grade": "Monel 400, K500",
+            "Form": "Pipes & Tubes (Seamless, Welded)",
+            "Size Range": "½” – 12” NB (OD: 6 mm – 219 mm)",
+            "Schedule / Thickness": "Sch 5S to Sch XXS",
+            "Surface Finish": "Annealed, Pickled, Polished",
+            "End Type": "Plain End / Beveled End / Threaded",
+            "Length": "Single Random, Double Random, Custom"
+          },
+          {
+            "Standard": "ASTM B366 / ASME SB366",
+            "Grade": "Monel 400, K500",
+            "Form": "Fittings (Elbow, Tee, Reducer, Stub End, Cap)",
+            "Size Range": "½” – 24”",
+            "Schedule / Thickness": "Sch 5S to Sch XXS",
+            "Surface Finish": "Shot Blasted, Sand Blasted, Polished",
+            "End Type": "Beveled / Plain End",
+            "Length": "–"
+          },
+          {
+            "Standard": "ASTM B163 / ASME SB163",
+            "Grade": "Monel 400",
+            "Form": "Condenser & Heat Exchanger Tubes",
+            "Size Range": "OD: 6 mm – 114 mm",
+            "Schedule / Thickness": "0.7 mm – 12 mm",
+            "Surface Finish": "Bright Annealed, Pickled",
+            "End Type": "Plain End",
+            "Length": "Up to 12 M"
+          },
+          {
+            "Standard": "ASTM B564 / ASME SB564",
+            "Grade": "Monel 400, K500",
+            "Form": "Flanges",
+            "Size Range": "½” – 48”",
+            "Schedule / Thickness": "Class 150 – 2500",
+            "Surface Finish": "Forged, Machined, Polished",
+            "End Type": "RF / RTJ / FF",
+            "Length": "–"
+          },
+          {
+            "Standard": "ASTM B163 / B725",
+            "Grade": "Monel 400",
+            "Form": "Welded Tubes",
+            "Size Range": "OD: ½” – 8”",
+            "Schedule / Thickness": "Sch 5 – Sch 40",
+            "Surface Finish": "Annealed, Polished",
+            "End Type": "Plain End / Beveled End",
+            "Length": "Custom"
+          }
+        ]
+      },
+      {
+        "section": "Chemical Composition of Monel Products",
+        "data": [
+          {
+            "Element": "Nickel (Ni)",
+            "Monel 400 (%)": "63 min",
+            "Monel K500 (%)": "63 min"
+          },
+          {
+            "Element": "Copper (Cu)",
+            "Monel 400 (%)": "28–34",
+            "Monel K500 (%)": "27–33"
+          },
+          {
+            "Element": "Iron (Fe)",
+            "Monel 400 (%)": "2.5 max",
+            "Monel K500 (%)": "2.5 max"
+          },
+          {
+            "Element": "Carbon (C)",
+            "Monel 400 (%)": "0.30 max",
+            "Monel K500 (%)": "0.25 max"
+          },
+          {
+            "Element": "Manganese (Mn)",
+            "Monel 400 (%)": "2.0 max",
+            "Monel K500 (%)": "1.5 max"
+          },
+          {
+            "Element": "Silicon (Si)",
+            "Monel 400 (%)": "0.5 max",
+            "Monel K500 (%)": "0.5 max"
+          },
+          {
+            "Element": "Aluminum (Al)",
+            "Monel 400 (%)": "–",
+            "Monel K500 (%)": "2.3–3.15"
+          },
+          {
+            "Element": "Titanium (Ti)",
+            "Monel 400 (%)": "–",
+            "Monel K500 (%)": "0.35–0.85"
+          }
+        ]
+      },
+      {
+        "section": "Mechanical Properties of Monel Products",
+        "data": [
+          {
+            "Properties": "Tensile Strength",
+            "Monel 400": "480 MPa",
+            "Monel K500": "965 MPa"
+          },
+          {
+            "Properties": "Yield Strength",
+            "Monel 400": "170 MPa",
+            "Monel K500": "655 MPa"
+          },
+          {
+            "Properties": "Elongation",
+            "Monel 400": "35%",
+            "Monel K500": "20%"
+          },
+          {
+            "Properties": "Hardness",
+            "Monel 400": "110 HB",
+            "Monel K500": "200 HB"
+          }
+        ]
+      },
+      {
+        "section": "Physical Properties of Monel Products",
+        "data": [
+          {
+            "Property": "Density",
+            "Value": "8.8 g/cm³"
+          },
+          {
+            "Property": "Melting Point",
+            "Value": "1300–1350°C"
+          },
+          {
+            "Property": "Electrical Resistivity",
+            "Value": "344 nΩ·m"
+          },
+          {
+            "Property": "Thermal Conductivity",
+            "Value": "21.8 W/m·K"
+          },
+          {
+            "Property": "Magnetic Properties",
+            "Value": "Non-magnetic to slightly magnetic"
+          }
+        ]
+      },
+      {
+        "section": "Monel Products Equivalent Standards",
+        "data": [
+          {
+            "Standard": "UNS",
+            "Monel 400": "N04400",
+            "Monel K500": "N05500"
+          },
+          {
+            "Standard": "WNR",
+            "Monel 400": "2.4360 / 2.4361",
+            "Monel K500": "2.4375"
+          },
+          {
+            "Standard": "BS",
+            "Monel 400": "NA 13",
+            "Monel K500": "NA 18"
+          },
+          {
+            "Standard": "AFNOR",
+            "Monel 400": "NU-30M",
+            "Monel K500": "NU-30AT"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Inconel",
+    "source": "https://harshtubefittings.com/inconol.html",
+    "sections": {
+      "Introduction": [],
+      "Inconel": [
+        {
+          "type": "table",
+          "data": [
+            {
+              "Standard": "ASTM B127 / ASME SB127",
+              "Grade": "Inconel 600, 625, 718, 800",
+              "Form": "Sheets & Plates",
+              "Size Range": "0.5 mm – 50 mm thick",
+              "Schedule / Thickness": "Custom",
+              "Surface Finish": "Hot Rolled, Cold Rolled, Polished",
+              "End Type": "–",
+              "Length": "Up to 6000 mm"
+            },
+            {
+              "Standard": "ASTM B164 / ASME SB164",
+              "Grade": "Inconel 600, 625, 718, 800",
+              "Form": "Rods, Bars & Wires",
+              "Size Range": "Dia: 10 mm – 200 mm",
+              "Schedule / Thickness": "–",
+              "Surface Finish": "Bright, Black, Polished, Annealed",
+              "End Type": "–",
+              "Length": "Cut Length / Random"
+            },
+            {
+              "Standard": "ASTM B165 / ASME SB165",
+              "Grade": "Inconel 600, 625, 718, 800",
+              "Form": "Pipes & Tubes (Seamless, Welded)",
+              "Size Range": "½” – 12” NB (OD: 6 mm – 219 mm)",
+              "Schedule / Thickness": "Sch 5S to Sch XXS",
+              "Surface Finish": "Annealed, Pickled, Polished",
+              "End Type": "Plain End / Beveled End / Threaded",
+              "Length": "Single Random, Double Random, Custom"
+            },
+            {
+              "Standard": "ASTM B366 / ASME SB366",
+              "Grade": "Inconel 600, 625, 718, 800",
+              "Form": "Fittings (Elbow, Tee, Reducer, Stub End, Cap)",
+              "Size Range": "½” – 24”",
+              "Schedule / Thickness": "Sch 5S to Sch XXS",
+              "Surface Finish": "Shot Blasted, Sand Blasted, Polished",
+              "End Type": "Beveled / Plain End",
+              "Length": "–"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "data": [
+            {
+              "Grade": "600",
+              "Ni (%)": "≥72",
+              "Cr (%)": "14–17",
+              "Fe (%)": "6–10",
+              "Mo (%)": "–",
+              "Nb (%)": "–",
+              "Ti (%)": "–",
+              "Al (%)": "–",
+              "C (%)": "0.15",
+              "Mn (%)": "1.0",
+              "Si (%)": "0.5",
+              "Co (%)": "–"
+            },
+            {
+              "Grade": "625",
+              "Ni (%)": "≥58",
+              "Cr (%)": "20–23",
+              "Fe (%)": "≤5",
+              "Mo (%)": "8–10",
+              "Nb (%)": "3.15–4.15",
+              "Ti (%)": "–",
+              "Al (%)": "–",
+              "C (%)": "0.1",
+              "Mn (%)": "0.5",
+              "Si (%)": "0.5",
+              "Co (%)": "≤1.0"
+            },
+            {
+              "Grade": "718",
+              "Ni (%)": "50–55",
+              "Cr (%)": "17–21",
+              "Fe (%)": "Balance",
+              "Mo (%)": "2.8–3.3",
+              "Nb (%)": "4.75–5.5",
+              "Ti (%)": "0.65–1.15",
+              "Al (%)": "0.20–0.80",
+              "C (%)": "0.08",
+              "Mn (%)": "0.35",
+              "Si (%)": "0.35",
+              "Co (%)": "≤1.0"
+            },
+            {
+              "Grade": "800",
+              "Ni (%)": "30–35",
+              "Cr (%)": "19–23",
+              "Fe (%)": "Balance",
+              "Mo (%)": "–",
+              "Nb (%)": "–",
+              "Ti (%)": "–",
+              "Al (%)": "–",
+              "C (%)": "0.10",
+              "Mn (%)": "1.0",
+              "Si (%)": "0.5",
+              "Co (%)": "–"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "data": [
+            {
+              "Property": "Tensile Strength (MPa)",
+              "Inconel 600": "515–1035",
+              "Inconel 625": "690–1035",
+              "Inconel 718": "1035–1375",
+              "Inconel 800": "515–1035"
+            },
+            {
+              "Property": "Yield Strength (MPa)",
+              "Inconel 600": "205–275",
+              "Inconel 625": "275–345",
+              "Inconel 718": "1035–1375",
+              "Inconel 800": "205–275"
+            },
+            {
+              "Property": "Elongation (%)",
+              "Inconel 600": "30–45",
+              "Inconel 625": "30–50",
+              "Inconel 718": "14–18",
+              "Inconel 800": "30–45"
+            },
+            {
+              "Property": "Hardness (HB)",
+              "Inconel 600": "150–200",
+              "Inconel 625": "200–300",
+              "Inconel 718": "300–400",
+              "Inconel 800": "150–200"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Aerospace: Turbine blades, seals, high-temperature components.",
+            "Chemical Processing: Reactors, heat exchangers, piping systems.",
+            "Power Generation: Gas turbines, nuclear reactors.",
+            "Marine: Propeller shafts, seawater valves.",
+            "Oil & Gas: Drill collars, valves, high-pressure equipment."
+          ]
+        }
+      ],
+      "Products": [
+        {
+          "type": "list",
+          "items": [
+            "CS Pipe Fittings",
+            "SS Pipe Fittings",
+            "Duplex Pipe Fittings",
+            "Super Duplex Fittings",
+            "Alloy Steel Pipe Fittings",
+            "Inconol Pipe Fittings",
+            "SS Flanges"
+          ]
+        }
+      ],
+      "Materials": [
+        {
+          "type": "list",
+          "items": [
+            "Stainless Steel",
+            "Carbon Steel",
+            "Duplex Steel",
+            "Super Duplex Steel",
+            "Alloy Steel",
+            "Monel",
+            "Inconol",
+            "Hastelloy"
+          ]
+        }
+      ],
+      "Our Office": [
+        {
+          "type": "paragraph",
+          "content": "SHOP NO 1/2, 44 ISLAMPURA STREET DUDHWALA CHAWL, M-400004."
+        },
+        {
+          "type": "paragraph",
+          "content": "+91 8369149673"
+        },
+        {
+          "type": "paragraph",
+          "content": "info@harshtubefittings.com"
+        }
+      ],
+      "Services": [],
+      "Quick Links": [],
+      "Company": [
+        {
+          "type": "paragraph",
+          "content": "HARSH TUBES & FITTINGS, established in 2012, has grown into a leading Mumbai-based manufacturer and supplier of flanges and fittings across India with a dynamic team."
+        }
+      ]
+    },
+    "grades": [
+      {
+        "gradeName": "Inconel 600, 625, 718, 800",
+        "details": {
+          "Standard": "ASTM B127 / ASME SB127",
+          "Grade": "Inconel 600, 625, 718, 800",
+          "Form": "Sheets & Plates",
+          "Size Range": "0.5 mm – 50 mm thick",
+          "Schedule / Thickness": "Custom",
+          "Surface Finish": "Hot Rolled, Cold Rolled, Polished",
+          "End Type": "–",
+          "Length": "Up to 6000 mm"
+        },
+        "section": "Inconel"
+      },
+      {
+        "gradeName": "Inconel 600, 625, 718, 800",
+        "details": {
+          "Standard": "ASTM B164 / ASME SB164",
+          "Grade": "Inconel 600, 625, 718, 800",
+          "Form": "Rods, Bars & Wires",
+          "Size Range": "Dia: 10 mm – 200 mm",
+          "Schedule / Thickness": "–",
+          "Surface Finish": "Bright, Black, Polished, Annealed",
+          "End Type": "–",
+          "Length": "Cut Length / Random"
+        },
+        "section": "Inconel"
+      },
+      {
+        "gradeName": "Inconel 600, 625, 718, 800",
+        "details": {
+          "Standard": "ASTM B165 / ASME SB165",
+          "Grade": "Inconel 600, 625, 718, 800",
+          "Form": "Pipes & Tubes (Seamless, Welded)",
+          "Size Range": "½” – 12” NB (OD: 6 mm – 219 mm)",
+          "Schedule / Thickness": "Sch 5S to Sch XXS",
+          "Surface Finish": "Annealed, Pickled, Polished",
+          "End Type": "Plain End / Beveled End / Threaded",
+          "Length": "Single Random, Double Random, Custom"
+        },
+        "section": "Inconel"
+      },
+      {
+        "gradeName": "Inconel 600, 625, 718, 800",
+        "details": {
+          "Standard": "ASTM B366 / ASME SB366",
+          "Grade": "Inconel 600, 625, 718, 800",
+          "Form": "Fittings (Elbow, Tee, Reducer, Stub End, Cap)",
+          "Size Range": "½” – 24”",
+          "Schedule / Thickness": "Sch 5S to Sch XXS",
+          "Surface Finish": "Shot Blasted, Sand Blasted, Polished",
+          "End Type": "Beveled / Plain End",
+          "Length": "–"
+        },
+        "section": "Inconel"
+      },
+      {
+        "gradeName": "600",
+        "details": {
+          "Grade": "600",
+          "Ni (%)": "≥72",
+          "Cr (%)": "14–17",
+          "Fe (%)": "6–10",
+          "Mo (%)": "–",
+          "Nb (%)": "–",
+          "Ti (%)": "–",
+          "Al (%)": "–",
+          "C (%)": "0.15",
+          "Mn (%)": "1.0",
+          "Si (%)": "0.5",
+          "Co (%)": "–"
+        },
+        "section": "Inconel"
+      },
+      {
+        "gradeName": "625",
+        "details": {
+          "Grade": "625",
+          "Ni (%)": "≥58",
+          "Cr (%)": "20–23",
+          "Fe (%)": "≤5",
+          "Mo (%)": "8–10",
+          "Nb (%)": "3.15–4.15",
+          "Ti (%)": "–",
+          "Al (%)": "–",
+          "C (%)": "0.1",
+          "Mn (%)": "0.5",
+          "Si (%)": "0.5",
+          "Co (%)": "≤1.0"
+        },
+        "section": "Inconel"
+      },
+      {
+        "gradeName": "718",
+        "details": {
+          "Grade": "718",
+          "Ni (%)": "50–55",
+          "Cr (%)": "17–21",
+          "Fe (%)": "Balance",
+          "Mo (%)": "2.8–3.3",
+          "Nb (%)": "4.75–5.5",
+          "Ti (%)": "0.65–1.15",
+          "Al (%)": "0.20–0.80",
+          "C (%)": "0.08",
+          "Mn (%)": "0.35",
+          "Si (%)": "0.35",
+          "Co (%)": "≤1.0"
+        },
+        "section": "Inconel"
+      },
+      {
+        "gradeName": "800",
+        "details": {
+          "Grade": "800",
+          "Ni (%)": "30–35",
+          "Cr (%)": "19–23",
+          "Fe (%)": "Balance",
+          "Mo (%)": "–",
+          "Nb (%)": "–",
+          "Ti (%)": "–",
+          "Al (%)": "–",
+          "C (%)": "0.10",
+          "Mn (%)": "1.0",
+          "Si (%)": "0.5",
+          "Co (%)": "–"
+        },
+        "section": "Inconel"
+      }
+    ],
+    "tables": [
+      {
+        "section": "Inconel",
+        "data": [
+          {
+            "Standard": "ASTM B127 / ASME SB127",
+            "Grade": "Inconel 600, 625, 718, 800",
+            "Form": "Sheets & Plates",
+            "Size Range": "0.5 mm – 50 mm thick",
+            "Schedule / Thickness": "Custom",
+            "Surface Finish": "Hot Rolled, Cold Rolled, Polished",
+            "End Type": "–",
+            "Length": "Up to 6000 mm"
+          },
+          {
+            "Standard": "ASTM B164 / ASME SB164",
+            "Grade": "Inconel 600, 625, 718, 800",
+            "Form": "Rods, Bars & Wires",
+            "Size Range": "Dia: 10 mm – 200 mm",
+            "Schedule / Thickness": "–",
+            "Surface Finish": "Bright, Black, Polished, Annealed",
+            "End Type": "–",
+            "Length": "Cut Length / Random"
+          },
+          {
+            "Standard": "ASTM B165 / ASME SB165",
+            "Grade": "Inconel 600, 625, 718, 800",
+            "Form": "Pipes & Tubes (Seamless, Welded)",
+            "Size Range": "½” – 12” NB (OD: 6 mm – 219 mm)",
+            "Schedule / Thickness": "Sch 5S to Sch XXS",
+            "Surface Finish": "Annealed, Pickled, Polished",
+            "End Type": "Plain End / Beveled End / Threaded",
+            "Length": "Single Random, Double Random, Custom"
+          },
+          {
+            "Standard": "ASTM B366 / ASME SB366",
+            "Grade": "Inconel 600, 625, 718, 800",
+            "Form": "Fittings (Elbow, Tee, Reducer, Stub End, Cap)",
+            "Size Range": "½” – 24”",
+            "Schedule / Thickness": "Sch 5S to Sch XXS",
+            "Surface Finish": "Shot Blasted, Sand Blasted, Polished",
+            "End Type": "Beveled / Plain End",
+            "Length": "–"
+          }
+        ]
+      },
+      {
+        "section": "Inconel",
+        "data": [
+          {
+            "Grade": "600",
+            "Ni (%)": "≥72",
+            "Cr (%)": "14–17",
+            "Fe (%)": "6–10",
+            "Mo (%)": "–",
+            "Nb (%)": "–",
+            "Ti (%)": "–",
+            "Al (%)": "–",
+            "C (%)": "0.15",
+            "Mn (%)": "1.0",
+            "Si (%)": "0.5",
+            "Co (%)": "–"
+          },
+          {
+            "Grade": "625",
+            "Ni (%)": "≥58",
+            "Cr (%)": "20–23",
+            "Fe (%)": "≤5",
+            "Mo (%)": "8–10",
+            "Nb (%)": "3.15–4.15",
+            "Ti (%)": "–",
+            "Al (%)": "–",
+            "C (%)": "0.1",
+            "Mn (%)": "0.5",
+            "Si (%)": "0.5",
+            "Co (%)": "≤1.0"
+          },
+          {
+            "Grade": "718",
+            "Ni (%)": "50–55",
+            "Cr (%)": "17–21",
+            "Fe (%)": "Balance",
+            "Mo (%)": "2.8–3.3",
+            "Nb (%)": "4.75–5.5",
+            "Ti (%)": "0.65–1.15",
+            "Al (%)": "0.20–0.80",
+            "C (%)": "0.08",
+            "Mn (%)": "0.35",
+            "Si (%)": "0.35",
+            "Co (%)": "≤1.0"
+          },
+          {
+            "Grade": "800",
+            "Ni (%)": "30–35",
+            "Cr (%)": "19–23",
+            "Fe (%)": "Balance",
+            "Mo (%)": "–",
+            "Nb (%)": "–",
+            "Ti (%)": "–",
+            "Al (%)": "–",
+            "C (%)": "0.10",
+            "Mn (%)": "1.0",
+            "Si (%)": "0.5",
+            "Co (%)": "–"
+          }
+        ]
+      },
+      {
+        "section": "Inconel",
+        "data": [
+          {
+            "Property": "Tensile Strength (MPa)",
+            "Inconel 600": "515–1035",
+            "Inconel 625": "690–1035",
+            "Inconel 718": "1035–1375",
+            "Inconel 800": "515–1035"
+          },
+          {
+            "Property": "Yield Strength (MPa)",
+            "Inconel 600": "205–275",
+            "Inconel 625": "275–345",
+            "Inconel 718": "1035–1375",
+            "Inconel 800": "205–275"
+          },
+          {
+            "Property": "Elongation (%)",
+            "Inconel 600": "30–45",
+            "Inconel 625": "30–50",
+            "Inconel 718": "14–18",
+            "Inconel 800": "30–45"
+          },
+          {
+            "Property": "Hardness (HB)",
+            "Inconel 600": "150–200",
+            "Inconel 625": "200–300",
+            "Inconel 718": "300–400",
+            "Inconel 800": "150–200"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hastelloy",
+    "source": "https://harshtubefittings.com/hastealloy.html",
+    "sections": {
+      "Introduction": [],
+      "Hastelloy": [],
+      "Hastelloy Materials": [
+        {
+          "type": "paragraph",
+          "content": "Hastelloy is a trademarked name for a group of corrosion-resistant metal alloys primarily made of nickel, with significant amounts of molybdenum, iron, cobalt, and other elements. It is widely used in chemical processing, aerospace, marine, and other industries where extreme corrosion resistance is required."
+        }
+      ],
+      "Common Hastelloy Grades": [
+        {
+          "type": "table",
+          "data": [
+            {
+              "Grade": "Hastelloy C-22",
+              "Typical Composition": "Ni: 57%, Mo: 13%, Fe: 6%, Cr: 22%, W: 3%, Co: balance",
+              "Applications": "Chemical processing, aerospace, marine environments"
+            },
+            {
+              "Grade": "Hastelloy C-276",
+              "Typical Composition": "Ni: 57%, Mo: 16%, Fe: 6%, Cr: 16%, W: 3%, Co: balance",
+              "Applications": "Highly oxidizing and reducing environments, chemical equipment"
+            },
+            {
+              "Grade": "Hastelloy B-2",
+              "Typical Composition": "Ni: 63%, Mo: 28%, Fe: balance",
+              "Applications": "Hydrochloric acid handling, chemical tanks, heat exchangers"
+            }
+          ]
+        }
+      ],
+      "Key Features of Hastelloy": [
+        {
+          "type": "list",
+          "items": [
+            "Exceptional resistance to pitting, stress-corrosion cracking, and oxidizing/reducing agents.",
+            "High strength at elevated temperatures.",
+            "Outstanding performance in aggressive chemical environments.",
+            "Excellent weldability and formability."
+          ]
+        }
+      ],
+      "Applications": [
+        {
+          "type": "paragraph",
+          "content": "Hastelloy alloys are used extensively in chemical processing, pollution control, aerospace, marine engineering, heat exchangers, and marine environments. They are also ideal for equipment exposed to strong oxidizing agents such as chlorine, ferric chloride, and hydrochloric acid."
+        }
+      ],
+      "Typical Composition Table": [
+        {
+          "type": "table",
+          "data": [
+            {
+              "Element": "Nickel (Ni)",
+              "C-22 (%)": "57",
+              "C-276 (%)": "57",
+              "B-2 (%)": "63"
+            },
+            {
+              "Element": "Molybdenum (Mo)",
+              "C-22 (%)": "13",
+              "C-276 (%)": "16",
+              "B-2 (%)": "28"
+            },
+            {
+              "Element": "Chromium (Cr)",
+              "C-22 (%)": "22",
+              "C-276 (%)": "16",
+              "B-2 (%)": "—"
+            },
+            {
+              "Element": "Iron (Fe)",
+              "C-22 (%)": "6",
+              "C-276 (%)": "6",
+              "B-2 (%)": "balance"
+            },
+            {
+              "Element": "Tungsten (W)",
+              "C-22 (%)": "3",
+              "C-276 (%)": "3",
+              "B-2 (%)": "—"
+            },
+            {
+              "Element": "Cobalt (Co)",
+              "C-22 (%)": "balance",
+              "C-276 (%)": "balance",
+              "B-2 (%)": "—"
+            }
+          ]
+        }
+      ],
+      "Products": [
+        {
+          "type": "list",
+          "items": [
+            "CS Pipe Fittings",
+            "SS Pipe Fittings",
+            "Duplex Pipe Fittings",
+            "Super Duplex Fittings",
+            "Alloy Steel Pipe Fittings",
+            "Inconol Pipe Fittings",
+            "SS Flanges"
+          ]
+        }
+      ],
+      "Materials": [
+        {
+          "type": "list",
+          "items": [
+            "Stainless Steel",
+            "Carbon Steel",
+            "Duplex Steel",
+            "Super Duplex Steel",
+            "Alloy Steel",
+            "Monel",
+            "Inconol",
+            "Hastelloy"
+          ]
+        }
+      ],
+      "Our Office": [
+        {
+          "type": "paragraph",
+          "content": "SHOP NO 1/2, 44 ISLAMPURA STREET DUDHWALA CHAWL, M-400004."
+        },
+        {
+          "type": "paragraph",
+          "content": "+91 8369149673"
+        },
+        {
+          "type": "paragraph",
+          "content": "info@harshtubefittings.com"
+        }
+      ],
+      "Services": [],
+      "Quick Links": [],
+      "Company": [
+        {
+          "type": "paragraph",
+          "content": "HARSH TUBES & FITTINGS, established in 2012, has grown into a leading Mumbai-based manufacturer and supplier of flanges and fittings across India with a dynamic team."
+        }
+      ]
+    },
+    "grades": [
+      {
+        "gradeName": "Hastelloy C-22",
+        "details": {
+          "Grade": "Hastelloy C-22",
+          "Typical Composition": "Ni: 57%, Mo: 13%, Fe: 6%, Cr: 22%, W: 3%, Co: balance",
+          "Applications": "Chemical processing, aerospace, marine environments"
+        },
+        "section": "Common Hastelloy Grades"
+      },
+      {
+        "gradeName": "Hastelloy C-276",
+        "details": {
+          "Grade": "Hastelloy C-276",
+          "Typical Composition": "Ni: 57%, Mo: 16%, Fe: 6%, Cr: 16%, W: 3%, Co: balance",
+          "Applications": "Highly oxidizing and reducing environments, chemical equipment"
+        },
+        "section": "Common Hastelloy Grades"
+      },
+      {
+        "gradeName": "Hastelloy B-2",
+        "details": {
+          "Grade": "Hastelloy B-2",
+          "Typical Composition": "Ni: 63%, Mo: 28%, Fe: balance",
+          "Applications": "Hydrochloric acid handling, chemical tanks, heat exchangers"
+        },
+        "section": "Common Hastelloy Grades"
+      }
+    ],
+    "tables": [
+      {
+        "section": "Common Hastelloy Grades",
+        "data": [
+          {
+            "Grade": "Hastelloy C-22",
+            "Typical Composition": "Ni: 57%, Mo: 13%, Fe: 6%, Cr: 22%, W: 3%, Co: balance",
+            "Applications": "Chemical processing, aerospace, marine environments"
+          },
+          {
+            "Grade": "Hastelloy C-276",
+            "Typical Composition": "Ni: 57%, Mo: 16%, Fe: 6%, Cr: 16%, W: 3%, Co: balance",
+            "Applications": "Highly oxidizing and reducing environments, chemical equipment"
+          },
+          {
+            "Grade": "Hastelloy B-2",
+            "Typical Composition": "Ni: 63%, Mo: 28%, Fe: balance",
+            "Applications": "Hydrochloric acid handling, chemical tanks, heat exchangers"
+          }
+        ]
+      },
+      {
+        "section": "Typical Composition Table",
+        "data": [
+          {
+            "Element": "Nickel (Ni)",
+            "C-22 (%)": "57",
+            "C-276 (%)": "57",
+            "B-2 (%)": "63"
+          },
+          {
+            "Element": "Molybdenum (Mo)",
+            "C-22 (%)": "13",
+            "C-276 (%)": "16",
+            "B-2 (%)": "28"
+          },
+          {
+            "Element": "Chromium (Cr)",
+            "C-22 (%)": "22",
+            "C-276 (%)": "16",
+            "B-2 (%)": "—"
+          },
+          {
+            "Element": "Iron (Fe)",
+            "C-22 (%)": "6",
+            "C-276 (%)": "6",
+            "B-2 (%)": "balance"
+          },
+          {
+            "Element": "Tungsten (W)",
+            "C-22 (%)": "3",
+            "C-276 (%)": "3",
+            "B-2 (%)": "—"
+          },
+          {
+            "Element": "Cobalt (Co)",
+            "C-22 (%)": "balance",
+            "C-276 (%)": "balance",
+            "B-2 (%)": "—"
+          }
+        ]
+      }
+    ]
+  }
+]

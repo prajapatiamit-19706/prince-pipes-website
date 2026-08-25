@@ -1,5 +1,5 @@
 import { notFound, redirect } from 'next/navigation';
-import { getProductBySlug, getAllProductSlugs, getNextProduct, getRelatedProducts, getProductBreadcrumbs, getProductUrl, getFallbackRedirectUrl, getProductSearchIndex, getCategoryBySlug, getSubcategoryBySlug } from '@/utils/productData';
+import { getProductBySlug, getAllProductSlugs, getNextProduct, getRelatedProducts, getProductBreadcrumbs, getProductUrl, getFallbackRedirectUrl, getProductSearchIndex, getCategoryBySlug, getSubcategoryBySlug, getProductsByCategory, getProductsBySubcategory } from '@/utils/productData';
 
 import { CategoryTemplate } from '@/components/products/CategoryTemplate';
 import { SubcategoryTemplate } from '@/components/products/SubcategoryTemplate';
@@ -109,7 +109,21 @@ export default async function ProductDetailPage({ params }) {
 
   const { product, category, subCategory } = result;
   const nextProduct = getNextProduct(productSlug);
-  const relatedProducts = getRelatedProducts(product.relatedProducts);
+  let relatedProducts = getRelatedProducts(product.relatedProducts);
+  
+  // Fallback: If no explicit related products, get other products from the same subcategory/category
+  if (!relatedProducts || relatedProducts.length === 0) {
+    if (subCategory) {
+      relatedProducts = getProductsBySubcategory(category.id, subCategory.id)
+        .filter(p => p.slug !== product.slug)
+        .slice(0, 4);
+    } else {
+      relatedProducts = getProductsByCategory(category.id)
+        .filter(p => p.slug !== product.slug)
+        .slice(0, 4);
+    }
+  }
+
   const dynamicBreadcrumbs = getProductBreadcrumbs(productSlug);
 
   let structuredData = null;

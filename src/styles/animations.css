@@ -1,3 +1,7 @@
+@keyframes shimmer {
+  100% { transform: translateX(100%); }
+}
+
 @keyframes scroll-indicator {
   0% { transform: translateY(-100%); }
   50% { transform: translateY(100%); }

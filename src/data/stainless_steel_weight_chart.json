@@ -1,0 +1,5737 @@
+{
+  "page": {
+    "title": "Stainless Steel Weight Charts",
+    "slug": "/technical-resources/weight-charts",
+    "material": "Stainless Steel"
+  },
+  "products": [
+    {
+      "product": "Tee",
+      "weightUnit": "kg/piece",
+      "source": {
+        "type": "engineering_formula",
+        "name": "Theoretical Calculation (ASME B16.9 / Standard Formula)"
+      },
+      "data": [
+        {
+          "nps": "1",
+          "dn": "25",
+          "schedule": "SCH5S",
+          "type": "Equal Tee",
+          "weight": "0.15"
+        },
+        {
+          "nps": "1",
+          "dn": "25",
+          "schedule": "SCH10S",
+          "type": "Equal Tee",
+          "weight": "0.24"
+        },
+        {
+          "nps": "1",
+          "dn": "25",
+          "schedule": "SCH40S",
+          "type": "Equal Tee",
+          "weight": "0.28"
+        },
+        {
+          "nps": "1",
+          "dn": "25",
+          "schedule": "SCH80S",
+          "type": "Equal Tee",
+          "weight": "0.37"
+        },
+        {
+          "nps": "2",
+          "dn": "50",
+          "schedule": "SCH5S",
+          "type": "Equal Tee",
+          "weight": "0.45"
+        },
+        {
+          "nps": "2",
+          "dn": "50",
+          "schedule": "SCH10S",
+          "type": "Equal Tee",
+          "weight": "0.73"
+        },
+        {
+          "nps": "2",
+          "dn": "50",
+          "schedule": "SCH40S",
+          "type": "Equal Tee",
+          "weight": "1.02"
+        },
+        {
+          "nps": "2",
+          "dn": "50",
+          "schedule": "SCH80S",
+          "type": "Equal Tee",
+          "weight": "1.40"
+        },
+        {
+          "nps": "3",
+          "dn": "80",
+          "schedule": "SCH5S",
+          "type": "Equal Tee",
+          "weight": "1.12"
+        },
+        {
+          "nps": "3",
+          "dn": "80",
+          "schedule": "SCH10S",
+          "type": "Equal Tee",
+          "weight": "1.61"
+        },
+        {
+          "nps": "3",
+          "dn": "80",
+          "schedule": "SCH40S",
+          "type": "Equal Tee",
+          "weight": "2.81"
+        },
+        {
+          "nps": "3",
+          "dn": "80",
+          "schedule": "SCH80S",
+          "type": "Equal Tee",
+          "weight": "3.80"
+        },
+        {
+          "nps": "4",
+          "dn": "100",
+          "schedule": "SCH5S",
+          "type": "Equal Tee",
+          "weight": "1.75"
+        },
+        {
+          "nps": "4",
+          "dn": "100",
+          "schedule": "SCH10S",
+          "type": "Equal Tee",
+          "weight": "2.50"
+        },
+        {
+          "nps": "4",
+          "dn": "100",
+          "schedule": "SCH40S",
+          "type": "Equal Tee",
+          "weight": "4.81"
+        },
+        {
+          "nps": "4",
+          "dn": "100",
+          "schedule": "SCH80S",
+          "type": "Equal Tee",
+          "weight": "6.68"
+        },
+        {
+          "nps": "5",
+          "dn": "125",
+          "schedule": "SCH5S",
+          "type": "Equal Tee",
+          "weight": "3.32"
+        },
+        {
+          "nps": "5",
+          "dn": "125",
+          "schedule": "SCH10S",
+          "type": "Equal Tee",
+          "weight": "4.06"
+        },
+        {
+          "nps": "5",
+          "dn": "125",
+          "schedule": "SCH40S",
+          "type": "Equal Tee",
+          "weight": "7.65"
+        },
+        {
+          "nps": "5",
+          "dn": "125",
+          "schedule": "SCH80S",
+          "type": "Equal Tee",
+          "weight": "10.88"
+        },
+        {
+          "nps": "6",
+          "dn": "150",
+          "schedule": "SCH5S",
+          "type": "Equal Tee",
+          "weight": "4.53"
+        },
+        {
+          "nps": "6",
+          "dn": "150",
+          "schedule": "SCH10S",
+          "type": "Equal Tee",
+          "weight": "5.54"
+        },
+        {
+          "nps": "6",
+          "dn": "150",
+          "schedule": "SCH40S",
+          "type": "Equal Tee",
+          "weight": "11.33"
+        },
+        {
+          "nps": "6",
+          "dn": "150",
+          "schedule": "SCH80S",
+          "type": "Equal Tee",
+          "weight": "17.07"
+        },
+        {
+          "nps": "8",
+          "dn": "200",
+          "schedule": "SCH5S",
+          "type": "Equal Tee",
+          "weight": "7.30"
+        },
+        {
+          "nps": "8",
+          "dn": "200",
+          "schedule": "SCH10S",
+          "type": "Equal Tee",
+          "weight": "9.87"
+        },
+        {
+          "nps": "8",
+          "dn": "200",
+          "schedule": "SCH40S",
+          "type": "Equal Tee",
+          "weight": "21.02"
+        },
+        {
+          "nps": "8",
+          "dn": "200",
+          "schedule": "SCH80S",
+          "type": "Equal Tee",
+          "weight": "31.94"
+        },
+        {
+          "nps": "10",
+          "dn": "250",
+          "schedule": "SCH5S",
+          "type": "Equal Tee",
+          "weight": "13.47"
+        },
+        {
+          "nps": "10",
+          "dn": "250",
+          "schedule": "SCH10S",
+          "type": "Equal Tee",
+          "weight": "16.55"
+        },
+        {
+          "nps": "10",
+          "dn": "250",
+          "schedule": "SCH40S",
+          "type": "Equal Tee",
+          "weight": "35.93"
+        },
+        {
+          "nps": "10",
+          "dn": "250",
+          "schedule": "SCH80S",
+          "type": "Equal Tee",
+          "weight": "57.20"
+        },
+        {
+          "nps": "12",
+          "dn": "300",
+          "schedule": "SCH5S",
+          "type": "Equal Tee",
+          "weight": "21.85"
+        },
+        {
+          "nps": "12",
+          "dn": "300",
+          "schedule": "SCH10S",
+          "type": "Equal Tee",
+          "weight": "25.17"
+        },
+        {
+          "nps": "12",
+          "dn": "300",
+          "schedule": "SCH40S",
+          "type": "Equal Tee",
+          "weight": "55.76"
+        },
+        {
+          "nps": "12",
+          "dn": "300",
+          "schedule": "SCH80S",
+          "type": "Equal Tee",
+          "weight": "92.38"
+        },
+        {
+          "nps": "14",
+          "dn": "350",
+          "schedule": "SCH5S",
+          "type": "Equal Tee",
+          "weight": "26.44"
+        },
+        {
+          "nps": "14",
+          "dn": "350",
+          "schedule": "SCH10S",
+          "type": "Equal Tee",
+          "weight": "31.84"
+        },
+        {
+          "nps": "14",
+          "dn": "350",
+          "schedule": "SCH40S",
+          "type": "Equal Tee",
+          "weight": "62.62"
+        },
+        {
+          "nps": "14",
+          "dn": "350",
+          "schedule": "SCH80S",
+          "type": "Equal Tee",
+          "weight": "82.68"
+        },
+        {
+          "nps": "16",
+          "dn": "400",
+          "schedule": "SCH5S",
+          "type": "Equal Tee",
+          "weight": "34.46"
+        },
+        {
+          "nps": "16",
+          "dn": "400",
+          "schedule": "SCH10S",
+          "type": "Equal Tee",
+          "weight": "39.25"
+        },
+        {
+          "nps": "16",
+          "dn": "400",
+          "schedule": "SCH40S",
+          "type": "Equal Tee",
+          "weight": "77.33"
+        },
+        {
+          "nps": "16",
+          "dn": "400",
+          "schedule": "SCH80S",
+          "type": "Equal Tee",
+          "weight": "102.23"
+        },
+        {
+          "nps": "18",
+          "dn": "450",
+          "schedule": "SCH5S",
+          "type": "Equal Tee",
+          "weight": "43.65"
+        },
+        {
+          "nps": "18",
+          "dn": "450",
+          "schedule": "SCH10S",
+          "type": "Equal Tee",
+          "weight": "49.73"
+        },
+        {
+          "nps": "18",
+          "dn": "450",
+          "schedule": "SCH40S",
+          "type": "Equal Tee",
+          "weight": "98.11"
+        },
+        {
+          "nps": "18",
+          "dn": "450",
+          "schedule": "SCH80S",
+          "type": "Equal Tee",
+          "weight": "129.81"
+        },
+        {
+          "nps": "20",
+          "dn": "500",
+          "schedule": "SCH5S",
+          "type": "Equal Tee",
+          "weight": "61.48"
+        },
+        {
+          "nps": "20",
+          "dn": "500",
+          "schedule": "SCH10S",
+          "type": "Equal Tee",
+          "weight": "71.15"
+        },
+        {
+          "nps": "20",
+          "dn": "500",
+          "schedule": "SCH40S",
+          "type": "Equal Tee",
+          "weight": "121.41"
+        },
+        {
+          "nps": "20",
+          "dn": "500",
+          "schedule": "SCH80S",
+          "type": "Equal Tee",
+          "weight": "160.77"
+        },
+        {
+          "nps": "24",
+          "dn": "600",
+          "schedule": "SCH5S",
+          "type": "Equal Tee",
+          "weight": "95.35"
+        },
+        {
+          "nps": "24",
+          "dn": "600",
+          "schedule": "SCH10S",
+          "type": "Equal Tee",
+          "weight": "109.15"
+        },
+        {
+          "nps": "24",
+          "dn": "600",
+          "schedule": "SCH40S",
+          "type": "Equal Tee",
+          "weight": "162.94"
+        },
+        {
+          "nps": "24",
+          "dn": "600",
+          "schedule": "SCH80S",
+          "type": "Equal Tee",
+          "weight": "216.00"
+        },
+        {
+          "nps": "1/2",
+          "dn": "15",
+          "schedule": "SCH5S",
+          "type": "Equal Tee",
+          "weight": "0.06"
+        },
+        {
+          "nps": "1/2",
+          "dn": "15",
+          "schedule": "SCH10S",
+          "type": "Equal Tee",
+          "weight": "0.08"
+        },
+        {
+          "nps": "1/2",
+          "dn": "15",
+          "schedule": "SCH40S",
+          "type": "Equal Tee",
+          "weight": "0.10"
+        },
+        {
+          "nps": "1/2",
+          "dn": "15",
+          "schedule": "SCH80S",
+          "type": "Equal Tee",
+          "weight": "0.12"
+        },
+        {
+          "nps": "3/4",
+          "dn": "20",
+          "schedule": "SCH5S",
+          "type": "Equal Tee",
+          "weight": "0.09"
+        },
+        {
+          "nps": "3/4",
+          "dn": "20",
+          "schedule": "SCH10S",
+          "type": "Equal Tee",
+          "weight": "0.11"
+        },
+        {
+          "nps": "3/4",
+          "dn": "20",
+          "schedule": "SCH40S",
+          "type": "Equal Tee",
+          "weight": "0.14"
+        },
+        {
+          "nps": "3/4",
+          "dn": "20",
+          "schedule": "SCH80S",
+          "type": "Equal Tee",
+          "weight": "0.18"
+        },
+        {
+          "nps": "1 1/4",
+          "dn": "-",
+          "schedule": "SCH5S",
+          "type": "Equal Tee",
+          "weight": "0.24"
+        },
+        {
+          "nps": "1 1/4",
+          "dn": "-",
+          "schedule": "SCH10S",
+          "type": "Equal Tee",
+          "weight": "0.38"
+        },
+        {
+          "nps": "1 1/4",
+          "dn": "-",
+          "schedule": "SCH40S",
+          "type": "Equal Tee",
+          "weight": "0.48"
+        },
+        {
+          "nps": "1 1/4",
+          "dn": "-",
+          "schedule": "SCH80S",
+          "type": "Equal Tee",
+          "weight": "0.64"
+        },
+        {
+          "nps": "1 1/2",
+          "dn": "-",
+          "schedule": "SCH5S",
+          "type": "Equal Tee",
+          "weight": "0.33"
+        },
+        {
+          "nps": "1 1/2",
+          "dn": "-",
+          "schedule": "SCH10S",
+          "type": "Equal Tee",
+          "weight": "0.53"
+        },
+        {
+          "nps": "1 1/2",
+          "dn": "-",
+          "schedule": "SCH40S",
+          "type": "Equal Tee",
+          "weight": "0.70"
+        },
+        {
+          "nps": "1 1/2",
+          "dn": "-",
+          "schedule": "SCH80S",
+          "type": "Equal Tee",
+          "weight": "0.93"
+        },
+        {
+          "nps": "2 1/2",
+          "dn": "-",
+          "schedule": "SCH5S",
+          "type": "Equal Tee",
+          "weight": "0.83"
+        },
+        {
+          "nps": "2 1/2",
+          "dn": "-",
+          "schedule": "SCH10S",
+          "type": "Equal Tee",
+          "weight": "1.18"
+        },
+        {
+          "nps": "2 1/2",
+          "dn": "-",
+          "schedule": "SCH40S",
+          "type": "Equal Tee",
+          "weight": "1.93"
+        },
+        {
+          "nps": "2 1/2",
+          "dn": "-",
+          "schedule": "SCH80S",
+          "type": "Equal Tee",
+          "weight": "2.55"
+        },
+        {
+          "nps": "3 1/2",
+          "dn": "-",
+          "schedule": "SCH5S",
+          "type": "Equal Tee",
+          "weight": "1.42"
+        },
+        {
+          "nps": "3 1/2",
+          "dn": "-",
+          "schedule": "SCH10S",
+          "type": "Equal Tee",
+          "weight": "2.03"
+        },
+        {
+          "nps": "3 1/2",
+          "dn": "-",
+          "schedule": "SCH40S",
+          "type": "Equal Tee",
+          "weight": "3.72"
+        },
+        {
+          "nps": "3 1/2",
+          "dn": "-",
+          "schedule": "SCH80S",
+          "type": "Equal Tee",
+          "weight": "5.11"
+        }
+      ]
+    },
+    {
+      "product": "Elbow",
+      "weightUnit": "kg/piece",
+      "source": {
+        "type": "engineering_formula",
+        "name": "Theoretical Calculation (ASME B16.9 / Standard Formula)"
+      },
+      "data": [
+        {
+          "nps": "1",
+          "dn": "25",
+          "schedule": "SCH5S",
+          "type": "90° Long Radius",
+          "weight": "0.08"
+        },
+        {
+          "nps": "1",
+          "dn": "25",
+          "schedule": "SCH5S",
+          "type": "45° Elbow",
+          "weight": "0.05"
+        },
+        {
+          "nps": "1",
+          "dn": "25",
+          "schedule": "SCH5S",
+          "type": "90° Short Radius",
+          "weight": "0.05"
+        },
+        {
+          "nps": "1",
+          "dn": "25",
+          "schedule": "SCH10S",
+          "type": "90° Long Radius",
+          "weight": "0.13"
+        },
+        {
+          "nps": "1",
+          "dn": "25",
+          "schedule": "SCH10S",
+          "type": "45° Elbow",
+          "weight": "0.07"
+        },
+        {
+          "nps": "1",
+          "dn": "25",
+          "schedule": "SCH10S",
+          "type": "90° Short Radius",
+          "weight": "0.08"
+        },
+        {
+          "nps": "1",
+          "dn": "25",
+          "schedule": "SCH40S",
+          "type": "90° Long Radius",
+          "weight": "0.15"
+        },
+        {
+          "nps": "1",
+          "dn": "25",
+          "schedule": "SCH40S",
+          "type": "45° Elbow",
+          "weight": "0.09"
+        },
+        {
+          "nps": "1",
+          "dn": "25",
+          "schedule": "SCH40S",
+          "type": "90° Short Radius",
+          "weight": "0.10"
+        },
+        {
+          "nps": "1",
+          "dn": "25",
+          "schedule": "SCH80S",
+          "type": "90° Long Radius",
+          "weight": "0.20"
+        },
+        {
+          "nps": "1",
+          "dn": "25",
+          "schedule": "SCH80S",
+          "type": "45° Elbow",
+          "weight": "0.12"
+        },
+        {
+          "nps": "1",
+          "dn": "25",
+          "schedule": "SCH80S",
+          "type": "90° Short Radius",
+          "weight": "0.13"
+        },
+        {
+          "nps": "2",
+          "dn": "50",
+          "schedule": "SCH5S",
+          "type": "90° Long Radius",
+          "weight": "0.24"
+        },
+        {
+          "nps": "2",
+          "dn": "50",
+          "schedule": "SCH5S",
+          "type": "45° Elbow",
+          "weight": "0.13"
+        },
+        {
+          "nps": "2",
+          "dn": "50",
+          "schedule": "SCH5S",
+          "type": "90° Short Radius",
+          "weight": "0.19"
+        },
+        {
+          "nps": "2",
+          "dn": "50",
+          "schedule": "SCH10S",
+          "type": "90° Long Radius",
+          "weight": "0.40"
+        },
+        {
+          "nps": "2",
+          "dn": "50",
+          "schedule": "SCH10S",
+          "type": "45° Elbow",
+          "weight": "0.22"
+        },
+        {
+          "nps": "2",
+          "dn": "50",
+          "schedule": "SCH10S",
+          "type": "90° Short Radius",
+          "weight": "0.32"
+        },
+        {
+          "nps": "2",
+          "dn": "50",
+          "schedule": "SCH40S",
+          "type": "90° Long Radius",
+          "weight": "0.55"
+        },
+        {
+          "nps": "2",
+          "dn": "50",
+          "schedule": "SCH40S",
+          "type": "45° Elbow",
+          "weight": "0.30"
+        },
+        {
+          "nps": "2",
+          "dn": "50",
+          "schedule": "SCH40S",
+          "type": "90° Short Radius",
+          "weight": "0.44"
+        },
+        {
+          "nps": "2",
+          "dn": "50",
+          "schedule": "SCH80S",
+          "type": "90° Long Radius",
+          "weight": "0.76"
+        },
+        {
+          "nps": "2",
+          "dn": "50",
+          "schedule": "SCH80S",
+          "type": "45° Elbow",
+          "weight": "0.42"
+        },
+        {
+          "nps": "2",
+          "dn": "50",
+          "schedule": "SCH80S",
+          "type": "90° Short Radius",
+          "weight": "0.61"
+        },
+        {
+          "nps": "3",
+          "dn": "80",
+          "schedule": "SCH5S",
+          "type": "90° Long Radius",
+          "weight": "0.62"
+        },
+        {
+          "nps": "3",
+          "dn": "80",
+          "schedule": "SCH5S",
+          "type": "45° Elbow",
+          "weight": "0.37"
+        },
+        {
+          "nps": "3",
+          "dn": "80",
+          "schedule": "SCH5S",
+          "type": "90° Short Radius",
+          "weight": "0.55"
+        },
+        {
+          "nps": "3",
+          "dn": "80",
+          "schedule": "SCH10S",
+          "type": "90° Long Radius",
+          "weight": "0.88"
+        },
+        {
+          "nps": "3",
+          "dn": "80",
+          "schedule": "SCH10S",
+          "type": "45° Elbow",
+          "weight": "0.52"
+        },
+        {
+          "nps": "3",
+          "dn": "80",
+          "schedule": "SCH10S",
+          "type": "90° Short Radius",
+          "weight": "0.78"
+        },
+        {
+          "nps": "3",
+          "dn": "80",
+          "schedule": "SCH40S",
+          "type": "90° Long Radius",
+          "weight": "1.54"
+        },
+        {
+          "nps": "3",
+          "dn": "80",
+          "schedule": "SCH40S",
+          "type": "45° Elbow",
+          "weight": "0.91"
+        },
+        {
+          "nps": "3",
+          "dn": "80",
+          "schedule": "SCH40S",
+          "type": "90° Short Radius",
+          "weight": "1.37"
+        },
+        {
+          "nps": "3",
+          "dn": "80",
+          "schedule": "SCH80S",
+          "type": "90° Long Radius",
+          "weight": "2.09"
+        },
+        {
+          "nps": "3",
+          "dn": "80",
+          "schedule": "SCH80S",
+          "type": "45° Elbow",
+          "weight": "1.24"
+        },
+        {
+          "nps": "3",
+          "dn": "80",
+          "schedule": "SCH80S",
+          "type": "90° Short Radius",
+          "weight": "1.85"
+        },
+        {
+          "nps": "4",
+          "dn": "100",
+          "schedule": "SCH5S",
+          "type": "90° Long Radius",
+          "weight": "0.97"
+        },
+        {
+          "nps": "4",
+          "dn": "100",
+          "schedule": "SCH5S",
+          "type": "45° Elbow",
+          "weight": "0.59"
+        },
+        {
+          "nps": "4",
+          "dn": "100",
+          "schedule": "SCH5S",
+          "type": "90° Short Radius",
+          "weight": "0.94"
+        },
+        {
+          "nps": "4",
+          "dn": "100",
+          "schedule": "SCH10S",
+          "type": "90° Long Radius",
+          "weight": "1.39"
+        },
+        {
+          "nps": "4",
+          "dn": "100",
+          "schedule": "SCH10S",
+          "type": "45° Elbow",
+          "weight": "0.85"
+        },
+        {
+          "nps": "4",
+          "dn": "100",
+          "schedule": "SCH10S",
+          "type": "90° Short Radius",
+          "weight": "1.35"
+        },
+        {
+          "nps": "4",
+          "dn": "100",
+          "schedule": "SCH40S",
+          "type": "90° Long Radius",
+          "weight": "2.68"
+        },
+        {
+          "nps": "4",
+          "dn": "100",
+          "schedule": "SCH40S",
+          "type": "45° Elbow",
+          "weight": "1.63"
+        },
+        {
+          "nps": "4",
+          "dn": "100",
+          "schedule": "SCH40S",
+          "type": "90° Short Radius",
+          "weight": "2.60"
+        },
+        {
+          "nps": "4",
+          "dn": "100",
+          "schedule": "SCH80S",
+          "type": "90° Long Radius",
+          "weight": "3.72"
+        },
+        {
+          "nps": "4",
+          "dn": "100",
+          "schedule": "SCH80S",
+          "type": "45° Elbow",
+          "weight": "2.26"
+        },
+        {
+          "nps": "4",
+          "dn": "100",
+          "schedule": "SCH80S",
+          "type": "90° Short Radius",
+          "weight": "3.61"
+        },
+        {
+          "nps": "5",
+          "dn": "125",
+          "schedule": "SCH5S",
+          "type": "90° Long Radius",
+          "weight": "1.87"
+        },
+        {
+          "nps": "5",
+          "dn": "125",
+          "schedule": "SCH5S",
+          "type": "45° Elbow",
+          "weight": "1.19"
+        },
+        {
+          "nps": "5",
+          "dn": "125",
+          "schedule": "SCH5S",
+          "type": "90° Short Radius",
+          "weight": "1.91"
+        },
+        {
+          "nps": "5",
+          "dn": "125",
+          "schedule": "SCH10S",
+          "type": "90° Long Radius",
+          "weight": "2.28"
+        },
+        {
+          "nps": "5",
+          "dn": "125",
+          "schedule": "SCH10S",
+          "type": "45° Elbow",
+          "weight": "1.46"
+        },
+        {
+          "nps": "5",
+          "dn": "125",
+          "schedule": "SCH10S",
+          "type": "90° Short Radius",
+          "weight": "2.34"
+        },
+        {
+          "nps": "5",
+          "dn": "125",
+          "schedule": "SCH40S",
+          "type": "90° Long Radius",
+          "weight": "4.30"
+        },
+        {
+          "nps": "5",
+          "dn": "125",
+          "schedule": "SCH40S",
+          "type": "45° Elbow",
+          "weight": "2.75"
+        },
+        {
+          "nps": "5",
+          "dn": "125",
+          "schedule": "SCH40S",
+          "type": "90° Short Radius",
+          "weight": "4.40"
+        },
+        {
+          "nps": "5",
+          "dn": "125",
+          "schedule": "SCH80S",
+          "type": "90° Long Radius",
+          "weight": "6.11"
+        },
+        {
+          "nps": "5",
+          "dn": "125",
+          "schedule": "SCH80S",
+          "type": "45° Elbow",
+          "weight": "3.91"
+        },
+        {
+          "nps": "5",
+          "dn": "125",
+          "schedule": "SCH80S",
+          "type": "90° Short Radius",
+          "weight": "6.26"
+        },
+        {
+          "nps": "6",
+          "dn": "150",
+          "schedule": "SCH5S",
+          "type": "90° Long Radius",
+          "weight": "2.57"
+        },
+        {
+          "nps": "6",
+          "dn": "150",
+          "schedule": "SCH5S",
+          "type": "45° Elbow",
+          "weight": "1.72"
+        },
+        {
+          "nps": "6",
+          "dn": "150",
+          "schedule": "SCH5S",
+          "type": "90° Short Radius",
+          "weight": "2.74"
+        },
+        {
+          "nps": "6",
+          "dn": "150",
+          "schedule": "SCH10S",
+          "type": "90° Long Radius",
+          "weight": "3.14"
+        },
+        {
+          "nps": "6",
+          "dn": "150",
+          "schedule": "SCH10S",
+          "type": "45° Elbow",
+          "weight": "2.10"
+        },
+        {
+          "nps": "6",
+          "dn": "150",
+          "schedule": "SCH10S",
+          "type": "90° Short Radius",
+          "weight": "3.36"
+        },
+        {
+          "nps": "6",
+          "dn": "150",
+          "schedule": "SCH40S",
+          "type": "90° Long Radius",
+          "weight": "6.42"
+        },
+        {
+          "nps": "6",
+          "dn": "150",
+          "schedule": "SCH40S",
+          "type": "45° Elbow",
+          "weight": "4.29"
+        },
+        {
+          "nps": "6",
+          "dn": "150",
+          "schedule": "SCH40S",
+          "type": "90° Short Radius",
+          "weight": "6.86"
+        },
+        {
+          "nps": "6",
+          "dn": "150",
+          "schedule": "SCH80S",
+          "type": "90° Long Radius",
+          "weight": "9.67"
+        },
+        {
+          "nps": "6",
+          "dn": "150",
+          "schedule": "SCH80S",
+          "type": "45° Elbow",
+          "weight": "6.46"
+        },
+        {
+          "nps": "6",
+          "dn": "150",
+          "schedule": "SCH80S",
+          "type": "90° Short Radius",
+          "weight": "10.33"
+        },
+        {
+          "nps": "8",
+          "dn": "200",
+          "schedule": "SCH5S",
+          "type": "90° Long Radius",
+          "weight": "4.18"
+        },
+        {
+          "nps": "8",
+          "dn": "200",
+          "schedule": "SCH5S",
+          "type": "45° Elbow",
+          "weight": "2.99"
+        },
+        {
+          "nps": "8",
+          "dn": "200",
+          "schedule": "SCH5S",
+          "type": "90° Short Radius",
+          "weight": "4.78"
+        },
+        {
+          "nps": "8",
+          "dn": "200",
+          "schedule": "SCH10S",
+          "type": "90° Long Radius",
+          "weight": "5.65"
+        },
+        {
+          "nps": "8",
+          "dn": "200",
+          "schedule": "SCH10S",
+          "type": "45° Elbow",
+          "weight": "4.04"
+        },
+        {
+          "nps": "8",
+          "dn": "200",
+          "schedule": "SCH10S",
+          "type": "90° Short Radius",
+          "weight": "6.46"
+        },
+        {
+          "nps": "8",
+          "dn": "200",
+          "schedule": "SCH40S",
+          "type": "90° Long Radius",
+          "weight": "12.05"
+        },
+        {
+          "nps": "8",
+          "dn": "200",
+          "schedule": "SCH40S",
+          "type": "45° Elbow",
+          "weight": "8.60"
+        },
+        {
+          "nps": "8",
+          "dn": "200",
+          "schedule": "SCH40S",
+          "type": "90° Short Radius",
+          "weight": "13.77"
+        },
+        {
+          "nps": "8",
+          "dn": "200",
+          "schedule": "SCH80S",
+          "type": "90° Long Radius",
+          "weight": "18.30"
+        },
+        {
+          "nps": "8",
+          "dn": "200",
+          "schedule": "SCH80S",
+          "type": "45° Elbow",
+          "weight": "13.07"
+        },
+        {
+          "nps": "8",
+          "dn": "200",
+          "schedule": "SCH80S",
+          "type": "90° Short Radius",
+          "weight": "20.92"
+        },
+        {
+          "nps": "10",
+          "dn": "250",
+          "schedule": "SCH5S",
+          "type": "90° Long Radius",
+          "weight": "7.77"
+        },
+        {
+          "nps": "10",
+          "dn": "250",
+          "schedule": "SCH5S",
+          "type": "45° Elbow",
+          "weight": "5.72"
+        },
+        {
+          "nps": "10",
+          "dn": "250",
+          "schedule": "SCH5S",
+          "type": "90° Short Radius",
+          "weight": "9.14"
+        },
+        {
+          "nps": "10",
+          "dn": "250",
+          "schedule": "SCH10S",
+          "type": "90° Long Radius",
+          "weight": "9.55"
+        },
+        {
+          "nps": "10",
+          "dn": "250",
+          "schedule": "SCH10S",
+          "type": "45° Elbow",
+          "weight": "7.02"
+        },
+        {
+          "nps": "10",
+          "dn": "250",
+          "schedule": "SCH10S",
+          "type": "90° Short Radius",
+          "weight": "11.23"
+        },
+        {
+          "nps": "10",
+          "dn": "250",
+          "schedule": "SCH40S",
+          "type": "90° Long Radius",
+          "weight": "20.73"
+        },
+        {
+          "nps": "10",
+          "dn": "250",
+          "schedule": "SCH40S",
+          "type": "45° Elbow",
+          "weight": "15.25"
+        },
+        {
+          "nps": "10",
+          "dn": "250",
+          "schedule": "SCH40S",
+          "type": "90° Short Radius",
+          "weight": "24.39"
+        },
+        {
+          "nps": "10",
+          "dn": "250",
+          "schedule": "SCH80S",
+          "type": "90° Long Radius",
+          "weight": "33.00"
+        },
+        {
+          "nps": "10",
+          "dn": "250",
+          "schedule": "SCH80S",
+          "type": "45° Elbow",
+          "weight": "24.27"
+        },
+        {
+          "nps": "10",
+          "dn": "250",
+          "schedule": "SCH80S",
+          "type": "90° Short Radius",
+          "weight": "38.82"
+        },
+        {
+          "nps": "12",
+          "dn": "300",
+          "schedule": "SCH5S",
+          "type": "90° Long Radius",
+          "weight": "12.63"
+        },
+        {
+          "nps": "12",
+          "dn": "300",
+          "schedule": "SCH5S",
+          "type": "45° Elbow",
+          "weight": "9.48"
+        },
+        {
+          "nps": "12",
+          "dn": "300",
+          "schedule": "SCH5S",
+          "type": "90° Short Radius",
+          "weight": "15.16"
+        },
+        {
+          "nps": "12",
+          "dn": "300",
+          "schedule": "SCH10S",
+          "type": "90° Long Radius",
+          "weight": "14.55"
+        },
+        {
+          "nps": "12",
+          "dn": "300",
+          "schedule": "SCH10S",
+          "type": "45° Elbow",
+          "weight": "10.91"
+        },
+        {
+          "nps": "12",
+          "dn": "300",
+          "schedule": "SCH10S",
+          "type": "90° Short Radius",
+          "weight": "17.46"
+        },
+        {
+          "nps": "12",
+          "dn": "300",
+          "schedule": "SCH40S",
+          "type": "90° Long Radius",
+          "weight": "32.24"
+        },
+        {
+          "nps": "12",
+          "dn": "300",
+          "schedule": "SCH40S",
+          "type": "45° Elbow",
+          "weight": "24.18"
+        },
+        {
+          "nps": "12",
+          "dn": "300",
+          "schedule": "SCH40S",
+          "type": "90° Short Radius",
+          "weight": "38.69"
+        },
+        {
+          "nps": "12",
+          "dn": "300",
+          "schedule": "SCH80S",
+          "type": "90° Long Radius",
+          "weight": "53.41"
+        },
+        {
+          "nps": "12",
+          "dn": "300",
+          "schedule": "SCH80S",
+          "type": "45° Elbow",
+          "weight": "40.06"
+        },
+        {
+          "nps": "12",
+          "dn": "300",
+          "schedule": "SCH80S",
+          "type": "90° Short Radius",
+          "weight": "64.09"
+        },
+        {
+          "nps": "14",
+          "dn": "350",
+          "schedule": "SCH5S",
+          "type": "90° Long Radius",
+          "weight": "15.28"
+        },
+        {
+          "nps": "14",
+          "dn": "350",
+          "schedule": "SCH5S",
+          "type": "45° Elbow",
+          "weight": "12.16"
+        },
+        {
+          "nps": "14",
+          "dn": "350",
+          "schedule": "SCH5S",
+          "type": "90° Short Radius",
+          "weight": "19.45"
+        },
+        {
+          "nps": "14",
+          "dn": "350",
+          "schedule": "SCH10S",
+          "type": "90° Long Radius",
+          "weight": "18.40"
+        },
+        {
+          "nps": "14",
+          "dn": "350",
+          "schedule": "SCH10S",
+          "type": "45° Elbow",
+          "weight": "14.64"
+        },
+        {
+          "nps": "14",
+          "dn": "350",
+          "schedule": "SCH10S",
+          "type": "90° Short Radius",
+          "weight": "23.42"
+        },
+        {
+          "nps": "14",
+          "dn": "350",
+          "schedule": "SCH40S",
+          "type": "90° Long Radius",
+          "weight": "36.19"
+        },
+        {
+          "nps": "14",
+          "dn": "350",
+          "schedule": "SCH40S",
+          "type": "45° Elbow",
+          "weight": "28.79"
+        },
+        {
+          "nps": "14",
+          "dn": "350",
+          "schedule": "SCH40S",
+          "type": "90° Short Radius",
+          "weight": "46.06"
+        },
+        {
+          "nps": "14",
+          "dn": "350",
+          "schedule": "SCH80S",
+          "type": "90° Long Radius",
+          "weight": "47.78"
+        },
+        {
+          "nps": "14",
+          "dn": "350",
+          "schedule": "SCH80S",
+          "type": "45° Elbow",
+          "weight": "38.02"
+        },
+        {
+          "nps": "14",
+          "dn": "350",
+          "schedule": "SCH80S",
+          "type": "90° Short Radius",
+          "weight": "60.81"
+        },
+        {
+          "nps": "16",
+          "dn": "400",
+          "schedule": "SCH5S",
+          "type": "90° Long Radius",
+          "weight": "20.17"
+        },
+        {
+          "nps": "16",
+          "dn": "400",
+          "schedule": "SCH5S",
+          "type": "45° Elbow",
+          "weight": "16.81"
+        },
+        {
+          "nps": "16",
+          "dn": "400",
+          "schedule": "SCH5S",
+          "type": "90° Short Radius",
+          "weight": "26.90"
+        },
+        {
+          "nps": "16",
+          "dn": "400",
+          "schedule": "SCH10S",
+          "type": "90° Long Radius",
+          "weight": "22.98"
+        },
+        {
+          "nps": "16",
+          "dn": "400",
+          "schedule": "SCH10S",
+          "type": "45° Elbow",
+          "weight": "19.15"
+        },
+        {
+          "nps": "16",
+          "dn": "400",
+          "schedule": "SCH10S",
+          "type": "90° Short Radius",
+          "weight": "30.64"
+        },
+        {
+          "nps": "16",
+          "dn": "400",
+          "schedule": "SCH40S",
+          "type": "90° Long Radius",
+          "weight": "45.27"
+        },
+        {
+          "nps": "16",
+          "dn": "400",
+          "schedule": "SCH40S",
+          "type": "45° Elbow",
+          "weight": "37.73"
+        },
+        {
+          "nps": "16",
+          "dn": "400",
+          "schedule": "SCH40S",
+          "type": "90° Short Radius",
+          "weight": "60.36"
+        },
+        {
+          "nps": "16",
+          "dn": "400",
+          "schedule": "SCH80S",
+          "type": "90° Long Radius",
+          "weight": "59.85"
+        },
+        {
+          "nps": "16",
+          "dn": "400",
+          "schedule": "SCH80S",
+          "type": "45° Elbow",
+          "weight": "49.87"
+        },
+        {
+          "nps": "16",
+          "dn": "400",
+          "schedule": "SCH80S",
+          "type": "90° Short Radius",
+          "weight": "79.80"
+        },
+        {
+          "nps": "18",
+          "dn": "450",
+          "schedule": "SCH5S",
+          "type": "90° Long Radius",
+          "weight": "25.55"
+        },
+        {
+          "nps": "18",
+          "dn": "450",
+          "schedule": "SCH5S",
+          "type": "45° Elbow",
+          "weight": "21.29"
+        },
+        {
+          "nps": "18",
+          "dn": "450",
+          "schedule": "SCH5S",
+          "type": "90° Short Radius",
+          "weight": "34.06"
+        },
+        {
+          "nps": "18",
+          "dn": "450",
+          "schedule": "SCH10S",
+          "type": "90° Long Radius",
+          "weight": "29.11"
+        },
+        {
+          "nps": "18",
+          "dn": "450",
+          "schedule": "SCH10S",
+          "type": "45° Elbow",
+          "weight": "24.26"
+        },
+        {
+          "nps": "18",
+          "dn": "450",
+          "schedule": "SCH10S",
+          "type": "90° Short Radius",
+          "weight": "38.81"
+        },
+        {
+          "nps": "18",
+          "dn": "450",
+          "schedule": "SCH40S",
+          "type": "90° Long Radius",
+          "weight": "57.42"
+        },
+        {
+          "nps": "18",
+          "dn": "450",
+          "schedule": "SCH40S",
+          "type": "45° Elbow",
+          "weight": "47.86"
+        },
+        {
+          "nps": "18",
+          "dn": "450",
+          "schedule": "SCH40S",
+          "type": "90° Short Radius",
+          "weight": "76.56"
+        },
+        {
+          "nps": "18",
+          "dn": "450",
+          "schedule": "SCH80S",
+          "type": "90° Long Radius",
+          "weight": "75.98"
+        },
+        {
+          "nps": "18",
+          "dn": "450",
+          "schedule": "SCH80S",
+          "type": "45° Elbow",
+          "weight": "63.33"
+        },
+        {
+          "nps": "18",
+          "dn": "450",
+          "schedule": "SCH80S",
+          "type": "90° Short Radius",
+          "weight": "101.31"
+        },
+        {
+          "nps": "20",
+          "dn": "500",
+          "schedule": "SCH5S",
+          "type": "90° Long Radius",
+          "weight": "35.99"
+        },
+        {
+          "nps": "20",
+          "dn": "500",
+          "schedule": "SCH5S",
+          "type": "45° Elbow",
+          "weight": "29.99"
+        },
+        {
+          "nps": "20",
+          "dn": "500",
+          "schedule": "SCH5S",
+          "type": "90° Short Radius",
+          "weight": "47.99"
+        },
+        {
+          "nps": "20",
+          "dn": "500",
+          "schedule": "SCH10S",
+          "type": "90° Long Radius",
+          "weight": "41.65"
+        },
+        {
+          "nps": "20",
+          "dn": "500",
+          "schedule": "SCH10S",
+          "type": "45° Elbow",
+          "weight": "34.71"
+        },
+        {
+          "nps": "20",
+          "dn": "500",
+          "schedule": "SCH10S",
+          "type": "90° Short Radius",
+          "weight": "55.53"
+        },
+        {
+          "nps": "20",
+          "dn": "500",
+          "schedule": "SCH40S",
+          "type": "90° Long Radius",
+          "weight": "71.07"
+        },
+        {
+          "nps": "20",
+          "dn": "500",
+          "schedule": "SCH40S",
+          "type": "45° Elbow",
+          "weight": "59.23"
+        },
+        {
+          "nps": "20",
+          "dn": "500",
+          "schedule": "SCH40S",
+          "type": "90° Short Radius",
+          "weight": "94.77"
+        },
+        {
+          "nps": "20",
+          "dn": "500",
+          "schedule": "SCH80S",
+          "type": "90° Long Radius",
+          "weight": "94.11"
+        },
+        {
+          "nps": "20",
+          "dn": "500",
+          "schedule": "SCH80S",
+          "type": "45° Elbow",
+          "weight": "78.43"
+        },
+        {
+          "nps": "20",
+          "dn": "500",
+          "schedule": "SCH80S",
+          "type": "90° Short Radius",
+          "weight": "125.49"
+        },
+        {
+          "nps": "24",
+          "dn": "600",
+          "schedule": "SCH5S",
+          "type": "90° Long Radius",
+          "weight": "56.78"
+        },
+        {
+          "nps": "24",
+          "dn": "600",
+          "schedule": "SCH5S",
+          "type": "45° Elbow",
+          "weight": "50.10"
+        },
+        {
+          "nps": "24",
+          "dn": "600",
+          "schedule": "SCH5S",
+          "type": "90° Short Radius",
+          "weight": "80.16"
+        },
+        {
+          "nps": "24",
+          "dn": "600",
+          "schedule": "SCH10S",
+          "type": "90° Long Radius",
+          "weight": "65.00"
+        },
+        {
+          "nps": "24",
+          "dn": "600",
+          "schedule": "SCH10S",
+          "type": "45° Elbow",
+          "weight": "57.35"
+        },
+        {
+          "nps": "24",
+          "dn": "600",
+          "schedule": "SCH10S",
+          "type": "90° Short Radius",
+          "weight": "91.76"
+        },
+        {
+          "nps": "24",
+          "dn": "600",
+          "schedule": "SCH40S",
+          "type": "90° Long Radius",
+          "weight": "97.03"
+        },
+        {
+          "nps": "24",
+          "dn": "600",
+          "schedule": "SCH40S",
+          "type": "45° Elbow",
+          "weight": "85.62"
+        },
+        {
+          "nps": "24",
+          "dn": "600",
+          "schedule": "SCH40S",
+          "type": "90° Short Radius",
+          "weight": "136.99"
+        },
+        {
+          "nps": "24",
+          "dn": "600",
+          "schedule": "SCH80S",
+          "type": "90° Long Radius",
+          "weight": "128.63"
+        },
+        {
+          "nps": "24",
+          "dn": "600",
+          "schedule": "SCH80S",
+          "type": "45° Elbow",
+          "weight": "113.50"
+        },
+        {
+          "nps": "24",
+          "dn": "600",
+          "schedule": "SCH80S",
+          "type": "90° Short Radius",
+          "weight": "181.59"
+        },
+        {
+          "nps": "1/2",
+          "dn": "15",
+          "schedule": "SCH5S",
+          "type": "90° Long Radius",
+          "weight": "0.03"
+        },
+        {
+          "nps": "1/2",
+          "dn": "15",
+          "schedule": "SCH5S",
+          "type": "45° Elbow",
+          "weight": "0.02"
+        },
+        {
+          "nps": "1/2",
+          "dn": "15",
+          "schedule": "SCH5S",
+          "type": "90° Short Radius",
+          "weight": "NaN"
+        },
+        {
+          "nps": "1/2",
+          "dn": "15",
+          "schedule": "SCH10S",
+          "type": "90° Long Radius",
+          "weight": "0.04"
+        },
+        {
+          "nps": "1/2",
+          "dn": "15",
+          "schedule": "SCH10S",
+          "type": "45° Elbow",
+          "weight": "0.02"
+        },
+        {
+          "nps": "1/2",
+          "dn": "15",
+          "schedule": "SCH10S",
+          "type": "90° Short Radius",
+          "weight": "NaN"
+        },
+        {
+          "nps": "1/2",
+          "dn": "15",
+          "schedule": "SCH40S",
+          "type": "90° Long Radius",
+          "weight": "0.05"
+        },
+        {
+          "nps": "1/2",
+          "dn": "15",
+          "schedule": "SCH40S",
+          "type": "45° Elbow",
+          "weight": "0.03"
+        },
+        {
+          "nps": "1/2",
+          "dn": "15",
+          "schedule": "SCH40S",
+          "type": "90° Short Radius",
+          "weight": "NaN"
+        },
+        {
+          "nps": "1/2",
+          "dn": "15",
+          "schedule": "SCH80S",
+          "type": "90° Long Radius",
+          "weight": "0.07"
+        },
+        {
+          "nps": "1/2",
+          "dn": "15",
+          "schedule": "SCH80S",
+          "type": "45° Elbow",
+          "weight": "0.04"
+        },
+        {
+          "nps": "1/2",
+          "dn": "15",
+          "schedule": "SCH80S",
+          "type": "90° Short Radius",
+          "weight": "NaN"
+        },
+        {
+          "nps": "3/4",
+          "dn": "20",
+          "schedule": "SCH5S",
+          "type": "90° Long Radius",
+          "weight": "0.05"
+        },
+        {
+          "nps": "3/4",
+          "dn": "20",
+          "schedule": "SCH5S",
+          "type": "45° Elbow",
+          "weight": "0.02"
+        },
+        {
+          "nps": "3/4",
+          "dn": "20",
+          "schedule": "SCH5S",
+          "type": "90° Short Radius",
+          "weight": "NaN"
+        },
+        {
+          "nps": "3/4",
+          "dn": "20",
+          "schedule": "SCH10S",
+          "type": "90° Long Radius",
+          "weight": "0.06"
+        },
+        {
+          "nps": "3/4",
+          "dn": "20",
+          "schedule": "SCH10S",
+          "type": "45° Elbow",
+          "weight": "0.02"
+        },
+        {
+          "nps": "3/4",
+          "dn": "20",
+          "schedule": "SCH10S",
+          "type": "90° Short Radius",
+          "weight": "NaN"
+        },
+        {
+          "nps": "3/4",
+          "dn": "20",
+          "schedule": "SCH40S",
+          "type": "90° Long Radius",
+          "weight": "0.08"
+        },
+        {
+          "nps": "3/4",
+          "dn": "20",
+          "schedule": "SCH40S",
+          "type": "45° Elbow",
+          "weight": "0.03"
+        },
+        {
+          "nps": "3/4",
+          "dn": "20",
+          "schedule": "SCH40S",
+          "type": "90° Short Radius",
+          "weight": "NaN"
+        },
+        {
+          "nps": "3/4",
+          "dn": "20",
+          "schedule": "SCH80S",
+          "type": "90° Long Radius",
+          "weight": "0.10"
+        },
+        {
+          "nps": "3/4",
+          "dn": "20",
+          "schedule": "SCH80S",
+          "type": "45° Elbow",
+          "weight": "0.04"
+        },
+        {
+          "nps": "3/4",
+          "dn": "20",
+          "schedule": "SCH80S",
+          "type": "90° Short Radius",
+          "weight": "NaN"
+        },
+        {
+          "nps": "1 1/4",
+          "dn": "-",
+          "schedule": "SCH5S",
+          "type": "90° Long Radius",
+          "weight": "0.13"
+        },
+        {
+          "nps": "1 1/4",
+          "dn": "-",
+          "schedule": "SCH5S",
+          "type": "45° Elbow",
+          "weight": "0.07"
+        },
+        {
+          "nps": "1 1/4",
+          "dn": "-",
+          "schedule": "SCH5S",
+          "type": "90° Short Radius",
+          "weight": "0.08"
+        },
+        {
+          "nps": "1 1/4",
+          "dn": "-",
+          "schedule": "SCH10S",
+          "type": "90° Long Radius",
+          "weight": "0.21"
+        },
+        {
+          "nps": "1 1/4",
+          "dn": "-",
+          "schedule": "SCH10S",
+          "type": "45° Elbow",
+          "weight": "0.11"
+        },
+        {
+          "nps": "1 1/4",
+          "dn": "-",
+          "schedule": "SCH10S",
+          "type": "90° Short Radius",
+          "weight": "0.14"
+        },
+        {
+          "nps": "1 1/4",
+          "dn": "-",
+          "schedule": "SCH40S",
+          "type": "90° Long Radius",
+          "weight": "0.26"
+        },
+        {
+          "nps": "1 1/4",
+          "dn": "-",
+          "schedule": "SCH40S",
+          "type": "45° Elbow",
+          "weight": "0.14"
+        },
+        {
+          "nps": "1 1/4",
+          "dn": "-",
+          "schedule": "SCH40S",
+          "type": "90° Short Radius",
+          "weight": "0.17"
+        },
+        {
+          "nps": "1 1/4",
+          "dn": "-",
+          "schedule": "SCH80S",
+          "type": "90° Long Radius",
+          "weight": "0.34"
+        },
+        {
+          "nps": "1 1/4",
+          "dn": "-",
+          "schedule": "SCH80S",
+          "type": "45° Elbow",
+          "weight": "0.18"
+        },
+        {
+          "nps": "1 1/4",
+          "dn": "-",
+          "schedule": "SCH80S",
+          "type": "90° Short Radius",
+          "weight": "0.23"
+        },
+        {
+          "nps": "1 1/2",
+          "dn": "-",
+          "schedule": "SCH5S",
+          "type": "90° Long Radius",
+          "weight": "0.17"
+        },
+        {
+          "nps": "1 1/2",
+          "dn": "-",
+          "schedule": "SCH5S",
+          "type": "45° Elbow",
+          "weight": "0.09"
+        },
+        {
+          "nps": "1 1/2",
+          "dn": "-",
+          "schedule": "SCH5S",
+          "type": "90° Short Radius",
+          "weight": "0.12"
+        },
+        {
+          "nps": "1 1/2",
+          "dn": "-",
+          "schedule": "SCH10S",
+          "type": "90° Long Radius",
+          "weight": "0.28"
+        },
+        {
+          "nps": "1 1/2",
+          "dn": "-",
+          "schedule": "SCH10S",
+          "type": "45° Elbow",
+          "weight": "0.14"
+        },
+        {
+          "nps": "1 1/2",
+          "dn": "-",
+          "schedule": "SCH10S",
+          "type": "90° Short Radius",
+          "weight": "0.19"
+        },
+        {
+          "nps": "1 1/2",
+          "dn": "-",
+          "schedule": "SCH40S",
+          "type": "90° Long Radius",
+          "weight": "0.37"
+        },
+        {
+          "nps": "1 1/2",
+          "dn": "-",
+          "schedule": "SCH40S",
+          "type": "45° Elbow",
+          "weight": "0.18"
+        },
+        {
+          "nps": "1 1/2",
+          "dn": "-",
+          "schedule": "SCH40S",
+          "type": "90° Short Radius",
+          "weight": "0.25"
+        },
+        {
+          "nps": "1 1/2",
+          "dn": "-",
+          "schedule": "SCH80S",
+          "type": "90° Long Radius",
+          "weight": "0.49"
+        },
+        {
+          "nps": "1 1/2",
+          "dn": "-",
+          "schedule": "SCH80S",
+          "type": "45° Elbow",
+          "weight": "0.24"
+        },
+        {
+          "nps": "1 1/2",
+          "dn": "-",
+          "schedule": "SCH80S",
+          "type": "90° Short Radius",
+          "weight": "0.33"
+        },
+        {
+          "nps": "2 1/2",
+          "dn": "-",
+          "schedule": "SCH5S",
+          "type": "90° Long Radius",
+          "weight": "0.45"
+        },
+        {
+          "nps": "2 1/2",
+          "dn": "-",
+          "schedule": "SCH5S",
+          "type": "45° Elbow",
+          "weight": "0.26"
+        },
+        {
+          "nps": "2 1/2",
+          "dn": "-",
+          "schedule": "SCH5S",
+          "type": "90° Short Radius",
+          "weight": "0.37"
+        },
+        {
+          "nps": "2 1/2",
+          "dn": "-",
+          "schedule": "SCH10S",
+          "type": "90° Long Radius",
+          "weight": "0.64"
+        },
+        {
+          "nps": "2 1/2",
+          "dn": "-",
+          "schedule": "SCH10S",
+          "type": "45° Elbow",
+          "weight": "0.37"
+        },
+        {
+          "nps": "2 1/2",
+          "dn": "-",
+          "schedule": "SCH10S",
+          "type": "90° Short Radius",
+          "weight": "0.53"
+        },
+        {
+          "nps": "2 1/2",
+          "dn": "-",
+          "schedule": "SCH40S",
+          "type": "90° Long Radius",
+          "weight": "1.05"
+        },
+        {
+          "nps": "2 1/2",
+          "dn": "-",
+          "schedule": "SCH40S",
+          "type": "45° Elbow",
+          "weight": "0.61"
+        },
+        {
+          "nps": "2 1/2",
+          "dn": "-",
+          "schedule": "SCH40S",
+          "type": "90° Short Radius",
+          "weight": "0.87"
+        },
+        {
+          "nps": "2 1/2",
+          "dn": "-",
+          "schedule": "SCH80S",
+          "type": "90° Long Radius",
+          "weight": "1.38"
+        },
+        {
+          "nps": "2 1/2",
+          "dn": "-",
+          "schedule": "SCH80S",
+          "type": "45° Elbow",
+          "weight": "0.81"
+        },
+        {
+          "nps": "2 1/2",
+          "dn": "-",
+          "schedule": "SCH80S",
+          "type": "90° Short Radius",
+          "weight": "1.15"
+        },
+        {
+          "nps": "3 1/2",
+          "dn": "-",
+          "schedule": "SCH5S",
+          "type": "90° Long Radius",
+          "weight": "0.79"
+        },
+        {
+          "nps": "3 1/2",
+          "dn": "-",
+          "schedule": "SCH5S",
+          "type": "45° Elbow",
+          "weight": "0.47"
+        },
+        {
+          "nps": "3 1/2",
+          "dn": "-",
+          "schedule": "SCH5S",
+          "type": "90° Short Radius",
+          "weight": "0.73"
+        },
+        {
+          "nps": "3 1/2",
+          "dn": "-",
+          "schedule": "SCH10S",
+          "type": "90° Long Radius",
+          "weight": "1.12"
+        },
+        {
+          "nps": "3 1/2",
+          "dn": "-",
+          "schedule": "SCH10S",
+          "type": "45° Elbow",
+          "weight": "0.68"
+        },
+        {
+          "nps": "3 1/2",
+          "dn": "-",
+          "schedule": "SCH10S",
+          "type": "90° Short Radius",
+          "weight": "1.05"
+        },
+        {
+          "nps": "3 1/2",
+          "dn": "-",
+          "schedule": "SCH40S",
+          "type": "90° Long Radius",
+          "weight": "2.06"
+        },
+        {
+          "nps": "3 1/2",
+          "dn": "-",
+          "schedule": "SCH40S",
+          "type": "45° Elbow",
+          "weight": "1.24"
+        },
+        {
+          "nps": "3 1/2",
+          "dn": "-",
+          "schedule": "SCH40S",
+          "type": "90° Short Radius",
+          "weight": "1.92"
+        },
+        {
+          "nps": "3 1/2",
+          "dn": "-",
+          "schedule": "SCH80S",
+          "type": "90° Long Radius",
+          "weight": "2.83"
+        },
+        {
+          "nps": "3 1/2",
+          "dn": "-",
+          "schedule": "SCH80S",
+          "type": "45° Elbow",
+          "weight": "1.70"
+        },
+        {
+          "nps": "3 1/2",
+          "dn": "-",
+          "schedule": "SCH80S",
+          "type": "90° Short Radius",
+          "weight": "2.64"
+        }
+      ]
+    },
+    {
+      "product": "Concentric Reducer",
+      "weightUnit": "kg/piece",
+      "source": {
+        "type": "engineering_formula",
+        "name": "Theoretical Calculation (ASME B16.9 / Standard Formula)"
+      },
+      "data": [
+        {
+          "nps": "3/4 x 1/2",
+          "dn": "20 x 15",
+          "schedule": "SCH5S",
+          "type": "Concentric",
+          "weight": "0.03"
+        },
+        {
+          "nps": "3/4 x 1/2",
+          "dn": "20 x 15",
+          "schedule": "SCH10S",
+          "type": "Concentric",
+          "weight": "0.03"
+        },
+        {
+          "nps": "3/4 x 1/2",
+          "dn": "20 x 15",
+          "schedule": "SCH40S",
+          "type": "Concentric",
+          "weight": "0.05"
+        },
+        {
+          "nps": "3/4 x 1/2",
+          "dn": "20 x 15",
+          "schedule": "SCH80S",
+          "type": "Concentric",
+          "weight": "0.06"
+        },
+        {
+          "nps": "1 x 3/4",
+          "dn": "25 x 20",
+          "schedule": "SCH5S",
+          "type": "Concentric",
+          "weight": "0.05"
+        },
+        {
+          "nps": "1 x 3/4",
+          "dn": "25 x 20",
+          "schedule": "SCH10S",
+          "type": "Concentric",
+          "weight": "0.08"
+        },
+        {
+          "nps": "1 x 3/4",
+          "dn": "25 x 20",
+          "schedule": "SCH40S",
+          "type": "Concentric",
+          "weight": "0.09"
+        },
+        {
+          "nps": "1 x 3/4",
+          "dn": "25 x 20",
+          "schedule": "SCH80S",
+          "type": "Concentric",
+          "weight": "0.12"
+        },
+        {
+          "nps": "1 x 1/2",
+          "dn": "25 x 15",
+          "schedule": "SCH5S",
+          "type": "Concentric",
+          "weight": "0.05"
+        },
+        {
+          "nps": "1 x 1/2",
+          "dn": "25 x 15",
+          "schedule": "SCH10S",
+          "type": "Concentric",
+          "weight": "0.08"
+        },
+        {
+          "nps": "1 x 1/2",
+          "dn": "25 x 15",
+          "schedule": "SCH40S",
+          "type": "Concentric",
+          "weight": "0.09"
+        },
+        {
+          "nps": "1 x 1/2",
+          "dn": "25 x 15",
+          "schedule": "SCH80S",
+          "type": "Concentric",
+          "weight": "0.12"
+        },
+        {
+          "nps": "1 1/4 x 1",
+          "dn": "32 x 25",
+          "schedule": "SCH5S",
+          "type": "Concentric",
+          "weight": "0.06"
+        },
+        {
+          "nps": "1 1/4 x 1",
+          "dn": "32 x 25",
+          "schedule": "SCH10S",
+          "type": "Concentric",
+          "weight": "0.10"
+        },
+        {
+          "nps": "1 1/4 x 1",
+          "dn": "32 x 25",
+          "schedule": "SCH40S",
+          "type": "Concentric",
+          "weight": "0.12"
+        },
+        {
+          "nps": "1 1/4 x 1",
+          "dn": "32 x 25",
+          "schedule": "SCH80S",
+          "type": "Concentric",
+          "weight": "0.16"
+        },
+        {
+          "nps": "1 1/4 x 3/4",
+          "dn": "32 x 20",
+          "schedule": "SCH5S",
+          "type": "Concentric",
+          "weight": "0.06"
+        },
+        {
+          "nps": "1 1/4 x 3/4",
+          "dn": "32 x 20",
+          "schedule": "SCH10S",
+          "type": "Concentric",
+          "weight": "0.10"
+        },
+        {
+          "nps": "1 1/4 x 3/4",
+          "dn": "32 x 20",
+          "schedule": "SCH40S",
+          "type": "Concentric",
+          "weight": "0.12"
+        },
+        {
+          "nps": "1 1/4 x 3/4",
+          "dn": "32 x 20",
+          "schedule": "SCH80S",
+          "type": "Concentric",
+          "weight": "0.16"
+        },
+        {
+          "nps": "1 1/4 x 1/2",
+          "dn": "32 x 15",
+          "schedule": "SCH5S",
+          "type": "Concentric",
+          "weight": "0.06"
+        },
+        {
+          "nps": "1 1/4 x 1/2",
+          "dn": "32 x 15",
+          "schedule": "SCH10S",
+          "type": "Concentric",
+          "weight": "0.10"
+        },
+        {
+          "nps": "1 1/4 x 1/2",
+          "dn": "32 x 15",
+          "schedule": "SCH40S",
+          "type": "Concentric",
+          "weight": "0.12"
+        },
+        {
+          "nps": "1 1/4 x 1/2",
+          "dn": "32 x 15",
+          "schedule": "SCH80S",
+          "type": "Concentric",
+          "weight": "0.16"
+        },
+        {
+          "nps": "1 1/2 x 1 1/4",
+          "dn": "40 x 32",
+          "schedule": "SCH5S",
+          "type": "Concentric",
+          "weight": "0.09"
+        },
+        {
+          "nps": "1 1/2 x 1 1/4",
+          "dn": "40 x 32",
+          "schedule": "SCH10S",
+          "type": "Concentric",
+          "weight": "0.14"
+        },
+        {
+          "nps": "1 1/2 x 1 1/4",
+          "dn": "40 x 32",
+          "schedule": "SCH40S",
+          "type": "Concentric",
+          "weight": "0.18"
+        },
+        {
+          "nps": "1 1/2 x 1 1/4",
+          "dn": "40 x 32",
+          "schedule": "SCH80S",
+          "type": "Concentric",
+          "weight": "0.24"
+        },
+        {
+          "nps": "1 1/2 x 1",
+          "dn": "40 x 25",
+          "schedule": "SCH5S",
+          "type": "Concentric",
+          "weight": "0.09"
+        },
+        {
+          "nps": "1 1/2 x 1",
+          "dn": "40 x 25",
+          "schedule": "SCH10S",
+          "type": "Concentric",
+          "weight": "0.14"
+        },
+        {
+          "nps": "1 1/2 x 1",
+          "dn": "40 x 25",
+          "schedule": "SCH40S",
+          "type": "Concentric",
+          "weight": "0.18"
+        },
+        {
+          "nps": "1 1/2 x 1",
+          "dn": "40 x 25",
+          "schedule": "SCH80S",
+          "type": "Concentric",
+          "weight": "0.24"
+        },
+        {
+          "nps": "1 1/2 x 3/4",
+          "dn": "40 x 20",
+          "schedule": "SCH5S",
+          "type": "Concentric",
+          "weight": "0.09"
+        },
+        {
+          "nps": "1 1/2 x 3/4",
+          "dn": "40 x 20",
+          "schedule": "SCH10S",
+          "type": "Concentric",
+          "weight": "0.14"
+        },
+        {
+          "nps": "1 1/2 x 3/4",
+          "dn": "40 x 20",
+          "schedule": "SCH40S",
+          "type": "Concentric",
+          "weight": "0.18"
+        },
+        {
+          "nps": "1 1/2 x 3/4",
+          "dn": "40 x 20",
+          "schedule": "SCH80S",
+          "type": "Concentric",
+          "weight": "0.24"
+        },
+        {
+          "nps": "1 1/2 x 1/2",
+          "dn": "40 x 15",
+          "schedule": "SCH5S",
+          "type": "Concentric",
+          "weight": "0.09"
+        },
+        {
+          "nps": "1 1/2 x 1/2",
+          "dn": "40 x 15",
+          "schedule": "SCH10S",
+          "type": "Concentric",
+          "weight": "0.14"
+        },
+        {
+          "nps": "1 1/2 x 1/2",
+          "dn": "40 x 15",
+          "schedule": "SCH40S",
+          "type": "Concentric",
+          "weight": "0.18"
+        },
+        {
+          "nps": "1 1/2 x 1/2",
+          "dn": "40 x 15",
+          "schedule": "SCH80S",
+          "type": "Concentric",
+          "weight": "0.24"
+        },
+        {
+          "nps": "2 x 1 1/2",
+          "dn": "50 x 40",
+          "schedule": "SCH5S",
+          "type": "Concentric",
+          "weight": "0.13"
+        },
+        {
+          "nps": "2 x 1 1/2",
+          "dn": "50 x 40",
+          "schedule": "SCH10S",
+          "type": "Concentric",
+          "weight": "0.21"
+        },
+        {
+          "nps": "2 x 1 1/2",
+          "dn": "50 x 40",
+          "schedule": "SCH40S",
+          "type": "Concentric",
+          "weight": "0.29"
+        },
+        {
+          "nps": "2 x 1 1/2",
+          "dn": "50 x 40",
+          "schedule": "SCH80S",
+          "type": "Concentric",
+          "weight": "0.40"
+        },
+        {
+          "nps": "2 x 1 1/4",
+          "dn": "50 x 32",
+          "schedule": "SCH5S",
+          "type": "Concentric",
+          "weight": "0.13"
+        },
+        {
+          "nps": "2 x 1 1/4",
+          "dn": "50 x 32",
+          "schedule": "SCH10S",
+          "type": "Concentric",
+          "weight": "0.21"
+        },
+        {
+          "nps": "2 x 1 1/4",
+          "dn": "50 x 32",
+          "schedule": "SCH40S",
+          "type": "Concentric",
+          "weight": "0.29"
+        },
+        {
+          "nps": "2 x 1 1/4",
+          "dn": "50 x 32",
+          "schedule": "SCH80S",
+          "type": "Concentric",
+          "weight": "0.40"
+        },
+        {
+          "nps": "2 x 1",
+          "dn": "50 x 25",
+          "schedule": "SCH5S",
+          "type": "Concentric",
+          "weight": "0.13"
+        },
+        {
+          "nps": "2 x 1",
+          "dn": "50 x 25",
+          "schedule": "SCH10S",
+          "type": "Concentric",
+          "weight": "0.21"
+        },
+        {
+          "nps": "2 x 1",
+          "dn": "50 x 25",
+          "schedule": "SCH40S",
+          "type": "Concentric",
+          "weight": "0.29"
+        },
+        {
+          "nps": "2 x 1",
+          "dn": "50 x 25",
+          "schedule": "SCH80S",
+          "type": "Concentric",
+          "weight": "0.40"
+        },
+        {
+          "nps": "2 x 3/4",
+          "dn": "50 x 20",
+          "schedule": "SCH5S",
+          "type": "Concentric",
+          "weight": "0.13"
+        },
+        {
+          "nps": "2 x 3/4",
+          "dn": "50 x 20",
+          "schedule": "SCH10S",
+          "type": "Concentric",
+          "weight": "0.21"
+        },
+        {
+          "nps": "2 x 3/4",
+          "dn": "50 x 20",
+          "schedule": "SCH40S",
+          "type": "Concentric",
+          "weight": "0.29"
+        },
+        {
+          "nps": "2 x 3/4",
+          "dn": "50 x 20",
+          "schedule": "SCH80S",
+          "type": "Concentric",
+          "weight": "0.40"
+        },
+        {
+          "nps": "2 1/2 x 2",
+          "dn": "65 x 50",
+          "schedule": "SCH5S",
+          "type": "Concentric",
+          "weight": "0.23"
+        },
+        {
+          "nps": "2 1/2 x 2",
+          "dn": "65 x 50",
+          "schedule": "SCH10S",
+          "type": "Concentric",
+          "weight": "0.33"
+        },
+        {
+          "nps": "2 1/2 x 2",
+          "dn": "65 x 50",
+          "schedule": "SCH40S",
+          "type": "Concentric",
+          "weight": "0.54"
+        },
+        {
+          "nps": "2 1/2 x 2",
+          "dn": "65 x 50",
+          "schedule": "SCH80S",
+          "type": "Concentric",
+          "weight": "0.72"
+        },
+        {
+          "nps": "2 1/2 x 1 1/2",
+          "dn": "65 x 40",
+          "schedule": "SCH5S",
+          "type": "Concentric",
+          "weight": "0.23"
+        },
+        {
+          "nps": "2 1/2 x 1 1/2",
+          "dn": "65 x 40",
+          "schedule": "SCH10S",
+          "type": "Concentric",
+          "weight": "0.33"
+        },
+        {
+          "nps": "2 1/2 x 1 1/2",
+          "dn": "65 x 40",
+          "schedule": "SCH40S",
+          "type": "Concentric",
+          "weight": "0.54"
+        },
+        {
+          "nps": "2 1/2 x 1 1/2",
+          "dn": "65 x 40",
+          "schedule": "SCH80S",
+          "type": "Concentric",
+          "weight": "0.72"
+        },
+        {
+          "nps": "2 1/2 x 1",
+          "dn": "65 x 25",
+          "schedule": "SCH5S",
+          "type": "Concentric",
+          "weight": "0.23"
+        },
+        {
+          "nps": "2 1/2 x 1",
+          "dn": "65 x 25",
+          "schedule": "SCH10S",
+          "type": "Concentric",
+          "weight": "0.33"
+        },
+        {
+          "nps": "2 1/2 x 1",
+          "dn": "65 x 25",
+          "schedule": "SCH40S",
+          "type": "Concentric",
+          "weight": "0.54"
+        },
+        {
+          "nps": "2 1/2 x 1",
+          "dn": "65 x 25",
+          "schedule": "SCH80S",
+          "type": "Concentric",
+          "weight": "0.72"
+        },
+        {
+          "nps": "3 x 2 1/2",
+          "dn": "80 x 65",
+          "schedule": "SCH5S",
+          "type": "Concentric",
+          "weight": "0.28"
+        },
+        {
+          "nps": "3 x 2 1/2",
+          "dn": "80 x 65",
+          "schedule": "SCH10S",
+          "type": "Concentric",
+          "weight": "0.41"
+        },
+        {
+          "nps": "3 x 2 1/2",
+          "dn": "80 x 65",
+          "schedule": "SCH40S",
+          "type": "Concentric",
+          "weight": "0.71"
+        },
+        {
+          "nps": "3 x 2 1/2",
+          "dn": "80 x 65",
+          "schedule": "SCH80S",
+          "type": "Concentric",
+          "weight": "0.96"
+        },
+        {
+          "nps": "3 x 2",
+          "dn": "80 x 50",
+          "schedule": "SCH5S",
+          "type": "Concentric",
+          "weight": "0.28"
+        },
+        {
+          "nps": "3 x 2",
+          "dn": "80 x 50",
+          "schedule": "SCH10S",
+          "type": "Concentric",
+          "weight": "0.41"
+        },
+        {
+          "nps": "3 x 2",
+          "dn": "80 x 50",
+          "schedule": "SCH40S",
+          "type": "Concentric",
+          "weight": "0.71"
+        },
+        {
+          "nps": "3 x 2",
+          "dn": "80 x 50",
+          "schedule": "SCH80S",
+          "type": "Concentric",
+          "weight": "0.96"
+        },
+        {
+          "nps": "3 x 1 1/2",
+          "dn": "80 x 40",
+          "schedule": "SCH5S",
+          "type": "Concentric",
+          "weight": "0.28"
+        },
+        {
+          "nps": "3 x 1 1/2",
+          "dn": "80 x 40",
+          "schedule": "SCH10S",
+          "type": "Concentric",
+          "weight": "0.41"
+        },
+        {
+          "nps": "3 x 1 1/2",
+          "dn": "80 x 40",
+          "schedule": "SCH40S",
+          "type": "Concentric",
+          "weight": "0.71"
+        },
+        {
+          "nps": "3 x 1 1/2",
+          "dn": "80 x 40",
+          "schedule": "SCH80S",
+          "type": "Concentric",
+          "weight": "0.96"
+        },
+        {
+          "nps": "4 x 3",
+          "dn": "100 x 80",
+          "schedule": "SCH5S",
+          "type": "Concentric",
+          "weight": "0.42"
+        },
+        {
+          "nps": "4 x 3",
+          "dn": "100 x 80",
+          "schedule": "SCH10S",
+          "type": "Concentric",
+          "weight": "0.60"
+        },
+        {
+          "nps": "4 x 3",
+          "dn": "100 x 80",
+          "schedule": "SCH40S",
+          "type": "Concentric",
+          "weight": "1.16"
+        },
+        {
+          "nps": "4 x 3",
+          "dn": "100 x 80",
+          "schedule": "SCH80S",
+          "type": "Concentric",
+          "weight": "1.61"
+        },
+        {
+          "nps": "4 x 2 1/2",
+          "dn": "100 x 65",
+          "schedule": "SCH5S",
+          "type": "Concentric",
+          "weight": "0.42"
+        },
+        {
+          "nps": "4 x 2 1/2",
+          "dn": "100 x 65",
+          "schedule": "SCH10S",
+          "type": "Concentric",
+          "weight": "0.60"
+        },
+        {
+          "nps": "4 x 2 1/2",
+          "dn": "100 x 65",
+          "schedule": "SCH40S",
+          "type": "Concentric",
+          "weight": "1.16"
+        },
+        {
+          "nps": "4 x 2 1/2",
+          "dn": "100 x 65",
+          "schedule": "SCH80S",
+          "type": "Concentric",
+          "weight": "1.61"
+        },
+        {
+          "nps": "4 x 2",
+          "dn": "100 x 50",
+          "schedule": "SCH5S",
+          "type": "Concentric",
+          "weight": "0.42"
+        },
+        {
+          "nps": "4 x 2",
+          "dn": "100 x 50",
+          "schedule": "SCH10S",
+          "type": "Concentric",
+          "weight": "0.60"
+        },
+        {
+          "nps": "4 x 2",
+          "dn": "100 x 50",
+          "schedule": "SCH40S",
+          "type": "Concentric",
+          "weight": "1.16"
+        },
+        {
+          "nps": "4 x 2",
+          "dn": "100 x 50",
+          "schedule": "SCH80S",
+          "type": "Concentric",
+          "weight": "1.61"
+        },
+        {
+          "nps": "6 x 4",
+          "dn": "150 x 100",
+          "schedule": "SCH5S",
+          "type": "Concentric",
+          "weight": "1.12"
+        },
+        {
+          "nps": "6 x 4",
+          "dn": "150 x 100",
+          "schedule": "SCH10S",
+          "type": "Concentric",
+          "weight": "1.37"
+        },
+        {
+          "nps": "6 x 4",
+          "dn": "150 x 100",
+          "schedule": "SCH40S",
+          "type": "Concentric",
+          "weight": "2.80"
+        },
+        {
+          "nps": "6 x 4",
+          "dn": "150 x 100",
+          "schedule": "SCH80S",
+          "type": "Concentric",
+          "weight": "4.22"
+        },
+        {
+          "nps": "6 x 3",
+          "dn": "150 x 80",
+          "schedule": "SCH5S",
+          "type": "Concentric",
+          "weight": "1.12"
+        },
+        {
+          "nps": "6 x 3",
+          "dn": "150 x 80",
+          "schedule": "SCH10S",
+          "type": "Concentric",
+          "weight": "1.37"
+        },
+        {
+          "nps": "6 x 3",
+          "dn": "150 x 80",
+          "schedule": "SCH40S",
+          "type": "Concentric",
+          "weight": "2.80"
+        },
+        {
+          "nps": "6 x 3",
+          "dn": "150 x 80",
+          "schedule": "SCH80S",
+          "type": "Concentric",
+          "weight": "4.22"
+        },
+        {
+          "nps": "8 x 6",
+          "dn": "200 x 150",
+          "schedule": "SCH5S",
+          "type": "Concentric",
+          "weight": "1.60"
+        },
+        {
+          "nps": "8 x 6",
+          "dn": "200 x 150",
+          "schedule": "SCH10S",
+          "type": "Concentric",
+          "weight": "2.16"
+        },
+        {
+          "nps": "8 x 6",
+          "dn": "200 x 150",
+          "schedule": "SCH40S",
+          "type": "Concentric",
+          "weight": "4.60"
+        },
+        {
+          "nps": "8 x 6",
+          "dn": "200 x 150",
+          "schedule": "SCH80S",
+          "type": "Concentric",
+          "weight": "6.99"
+        },
+        {
+          "nps": "8 x 4",
+          "dn": "200 x 100",
+          "schedule": "SCH5S",
+          "type": "Concentric",
+          "weight": "1.60"
+        },
+        {
+          "nps": "8 x 4",
+          "dn": "200 x 100",
+          "schedule": "SCH10S",
+          "type": "Concentric",
+          "weight": "2.16"
+        },
+        {
+          "nps": "8 x 4",
+          "dn": "200 x 100",
+          "schedule": "SCH40S",
+          "type": "Concentric",
+          "weight": "4.60"
+        },
+        {
+          "nps": "8 x 4",
+          "dn": "200 x 100",
+          "schedule": "SCH80S",
+          "type": "Concentric",
+          "weight": "6.99"
+        },
+        {
+          "nps": "10 x 8",
+          "dn": "250 x 200",
+          "schedule": "SCH5S",
+          "type": "Concentric",
+          "weight": "2.85"
+        },
+        {
+          "nps": "10 x 8",
+          "dn": "250 x 200",
+          "schedule": "SCH10S",
+          "type": "Concentric",
+          "weight": "3.50"
+        },
+        {
+          "nps": "10 x 8",
+          "dn": "250 x 200",
+          "schedule": "SCH40S",
+          "type": "Concentric",
+          "weight": "7.61"
+        },
+        {
+          "nps": "10 x 8",
+          "dn": "250 x 200",
+          "schedule": "SCH80S",
+          "type": "Concentric",
+          "weight": "12.11"
+        },
+        {
+          "nps": "10 x 6",
+          "dn": "250 x 150",
+          "schedule": "SCH5S",
+          "type": "Concentric",
+          "weight": "2.85"
+        },
+        {
+          "nps": "10 x 6",
+          "dn": "250 x 150",
+          "schedule": "SCH10S",
+          "type": "Concentric",
+          "weight": "3.50"
+        },
+        {
+          "nps": "10 x 6",
+          "dn": "250 x 150",
+          "schedule": "SCH40S",
+          "type": "Concentric",
+          "weight": "7.61"
+        },
+        {
+          "nps": "10 x 6",
+          "dn": "250 x 150",
+          "schedule": "SCH80S",
+          "type": "Concentric",
+          "weight": "12.11"
+        },
+        {
+          "nps": "12 x 10",
+          "dn": "300 x 250",
+          "schedule": "SCH5S",
+          "type": "Concentric",
+          "weight": "4.50"
+        },
+        {
+          "nps": "12 x 10",
+          "dn": "300 x 250",
+          "schedule": "SCH10S",
+          "type": "Concentric",
+          "weight": "5.19"
+        },
+        {
+          "nps": "12 x 10",
+          "dn": "300 x 250",
+          "schedule": "SCH40S",
+          "type": "Concentric",
+          "weight": "11.49"
+        },
+        {
+          "nps": "12 x 10",
+          "dn": "300 x 250",
+          "schedule": "SCH80S",
+          "type": "Concentric",
+          "weight": "19.04"
+        },
+        {
+          "nps": "12 x 8",
+          "dn": "300 x 200",
+          "schedule": "SCH5S",
+          "type": "Concentric",
+          "weight": "4.50"
+        },
+        {
+          "nps": "12 x 8",
+          "dn": "300 x 200",
+          "schedule": "SCH10S",
+          "type": "Concentric",
+          "weight": "5.19"
+        },
+        {
+          "nps": "12 x 8",
+          "dn": "300 x 200",
+          "schedule": "SCH40S",
+          "type": "Concentric",
+          "weight": "11.49"
+        },
+        {
+          "nps": "12 x 8",
+          "dn": "300 x 200",
+          "schedule": "SCH80S",
+          "type": "Concentric",
+          "weight": "19.04"
+        },
+        {
+          "nps": "14 x 12",
+          "dn": "350 x 300",
+          "schedule": "SCH5S",
+          "type": "Concentric",
+          "weight": "8.05"
+        },
+        {
+          "nps": "14 x 12",
+          "dn": "350 x 300",
+          "schedule": "SCH10S",
+          "type": "Concentric",
+          "weight": "9.69"
+        },
+        {
+          "nps": "14 x 12",
+          "dn": "350 x 300",
+          "schedule": "SCH40S",
+          "type": "Concentric",
+          "weight": "19.06"
+        },
+        {
+          "nps": "14 x 12",
+          "dn": "350 x 300",
+          "schedule": "SCH80S",
+          "type": "Concentric",
+          "weight": "25.16"
+        },
+        {
+          "nps": "14 x 10",
+          "dn": "350 x 250",
+          "schedule": "SCH5S",
+          "type": "Concentric",
+          "weight": "8.05"
+        },
+        {
+          "nps": "14 x 10",
+          "dn": "350 x 250",
+          "schedule": "SCH10S",
+          "type": "Concentric",
+          "weight": "9.69"
+        },
+        {
+          "nps": "14 x 10",
+          "dn": "350 x 250",
+          "schedule": "SCH40S",
+          "type": "Concentric",
+          "weight": "19.06"
+        },
+        {
+          "nps": "14 x 10",
+          "dn": "350 x 250",
+          "schedule": "SCH80S",
+          "type": "Concentric",
+          "weight": "25.16"
+        },
+        {
+          "nps": "16 x 14",
+          "dn": "400 x 350",
+          "schedule": "SCH5S",
+          "type": "Concentric",
+          "weight": "10.49"
+        },
+        {
+          "nps": "16 x 14",
+          "dn": "400 x 350",
+          "schedule": "SCH10S",
+          "type": "Concentric",
+          "weight": "11.95"
+        },
+        {
+          "nps": "16 x 14",
+          "dn": "400 x 350",
+          "schedule": "SCH40S",
+          "type": "Concentric",
+          "weight": "23.54"
+        },
+        {
+          "nps": "16 x 14",
+          "dn": "400 x 350",
+          "schedule": "SCH80S",
+          "type": "Concentric",
+          "weight": "31.11"
+        },
+        {
+          "nps": "16 x 12",
+          "dn": "400 x 300",
+          "schedule": "SCH5S",
+          "type": "Concentric",
+          "weight": "10.49"
+        },
+        {
+          "nps": "16 x 12",
+          "dn": "400 x 300",
+          "schedule": "SCH10S",
+          "type": "Concentric",
+          "weight": "11.95"
+        },
+        {
+          "nps": "16 x 12",
+          "dn": "400 x 300",
+          "schedule": "SCH40S",
+          "type": "Concentric",
+          "weight": "23.54"
+        },
+        {
+          "nps": "16 x 12",
+          "dn": "400 x 300",
+          "schedule": "SCH80S",
+          "type": "Concentric",
+          "weight": "31.11"
+        },
+        {
+          "nps": "18 x 16",
+          "dn": "450 x 400",
+          "schedule": "SCH5S",
+          "type": "Concentric",
+          "weight": "12.65"
+        },
+        {
+          "nps": "18 x 16",
+          "dn": "450 x 400",
+          "schedule": "SCH10S",
+          "type": "Concentric",
+          "weight": "14.41"
+        },
+        {
+          "nps": "18 x 16",
+          "dn": "450 x 400",
+          "schedule": "SCH40S",
+          "type": "Concentric",
+          "weight": "28.43"
+        },
+        {
+          "nps": "18 x 16",
+          "dn": "450 x 400",
+          "schedule": "SCH80S",
+          "type": "Concentric",
+          "weight": "37.62"
+        },
+        {
+          "nps": "18 x 14",
+          "dn": "450 x 350",
+          "schedule": "SCH5S",
+          "type": "Concentric",
+          "weight": "12.65"
+        },
+        {
+          "nps": "18 x 14",
+          "dn": "450 x 350",
+          "schedule": "SCH10S",
+          "type": "Concentric",
+          "weight": "14.41"
+        },
+        {
+          "nps": "18 x 14",
+          "dn": "450 x 350",
+          "schedule": "SCH40S",
+          "type": "Concentric",
+          "weight": "28.43"
+        },
+        {
+          "nps": "18 x 14",
+          "dn": "450 x 350",
+          "schedule": "SCH80S",
+          "type": "Concentric",
+          "weight": "37.62"
+        },
+        {
+          "nps": "20 x 18",
+          "dn": "500 x 450",
+          "schedule": "SCH5S",
+          "type": "Concentric",
+          "weight": "21.38"
+        },
+        {
+          "nps": "20 x 18",
+          "dn": "500 x 450",
+          "schedule": "SCH10S",
+          "type": "Concentric",
+          "weight": "24.75"
+        },
+        {
+          "nps": "20 x 18",
+          "dn": "500 x 450",
+          "schedule": "SCH40S",
+          "type": "Concentric",
+          "weight": "42.23"
+        },
+        {
+          "nps": "20 x 18",
+          "dn": "500 x 450",
+          "schedule": "SCH80S",
+          "type": "Concentric",
+          "weight": "55.92"
+        },
+        {
+          "nps": "20 x 16",
+          "dn": "500 x 400",
+          "schedule": "SCH5S",
+          "type": "Concentric",
+          "weight": "21.38"
+        },
+        {
+          "nps": "20 x 16",
+          "dn": "500 x 400",
+          "schedule": "SCH10S",
+          "type": "Concentric",
+          "weight": "24.75"
+        },
+        {
+          "nps": "20 x 16",
+          "dn": "500 x 400",
+          "schedule": "SCH40S",
+          "type": "Concentric",
+          "weight": "42.23"
+        },
+        {
+          "nps": "20 x 16",
+          "dn": "500 x 400",
+          "schedule": "SCH80S",
+          "type": "Concentric",
+          "weight": "55.92"
+        },
+        {
+          "nps": "24 x 20",
+          "dn": "600 x 500",
+          "schedule": "SCH5S",
+          "type": "Concentric",
+          "weight": "29.77"
+        },
+        {
+          "nps": "24 x 20",
+          "dn": "600 x 500",
+          "schedule": "SCH10S",
+          "type": "Concentric",
+          "weight": "34.08"
+        },
+        {
+          "nps": "24 x 20",
+          "dn": "600 x 500",
+          "schedule": "SCH40S",
+          "type": "Concentric",
+          "weight": "50.87"
+        },
+        {
+          "nps": "24 x 20",
+          "dn": "600 x 500",
+          "schedule": "SCH80S",
+          "type": "Concentric",
+          "weight": "67.44"
+        },
+        {
+          "nps": "24 x 18",
+          "dn": "600 x 450",
+          "schedule": "SCH5S",
+          "type": "Concentric",
+          "weight": "29.77"
+        },
+        {
+          "nps": "24 x 18",
+          "dn": "600 x 450",
+          "schedule": "SCH10S",
+          "type": "Concentric",
+          "weight": "34.08"
+        },
+        {
+          "nps": "24 x 18",
+          "dn": "600 x 450",
+          "schedule": "SCH40S",
+          "type": "Concentric",
+          "weight": "50.87"
+        },
+        {
+          "nps": "24 x 18",
+          "dn": "600 x 450",
+          "schedule": "SCH80S",
+          "type": "Concentric",
+          "weight": "67.44"
+        }
+      ]
+    },
+    {
+      "product": "Eccentric Reducer",
+      "weightUnit": "kg/piece",
+      "source": {
+        "type": "engineering_formula",
+        "name": "Theoretical Calculation (ASME B16.9 / Standard Formula)"
+      },
+      "data": [
+        {
+          "nps": "3/4 x 1/2",
+          "dn": "20 x 15",
+          "schedule": "SCH5S",
+          "type": "Eccentric",
+          "weight": "0.03"
+        },
+        {
+          "nps": "3/4 x 1/2",
+          "dn": "20 x 15",
+          "schedule": "SCH10S",
+          "type": "Eccentric",
+          "weight": "0.03"
+        },
+        {
+          "nps": "3/4 x 1/2",
+          "dn": "20 x 15",
+          "schedule": "SCH40S",
+          "type": "Eccentric",
+          "weight": "0.05"
+        },
+        {
+          "nps": "3/4 x 1/2",
+          "dn": "20 x 15",
+          "schedule": "SCH80S",
+          "type": "Eccentric",
+          "weight": "0.06"
+        },
+        {
+          "nps": "1 x 3/4",
+          "dn": "25 x 20",
+          "schedule": "SCH5S",
+          "type": "Eccentric",
+          "weight": "0.05"
+        },
+        {
+          "nps": "1 x 3/4",
+          "dn": "25 x 20",
+          "schedule": "SCH10S",
+          "type": "Eccentric",
+          "weight": "0.08"
+        },
+        {
+          "nps": "1 x 3/4",
+          "dn": "25 x 20",
+          "schedule": "SCH40S",
+          "type": "Eccentric",
+          "weight": "0.09"
+        },
+        {
+          "nps": "1 x 3/4",
+          "dn": "25 x 20",
+          "schedule": "SCH80S",
+          "type": "Eccentric",
+          "weight": "0.12"
+        },
+        {
+          "nps": "1 x 1/2",
+          "dn": "25 x 15",
+          "schedule": "SCH5S",
+          "type": "Eccentric",
+          "weight": "0.05"
+        },
+        {
+          "nps": "1 x 1/2",
+          "dn": "25 x 15",
+          "schedule": "SCH10S",
+          "type": "Eccentric",
+          "weight": "0.08"
+        },
+        {
+          "nps": "1 x 1/2",
+          "dn": "25 x 15",
+          "schedule": "SCH40S",
+          "type": "Eccentric",
+          "weight": "0.09"
+        },
+        {
+          "nps": "1 x 1/2",
+          "dn": "25 x 15",
+          "schedule": "SCH80S",
+          "type": "Eccentric",
+          "weight": "0.12"
+        },
+        {
+          "nps": "1 1/4 x 1",
+          "dn": "32 x 25",
+          "schedule": "SCH5S",
+          "type": "Eccentric",
+          "weight": "0.06"
+        },
+        {
+          "nps": "1 1/4 x 1",
+          "dn": "32 x 25",
+          "schedule": "SCH10S",
+          "type": "Eccentric",
+          "weight": "0.10"
+        },
+        {
+          "nps": "1 1/4 x 1",
+          "dn": "32 x 25",
+          "schedule": "SCH40S",
+          "type": "Eccentric",
+          "weight": "0.12"
+        },
+        {
+          "nps": "1 1/4 x 1",
+          "dn": "32 x 25",
+          "schedule": "SCH80S",
+          "type": "Eccentric",
+          "weight": "0.16"
+        },
+        {
+          "nps": "1 1/4 x 3/4",
+          "dn": "32 x 20",
+          "schedule": "SCH5S",
+          "type": "Eccentric",
+          "weight": "0.06"
+        },
+        {
+          "nps": "1 1/4 x 3/4",
+          "dn": "32 x 20",
+          "schedule": "SCH10S",
+          "type": "Eccentric",
+          "weight": "0.10"
+        },
+        {
+          "nps": "1 1/4 x 3/4",
+          "dn": "32 x 20",
+          "schedule": "SCH40S",
+          "type": "Eccentric",
+          "weight": "0.12"
+        },
+        {
+          "nps": "1 1/4 x 3/4",
+          "dn": "32 x 20",
+          "schedule": "SCH80S",
+          "type": "Eccentric",
+          "weight": "0.16"
+        },
+        {
+          "nps": "1 1/4 x 1/2",
+          "dn": "32 x 15",
+          "schedule": "SCH5S",
+          "type": "Eccentric",
+          "weight": "0.06"
+        },
+        {
+          "nps": "1 1/4 x 1/2",
+          "dn": "32 x 15",
+          "schedule": "SCH10S",
+          "type": "Eccentric",
+          "weight": "0.10"
+        },
+        {
+          "nps": "1 1/4 x 1/2",
+          "dn": "32 x 15",
+          "schedule": "SCH40S",
+          "type": "Eccentric",
+          "weight": "0.12"
+        },
+        {
+          "nps": "1 1/4 x 1/2",
+          "dn": "32 x 15",
+          "schedule": "SCH80S",
+          "type": "Eccentric",
+          "weight": "0.16"
+        },
+        {
+          "nps": "1 1/2 x 1 1/4",
+          "dn": "40 x 32",
+          "schedule": "SCH5S",
+          "type": "Eccentric",
+          "weight": "0.09"
+        },
+        {
+          "nps": "1 1/2 x 1 1/4",
+          "dn": "40 x 32",
+          "schedule": "SCH10S",
+          "type": "Eccentric",
+          "weight": "0.14"
+        },
+        {
+          "nps": "1 1/2 x 1 1/4",
+          "dn": "40 x 32",
+          "schedule": "SCH40S",
+          "type": "Eccentric",
+          "weight": "0.18"
+        },
+        {
+          "nps": "1 1/2 x 1 1/4",
+          "dn": "40 x 32",
+          "schedule": "SCH80S",
+          "type": "Eccentric",
+          "weight": "0.24"
+        },
+        {
+          "nps": "1 1/2 x 1",
+          "dn": "40 x 25",
+          "schedule": "SCH5S",
+          "type": "Eccentric",
+          "weight": "0.09"
+        },
+        {
+          "nps": "1 1/2 x 1",
+          "dn": "40 x 25",
+          "schedule": "SCH10S",
+          "type": "Eccentric",
+          "weight": "0.14"
+        },
+        {
+          "nps": "1 1/2 x 1",
+          "dn": "40 x 25",
+          "schedule": "SCH40S",
+          "type": "Eccentric",
+          "weight": "0.18"
+        },
+        {
+          "nps": "1 1/2 x 1",
+          "dn": "40 x 25",
+          "schedule": "SCH80S",
+          "type": "Eccentric",
+          "weight": "0.24"
+        },
+        {
+          "nps": "1 1/2 x 3/4",
+          "dn": "40 x 20",
+          "schedule": "SCH5S",
+          "type": "Eccentric",
+          "weight": "0.09"
+        },
+        {
+          "nps": "1 1/2 x 3/4",
+          "dn": "40 x 20",
+          "schedule": "SCH10S",
+          "type": "Eccentric",
+          "weight": "0.14"
+        },
+        {
+          "nps": "1 1/2 x 3/4",
+          "dn": "40 x 20",
+          "schedule": "SCH40S",
+          "type": "Eccentric",
+          "weight": "0.18"
+        },
+        {
+          "nps": "1 1/2 x 3/4",
+          "dn": "40 x 20",
+          "schedule": "SCH80S",
+          "type": "Eccentric",
+          "weight": "0.24"
+        },
+        {
+          "nps": "1 1/2 x 1/2",
+          "dn": "40 x 15",
+          "schedule": "SCH5S",
+          "type": "Eccentric",
+          "weight": "0.09"
+        },
+        {
+          "nps": "1 1/2 x 1/2",
+          "dn": "40 x 15",
+          "schedule": "SCH10S",
+          "type": "Eccentric",
+          "weight": "0.14"
+        },
+        {
+          "nps": "1 1/2 x 1/2",
+          "dn": "40 x 15",
+          "schedule": "SCH40S",
+          "type": "Eccentric",
+          "weight": "0.18"
+        },
+        {
+          "nps": "1 1/2 x 1/2",
+          "dn": "40 x 15",
+          "schedule": "SCH80S",
+          "type": "Eccentric",
+          "weight": "0.24"
+        },
+        {
+          "nps": "2 x 1 1/2",
+          "dn": "50 x 40",
+          "schedule": "SCH5S",
+          "type": "Eccentric",
+          "weight": "0.13"
+        },
+        {
+          "nps": "2 x 1 1/2",
+          "dn": "50 x 40",
+          "schedule": "SCH10S",
+          "type": "Eccentric",
+          "weight": "0.21"
+        },
+        {
+          "nps": "2 x 1 1/2",
+          "dn": "50 x 40",
+          "schedule": "SCH40S",
+          "type": "Eccentric",
+          "weight": "0.29"
+        },
+        {
+          "nps": "2 x 1 1/2",
+          "dn": "50 x 40",
+          "schedule": "SCH80S",
+          "type": "Eccentric",
+          "weight": "0.40"
+        },
+        {
+          "nps": "2 x 1 1/4",
+          "dn": "50 x 32",
+          "schedule": "SCH5S",
+          "type": "Eccentric",
+          "weight": "0.13"
+        },
+        {
+          "nps": "2 x 1 1/4",
+          "dn": "50 x 32",
+          "schedule": "SCH10S",
+          "type": "Eccentric",
+          "weight": "0.21"
+        },
+        {
+          "nps": "2 x 1 1/4",
+          "dn": "50 x 32",
+          "schedule": "SCH40S",
+          "type": "Eccentric",
+          "weight": "0.29"
+        },
+        {
+          "nps": "2 x 1 1/4",
+          "dn": "50 x 32",
+          "schedule": "SCH80S",
+          "type": "Eccentric",
+          "weight": "0.40"
+        },
+        {
+          "nps": "2 x 1",
+          "dn": "50 x 25",
+          "schedule": "SCH5S",
+          "type": "Eccentric",
+          "weight": "0.13"
+        },
+        {
+          "nps": "2 x 1",
+          "dn": "50 x 25",
+          "schedule": "SCH10S",
+          "type": "Eccentric",
+          "weight": "0.21"
+        },
+        {
+          "nps": "2 x 1",
+          "dn": "50 x 25",
+          "schedule": "SCH40S",
+          "type": "Eccentric",
+          "weight": "0.29"
+        },
+        {
+          "nps": "2 x 1",
+          "dn": "50 x 25",
+          "schedule": "SCH80S",
+          "type": "Eccentric",
+          "weight": "0.40"
+        },
+        {
+          "nps": "2 x 3/4",
+          "dn": "50 x 20",
+          "schedule": "SCH5S",
+          "type": "Eccentric",
+          "weight": "0.13"
+        },
+        {
+          "nps": "2 x 3/4",
+          "dn": "50 x 20",
+          "schedule": "SCH10S",
+          "type": "Eccentric",
+          "weight": "0.21"
+        },
+        {
+          "nps": "2 x 3/4",
+          "dn": "50 x 20",
+          "schedule": "SCH40S",
+          "type": "Eccentric",
+          "weight": "0.29"
+        },
+        {
+          "nps": "2 x 3/4",
+          "dn": "50 x 20",
+          "schedule": "SCH80S",
+          "type": "Eccentric",
+          "weight": "0.40"
+        },
+        {
+          "nps": "2 1/2 x 2",
+          "dn": "65 x 50",
+          "schedule": "SCH5S",
+          "type": "Eccentric",
+          "weight": "0.23"
+        },
+        {
+          "nps": "2 1/2 x 2",
+          "dn": "65 x 50",
+          "schedule": "SCH10S",
+          "type": "Eccentric",
+          "weight": "0.33"
+        },
+        {
+          "nps": "2 1/2 x 2",
+          "dn": "65 x 50",
+          "schedule": "SCH40S",
+          "type": "Eccentric",
+          "weight": "0.54"
+        },
+        {
+          "nps": "2 1/2 x 2",
+          "dn": "65 x 50",
+          "schedule": "SCH80S",
+          "type": "Eccentric",
+          "weight": "0.72"
+        },
+        {
+          "nps": "2 1/2 x 1 1/2",
+          "dn": "65 x 40",
+          "schedule": "SCH5S",
+          "type": "Eccentric",
+          "weight": "0.23"
+        },
+        {
+          "nps": "2 1/2 x 1 1/2",
+          "dn": "65 x 40",
+          "schedule": "SCH10S",
+          "type": "Eccentric",
+          "weight": "0.33"
+        },
+        {
+          "nps": "2 1/2 x 1 1/2",
+          "dn": "65 x 40",
+          "schedule": "SCH40S",
+          "type": "Eccentric",
+          "weight": "0.54"
+        },
+        {
+          "nps": "2 1/2 x 1 1/2",
+          "dn": "65 x 40",
+          "schedule": "SCH80S",
+          "type": "Eccentric",
+          "weight": "0.72"
+        },
+        {
+          "nps": "2 1/2 x 1",
+          "dn": "65 x 25",
+          "schedule": "SCH5S",
+          "type": "Eccentric",
+          "weight": "0.23"
+        },
+        {
+          "nps": "2 1/2 x 1",
+          "dn": "65 x 25",
+          "schedule": "SCH10S",
+          "type": "Eccentric",
+          "weight": "0.33"
+        },
+        {
+          "nps": "2 1/2 x 1",
+          "dn": "65 x 25",
+          "schedule": "SCH40S",
+          "type": "Eccentric",
+          "weight": "0.54"
+        },
+        {
+          "nps": "2 1/2 x 1",
+          "dn": "65 x 25",
+          "schedule": "SCH80S",
+          "type": "Eccentric",
+          "weight": "0.72"
+        },
+        {
+          "nps": "3 x 2 1/2",
+          "dn": "80 x 65",
+          "schedule": "SCH5S",
+          "type": "Eccentric",
+          "weight": "0.28"
+        },
+        {
+          "nps": "3 x 2 1/2",
+          "dn": "80 x 65",
+          "schedule": "SCH10S",
+          "type": "Eccentric",
+          "weight": "0.41"
+        },
+        {
+          "nps": "3 x 2 1/2",
+          "dn": "80 x 65",
+          "schedule": "SCH40S",
+          "type": "Eccentric",
+          "weight": "0.71"
+        },
+        {
+          "nps": "3 x 2 1/2",
+          "dn": "80 x 65",
+          "schedule": "SCH80S",
+          "type": "Eccentric",
+          "weight": "0.96"
+        },
+        {
+          "nps": "3 x 2",
+          "dn": "80 x 50",
+          "schedule": "SCH5S",
+          "type": "Eccentric",
+          "weight": "0.28"
+        },
+        {
+          "nps": "3 x 2",
+          "dn": "80 x 50",
+          "schedule": "SCH10S",
+          "type": "Eccentric",
+          "weight": "0.41"
+        },
+        {
+          "nps": "3 x 2",
+          "dn": "80 x 50",
+          "schedule": "SCH40S",
+          "type": "Eccentric",
+          "weight": "0.71"
+        },
+        {
+          "nps": "3 x 2",
+          "dn": "80 x 50",
+          "schedule": "SCH80S",
+          "type": "Eccentric",
+          "weight": "0.96"
+        },
+        {
+          "nps": "3 x 1 1/2",
+          "dn": "80 x 40",
+          "schedule": "SCH5S",
+          "type": "Eccentric",
+          "weight": "0.28"
+        },
+        {
+          "nps": "3 x 1 1/2",
+          "dn": "80 x 40",
+          "schedule": "SCH10S",
+          "type": "Eccentric",
+          "weight": "0.41"
+        },
+        {
+          "nps": "3 x 1 1/2",
+          "dn": "80 x 40",
+          "schedule": "SCH40S",
+          "type": "Eccentric",
+          "weight": "0.71"
+        },
+        {
+          "nps": "3 x 1 1/2",
+          "dn": "80 x 40",
+          "schedule": "SCH80S",
+          "type": "Eccentric",
+          "weight": "0.96"
+        },
+        {
+          "nps": "4 x 3",
+          "dn": "100 x 80",
+          "schedule": "SCH5S",
+          "type": "Eccentric",
+          "weight": "0.42"
+        },
+        {
+          "nps": "4 x 3",
+          "dn": "100 x 80",
+          "schedule": "SCH10S",
+          "type": "Eccentric",
+          "weight": "0.60"
+        },
+        {
+          "nps": "4 x 3",
+          "dn": "100 x 80",
+          "schedule": "SCH40S",
+          "type": "Eccentric",
+          "weight": "1.16"
+        },
+        {
+          "nps": "4 x 3",
+          "dn": "100 x 80",
+          "schedule": "SCH80S",
+          "type": "Eccentric",
+          "weight": "1.61"
+        },
+        {
+          "nps": "4 x 2 1/2",
+          "dn": "100 x 65",
+          "schedule": "SCH5S",
+          "type": "Eccentric",
+          "weight": "0.42"
+        },
+        {
+          "nps": "4 x 2 1/2",
+          "dn": "100 x 65",
+          "schedule": "SCH10S",
+          "type": "Eccentric",
+          "weight": "0.60"
+        },
+        {
+          "nps": "4 x 2 1/2",
+          "dn": "100 x 65",
+          "schedule": "SCH40S",
+          "type": "Eccentric",
+          "weight": "1.16"
+        },
+        {
+          "nps": "4 x 2 1/2",
+          "dn": "100 x 65",
+          "schedule": "SCH80S",
+          "type": "Eccentric",
+          "weight": "1.61"
+        },
+        {
+          "nps": "4 x 2",
+          "dn": "100 x 50",
+          "schedule": "SCH5S",
+          "type": "Eccentric",
+          "weight": "0.42"
+        },
+        {
+          "nps": "4 x 2",
+          "dn": "100 x 50",
+          "schedule": "SCH10S",
+          "type": "Eccentric",
+          "weight": "0.60"
+        },
+        {
+          "nps": "4 x 2",
+          "dn": "100 x 50",
+          "schedule": "SCH40S",
+          "type": "Eccentric",
+          "weight": "1.16"
+        },
+        {
+          "nps": "4 x 2",
+          "dn": "100 x 50",
+          "schedule": "SCH80S",
+          "type": "Eccentric",
+          "weight": "1.61"
+        },
+        {
+          "nps": "6 x 4",
+          "dn": "150 x 100",
+          "schedule": "SCH5S",
+          "type": "Eccentric",
+          "weight": "1.12"
+        },
+        {
+          "nps": "6 x 4",
+          "dn": "150 x 100",
+          "schedule": "SCH10S",
+          "type": "Eccentric",
+          "weight": "1.37"
+        },
+        {
+          "nps": "6 x 4",
+          "dn": "150 x 100",
+          "schedule": "SCH40S",
+          "type": "Eccentric",
+          "weight": "2.80"
+        },
+        {
+          "nps": "6 x 4",
+          "dn": "150 x 100",
+          "schedule": "SCH80S",
+          "type": "Eccentric",
+          "weight": "4.22"
+        },
+        {
+          "nps": "6 x 3",
+          "dn": "150 x 80",
+          "schedule": "SCH5S",
+          "type": "Eccentric",
+          "weight": "1.12"
+        },
+        {
+          "nps": "6 x 3",
+          "dn": "150 x 80",
+          "schedule": "SCH10S",
+          "type": "Eccentric",
+          "weight": "1.37"
+        },
+        {
+          "nps": "6 x 3",
+          "dn": "150 x 80",
+          "schedule": "SCH40S",
+          "type": "Eccentric",
+          "weight": "2.80"
+        },
+        {
+          "nps": "6 x 3",
+          "dn": "150 x 80",
+          "schedule": "SCH80S",
+          "type": "Eccentric",
+          "weight": "4.22"
+        },
+        {
+          "nps": "8 x 6",
+          "dn": "200 x 150",
+          "schedule": "SCH5S",
+          "type": "Eccentric",
+          "weight": "1.60"
+        },
+        {
+          "nps": "8 x 6",
+          "dn": "200 x 150",
+          "schedule": "SCH10S",
+          "type": "Eccentric",
+          "weight": "2.16"
+        },
+        {
+          "nps": "8 x 6",
+          "dn": "200 x 150",
+          "schedule": "SCH40S",
+          "type": "Eccentric",
+          "weight": "4.60"
+        },
+        {
+          "nps": "8 x 6",
+          "dn": "200 x 150",
+          "schedule": "SCH80S",
+          "type": "Eccentric",
+          "weight": "6.99"
+        },
+        {
+          "nps": "8 x 4",
+          "dn": "200 x 100",
+          "schedule": "SCH5S",
+          "type": "Eccentric",
+          "weight": "1.60"
+        },
+        {
+          "nps": "8 x 4",
+          "dn": "200 x 100",
+          "schedule": "SCH10S",
+          "type": "Eccentric",
+          "weight": "2.16"
+        },
+        {
+          "nps": "8 x 4",
+          "dn": "200 x 100",
+          "schedule": "SCH40S",
+          "type": "Eccentric",
+          "weight": "4.60"
+        },
+        {
+          "nps": "8 x 4",
+          "dn": "200 x 100",
+          "schedule": "SCH80S",
+          "type": "Eccentric",
+          "weight": "6.99"
+        },
+        {
+          "nps": "10 x 8",
+          "dn": "250 x 200",
+          "schedule": "SCH5S",
+          "type": "Eccentric",
+          "weight": "2.85"
+        },
+        {
+          "nps": "10 x 8",
+          "dn": "250 x 200",
+          "schedule": "SCH10S",
+          "type": "Eccentric",
+          "weight": "3.50"
+        },
+        {
+          "nps": "10 x 8",
+          "dn": "250 x 200",
+          "schedule": "SCH40S",
+          "type": "Eccentric",
+          "weight": "7.61"
+        },
+        {
+          "nps": "10 x 8",
+          "dn": "250 x 200",
+          "schedule": "SCH80S",
+          "type": "Eccentric",
+          "weight": "12.11"
+        },
+        {
+          "nps": "10 x 6",
+          "dn": "250 x 150",
+          "schedule": "SCH5S",
+          "type": "Eccentric",
+          "weight": "2.85"
+        },
+        {
+          "nps": "10 x 6",
+          "dn": "250 x 150",
+          "schedule": "SCH10S",
+          "type": "Eccentric",
+          "weight": "3.50"
+        },
+        {
+          "nps": "10 x 6",
+          "dn": "250 x 150",
+          "schedule": "SCH40S",
+          "type": "Eccentric",
+          "weight": "7.61"
+        },
+        {
+          "nps": "10 x 6",
+          "dn": "250 x 150",
+          "schedule": "SCH80S",
+          "type": "Eccentric",
+          "weight": "12.11"
+        },
+        {
+          "nps": "12 x 10",
+          "dn": "300 x 250",
+          "schedule": "SCH5S",
+          "type": "Eccentric",
+          "weight": "4.50"
+        },
+        {
+          "nps": "12 x 10",
+          "dn": "300 x 250",
+          "schedule": "SCH10S",
+          "type": "Eccentric",
+          "weight": "5.19"
+        },
+        {
+          "nps": "12 x 10",
+          "dn": "300 x 250",
+          "schedule": "SCH40S",
+          "type": "Eccentric",
+          "weight": "11.49"
+        },
+        {
+          "nps": "12 x 10",
+          "dn": "300 x 250",
+          "schedule": "SCH80S",
+          "type": "Eccentric",
+          "weight": "19.04"
+        },
+        {
+          "nps": "12 x 8",
+          "dn": "300 x 200",
+          "schedule": "SCH5S",
+          "type": "Eccentric",
+          "weight": "4.50"
+        },
+        {
+          "nps": "12 x 8",
+          "dn": "300 x 200",
+          "schedule": "SCH10S",
+          "type": "Eccentric",
+          "weight": "5.19"
+        },
+        {
+          "nps": "12 x 8",
+          "dn": "300 x 200",
+          "schedule": "SCH40S",
+          "type": "Eccentric",
+          "weight": "11.49"
+        },
+        {
+          "nps": "12 x 8",
+          "dn": "300 x 200",
+          "schedule": "SCH80S",
+          "type": "Eccentric",
+          "weight": "19.04"
+        },
+        {
+          "nps": "14 x 12",
+          "dn": "350 x 300",
+          "schedule": "SCH5S",
+          "type": "Eccentric",
+          "weight": "8.05"
+        },
+        {
+          "nps": "14 x 12",
+          "dn": "350 x 300",
+          "schedule": "SCH10S",
+          "type": "Eccentric",
+          "weight": "9.69"
+        },
+        {
+          "nps": "14 x 12",
+          "dn": "350 x 300",
+          "schedule": "SCH40S",
+          "type": "Eccentric",
+          "weight": "19.06"
+        },
+        {
+          "nps": "14 x 12",
+          "dn": "350 x 300",
+          "schedule": "SCH80S",
+          "type": "Eccentric",
+          "weight": "25.16"
+        },
+        {
+          "nps": "14 x 10",
+          "dn": "350 x 250",
+          "schedule": "SCH5S",
+          "type": "Eccentric",
+          "weight": "8.05"
+        },
+        {
+          "nps": "14 x 10",
+          "dn": "350 x 250",
+          "schedule": "SCH10S",
+          "type": "Eccentric",
+          "weight": "9.69"
+        },
+        {
+          "nps": "14 x 10",
+          "dn": "350 x 250",
+          "schedule": "SCH40S",
+          "type": "Eccentric",
+          "weight": "19.06"
+        },
+        {
+          "nps": "14 x 10",
+          "dn": "350 x 250",
+          "schedule": "SCH80S",
+          "type": "Eccentric",
+          "weight": "25.16"
+        },
+        {
+          "nps": "16 x 14",
+          "dn": "400 x 350",
+          "schedule": "SCH5S",
+          "type": "Eccentric",
+          "weight": "10.49"
+        },
+        {
+          "nps": "16 x 14",
+          "dn": "400 x 350",
+          "schedule": "SCH10S",
+          "type": "Eccentric",
+          "weight": "11.95"
+        },
+        {
+          "nps": "16 x 14",
+          "dn": "400 x 350",
+          "schedule": "SCH40S",
+          "type": "Eccentric",
+          "weight": "23.54"
+        },
+        {
+          "nps": "16 x 14",
+          "dn": "400 x 350",
+          "schedule": "SCH80S",
+          "type": "Eccentric",
+          "weight": "31.11"
+        },
+        {
+          "nps": "16 x 12",
+          "dn": "400 x 300",
+          "schedule": "SCH5S",
+          "type": "Eccentric",
+          "weight": "10.49"
+        },
+        {
+          "nps": "16 x 12",
+          "dn": "400 x 300",
+          "schedule": "SCH10S",
+          "type": "Eccentric",
+          "weight": "11.95"
+        },
+        {
+          "nps": "16 x 12",
+          "dn": "400 x 300",
+          "schedule": "SCH40S",
+          "type": "Eccentric",
+          "weight": "23.54"
+        },
+        {
+          "nps": "16 x 12",
+          "dn": "400 x 300",
+          "schedule": "SCH80S",
+          "type": "Eccentric",
+          "weight": "31.11"
+        },
+        {
+          "nps": "18 x 16",
+          "dn": "450 x 400",
+          "schedule": "SCH5S",
+          "type": "Eccentric",
+          "weight": "12.65"
+        },
+        {
+          "nps": "18 x 16",
+          "dn": "450 x 400",
+          "schedule": "SCH10S",
+          "type": "Eccentric",
+          "weight": "14.41"
+        },
+        {
+          "nps": "18 x 16",
+          "dn": "450 x 400",
+          "schedule": "SCH40S",
+          "type": "Eccentric",
+          "weight": "28.43"
+        },
+        {
+          "nps": "18 x 16",
+          "dn": "450 x 400",
+          "schedule": "SCH80S",
+          "type": "Eccentric",
+          "weight": "37.62"
+        },
+        {
+          "nps": "18 x 14",
+          "dn": "450 x 350",
+          "schedule": "SCH5S",
+          "type": "Eccentric",
+          "weight": "12.65"
+        },
+        {
+          "nps": "18 x 14",
+          "dn": "450 x 350",
+          "schedule": "SCH10S",
+          "type": "Eccentric",
+          "weight": "14.41"
+        },
+        {
+          "nps": "18 x 14",
+          "dn": "450 x 350",
+          "schedule": "SCH40S",
+          "type": "Eccentric",
+          "weight": "28.43"
+        },
+        {
+          "nps": "18 x 14",
+          "dn": "450 x 350",
+          "schedule": "SCH80S",
+          "type": "Eccentric",
+          "weight": "37.62"
+        },
+        {
+          "nps": "20 x 18",
+          "dn": "500 x 450",
+          "schedule": "SCH5S",
+          "type": "Eccentric",
+          "weight": "21.38"
+        },
+        {
+          "nps": "20 x 18",
+          "dn": "500 x 450",
+          "schedule": "SCH10S",
+          "type": "Eccentric",
+          "weight": "24.75"
+        },
+        {
+          "nps": "20 x 18",
+          "dn": "500 x 450",
+          "schedule": "SCH40S",
+          "type": "Eccentric",
+          "weight": "42.23"
+        },
+        {
+          "nps": "20 x 18",
+          "dn": "500 x 450",
+          "schedule": "SCH80S",
+          "type": "Eccentric",
+          "weight": "55.92"
+        },
+        {
+          "nps": "20 x 16",
+          "dn": "500 x 400",
+          "schedule": "SCH5S",
+          "type": "Eccentric",
+          "weight": "21.38"
+        },
+        {
+          "nps": "20 x 16",
+          "dn": "500 x 400",
+          "schedule": "SCH10S",
+          "type": "Eccentric",
+          "weight": "24.75"
+        },
+        {
+          "nps": "20 x 16",
+          "dn": "500 x 400",
+          "schedule": "SCH40S",
+          "type": "Eccentric",
+          "weight": "42.23"
+        },
+        {
+          "nps": "20 x 16",
+          "dn": "500 x 400",
+          "schedule": "SCH80S",
+          "type": "Eccentric",
+          "weight": "55.92"
+        },
+        {
+          "nps": "24 x 20",
+          "dn": "600 x 500",
+          "schedule": "SCH5S",
+          "type": "Eccentric",
+          "weight": "29.77"
+        },
+        {
+          "nps": "24 x 20",
+          "dn": "600 x 500",
+          "schedule": "SCH10S",
+          "type": "Eccentric",
+          "weight": "34.08"
+        },
+        {
+          "nps": "24 x 20",
+          "dn": "600 x 500",
+          "schedule": "SCH40S",
+          "type": "Eccentric",
+          "weight": "50.87"
+        },
+        {
+          "nps": "24 x 20",
+          "dn": "600 x 500",
+          "schedule": "SCH80S",
+          "type": "Eccentric",
+          "weight": "67.44"
+        },
+        {
+          "nps": "24 x 18",
+          "dn": "600 x 450",
+          "schedule": "SCH5S",
+          "type": "Eccentric",
+          "weight": "29.77"
+        },
+        {
+          "nps": "24 x 18",
+          "dn": "600 x 450",
+          "schedule": "SCH10S",
+          "type": "Eccentric",
+          "weight": "34.08"
+        },
+        {
+          "nps": "24 x 18",
+          "dn": "600 x 450",
+          "schedule": "SCH40S",
+          "type": "Eccentric",
+          "weight": "50.87"
+        },
+        {
+          "nps": "24 x 18",
+          "dn": "600 x 450",
+          "schedule": "SCH80S",
+          "type": "Eccentric",
+          "weight": "67.44"
+        }
+      ]
+    },
+    {
+      "product": "Long Stub End",
+      "weightUnit": "kg/piece",
+      "source": {
+        "type": "engineering_formula",
+        "name": "Theoretical Calculation (ASME B16.9 / Standard Formula)"
+      },
+      "data": [
+        {
+          "nps": "1/2",
+          "dn": "15",
+          "schedule": "SCH5S",
+          "type": "Long Pattern",
+          "weight": "0.09"
+        },
+        {
+          "nps": "1/2",
+          "dn": "15",
+          "schedule": "SCH10S",
+          "type": "Long Pattern",
+          "weight": "0.12"
+        },
+        {
+          "nps": "1/2",
+          "dn": "15",
+          "schedule": "SCH40S",
+          "type": "Long Pattern",
+          "weight": "0.15"
+        },
+        {
+          "nps": "1/2",
+          "dn": "15",
+          "schedule": "SCH80S",
+          "type": "Long Pattern",
+          "weight": "0.19"
+        },
+        {
+          "nps": "3/4",
+          "dn": "20",
+          "schedule": "SCH5S",
+          "type": "Long Pattern",
+          "weight": "0.12"
+        },
+        {
+          "nps": "3/4",
+          "dn": "20",
+          "schedule": "SCH10S",
+          "type": "Long Pattern",
+          "weight": "0.15"
+        },
+        {
+          "nps": "3/4",
+          "dn": "20",
+          "schedule": "SCH40S",
+          "type": "Long Pattern",
+          "weight": "0.20"
+        },
+        {
+          "nps": "3/4",
+          "dn": "20",
+          "schedule": "SCH80S",
+          "type": "Long Pattern",
+          "weight": "0.25"
+        },
+        {
+          "nps": "1",
+          "dn": "25",
+          "schedule": "SCH5S",
+          "type": "Long Pattern",
+          "weight": "0.20"
+        },
+        {
+          "nps": "1",
+          "dn": "25",
+          "schedule": "SCH10S",
+          "type": "Long Pattern",
+          "weight": "0.32"
+        },
+        {
+          "nps": "1",
+          "dn": "25",
+          "schedule": "SCH40S",
+          "type": "Long Pattern",
+          "weight": "0.39"
+        },
+        {
+          "nps": "1",
+          "dn": "25",
+          "schedule": "SCH80S",
+          "type": "Long Pattern",
+          "weight": "0.50"
+        },
+        {
+          "nps": "1 1/4",
+          "dn": "-",
+          "schedule": "SCH5S",
+          "type": "Long Pattern",
+          "weight": "0.25"
+        },
+        {
+          "nps": "1 1/4",
+          "dn": "-",
+          "schedule": "SCH10S",
+          "type": "Long Pattern",
+          "weight": "0.42"
+        },
+        {
+          "nps": "1 1/4",
+          "dn": "-",
+          "schedule": "SCH40S",
+          "type": "Long Pattern",
+          "weight": "0.52"
+        },
+        {
+          "nps": "1 1/4",
+          "dn": "-",
+          "schedule": "SCH80S",
+          "type": "Long Pattern",
+          "weight": "0.69"
+        },
+        {
+          "nps": "1 1/2",
+          "dn": "-",
+          "schedule": "SCH5S",
+          "type": "Long Pattern",
+          "weight": "0.29"
+        },
+        {
+          "nps": "1 1/2",
+          "dn": "-",
+          "schedule": "SCH10S",
+          "type": "Long Pattern",
+          "weight": "0.48"
+        },
+        {
+          "nps": "1 1/2",
+          "dn": "-",
+          "schedule": "SCH40S",
+          "type": "Long Pattern",
+          "weight": "0.63"
+        },
+        {
+          "nps": "1 1/2",
+          "dn": "-",
+          "schedule": "SCH80S",
+          "type": "Long Pattern",
+          "weight": "0.84"
+        },
+        {
+          "nps": "2",
+          "dn": "50",
+          "schedule": "SCH5S",
+          "type": "Long Pattern",
+          "weight": "0.55"
+        },
+        {
+          "nps": "2",
+          "dn": "50",
+          "schedule": "SCH10S",
+          "type": "Long Pattern",
+          "weight": "0.91"
+        },
+        {
+          "nps": "2",
+          "dn": "50",
+          "schedule": "SCH40S",
+          "type": "Long Pattern",
+          "weight": "1.26"
+        },
+        {
+          "nps": "2",
+          "dn": "50",
+          "schedule": "SCH80S",
+          "type": "Long Pattern",
+          "weight": "1.73"
+        },
+        {
+          "nps": "2 1/2",
+          "dn": "-",
+          "schedule": "SCH5S",
+          "type": "Long Pattern",
+          "weight": "0.85"
+        },
+        {
+          "nps": "2 1/2",
+          "dn": "-",
+          "schedule": "SCH10S",
+          "type": "Long Pattern",
+          "weight": "1.22"
+        },
+        {
+          "nps": "2 1/2",
+          "dn": "-",
+          "schedule": "SCH40S",
+          "type": "Long Pattern",
+          "weight": "2.00"
+        },
+        {
+          "nps": "2 1/2",
+          "dn": "-",
+          "schedule": "SCH80S",
+          "type": "Long Pattern",
+          "weight": "2.64"
+        },
+        {
+          "nps": "3",
+          "dn": "80",
+          "schedule": "SCH5S",
+          "type": "Long Pattern",
+          "weight": "1.05"
+        },
+        {
+          "nps": "3",
+          "dn": "80",
+          "schedule": "SCH10S",
+          "type": "Long Pattern",
+          "weight": "1.50"
+        },
+        {
+          "nps": "3",
+          "dn": "80",
+          "schedule": "SCH40S",
+          "type": "Long Pattern",
+          "weight": "2.62"
+        },
+        {
+          "nps": "3",
+          "dn": "80",
+          "schedule": "SCH80S",
+          "type": "Long Pattern",
+          "weight": "3.54"
+        },
+        {
+          "nps": "4",
+          "dn": "100",
+          "schedule": "SCH5S",
+          "type": "Long Pattern",
+          "weight": "1.35"
+        },
+        {
+          "nps": "4",
+          "dn": "100",
+          "schedule": "SCH10S",
+          "type": "Long Pattern",
+          "weight": "1.94"
+        },
+        {
+          "nps": "4",
+          "dn": "100",
+          "schedule": "SCH40S",
+          "type": "Long Pattern",
+          "weight": "3.73"
+        },
+        {
+          "nps": "4",
+          "dn": "100",
+          "schedule": "SCH80S",
+          "type": "Long Pattern",
+          "weight": "5.17"
+        },
+        {
+          "nps": "5",
+          "dn": "125",
+          "schedule": "SCH5S",
+          "type": "Long Pattern",
+          "weight": "2.92"
+        },
+        {
+          "nps": "5",
+          "dn": "125",
+          "schedule": "SCH10S",
+          "type": "Long Pattern",
+          "weight": "3.57"
+        },
+        {
+          "nps": "5",
+          "dn": "125",
+          "schedule": "SCH40S",
+          "type": "Long Pattern",
+          "weight": "6.73"
+        },
+        {
+          "nps": "5",
+          "dn": "125",
+          "schedule": "SCH80S",
+          "type": "Long Pattern",
+          "weight": "9.57"
+        },
+        {
+          "nps": "6",
+          "dn": "150",
+          "schedule": "SCH5S",
+          "type": "Long Pattern",
+          "weight": "3.49"
+        },
+        {
+          "nps": "6",
+          "dn": "150",
+          "schedule": "SCH10S",
+          "type": "Long Pattern",
+          "weight": "4.27"
+        },
+        {
+          "nps": "6",
+          "dn": "150",
+          "schedule": "SCH40S",
+          "type": "Long Pattern",
+          "weight": "8.73"
+        },
+        {
+          "nps": "6",
+          "dn": "150",
+          "schedule": "SCH80S",
+          "type": "Long Pattern",
+          "weight": "13.15"
+        },
+        {
+          "nps": "8",
+          "dn": "200",
+          "schedule": "SCH5S",
+          "type": "Long Pattern",
+          "weight": "4.57"
+        },
+        {
+          "nps": "8",
+          "dn": "200",
+          "schedule": "SCH10S",
+          "type": "Long Pattern",
+          "weight": "6.17"
+        },
+        {
+          "nps": "8",
+          "dn": "200",
+          "schedule": "SCH40S",
+          "type": "Long Pattern",
+          "weight": "13.15"
+        },
+        {
+          "nps": "8",
+          "dn": "200",
+          "schedule": "SCH80S",
+          "type": "Long Pattern",
+          "weight": "19.97"
+        },
+        {
+          "nps": "10",
+          "dn": "250",
+          "schedule": "SCH5S",
+          "type": "Long Pattern",
+          "weight": "8.73"
+        },
+        {
+          "nps": "10",
+          "dn": "250",
+          "schedule": "SCH10S",
+          "type": "Long Pattern",
+          "weight": "10.73"
+        },
+        {
+          "nps": "10",
+          "dn": "250",
+          "schedule": "SCH40S",
+          "type": "Long Pattern",
+          "weight": "23.29"
+        },
+        {
+          "nps": "10",
+          "dn": "250",
+          "schedule": "SCH80S",
+          "type": "Long Pattern",
+          "weight": "37.07"
+        },
+        {
+          "nps": "12",
+          "dn": "300",
+          "schedule": "SCH5S",
+          "type": "Long Pattern",
+          "weight": "12.06"
+        },
+        {
+          "nps": "12",
+          "dn": "300",
+          "schedule": "SCH10S",
+          "type": "Long Pattern",
+          "weight": "13.90"
+        },
+        {
+          "nps": "12",
+          "dn": "300",
+          "schedule": "SCH40S",
+          "type": "Long Pattern",
+          "weight": "30.79"
+        },
+        {
+          "nps": "12",
+          "dn": "300",
+          "schedule": "SCH80S",
+          "type": "Long Pattern",
+          "weight": "51.00"
+        },
+        {
+          "nps": "14",
+          "dn": "350",
+          "schedule": "SCH5S",
+          "type": "Long Pattern",
+          "weight": "15.92"
+        },
+        {
+          "nps": "14",
+          "dn": "350",
+          "schedule": "SCH10S",
+          "type": "Long Pattern",
+          "weight": "19.17"
+        },
+        {
+          "nps": "14",
+          "dn": "350",
+          "schedule": "SCH40S",
+          "type": "Long Pattern",
+          "weight": "37.70"
+        },
+        {
+          "nps": "14",
+          "dn": "350",
+          "schedule": "SCH80S",
+          "type": "Long Pattern",
+          "weight": "49.78"
+        },
+        {
+          "nps": "16",
+          "dn": "400",
+          "schedule": "SCH5S",
+          "type": "Long Pattern",
+          "weight": "19.26"
+        },
+        {
+          "nps": "16",
+          "dn": "400",
+          "schedule": "SCH10S",
+          "type": "Long Pattern",
+          "weight": "21.94"
+        },
+        {
+          "nps": "16",
+          "dn": "400",
+          "schedule": "SCH40S",
+          "type": "Long Pattern",
+          "weight": "43.23"
+        },
+        {
+          "nps": "16",
+          "dn": "400",
+          "schedule": "SCH80S",
+          "type": "Long Pattern",
+          "weight": "57.15"
+        },
+        {
+          "nps": "18",
+          "dn": "450",
+          "schedule": "SCH5S",
+          "type": "Long Pattern",
+          "weight": "21.69"
+        },
+        {
+          "nps": "18",
+          "dn": "450",
+          "schedule": "SCH10S",
+          "type": "Long Pattern",
+          "weight": "24.71"
+        },
+        {
+          "nps": "18",
+          "dn": "450",
+          "schedule": "SCH40S",
+          "type": "Long Pattern",
+          "weight": "48.74"
+        },
+        {
+          "nps": "18",
+          "dn": "450",
+          "schedule": "SCH80S",
+          "type": "Long Pattern",
+          "weight": "64.50"
+        },
+        {
+          "nps": "20",
+          "dn": "500",
+          "schedule": "SCH5S",
+          "type": "Long Pattern",
+          "weight": "27.49"
+        },
+        {
+          "nps": "20",
+          "dn": "500",
+          "schedule": "SCH10S",
+          "type": "Long Pattern",
+          "weight": "31.82"
+        },
+        {
+          "nps": "20",
+          "dn": "500",
+          "schedule": "SCH40S",
+          "type": "Long Pattern",
+          "weight": "54.30"
+        },
+        {
+          "nps": "20",
+          "dn": "500",
+          "schedule": "SCH80S",
+          "type": "Long Pattern",
+          "weight": "71.90"
+        },
+        {
+          "nps": "24",
+          "dn": "600",
+          "schedule": "SCH5S",
+          "type": "Long Pattern",
+          "weight": "38.28"
+        },
+        {
+          "nps": "24",
+          "dn": "600",
+          "schedule": "SCH10S",
+          "type": "Long Pattern",
+          "weight": "43.81"
+        },
+        {
+          "nps": "24",
+          "dn": "600",
+          "schedule": "SCH40S",
+          "type": "Long Pattern",
+          "weight": "65.41"
+        },
+        {
+          "nps": "24",
+          "dn": "600",
+          "schedule": "SCH80S",
+          "type": "Long Pattern",
+          "weight": "86.70"
+        }
+      ]
+    },
+    {
+      "product": "Short Stub End",
+      "weightUnit": "kg/piece",
+      "source": {
+        "type": "engineering_formula",
+        "name": "Theoretical Calculation (ASME B16.9 / Standard Formula)"
+      },
+      "data": [
+        {
+          "nps": "1/2",
+          "dn": "15",
+          "schedule": "SCH5S",
+          "type": "Short Pattern",
+          "weight": "0.06"
+        },
+        {
+          "nps": "1/2",
+          "dn": "15",
+          "schedule": "SCH10S",
+          "type": "Short Pattern",
+          "weight": "0.08"
+        },
+        {
+          "nps": "1/2",
+          "dn": "15",
+          "schedule": "SCH40S",
+          "type": "Short Pattern",
+          "weight": "0.10"
+        },
+        {
+          "nps": "1/2",
+          "dn": "15",
+          "schedule": "SCH80S",
+          "type": "Short Pattern",
+          "weight": "0.12"
+        },
+        {
+          "nps": "3/4",
+          "dn": "20",
+          "schedule": "SCH5S",
+          "type": "Short Pattern",
+          "weight": "0.08"
+        },
+        {
+          "nps": "3/4",
+          "dn": "20",
+          "schedule": "SCH10S",
+          "type": "Short Pattern",
+          "weight": "0.10"
+        },
+        {
+          "nps": "3/4",
+          "dn": "20",
+          "schedule": "SCH40S",
+          "type": "Short Pattern",
+          "weight": "0.13"
+        },
+        {
+          "nps": "3/4",
+          "dn": "20",
+          "schedule": "SCH80S",
+          "type": "Short Pattern",
+          "weight": "0.17"
+        },
+        {
+          "nps": "1",
+          "dn": "25",
+          "schedule": "SCH5S",
+          "type": "Short Pattern",
+          "weight": "0.10"
+        },
+        {
+          "nps": "1",
+          "dn": "25",
+          "schedule": "SCH10S",
+          "type": "Short Pattern",
+          "weight": "0.16"
+        },
+        {
+          "nps": "1",
+          "dn": "25",
+          "schedule": "SCH40S",
+          "type": "Short Pattern",
+          "weight": "0.19"
+        },
+        {
+          "nps": "1",
+          "dn": "25",
+          "schedule": "SCH80S",
+          "type": "Short Pattern",
+          "weight": "0.25"
+        },
+        {
+          "nps": "1 1/4",
+          "dn": "-",
+          "schedule": "SCH5S",
+          "type": "Short Pattern",
+          "weight": "0.13"
+        },
+        {
+          "nps": "1 1/4",
+          "dn": "-",
+          "schedule": "SCH10S",
+          "type": "Short Pattern",
+          "weight": "0.21"
+        },
+        {
+          "nps": "1 1/4",
+          "dn": "-",
+          "schedule": "SCH40S",
+          "type": "Short Pattern",
+          "weight": "0.26"
+        },
+        {
+          "nps": "1 1/4",
+          "dn": "-",
+          "schedule": "SCH80S",
+          "type": "Short Pattern",
+          "weight": "0.35"
+        },
+        {
+          "nps": "1 1/2",
+          "dn": "-",
+          "schedule": "SCH5S",
+          "type": "Short Pattern",
+          "weight": "0.15"
+        },
+        {
+          "nps": "1 1/2",
+          "dn": "-",
+          "schedule": "SCH10S",
+          "type": "Short Pattern",
+          "weight": "0.24"
+        },
+        {
+          "nps": "1 1/2",
+          "dn": "-",
+          "schedule": "SCH40S",
+          "type": "Short Pattern",
+          "weight": "0.31"
+        },
+        {
+          "nps": "1 1/2",
+          "dn": "-",
+          "schedule": "SCH80S",
+          "type": "Short Pattern",
+          "weight": "0.42"
+        },
+        {
+          "nps": "2",
+          "dn": "50",
+          "schedule": "SCH5S",
+          "type": "Short Pattern",
+          "weight": "0.23"
+        },
+        {
+          "nps": "2",
+          "dn": "50",
+          "schedule": "SCH10S",
+          "type": "Short Pattern",
+          "weight": "0.38"
+        },
+        {
+          "nps": "2",
+          "dn": "50",
+          "schedule": "SCH40S",
+          "type": "Short Pattern",
+          "weight": "0.53"
+        },
+        {
+          "nps": "2",
+          "dn": "50",
+          "schedule": "SCH80S",
+          "type": "Short Pattern",
+          "weight": "0.72"
+        },
+        {
+          "nps": "2 1/2",
+          "dn": "-",
+          "schedule": "SCH5S",
+          "type": "Short Pattern",
+          "weight": "0.36"
+        },
+        {
+          "nps": "2 1/2",
+          "dn": "-",
+          "schedule": "SCH10S",
+          "type": "Short Pattern",
+          "weight": "0.51"
+        },
+        {
+          "nps": "2 1/2",
+          "dn": "-",
+          "schedule": "SCH40S",
+          "type": "Short Pattern",
+          "weight": "0.83"
+        },
+        {
+          "nps": "2 1/2",
+          "dn": "-",
+          "schedule": "SCH80S",
+          "type": "Short Pattern",
+          "weight": "1.10"
+        },
+        {
+          "nps": "3",
+          "dn": "80",
+          "schedule": "SCH5S",
+          "type": "Short Pattern",
+          "weight": "0.44"
+        },
+        {
+          "nps": "3",
+          "dn": "80",
+          "schedule": "SCH10S",
+          "type": "Short Pattern",
+          "weight": "0.62"
+        },
+        {
+          "nps": "3",
+          "dn": "80",
+          "schedule": "SCH40S",
+          "type": "Short Pattern",
+          "weight": "1.09"
+        },
+        {
+          "nps": "3",
+          "dn": "80",
+          "schedule": "SCH80S",
+          "type": "Short Pattern",
+          "weight": "1.47"
+        },
+        {
+          "nps": "4",
+          "dn": "100",
+          "schedule": "SCH5S",
+          "type": "Short Pattern",
+          "weight": "0.68"
+        },
+        {
+          "nps": "4",
+          "dn": "100",
+          "schedule": "SCH10S",
+          "type": "Short Pattern",
+          "weight": "0.97"
+        },
+        {
+          "nps": "4",
+          "dn": "100",
+          "schedule": "SCH40S",
+          "type": "Short Pattern",
+          "weight": "1.86"
+        },
+        {
+          "nps": "4",
+          "dn": "100",
+          "schedule": "SCH80S",
+          "type": "Short Pattern",
+          "weight": "2.59"
+        },
+        {
+          "nps": "5",
+          "dn": "125",
+          "schedule": "SCH5S",
+          "type": "Short Pattern",
+          "weight": "1.10"
+        },
+        {
+          "nps": "5",
+          "dn": "125",
+          "schedule": "SCH10S",
+          "type": "Short Pattern",
+          "weight": "1.34"
+        },
+        {
+          "nps": "5",
+          "dn": "125",
+          "schedule": "SCH40S",
+          "type": "Short Pattern",
+          "weight": "2.52"
+        },
+        {
+          "nps": "5",
+          "dn": "125",
+          "schedule": "SCH80S",
+          "type": "Short Pattern",
+          "weight": "3.59"
+        },
+        {
+          "nps": "6",
+          "dn": "150",
+          "schedule": "SCH5S",
+          "type": "Short Pattern",
+          "weight": "1.53"
+        },
+        {
+          "nps": "6",
+          "dn": "150",
+          "schedule": "SCH10S",
+          "type": "Short Pattern",
+          "weight": "1.87"
+        },
+        {
+          "nps": "6",
+          "dn": "150",
+          "schedule": "SCH40S",
+          "type": "Short Pattern",
+          "weight": "3.82"
+        },
+        {
+          "nps": "6",
+          "dn": "150",
+          "schedule": "SCH80S",
+          "type": "Short Pattern",
+          "weight": "5.75"
+        },
+        {
+          "nps": "8",
+          "dn": "200",
+          "schedule": "SCH5S",
+          "type": "Short Pattern",
+          "weight": "2.28"
+        },
+        {
+          "nps": "8",
+          "dn": "200",
+          "schedule": "SCH10S",
+          "type": "Short Pattern",
+          "weight": "3.08"
+        },
+        {
+          "nps": "8",
+          "dn": "200",
+          "schedule": "SCH40S",
+          "type": "Short Pattern",
+          "weight": "6.57"
+        },
+        {
+          "nps": "8",
+          "dn": "200",
+          "schedule": "SCH80S",
+          "type": "Short Pattern",
+          "weight": "9.99"
+        },
+        {
+          "nps": "10",
+          "dn": "250",
+          "schedule": "SCH5S",
+          "type": "Short Pattern",
+          "weight": "4.37"
+        },
+        {
+          "nps": "10",
+          "dn": "250",
+          "schedule": "SCH10S",
+          "type": "Short Pattern",
+          "weight": "5.36"
+        },
+        {
+          "nps": "10",
+          "dn": "250",
+          "schedule": "SCH40S",
+          "type": "Short Pattern",
+          "weight": "11.64"
+        },
+        {
+          "nps": "10",
+          "dn": "250",
+          "schedule": "SCH80S",
+          "type": "Short Pattern",
+          "weight": "18.53"
+        },
+        {
+          "nps": "12",
+          "dn": "300",
+          "schedule": "SCH5S",
+          "type": "Short Pattern",
+          "weight": "7.24"
+        },
+        {
+          "nps": "12",
+          "dn": "300",
+          "schedule": "SCH10S",
+          "type": "Short Pattern",
+          "weight": "8.34"
+        },
+        {
+          "nps": "12",
+          "dn": "300",
+          "schedule": "SCH40S",
+          "type": "Short Pattern",
+          "weight": "18.47"
+        },
+        {
+          "nps": "12",
+          "dn": "300",
+          "schedule": "SCH80S",
+          "type": "Short Pattern",
+          "weight": "30.60"
+        },
+        {
+          "nps": "14",
+          "dn": "350",
+          "schedule": "SCH5S",
+          "type": "Short Pattern",
+          "weight": "7.96"
+        },
+        {
+          "nps": "14",
+          "dn": "350",
+          "schedule": "SCH10S",
+          "type": "Short Pattern",
+          "weight": "9.58"
+        },
+        {
+          "nps": "14",
+          "dn": "350",
+          "schedule": "SCH40S",
+          "type": "Short Pattern",
+          "weight": "18.85"
+        },
+        {
+          "nps": "14",
+          "dn": "350",
+          "schedule": "SCH80S",
+          "type": "Short Pattern",
+          "weight": "24.89"
+        },
+        {
+          "nps": "16",
+          "dn": "400",
+          "schedule": "SCH5S",
+          "type": "Short Pattern",
+          "weight": "9.63"
+        },
+        {
+          "nps": "16",
+          "dn": "400",
+          "schedule": "SCH10S",
+          "type": "Short Pattern",
+          "weight": "10.97"
+        },
+        {
+          "nps": "16",
+          "dn": "400",
+          "schedule": "SCH40S",
+          "type": "Short Pattern",
+          "weight": "21.62"
+        },
+        {
+          "nps": "16",
+          "dn": "400",
+          "schedule": "SCH80S",
+          "type": "Short Pattern",
+          "weight": "28.57"
+        },
+        {
+          "nps": "18",
+          "dn": "450",
+          "schedule": "SCH5S",
+          "type": "Short Pattern",
+          "weight": "10.84"
+        },
+        {
+          "nps": "18",
+          "dn": "450",
+          "schedule": "SCH10S",
+          "type": "Short Pattern",
+          "weight": "12.35"
+        },
+        {
+          "nps": "18",
+          "dn": "450",
+          "schedule": "SCH40S",
+          "type": "Short Pattern",
+          "weight": "24.37"
+        },
+        {
+          "nps": "18",
+          "dn": "450",
+          "schedule": "SCH80S",
+          "type": "Short Pattern",
+          "weight": "32.25"
+        },
+        {
+          "nps": "20",
+          "dn": "500",
+          "schedule": "SCH5S",
+          "type": "Short Pattern",
+          "weight": "13.75"
+        },
+        {
+          "nps": "20",
+          "dn": "500",
+          "schedule": "SCH10S",
+          "type": "Short Pattern",
+          "weight": "15.91"
+        },
+        {
+          "nps": "20",
+          "dn": "500",
+          "schedule": "SCH40S",
+          "type": "Short Pattern",
+          "weight": "27.15"
+        },
+        {
+          "nps": "20",
+          "dn": "500",
+          "schedule": "SCH80S",
+          "type": "Short Pattern",
+          "weight": "35.95"
+        },
+        {
+          "nps": "24",
+          "dn": "600",
+          "schedule": "SCH5S",
+          "type": "Short Pattern",
+          "weight": "19.14"
+        },
+        {
+          "nps": "24",
+          "dn": "600",
+          "schedule": "SCH10S",
+          "type": "Short Pattern",
+          "weight": "21.91"
+        },
+        {
+          "nps": "24",
+          "dn": "600",
+          "schedule": "SCH40S",
+          "type": "Short Pattern",
+          "weight": "32.70"
+        },
+        {
+          "nps": "24",
+          "dn": "600",
+          "schedule": "SCH80S",
+          "type": "Short Pattern",
+          "weight": "43.35"
+        }
+      ]
+    },
+    {
+      "product": "CNC Threaded Nipple",
+      "weightUnit": "-",
+      "source": {
+        "type": "unavailable",
+        "name": "Data not available"
+      },
+      "data": [
+        {
+          "nps": "-",
+          "dn": "-",
+          "schedule": "-",
+          "type": "-",
+          "weight": "Data not available"
+        }
+      ]
+    },
+    {
+      "product": "Hex Nipple",
+      "weightUnit": "-",
+      "source": {
+        "type": "unavailable",
+        "name": "Data not available"
+      },
+      "data": [
+        {
+          "nps": "-",
+          "dn": "-",
+          "schedule": "-",
+          "type": "-",
+          "weight": "Data not available"
+        }
+      ]
+    },
+    {
+      "product": "Plug",
+      "weightUnit": "-",
+      "source": {
+        "type": "unavailable",
+        "name": "Data not available"
+      },
+      "data": [
+        {
+          "nps": "-",
+          "dn": "-",
+          "schedule": "-",
+          "type": "-",
+          "weight": "Data not available"
+        }
+      ]
+    },
+    {
+      "product": "Socket",
+      "weightUnit": "-",
+      "source": {
+        "type": "unavailable",
+        "name": "Data not available"
+      },
+      "data": [
+        {
+          "nps": "-",
+          "dn": "-",
+          "schedule": "-",
+          "type": "-",
+          "weight": "Data not available"
+        }
+      ]
+    }
+  ]
+}

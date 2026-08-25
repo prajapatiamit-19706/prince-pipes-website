@@ -27,6 +27,7 @@ export const MobileHeader = () => {
         <button
           onClick={openSearch}
           aria-label="Search"
+          suppressHydrationWarning
           className="p-2 text-text-secondary hover:text-primary transition-colors"
         >
           <Search className="w-5 h-5" />
@@ -34,6 +35,7 @@ export const MobileHeader = () => {
         <button 
           onClick={toggleMobileMenu}
           aria-label="Open Mobile Menu"
+          suppressHydrationWarning
           className="p-2 -mr-2 text-text-primary hover:text-primary transition-colors"
         >
           <Menu className="w-6 h-6" />

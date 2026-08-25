@@ -1,0 +1,2078 @@
+{
+  "schemaVersion": "2.0",
+  "title": "Prince Pipes & Fittings — Material Master",
+  "description": "Structured material knowledge for dynamic material pages. Primarily derived from the supplied Harsh Tube & Fittings material pages; limited enrichment is used only where the requested Monel page could not be retrieved.",
+  "materials": [
+    {
+      "slug": "stainless-steel",
+      "name": "Stainless Steel",
+      "shortName": "SS",
+      "heroTitle": "Stainless Steel",
+      "heroDescription": "Stainless steel is a corrosion-resistant engineering material used for precision pipe fittings and industrial components where durability, cleanability and reliable performance are important.",
+      "overview": "Stainless steel is primarily an iron-chromium alloy, with nickel, molybdenum and other alloying elements added according to grade. Its combination of corrosion resistance, strength, weldability and formability makes it suitable for a broad range of industrial applications.",
+      "materialTypes": [
+        "Austenitic",
+        "Ferritic",
+        "Martensitic",
+        "Duplex"
+      ],
+      "grades": [
+        "304",
+        "304L",
+        "316",
+        "316L",
+        "321",
+        "310",
+        "904L"
+      ],
+      "composition": {
+        "austenitic": {
+          "chromium": "16–20%",
+          "nickel": "7–13%",
+          "molybdenum": "Varies",
+          "other": "Carbon, manganese"
+        },
+        "ferritic": {
+          "chromium": "10.5–17%",
+          "nickel": "—",
+          "molybdenum": "—",
+          "other": "Low carbon"
+        },
+        "martensitic": {
+          "chromium": "12–15%",
+          "nickel": "—",
+          "molybdenum": "0.2–1%",
+          "other": "Controlled carbon, nitrogen"
+        },
+        "duplex": {
+          "chromium": "21–26%",
+          "nickel": "3.5–6.5%",
+          "molybdenum": "Varies",
+          "other": "Nitrogen"
+        }
+      },
+      "keyProperties": [
+        "Corrosion resistance",
+        "Durability",
+        "Good weldability",
+        "Good formability",
+        "Wide grade selection",
+        "Suitable for hygienic applications"
+      ],
+      "productForms": [
+        "Pipe Fittings",
+        "Flanges",
+        "Pipes & Tubes",
+        "Plates & Sheets",
+        "Bars & Rods",
+        "Fasteners"
+      ],
+      "fittingFamilies": [
+        "Threaded Fittings",
+        "Buttweld Fittings",
+        "Forged Fittings",
+        "Flanges",
+        "Sanitary / Hygienic Fittings"
+      ],
+      "standards": [
+        "ASTM",
+        "ASME",
+        "ANSI",
+        "DIN",
+        "EN"
+      ],
+      "typicalFittingStandards": [
+        "ASTM A403",
+        "ASME B16.9",
+        "ASME B16.11",
+        "MSS-SP-79",
+        "MSS-SP-43"
+      ],
+      "applications": [
+        "Oil & Gas",
+        "Petrochemical",
+        "Chemical Processing",
+        "Marine",
+        "Power Generation",
+        "Food & Beverage",
+        "Pharmaceutical",
+        "Construction & Architecture"
+      ],
+      "routing": {
+        "materialSlug": "/materials/stainless-steel",
+        "canonicalPath": "/materials/stainless-steel",
+        "breadcrumb": [
+          {
+            "name": "Materials",
+            "path": "/materials"
+          },
+          {
+            "name": "Stainless Steel",
+            "path": "/materials/stainless-steel"
+          }
+        ]
+      },
+      "productLinking": {
+        "sourceOfTruth": "product.json",
+        "matchStrategy": "match product technicalSpecifications.material to material.name; use categorySlugs as explicit category overrides where a product family is catalogued under a material-specific category.",
+        "matchFields": [
+          "material",
+          "technicalSpecifications.material"
+        ],
+        "materialAliases": [
+          "Stainless Steel",
+          "SS",
+          ""
+        ],
+        "categorySlugs": [
+          "stainless-steel-pipe-fittings"
+        ],
+        "categoryLinks": [
+          {
+            "id": "stainless-steel-pipe-fittings",
+            "name": "Stainless Steel Pipe Fittings",
+            "slug": "stainless-steel-pipe-fittings",
+            "path": "/products/stainless-steel-pipe-fittings",
+            "productCountFromCatalog": 36
+          }
+        ],
+        "productFamilies": [
+          "Threaded Fittings",
+          "Buttweld Fittings",
+          "Forged Fittings",
+          "Flanges",
+          "Sanitary / Hygienic Fittings"
+        ],
+        "doNotDuplicateProducts": true
+      },
+      "seo": {
+        "title": "Stainless Steel Pipe Fittings & Material | Prince Pipes & Fittings",
+        "description": "Explore stainless steel materials, grades, properties, standards and pipe fitting families from Prince Pipes & Fittings for industrial applications.",
+        "primaryKeyword": "stainless steel pipe fittings",
+        "secondaryKeywords": [
+          "stainless steel fittings",
+          "stainless steel pipe fittings manufacturer",
+          "stainless steel pipe fittings supplier",
+          "stainless steel fittings manufacturer",
+          "stainless steel grades",
+          "SS 304 fittings",
+          "SS 316 fittings"
+        ],
+        "longTailKeywords": [
+          "stainless steel pipe fittings specifications and standards",
+          "SS 304 and SS 316 pipe fittings",
+          "stainless steel pipe fittings manufacturer in India",
+          "stainless steel fittings grades and applications",
+          "stainless steel threaded and butt weld fittings"
+        ],
+        "semanticKeywords": [
+          "SS 304",
+          "SS 304L",
+          "SS 316",
+          "SS 316L",
+          "904L",
+          "ASTM A403",
+          "ASTM A182",
+          "ASME B16.9",
+          "ASME B16.11",
+          "flanges",
+          "threaded fittings",
+          "buttweld fittings",
+          "forged fittings"
+        ],
+        "searchIntent": "commercial",
+        "canonicalPath": "/materials/stainless-steel",
+        "robots": "index,follow",
+        "language": "en-IN",
+        "openGraph": {
+          "type": "website",
+          "title": "Stainless Steel Pipe Fittings & Material | Prince Pipes & Fittings",
+          "description": "Explore stainless steel materials, grades, properties, standards and pipe fitting families from Prince Pipes & Fittings for industrial applications.",
+          "image": "",
+          "imageAlt": "Stainless Steel material and industrial pipe fittings"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Stainless Steel Pipe Fittings & Material | Prince Pipes & Fittings",
+          "description": "Explore stainless steel materials, grades, properties, standards and pipe fitting families from Prince Pipes & Fittings for industrial applications.",
+          "image": ""
+        }
+      },
+      "seoContent": {
+        "h1": "Stainless Steel",
+        "intro": "Stainless steel is a corrosion-resistant engineering material used for precision pipe fittings and industrial components where durability, cleanability and reliable performance are important.",
+        "recommendedSections": [
+          "material-overview",
+          "material-properties",
+          "grades",
+          "products-made-from-this-material",
+          "standards-and-specifications",
+          "applications",
+          "why-this-material"
+        ],
+        "keywordUsageRule": "Use keywords naturally in headings, introductory copy, relevant technical sections, internal links, image alt text and metadata. Do not keyword-stuff or repeat exact phrases unnaturally."
+      },
+      "structuredData": {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Stainless Steel Pipe Fittings & Material | Prince Pipes & Fittings",
+        "description": "Explore stainless steel materials, grades, properties, standards and pipe fitting families from Prince Pipes & Fittings for industrial applications.",
+        "url": "/materials/stainless-steel",
+        "about": {
+          "@type": "DefinedTerm",
+          "name": "Stainless Steel",
+          "description": "Stainless steel is primarily an iron-chromium alloy, with nickel, molybdenum and other alloying elements added according to grade. Its combination of corrosion resistance, strength, weldability and formability makes it suitable for a broad range of industrial applications."
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Materials",
+              "item": "/materials"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Stainless Steel",
+              "item": "/materials/stainless-steel"
+            }
+          ]
+        }
+      },
+      "media": {
+        "heroImage": "",
+        "heroImageAlt": "Stainless Steel material used in industrial pipe fittings",
+        "ogImage": ""
+      }
+    },
+    {
+      "slug": "carbon-steel",
+      "name": "Carbon Steel",
+      "shortName": "CS",
+      "heroTitle": "Carbon Steel",
+      "heroDescription": "Carbon steel is a strength-focused engineering material used for piping, fittings and industrial components where toughness, weldability and cost-effective performance are important.",
+      "overview": "Carbon steel is an iron-carbon alloy whose carbon content strongly influences hardness, strength and ductility. It is commonly divided into low, medium, high and ultra-high carbon categories.",
+      "materialTypes": [
+        "Low Carbon Steel",
+        "Medium Carbon Steel",
+        "High Carbon Steel",
+        "Ultra-High Carbon Steel"
+      ],
+      "grades": [
+        "1010",
+        "1018",
+        "1020",
+        "A36",
+        "1045",
+        "1060",
+        "1080",
+        "1095"
+      ],
+      "composition": {
+        "base": "Iron and carbon",
+        "otherElements": [
+          "Manganese",
+          "Sulfur",
+          "Phosphorus",
+          "Silicon"
+        ]
+      },
+      "mechanicalProperties": [
+        {
+          "grade": "1010",
+          "yieldStrength": "180 MPa",
+          "tensileStrength": "325 MPa",
+          "elongation": "28%"
+        },
+        {
+          "grade": "1020",
+          "yieldStrength": "205 MPa",
+          "tensileStrength": "380 MPa",
+          "elongation": "25%"
+        },
+        {
+          "grade": "A36",
+          "yieldStrength": "220 MPa",
+          "tensileStrength": "400 MPa",
+          "elongation": "23%"
+        },
+        {
+          "grade": "1040",
+          "yieldStrength": "415 MPa",
+          "tensileStrength": "620 MPa",
+          "elongation": "25%"
+        },
+        {
+          "grade": "1080",
+          "yieldStrength": "440 MPa",
+          "tensileStrength": "924 MPa",
+          "elongation": "12%"
+        },
+        {
+          "grade": "1095",
+          "yieldStrength": "380 MPa",
+          "tensileStrength": "665 MPa",
+          "elongation": "10%"
+        }
+      ],
+      "keyProperties": [
+        "High strength",
+        "Toughness",
+        "Good weldability in suitable grades",
+        "Machinability in suitable grades",
+        "Cost-effective engineering performance"
+      ],
+      "productForms": [
+        "Pipe Fittings",
+        "Flanges",
+        "Pipes & Tubes",
+        "Plates & Sheets",
+        "Bars & Rods",
+        "Fasteners"
+      ],
+      "fittingFamilies": [
+        "Buttweld Fittings",
+        "Socket Weld Fittings",
+        "Screwed Fittings",
+        "Flanges",
+        "Large Diameter Elbows & Reducers"
+      ],
+      "standards": [
+        "ASTM",
+        "ASME",
+        "ANSI",
+        "DIN",
+        "EN",
+        "JIS"
+      ],
+      "typicalFittingStandards": [
+        "ASTM A234",
+        "ASTM A420",
+        "ASTM A105",
+        "ASME B16.9",
+        "ASME B16.11",
+        "MSS-SP-75"
+      ],
+      "sizeRange": "1/2 inch (15 NB) to 48 inch (1200 NB) for listed carbon-steel fittings",
+      "schedules": [
+        "Sch 10",
+        "Sch 20",
+        "Sch 40",
+        "Sch 80",
+        "Sch 160",
+        "XXS"
+      ],
+      "applications": [
+        "Oil & Gas",
+        "Power Plants",
+        "Construction",
+        "Petrochemical",
+        "Marine",
+        "Heavy Engineering"
+      ],
+      "routing": {
+        "materialSlug": "/materials/carbon-steel",
+        "canonicalPath": "/materials/carbon-steel",
+        "breadcrumb": [
+          {
+            "name": "Materials",
+            "path": "/materials"
+          },
+          {
+            "name": "Carbon Steel",
+            "path": "/materials/carbon-steel"
+          }
+        ]
+      },
+      "productLinking": {
+        "sourceOfTruth": "product.json",
+        "matchStrategy": "match product technicalSpecifications.material to material.name; use categorySlugs as explicit category overrides where a product family is catalogued under a material-specific category.",
+        "matchFields": [
+          "material",
+          "technicalSpecifications.material"
+        ],
+        "materialAliases": [
+          "Carbon Steel",
+          "CS",
+          ""
+        ],
+        "categorySlugs": [
+          "carbon-steel-pipe-fittings"
+        ],
+        "categoryLinks": [
+          {
+            "id": "carbon-steel-pipe-fittings",
+            "name": "Carbon Steel Pipe Fittings",
+            "slug": "carbon-steel-pipe-fittings",
+            "path": "/products/carbon-steel-pipe-fittings",
+            "productCountFromCatalog": 10
+          }
+        ],
+        "productFamilies": [
+          "Buttweld Fittings",
+          "Socket Weld Fittings",
+          "Screwed Fittings",
+          "Flanges",
+          "Large Diameter Elbows & Reducers"
+        ],
+        "doNotDuplicateProducts": true
+      },
+      "seo": {
+        "title": "Carbon Steel Pipe Fittings & Material | Prince Pipes & Fittings",
+        "description": "Explore carbon steel grades, properties, standards, sizes and pipe fitting families for oil & gas, petrochemical, power and industrial piping applications.",
+        "primaryKeyword": "carbon steel pipe fittings",
+        "secondaryKeywords": [
+          "carbon steel fittings",
+          "carbon steel pipe fittings manufacturer",
+          "carbon steel pipe fittings supplier",
+          "carbon steel fittings manufacturer",
+          "carbon steel grades",
+          "carbon steel butt weld fittings"
+        ],
+        "longTailKeywords": [
+          "carbon steel pipe fittings specifications and standards",
+          "carbon steel pipe fittings manufacturer in India",
+          "carbon steel pipe fittings sizes and schedules",
+          "ASTM A234 carbon steel pipe fittings",
+          "carbon steel elbows tees reducers and caps"
+        ],
+        "semanticKeywords": [
+          "ASTM A234",
+          "ASTM A420",
+          "ASTM A105",
+          "ASME B16.9",
+          "ASME B16.11",
+          "MSS-SP-75",
+          "WPB",
+          "WPL6",
+          "butt weld fittings",
+          "socket weld fittings",
+          "screwed fittings"
+        ],
+        "searchIntent": "commercial",
+        "canonicalPath": "/materials/carbon-steel",
+        "robots": "index,follow",
+        "language": "en-IN",
+        "openGraph": {
+          "type": "website",
+          "title": "Carbon Steel Pipe Fittings & Material | Prince Pipes & Fittings",
+          "description": "Explore carbon steel grades, properties, standards, sizes and pipe fitting families for oil & gas, petrochemical, power and industrial piping applications.",
+          "image": "",
+          "imageAlt": "Carbon Steel material and industrial pipe fittings"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Carbon Steel Pipe Fittings & Material | Prince Pipes & Fittings",
+          "description": "Explore carbon steel grades, properties, standards, sizes and pipe fitting families for oil & gas, petrochemical, power and industrial piping applications.",
+          "image": ""
+        }
+      },
+      "seoContent": {
+        "h1": "Carbon Steel",
+        "intro": "Carbon steel is a strength-focused engineering material used for piping, fittings and industrial components where toughness, weldability and cost-effective performance are important.",
+        "recommendedSections": [
+          "material-overview",
+          "material-properties",
+          "grades",
+          "products-made-from-this-material",
+          "standards-and-specifications",
+          "applications",
+          "why-this-material"
+        ],
+        "keywordUsageRule": "Use keywords naturally in headings, introductory copy, relevant technical sections, internal links, image alt text and metadata. Do not keyword-stuff or repeat exact phrases unnaturally."
+      },
+      "structuredData": {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Carbon Steel Pipe Fittings & Material | Prince Pipes & Fittings",
+        "description": "Explore carbon steel grades, properties, standards, sizes and pipe fitting families for oil & gas, petrochemical, power and industrial piping applications.",
+        "url": "/materials/carbon-steel",
+        "about": {
+          "@type": "DefinedTerm",
+          "name": "Carbon Steel",
+          "description": "Carbon steel is an iron-carbon alloy whose carbon content strongly influences hardness, strength and ductility. It is commonly divided into low, medium, high and ultra-high carbon categories."
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Materials",
+              "item": "/materials"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Carbon Steel",
+              "item": "/materials/carbon-steel"
+            }
+          ]
+        }
+      },
+      "media": {
+        "heroImage": "",
+        "heroImageAlt": "Carbon Steel material used in industrial pipe fittings",
+        "ogImage": ""
+      }
+    },
+    {
+      "slug": "duplex-steel",
+      "name": "Duplex Steel",
+      "shortName": "Duplex",
+      "heroTitle": "Duplex Steel",
+      "heroDescription": "Duplex stainless steel combines high strength with strong corrosion resistance and is suited to demanding piping and process environments.",
+      "overview": "Duplex stainless steel uses a balanced alloy composition and duplex microstructure to combine strength, ductility and corrosion resistance. It is particularly useful where chloride stress-corrosion cracking and pitting resistance are important.",
+      "grades": [
+        {
+          "grade": "S31803",
+          "commonName": "2205"
+        },
+        {
+          "grade": "S32205",
+          "commonName": "2205"
+        },
+        {
+          "grade": "A182 F51",
+          "type": "Forgings"
+        },
+        {
+          "grade": "DIN 1.4462"
+        }
+      ],
+      "composition": {
+        "S31803": {
+          "chromium": "21.0–23.0%",
+          "nickel": "4.5–6.5%",
+          "molybdenum": "2.5–3.5%",
+          "nitrogen": "0.08–0.20%",
+          "carbon": "≤0.03%",
+          "manganese": "≤2.0%"
+        },
+        "S32205": {
+          "chromium": "22.0–23.0%",
+          "nickel": "4.5–6.5%",
+          "molybdenum": "3.0–3.5%",
+          "nitrogen": "0.14–0.20%",
+          "carbon": "≤0.03%",
+          "manganese": "≤2.0%"
+        }
+      },
+      "mechanicalProperties": [
+        {
+          "grade": "S31803 / S32205",
+          "tensileStrengthMin": "620 MPa (90 ksi)",
+          "yieldStrength02Min": "450 MPa (65 ksi)",
+          "elongationMin": "25%"
+        }
+      ],
+      "keyProperties": [
+        "High tensile strength",
+        "High yield strength",
+        "Good ductility",
+        "Excellent corrosion resistance",
+        "Resistance to chloride stress-corrosion cracking",
+        "Good pitting resistance"
+      ],
+      "productForms": [
+        "Pipe Fittings",
+        "Flanges",
+        "Pipes & Tubes",
+        "Plates & Sheets",
+        "Bars & Rods",
+        "Fasteners"
+      ],
+      "fittingFamilies": [
+        "Buttweld Fittings",
+        "Forged Fittings",
+        "Flanges",
+        "Pipe Fittings"
+      ],
+      "standards": [
+        "ASTM",
+        "ASME",
+        "EN"
+      ],
+      "typicalStandards": [
+        "ASTM A790",
+        "ASTM A789",
+        "ASTM A240",
+        "ASTM A182",
+        "ASTM A276",
+        "ASTM A479",
+        "ASTM A815",
+        "EN 10088-3",
+        "ASME B36.19M",
+        "ASME B16.5",
+        "ASME B16.47",
+        "ASME B16.9",
+        "ASME B16.11"
+      ],
+      "finishesAndCondition": [
+        "Hot rolled",
+        "Cold drawn",
+        "Pickled & passivated",
+        "Polished",
+        "Solution annealed"
+      ],
+      "documentation": [
+        "EN 10204 3.1 / 3.2 MTC",
+        "PMI",
+        "Heat charts"
+      ],
+      "testingOptions": [
+        "ASTM A923",
+        "ASTM G48",
+        "UT/ET",
+        "Hydrostatic"
+      ],
+      "applications": [
+        "Oil & Gas",
+        "Chemical Processing",
+        "Marine & Shipbuilding",
+        "Desalination",
+        "Pulp & Paper",
+        "Power Generation"
+      ],
+      "routing": {
+        "materialSlug": "/materials/duplex-steel",
+        "canonicalPath": "/materials/duplex-steel",
+        "breadcrumb": [
+          {
+            "name": "Materials",
+            "path": "/materials"
+          },
+          {
+            "name": "Duplex Steel",
+            "path": "/materials/duplex-steel"
+          }
+        ]
+      },
+      "productLinking": {
+        "sourceOfTruth": "product.json",
+        "matchStrategy": "match product technicalSpecifications.material to material.name; use categorySlugs as explicit category overrides where a product family is catalogued under a material-specific category.",
+        "matchFields": [
+          "material",
+          "technicalSpecifications.material"
+        ],
+        "materialAliases": [
+          "Duplex Steel",
+          "Duplex",
+          ""
+        ],
+        "categorySlugs": [
+          "duplex-pipe-fittings"
+        ],
+        "categoryLinks": [
+          {
+            "id": "duplex-pipe-fittings",
+            "name": "Duplex Pipe Fittings",
+            "slug": "duplex-pipe-fittings",
+            "path": "/products/duplex-pipe-fittings",
+            "productCountFromCatalog": 12
+          }
+        ],
+        "productFamilies": [
+          "Buttweld Fittings",
+          "Forged Fittings",
+          "Flanges",
+          "Pipe Fittings"
+        ],
+        "doNotDuplicateProducts": true
+      },
+      "seo": {
+        "title": "Duplex Steel Pipe Fittings & Material | Prince Pipes & Fittings",
+        "description": "Explore duplex steel grades, corrosion resistance, standards, testing and pipe fitting families for demanding oil & gas, chemical and marine applications.",
+        "primaryKeyword": "duplex steel pipe fittings",
+        "secondaryKeywords": [
+          "duplex pipe fittings",
+          "duplex steel fittings",
+          "duplex pipe fittings manufacturer",
+          "duplex pipe fittings supplier",
+          "duplex stainless steel fittings",
+          "2205 duplex fittings"
+        ],
+        "longTailKeywords": [
+          "duplex steel pipe fittings specifications and standards",
+          "duplex 2205 pipe fittings manufacturer in India",
+          "UNS S31803 S32205 duplex fittings",
+          "duplex steel fittings sizes and schedules",
+          "duplex steel butt weld and forged fittings"
+        ],
+        "semanticKeywords": [
+          "UNS S31803",
+          "UNS S32205",
+          "2205",
+          "ASTM A815",
+          "ASTM A182",
+          "ASME B16.9",
+          "ASME B16.11",
+          "MSS-SP-75",
+          "pitting resistance",
+          "chloride stress corrosion cracking"
+        ],
+        "searchIntent": "commercial",
+        "canonicalPath": "/materials/duplex-steel",
+        "robots": "index,follow",
+        "language": "en-IN",
+        "openGraph": {
+          "type": "website",
+          "title": "Duplex Steel Pipe Fittings & Material | Prince Pipes & Fittings",
+          "description": "Explore duplex steel grades, corrosion resistance, standards, testing and pipe fitting families for demanding oil & gas, chemical and marine applications.",
+          "image": "",
+          "imageAlt": "Duplex Steel material and industrial pipe fittings"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Duplex Steel Pipe Fittings & Material | Prince Pipes & Fittings",
+          "description": "Explore duplex steel grades, corrosion resistance, standards, testing and pipe fitting families for demanding oil & gas, chemical and marine applications.",
+          "image": ""
+        }
+      },
+      "seoContent": {
+        "h1": "Duplex Steel",
+        "intro": "Duplex stainless steel combines high strength with strong corrosion resistance and is suited to demanding piping and process environments.",
+        "recommendedSections": [
+          "material-overview",
+          "material-properties",
+          "grades",
+          "products-made-from-this-material",
+          "standards-and-specifications",
+          "applications",
+          "why-this-material"
+        ],
+        "keywordUsageRule": "Use keywords naturally in headings, introductory copy, relevant technical sections, internal links, image alt text and metadata. Do not keyword-stuff or repeat exact phrases unnaturally."
+      },
+      "structuredData": {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Duplex Steel Pipe Fittings & Material | Prince Pipes & Fittings",
+        "description": "Explore duplex steel grades, corrosion resistance, standards, testing and pipe fitting families for demanding oil & gas, chemical and marine applications.",
+        "url": "/materials/duplex-steel",
+        "about": {
+          "@type": "DefinedTerm",
+          "name": "Duplex Steel",
+          "description": "Duplex stainless steel uses a balanced alloy composition and duplex microstructure to combine strength, ductility and corrosion resistance. It is particularly useful where chloride stress-corrosion cracking and pitting resistance are important."
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Materials",
+              "item": "/materials"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Duplex Steel",
+              "item": "/materials/duplex-steel"
+            }
+          ]
+        }
+      },
+      "media": {
+        "heroImage": "",
+        "heroImageAlt": "Duplex Steel material used in industrial pipe fittings",
+        "ogImage": ""
+      }
+    },
+    {
+      "slug": "super-duplex-steel",
+      "name": "Super Duplex Steel",
+      "shortName": "Super Duplex",
+      "heroTitle": "Super Duplex Steel",
+      "heroDescription": "Super duplex stainless steel provides very high strength and exceptional resistance to pitting, crevice corrosion and aggressive service environments.",
+      "overview": "Super duplex stainless steel is a highly alloyed duplex material with elevated chromium, molybdenum and nitrogen levels. It is selected for severe marine, offshore, chemical and high-stress applications.",
+      "grades": [
+        {
+          "grade": "S32750",
+          "commonName": "2507",
+          "materialCode": "F53 / DIN 1.4410"
+        },
+        {
+          "grade": "S32760",
+          "materialCode": "F55 / DIN 1.4501"
+        }
+      ],
+      "composition": {
+        "S32750": {
+          "chromium": "24.0–26.0%",
+          "nickel": "6.0–8.0%",
+          "molybdenum": "3.0–5.0%",
+          "nitrogen": "0.24–0.32%",
+          "carbon": "≤0.03%",
+          "copper": "≤0.5%"
+        },
+        "S32760": {
+          "chromium": "24.0–26.0%",
+          "nickel": "6.0–8.0%",
+          "molybdenum": "3.0–4.0%",
+          "nitrogen": "0.20–0.30%",
+          "carbon": "≤0.05%",
+          "copper": "0.5–1.0%",
+          "tungsten": "0.5–1.0%"
+        }
+      },
+      "mechanicalProperties": [
+        {
+          "grade": "S32750",
+          "tensileStrengthMin": "800 MPa (116 ksi)",
+          "yieldStrength02Min": "550 MPa (80 ksi)",
+          "elongationMin": "25%",
+          "hardnessMax": "310 HBW"
+        },
+        {
+          "grade": "S32760",
+          "tensileStrengthMin": "750 MPa (109 ksi)",
+          "yieldStrength02Min": "550 MPa (80 ksi)",
+          "elongationMin": "25%",
+          "hardnessMax": "290 HBW"
+        }
+      ],
+      "equivalents": [
+        {
+          "grade": "S32750",
+          "equivalents": [
+            "Duplex 2507",
+            "SAF 2507"
+          ]
+        },
+        {
+          "grade": "S32760",
+          "equivalents": [
+            "Zeron 100"
+          ]
+        }
+      ],
+      "keyProperties": [
+        "Very high strength",
+        "Excellent pitting resistance",
+        "Excellent crevice-corrosion resistance",
+        "Strong chloride stress-corrosion cracking resistance",
+        "High corrosion resistance in aggressive environments"
+      ],
+      "productForms": [
+        "Pipe Fittings",
+        "Flanges",
+        "Pipes & Tubes",
+        "Plates & Sheets",
+        "Bars & Rods",
+        "Fasteners"
+      ],
+      "fittingFamilies": [
+        "Buttweld Fittings",
+        "Forged Fittings",
+        "Flanges",
+        "Pipe Fittings"
+      ],
+      "standards": [
+        "ASTM",
+        "ASME",
+        "EN"
+      ],
+      "typicalStandards": [
+        "ASTM A790",
+        "ASTM A789",
+        "ASTM A240",
+        "ASTM A182",
+        "ASTM A276",
+        "ASTM A479",
+        "ASTM A815",
+        "EN 10088-3",
+        "ASME B36.19M",
+        "ASME B16.5",
+        "ASME B16.47",
+        "ASME B16.9",
+        "ASME B16.11"
+      ],
+      "finishesAndCondition": [
+        "Hot rolled",
+        "Cold drawn",
+        "Pickled & passivated",
+        "Polished",
+        "Solution annealed"
+      ],
+      "documentation": [
+        "EN 10204 3.1 / 3.2 MTC",
+        "PMI",
+        "Heat charts"
+      ],
+      "testingOptions": [
+        "ASTM A923",
+        "ASTM G48 Method A",
+        "UT/ET",
+        "Hydrostatic"
+      ],
+      "applications": [
+        "Oil & Gas",
+        "Offshore Platforms",
+        "Chemical Processing",
+        "Marine & Shipbuilding",
+        "Desalination",
+        "Pulp & Paper",
+        "Power Generation"
+      ],
+      "routing": {
+        "materialSlug": "/materials/super-duplex-steel",
+        "canonicalPath": "/materials/super-duplex-steel",
+        "breadcrumb": [
+          {
+            "name": "Materials",
+            "path": "/materials"
+          },
+          {
+            "name": "Super Duplex Steel",
+            "path": "/materials/super-duplex-steel"
+          }
+        ]
+      },
+      "productLinking": {
+        "sourceOfTruth": "product.json",
+        "matchStrategy": "match product technicalSpecifications.material to material.name; use categorySlugs as explicit category overrides where a product family is catalogued under a material-specific category.",
+        "matchFields": [
+          "material",
+          "technicalSpecifications.material"
+        ],
+        "materialAliases": [
+          "Super Duplex Steel",
+          "Super Duplex",
+          ""
+        ],
+        "categorySlugs": [
+          "super-duplex-pipe-fittings"
+        ],
+        "categoryLinks": [
+          {
+            "id": "super-duplex-pipe-fittings",
+            "name": "Super Duplex Pipe Fittings",
+            "slug": "super-duplex-pipe-fittings",
+            "path": "/products/super-duplex-pipe-fittings",
+            "productCountFromCatalog": 9
+          }
+        ],
+        "productFamilies": [
+          "Buttweld Fittings",
+          "Forged Fittings",
+          "Flanges",
+          "Pipe Fittings"
+        ],
+        "doNotDuplicateProducts": true
+      },
+      "seo": {
+        "title": "Super Duplex Steel Pipe Fittings & Material | Prince Pipes & Fittings",
+        "description": "Explore super duplex steel grades, properties, standards, testing and pipe fitting families for offshore, marine, oil & gas and chemical applications.",
+        "primaryKeyword": "super duplex steel pipe fittings",
+        "secondaryKeywords": [
+          "super duplex pipe fittings",
+          "super duplex steel fittings",
+          "super duplex pipe fittings manufacturer",
+          "super duplex pipe fittings supplier",
+          "2507 duplex fittings",
+          "UNS S32750 fittings"
+        ],
+        "longTailKeywords": [
+          "super duplex steel pipe fittings specifications and standards",
+          "UNS S32750 S32760 pipe fittings",
+          "super duplex 2507 fittings manufacturer in India",
+          "super duplex pipe fittings sizes and schedules",
+          "super duplex butt weld and forged fittings"
+        ],
+        "semanticKeywords": [
+          "UNS S32750",
+          "UNS S32760",
+          "2507",
+          "F53",
+          "F55",
+          "ASTM A815",
+          "ASTM A182",
+          "ASME B16.9",
+          "ASME B16.11",
+          "ASTM A923",
+          "ASTM G48"
+        ],
+        "searchIntent": "commercial",
+        "canonicalPath": "/materials/super-duplex-steel",
+        "robots": "index,follow",
+        "language": "en-IN",
+        "openGraph": {
+          "type": "website",
+          "title": "Super Duplex Steel Pipe Fittings & Material | Prince Pipes & Fittings",
+          "description": "Explore super duplex steel grades, properties, standards, testing and pipe fitting families for offshore, marine, oil & gas and chemical applications.",
+          "image": "",
+          "imageAlt": "Super Duplex Steel material and industrial pipe fittings"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Super Duplex Steel Pipe Fittings & Material | Prince Pipes & Fittings",
+          "description": "Explore super duplex steel grades, properties, standards, testing and pipe fitting families for offshore, marine, oil & gas and chemical applications.",
+          "image": ""
+        }
+      },
+      "seoContent": {
+        "h1": "Super Duplex Steel",
+        "intro": "Super duplex stainless steel provides very high strength and exceptional resistance to pitting, crevice corrosion and aggressive service environments.",
+        "recommendedSections": [
+          "material-overview",
+          "material-properties",
+          "grades",
+          "products-made-from-this-material",
+          "standards-and-specifications",
+          "applications",
+          "why-this-material"
+        ],
+        "keywordUsageRule": "Use keywords naturally in headings, introductory copy, relevant technical sections, internal links, image alt text and metadata. Do not keyword-stuff or repeat exact phrases unnaturally."
+      },
+      "structuredData": {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Super Duplex Steel Pipe Fittings & Material | Prince Pipes & Fittings",
+        "description": "Explore super duplex steel grades, properties, standards, testing and pipe fitting families for offshore, marine, oil & gas and chemical applications.",
+        "url": "/materials/super-duplex-steel",
+        "about": {
+          "@type": "DefinedTerm",
+          "name": "Super Duplex Steel",
+          "description": "Super duplex stainless steel is a highly alloyed duplex material with elevated chromium, molybdenum and nitrogen levels. It is selected for severe marine, offshore, chemical and high-stress applications."
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Materials",
+              "item": "/materials"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Super Duplex Steel",
+              "item": "/materials/super-duplex-steel"
+            }
+          ]
+        }
+      },
+      "media": {
+        "heroImage": "",
+        "heroImageAlt": "Super Duplex Steel material used in industrial pipe fittings",
+        "ogImage": ""
+      }
+    },
+    {
+      "slug": "alloy-steel",
+      "name": "Alloy Steel",
+      "shortName": "AS",
+      "heroTitle": "Alloy Steel",
+      "heroDescription": "Alloy steel is engineered with selected alloying elements to improve strength, toughness, heat resistance and service performance in demanding industrial environments.",
+      "overview": "Alloy steel uses elements such as chromium, molybdenum, nickel, manganese, tungsten, vanadium and silicon to achieve properties beyond those of plain carbon steel.",
+      "materialTypes": [
+        "Low-Alloy Steel",
+        "High-Alloy Steel",
+        "Structural Alloy Steel",
+        "Tool Steel"
+      ],
+      "grades": [
+        "ASTM A335 P11",
+        "ASTM A335 P22",
+        "SAE 4140",
+        "SAE 4340",
+        "ASTM A234 WP11",
+        "ASTM A234 WP22",
+        "ASTM A182 F11",
+        "ASTM A182 F22"
+      ],
+      "composition": {
+        "A335 P11": {
+          "carbon": "0.05–0.15%",
+          "manganese": "0.30–0.60%",
+          "chromium": "1.00–1.50%",
+          "molybdenum": "0.44–0.65%",
+          "silicon": "0.50–1.00%"
+        },
+        "A335 P22": {
+          "carbon": "0.05–0.15%",
+          "manganese": "0.30–0.60%",
+          "chromium": "1.90–2.60%",
+          "molybdenum": "0.87–1.13%",
+          "silicon": "0.50–1.00%"
+        },
+        "SAE 4140": {
+          "carbon": "0.38–0.43%",
+          "manganese": "0.75–1.00%",
+          "chromium": "0.80–1.10%",
+          "molybdenum": "0.15–0.25%",
+          "silicon": "0.15–0.35%"
+        },
+        "SAE 4340": {
+          "carbon": "0.38–0.43%",
+          "manganese": "0.60–0.80%",
+          "chromium": "0.70–0.90%",
+          "molybdenum": "0.20–0.30%",
+          "silicon": "0.15–0.35%"
+        }
+      },
+      "gradeEquivalents": [
+        {
+          "grade": "4140",
+          "din": "1.7225 / 42CrMo4",
+          "bs": "709M40"
+        },
+        {
+          "grade": "4340",
+          "din": "1.6582 / 34CrNiMo6",
+          "bs": "817M40"
+        },
+        {
+          "grade": "T22",
+          "astmEquivalent": "ASTM A213 T22",
+          "din": "10CrMo9-10"
+        },
+        {
+          "grade": "P11",
+          "astmEquivalent": "ASTM A335 P11",
+          "din": "13CrMo4-5"
+        }
+      ],
+      "keyProperties": [
+        "High strength",
+        "High toughness",
+        "Heat resistance",
+        "Creep resistance in suitable grades",
+        "Wear resistance",
+        "High hardenability in suitable grades"
+      ],
+      "productForms": [
+        "Pipe Fittings",
+        "Flanges",
+        "Pipes & Tubes",
+        "Plates & Sheets",
+        "Bars & Rods",
+        "Forgings",
+        "Fasteners"
+      ],
+      "fittingFamilies": [
+        "Buttweld Fittings",
+        "Forged Fittings",
+        "Flanges",
+        "Pipe Fittings"
+      ],
+      "standards": [
+        "ASTM",
+        "ASME",
+        "ANSI",
+        "DIN",
+        "API",
+        "AISI"
+      ],
+      "sizeRange": {
+        "pipesAndTubes": "1/2 inch to 24 inch OD",
+        "fittings": "1/2 inch to 24 inch",
+        "flanges": "1/2 inch to 24 inch"
+      },
+      "applications": [
+        "Oil & Gas",
+        "Power Generation",
+        "Petrochemical",
+        "Automotive",
+        "Aerospace",
+        "Heavy Machinery",
+        "High-Temperature Engineering"
+      ],
+      "routing": {
+        "materialSlug": "/materials/alloy-steel",
+        "canonicalPath": "/materials/alloy-steel",
+        "breadcrumb": [
+          {
+            "name": "Materials",
+            "path": "/materials"
+          },
+          {
+            "name": "Alloy Steel",
+            "path": "/materials/alloy-steel"
+          }
+        ]
+      },
+      "productLinking": {
+        "sourceOfTruth": "product.json",
+        "matchStrategy": "match product technicalSpecifications.material to material.name; use categorySlugs as explicit category overrides where a product family is catalogued under a material-specific category.",
+        "matchFields": [
+          "material",
+          "technicalSpecifications.material"
+        ],
+        "materialAliases": [
+          "Alloy Steel",
+          "AS",
+          ""
+        ],
+        "categorySlugs": [
+          "alloy-steel-pipe-fittings"
+        ],
+        "categoryLinks": [
+          {
+            "id": "alloy-steel-pipe-fittings",
+            "name": "Alloy Steel Pipe Fittings",
+            "slug": "alloy-steel-pipe-fittings",
+            "path": "/products/alloy-steel-pipe-fittings",
+            "productCountFromCatalog": 9
+          }
+        ],
+        "productFamilies": [
+          "Buttweld Fittings",
+          "Forged Fittings",
+          "Flanges",
+          "Pipe Fittings"
+        ],
+        "doNotDuplicateProducts": true
+      },
+      "seo": {
+        "title": "Alloy Steel Pipe Fittings & Material | Prince Pipes & Fittings",
+        "description": "Explore alloy steel grades, heat resistance, standards, sizes and pipe fitting families for high-temperature and high-strength industrial applications.",
+        "primaryKeyword": "alloy steel pipe fittings",
+        "secondaryKeywords": [
+          "alloy steel fittings",
+          "alloy steel pipe fittings manufacturer",
+          "alloy steel pipe fittings supplier",
+          "alloy steel fittings manufacturer",
+          "ASTM A234 WP11 fittings",
+          "ASTM A234 WP22 fittings"
+        ],
+        "longTailKeywords": [
+          "alloy steel pipe fittings specifications and standards",
+          "alloy steel pipe fittings manufacturer in India",
+          "ASTM A234 WP11 WP22 pipe fittings",
+          "alloy steel high temperature pipe fittings",
+          "alloy steel elbows tees reducers and caps"
+        ],
+        "semanticKeywords": [
+          "ASTM A234",
+          "ASTM A335",
+          "ASTM A182",
+          "WP1",
+          "WP5",
+          "WP9",
+          "WP11",
+          "WP22",
+          "WP91",
+          "ASME B16.9",
+          "MSS-SP-75"
+        ],
+        "searchIntent": "commercial",
+        "canonicalPath": "/materials/alloy-steel",
+        "robots": "index,follow",
+        "language": "en-IN",
+        "openGraph": {
+          "type": "website",
+          "title": "Alloy Steel Pipe Fittings & Material | Prince Pipes & Fittings",
+          "description": "Explore alloy steel grades, heat resistance, standards, sizes and pipe fitting families for high-temperature and high-strength industrial applications.",
+          "image": "",
+          "imageAlt": "Alloy Steel material and industrial pipe fittings"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Alloy Steel Pipe Fittings & Material | Prince Pipes & Fittings",
+          "description": "Explore alloy steel grades, heat resistance, standards, sizes and pipe fitting families for high-temperature and high-strength industrial applications.",
+          "image": ""
+        }
+      },
+      "seoContent": {
+        "h1": "Alloy Steel",
+        "intro": "Alloy steel is engineered with selected alloying elements to improve strength, toughness, heat resistance and service performance in demanding industrial environments.",
+        "recommendedSections": [
+          "material-overview",
+          "material-properties",
+          "grades",
+          "products-made-from-this-material",
+          "standards-and-specifications",
+          "applications",
+          "why-this-material"
+        ],
+        "keywordUsageRule": "Use keywords naturally in headings, introductory copy, relevant technical sections, internal links, image alt text and metadata. Do not keyword-stuff or repeat exact phrases unnaturally."
+      },
+      "structuredData": {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Alloy Steel Pipe Fittings & Material | Prince Pipes & Fittings",
+        "description": "Explore alloy steel grades, heat resistance, standards, sizes and pipe fitting families for high-temperature and high-strength industrial applications.",
+        "url": "/materials/alloy-steel",
+        "about": {
+          "@type": "DefinedTerm",
+          "name": "Alloy Steel",
+          "description": "Alloy steel uses elements such as chromium, molybdenum, nickel, manganese, tungsten, vanadium and silicon to achieve properties beyond those of plain carbon steel."
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Materials",
+              "item": "/materials"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Alloy Steel",
+              "item": "/materials/alloy-steel"
+            }
+          ]
+        }
+      },
+      "media": {
+        "heroImage": "",
+        "heroImageAlt": "Alloy Steel material used in industrial pipe fittings",
+        "ogImage": ""
+      }
+    },
+    {
+      "slug": "monel",
+      "name": "Monel",
+      "shortName": "Monel",
+      "heroTitle": "Monel",
+      "heroDescription": "Monel nickel-copper alloys are selected for demanding environments where corrosion resistance, strength and reliable performance in marine and chemical service are required.",
+      "overview": "Monel is a family of nickel-copper alloys with strong resistance to many corrosive environments. Monel 400 is a widely used grade, while K-500 provides higher strength through precipitation hardening.",
+      "grades": [
+        {
+          "grade": "Monel 400",
+          "uns": "N04400",
+          "astm": [
+            "B127",
+            "B164"
+          ]
+        },
+        {
+          "grade": "Monel K-500",
+          "uns": "N05500",
+          "astm": [
+            "B865"
+          ]
+        }
+      ],
+      "composition": {
+        "Monel 400": {
+          "nickel": "≥63%",
+          "copper": "28–34%",
+          "iron": "≤2.5%",
+          "manganese": "≤2.0%",
+          "silicon": "≤0.5%"
+        },
+        "Monel K-500": {
+          "nickel": "≥63%",
+          "copper": "27–33%",
+          "aluminium": "2.3–3.15%",
+          "titanium": "0.35–0.85%",
+          "iron": "≤2.0%",
+          "manganese": "≤1.5%",
+          "silicon": "≤0.5%"
+        }
+      },
+      "keyProperties": [
+        "Excellent corrosion resistance",
+        "Strong marine-service performance",
+        "Resistance to many acids and alkalis",
+        "Good mechanical strength",
+        "Good performance over a wide temperature range",
+        "High strength in K-500"
+      ],
+      "productForms": [
+        "Pipe Fittings",
+        "Flanges",
+        "Pipes & Tubes",
+        "Plates & Sheets",
+        "Bars & Rods",
+        "Fasteners",
+        "Forgings"
+      ],
+      "fittingFamilies": [
+        "Buttweld Fittings",
+        "Forged Fittings",
+        "Flanges",
+        "Pipe Fittings"
+      ],
+      "standards": [
+        "ASTM",
+        "ASME",
+        "DIN",
+        "ISO"
+      ],
+      "typicalStandards": [
+        "ASTM B127",
+        "ASTM B164",
+        "ASTM B165",
+        "ASTM B564",
+        "ASTM B865",
+        "DIN 17750",
+        "DIN 17752",
+        "ISO 6208"
+      ],
+      "applications": [
+        "Marine Engineering",
+        "Chemical Processing",
+        "Oil & Gas",
+        "Hydrocarbon Processing",
+        "Heat Exchangers",
+        "Pumps & Valves",
+        "Desalination",
+        "Power Generation"
+      ],
+      "dataNote": "The requested Harsh Tube & Fittings Monel page was not retrievable during extraction; Monel data here is limited to standard engineering references used to complete the master structure.",
+      "routing": {
+        "materialSlug": "/materials/monel",
+        "canonicalPath": "/materials/monel",
+        "breadcrumb": [
+          {
+            "name": "Materials",
+            "path": "/materials"
+          },
+          {
+            "name": "Monel",
+            "path": "/materials/monel"
+          }
+        ]
+      },
+      "productLinking": {
+        "sourceOfTruth": "product.json",
+        "matchStrategy": "match product technicalSpecifications.material to material.name; use categorySlugs as explicit category overrides where a product family is catalogued under a material-specific category.",
+        "matchFields": [
+          "material",
+          "technicalSpecifications.material"
+        ],
+        "materialAliases": [
+          "Monel",
+          "Monel",
+          ""
+        ],
+        "categorySlugs": [],
+        "categoryLinks": [],
+        "productFamilies": [
+          "Buttweld Fittings",
+          "Forged Fittings",
+          "Flanges",
+          "Pipe Fittings"
+        ],
+        "doNotDuplicateProducts": true
+      },
+      "seo": {
+        "title": "Monel Material & Pipe Fittings | Grades, Properties & Applications | Prince Pipes",
+        "description": "Explore Monel nickel-copper alloy grades, corrosion resistance, standards and industrial applications for demanding marine and chemical service.",
+        "primaryKeyword": "Monel pipe fittings",
+        "secondaryKeywords": [
+          "Monel fittings",
+          "Monel material",
+          "Monel 400",
+          "Monel K-500",
+          "Monel pipe fittings manufacturer",
+          "Monel pipe fittings supplier"
+        ],
+        "longTailKeywords": [
+          "Monel 400 pipe fittings specifications",
+          "Monel K-500 fittings and applications",
+          "Monel pipe fittings manufacturer in India",
+          "Monel nickel copper alloy properties",
+          "Monel fittings standards and grades"
+        ],
+        "semanticKeywords": [
+          "UNS N04400",
+          "UNS N05500",
+          "ASTM B127",
+          "ASTM B164",
+          "ASTM B564",
+          "ASTM B865",
+          "nickel copper alloy",
+          "marine corrosion resistance"
+        ],
+        "searchIntent": "commercial",
+        "canonicalPath": "/materials/monel",
+        "robots": "index,follow",
+        "language": "en-IN",
+        "openGraph": {
+          "type": "website",
+          "title": "Monel Material & Pipe Fittings | Grades, Properties & Applications | Prince Pipes",
+          "description": "Explore Monel nickel-copper alloy grades, corrosion resistance, standards and industrial applications for demanding marine and chemical service.",
+          "image": "",
+          "imageAlt": "Monel material and industrial pipe fittings"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Monel Material & Pipe Fittings | Grades, Properties & Applications | Prince Pipes",
+          "description": "Explore Monel nickel-copper alloy grades, corrosion resistance, standards and industrial applications for demanding marine and chemical service.",
+          "image": ""
+        }
+      },
+      "seoContent": {
+        "h1": "Monel",
+        "intro": "Monel nickel-copper alloys are selected for demanding environments where corrosion resistance, strength and reliable performance in marine and chemical service are required.",
+        "recommendedSections": [
+          "material-overview",
+          "material-properties",
+          "grades",
+          "products-made-from-this-material",
+          "standards-and-specifications",
+          "applications",
+          "why-this-material"
+        ],
+        "keywordUsageRule": "Use keywords naturally in headings, introductory copy, relevant technical sections, internal links, image alt text and metadata. Do not keyword-stuff or repeat exact phrases unnaturally."
+      },
+      "structuredData": {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Monel Material & Pipe Fittings | Grades, Properties & Applications | Prince Pipes",
+        "description": "Explore Monel nickel-copper alloy grades, corrosion resistance, standards and industrial applications for demanding marine and chemical service.",
+        "url": "/materials/monel",
+        "about": {
+          "@type": "DefinedTerm",
+          "name": "Monel",
+          "description": "Monel is a family of nickel-copper alloys with strong resistance to many corrosive environments. Monel 400 is a widely used grade, while K-500 provides higher strength through precipitation hardening."
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Materials",
+              "item": "/materials"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Monel",
+              "item": "/materials/monel"
+            }
+          ]
+        }
+      },
+      "media": {
+        "heroImage": "",
+        "heroImageAlt": "Monel material used in industrial pipe fittings",
+        "ogImage": ""
+      }
+    },
+    {
+      "slug": "inconel",
+      "name": "Inconel",
+      "shortName": "Inconel",
+      "heroTitle": "Inconel",
+      "heroDescription": "Inconel nickel-based alloys are designed for demanding high-temperature and corrosive environments where strength, oxidation resistance and long-term reliability are critical.",
+      "overview": "Inconel is a family of nickel-based alloys used where high-temperature strength, oxidation resistance and corrosion resistance are required. The referenced material data covers grades 600, 625, 718 and 800.",
+      "grades": [
+        {
+          "grade": "Inconel 600",
+          "uns": "N06600"
+        },
+        {
+          "grade": "Inconel 625",
+          "uns": "N06625"
+        },
+        {
+          "grade": "Inconel 718",
+          "uns": "N07718"
+        },
+        {
+          "grade": "Inconel 800"
+        }
+      ],
+      "composition": {
+        "600": {
+          "nickel": "≥72%",
+          "chromium": "14–17%",
+          "iron": "6–10%",
+          "carbon": "≤0.15%",
+          "manganese": "≤1.0%",
+          "silicon": "≤0.5%"
+        },
+        "625": {
+          "nickel": "≥58%",
+          "chromium": "20–23%",
+          "iron": "≤5%",
+          "molybdenum": "8–10%",
+          "niobium": "3.15–4.15%",
+          "carbon": "≤0.1%",
+          "manganese": "≤0.5%",
+          "silicon": "≤0.5%",
+          "cobalt": "≤1.0%"
+        },
+        "718": {
+          "nickel": "50–55%",
+          "chromium": "17–21%",
+          "iron": "Balance",
+          "molybdenum": "2.8–3.3%",
+          "niobium": "4.75–5.5%",
+          "titanium": "0.65–1.15%",
+          "aluminium": "0.20–0.80%",
+          "carbon": "≤0.08%"
+        },
+        "800": {
+          "nickel": "30–35%",
+          "chromium": "19–23%",
+          "iron": "Balance",
+          "carbon": "≤0.10%",
+          "manganese": "≤1.0%",
+          "silicon": "≤0.5%"
+        }
+      },
+      "mechanicalProperties": [
+        {
+          "grade": "Inconel 600",
+          "tensileStrength": "515–1035 MPa",
+          "yieldStrength": "205–275 MPa",
+          "elongation": "30–45%",
+          "hardness": "150–200 HB"
+        },
+        {
+          "grade": "Inconel 625",
+          "tensileStrength": "690–1035 MPa",
+          "yieldStrength": "275–345 MPa",
+          "elongation": "30–50%",
+          "hardness": "200–300 HB"
+        },
+        {
+          "grade": "Inconel 718",
+          "tensileStrength": "1035–1375 MPa",
+          "yieldStrength": "1035–1375 MPa",
+          "elongation": "14–18%",
+          "hardness": "300–400 HB"
+        },
+        {
+          "grade": "Inconel 800",
+          "tensileStrength": "515–1035 MPa",
+          "yieldStrength": "205–275 MPa",
+          "elongation": "30–45%",
+          "hardness": "150–200 HB"
+        }
+      ],
+      "productForms": [
+        "Pipe Fittings",
+        "Flanges",
+        "Pipes & Tubes",
+        "Plates & Sheets",
+        "Coils",
+        "Bars & Rods",
+        "Fasteners"
+      ],
+      "fittingFamilies": [
+        "Elbows",
+        "Tees",
+        "Reducers",
+        "Stub Ends",
+        "Caps",
+        "Pipe Fittings",
+        "Flanges"
+      ],
+      "standards": [
+        "ASTM",
+        "ASME"
+      ],
+      "typicalStandards": [
+        "ASTM B127",
+        "ASME SB127",
+        "ASTM B164",
+        "ASME SB164",
+        "ASTM B165",
+        "ASME SB165",
+        "ASTM B366",
+        "ASME SB366"
+      ],
+      "sizeRange": {
+        "pipesAndTubes": "1/2 inch to 12 inch NB; OD 6 mm to 219 mm",
+        "fittings": "1/2 inch to 24 inch"
+      },
+      "applications": [
+        "Aerospace",
+        "Chemical Processing",
+        "Power Generation",
+        "Marine",
+        "Oil & Gas",
+        "High-Temperature Equipment"
+      ],
+      "routing": {
+        "materialSlug": "/materials/inconel",
+        "canonicalPath": "/materials/inconel",
+        "breadcrumb": [
+          {
+            "name": "Materials",
+            "path": "/materials"
+          },
+          {
+            "name": "Inconel",
+            "path": "/materials/inconel"
+          }
+        ]
+      },
+      "productLinking": {
+        "sourceOfTruth": "product.json",
+        "matchStrategy": "match product technicalSpecifications.material to material.name; use categorySlugs as explicit category overrides where a product family is catalogued under a material-specific category.",
+        "matchFields": [
+          "material",
+          "technicalSpecifications.material"
+        ],
+        "materialAliases": [
+          "Inconel",
+          "Inconel",
+          ""
+        ],
+        "categorySlugs": [
+          "inconel-625-pipe-fittings"
+        ],
+        "categoryLinks": [
+          {
+            "id": "inconel-625-pipe-fittings",
+            "name": "Inconel 625 Pipe Fittings",
+            "slug": "inconel-625-pipe-fittings",
+            "path": "/products/inconel-625-pipe-fittings",
+            "productCountFromCatalog": 0
+          }
+        ],
+        "productFamilies": [
+          "Elbows",
+          "Tees",
+          "Reducers",
+          "Stub Ends",
+          "Caps",
+          "Pipe Fittings",
+          "Flanges"
+        ],
+        "doNotDuplicateProducts": true
+      },
+      "seo": {
+        "title": "Inconel Material & Pipe Fittings | Grades & Applications | Prince Pipes",
+        "description": "Explore Inconel nickel-based alloy grades, properties, standards and pipe fitting applications for high-temperature and corrosive industrial environments.",
+        "primaryKeyword": "Inconel pipe fittings",
+        "secondaryKeywords": [
+          "Inconel fittings",
+          "Inconel material",
+          "Inconel 625 pipe fittings",
+          "Inconel 600 fittings",
+          "Inconel 718 fittings",
+          "Inconel pipe fittings manufacturer"
+        ],
+        "longTailKeywords": [
+          "Inconel 625 pipe fittings specifications and standards",
+          "Inconel pipe fittings manufacturer in India",
+          "Inconel 600 625 718 grades and applications",
+          "Inconel nickel alloy pipe fittings sizes",
+          "high temperature Inconel pipe fittings"
+        ],
+        "semanticKeywords": [
+          "Inconel 600",
+          "Inconel 625",
+          "Inconel 718",
+          "Inconel 800",
+          "UNS N06600",
+          "UNS N06625",
+          "UNS N07718",
+          "ASTM B366",
+          "ASME SB366"
+        ],
+        "searchIntent": "commercial",
+        "canonicalPath": "/materials/inconel",
+        "robots": "index,follow",
+        "language": "en-IN",
+        "openGraph": {
+          "type": "website",
+          "title": "Inconel Material & Pipe Fittings | Grades & Applications | Prince Pipes",
+          "description": "Explore Inconel nickel-based alloy grades, properties, standards and pipe fitting applications for high-temperature and corrosive industrial environments.",
+          "image": "",
+          "imageAlt": "Inconel material and industrial pipe fittings"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Inconel Material & Pipe Fittings | Grades & Applications | Prince Pipes",
+          "description": "Explore Inconel nickel-based alloy grades, properties, standards and pipe fitting applications for high-temperature and corrosive industrial environments.",
+          "image": ""
+        }
+      },
+      "seoContent": {
+        "h1": "Inconel",
+        "intro": "Inconel nickel-based alloys are designed for demanding high-temperature and corrosive environments where strength, oxidation resistance and long-term reliability are critical.",
+        "recommendedSections": [
+          "material-overview",
+          "material-properties",
+          "grades",
+          "products-made-from-this-material",
+          "standards-and-specifications",
+          "applications",
+          "why-this-material"
+        ],
+        "keywordUsageRule": "Use keywords naturally in headings, introductory copy, relevant technical sections, internal links, image alt text and metadata. Do not keyword-stuff or repeat exact phrases unnaturally."
+      },
+      "structuredData": {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Inconel Material & Pipe Fittings | Grades & Applications | Prince Pipes",
+        "description": "Explore Inconel nickel-based alloy grades, properties, standards and pipe fitting applications for high-temperature and corrosive industrial environments.",
+        "url": "/materials/inconel",
+        "about": {
+          "@type": "DefinedTerm",
+          "name": "Inconel",
+          "description": "Inconel is a family of nickel-based alloys used where high-temperature strength, oxidation resistance and corrosion resistance are required. The referenced material data covers grades 600, 625, 718 and 800."
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Materials",
+              "item": "/materials"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Inconel",
+              "item": "/materials/inconel"
+            }
+          ]
+        }
+      },
+      "media": {
+        "heroImage": "",
+        "heroImageAlt": "Inconel material used in industrial pipe fittings",
+        "ogImage": ""
+      }
+    },
+    {
+      "slug": "hastelloy",
+      "name": "Hastelloy",
+      "shortName": "Hastelloy",
+      "heroTitle": "Hastelloy",
+      "heroDescription": "Hastelloy nickel-based alloys are engineered for extreme corrosion resistance in aggressive chemical, marine and high-temperature environments.",
+      "overview": "Hastelloy is a family of nickel-based corrosion-resistant alloys containing significant molybdenum, chromium, iron, cobalt and other alloying elements. It is used where aggressive chemical environments demand exceptional corrosion performance.",
+      "grades": [
+        {
+          "grade": "C-22"
+        },
+        {
+          "grade": "C-276"
+        },
+        {
+          "grade": "B-2"
+        }
+      ],
+      "composition": {
+        "C-22": {
+          "nickel": "57%",
+          "molybdenum": "13%",
+          "iron": "6%",
+          "chromium": "22%",
+          "tungsten": "3%",
+          "cobalt": "Balance"
+        },
+        "C-276": {
+          "nickel": "57%",
+          "molybdenum": "16%",
+          "iron": "6%",
+          "chromium": "16%",
+          "tungsten": "3%",
+          "cobalt": "Balance"
+        },
+        "B-2": {
+          "nickel": "63%",
+          "molybdenum": "28%",
+          "iron": "Balance"
+        }
+      },
+      "keyProperties": [
+        "Exceptional pitting resistance",
+        "Strong stress-corrosion cracking resistance",
+        "Resistance to oxidizing and reducing agents",
+        "High strength at elevated temperatures",
+        "Excellent performance in aggressive chemical environments",
+        "Good weldability",
+        "Good formability"
+      ],
+      "productForms": [
+        "Pipe Fittings",
+        "Flanges",
+        "Pipes & Tubes",
+        "Plates & Sheets",
+        "Bars & Rods",
+        "Fasteners"
+      ],
+      "fittingFamilies": [
+        "Buttweld Fittings",
+        "Forged Fittings",
+        "Flanges",
+        "Pipe Fittings"
+      ],
+      "standards": [
+        "ASTM",
+        "ASME"
+      ],
+      "applications": [
+        "Chemical Processing",
+        "Pollution Control",
+        "Aerospace",
+        "Marine Engineering",
+        "Heat Exchangers",
+        "Corrosive Process Equipment"
+      ],
+      "routing": {
+        "materialSlug": "/materials/hastelloy",
+        "canonicalPath": "/materials/hastelloy",
+        "breadcrumb": [
+          {
+            "name": "Materials",
+            "path": "/materials"
+          },
+          {
+            "name": "Hastelloy",
+            "path": "/materials/hastelloy"
+          }
+        ]
+      },
+      "productLinking": {
+        "sourceOfTruth": "product.json",
+        "matchStrategy": "match product technicalSpecifications.material to material.name; use categorySlugs as explicit category overrides where a product family is catalogued under a material-specific category.",
+        "matchFields": [
+          "material",
+          "technicalSpecifications.material"
+        ],
+        "materialAliases": [
+          "Hastelloy",
+          "Hastelloy",
+          ""
+        ],
+        "categorySlugs": [],
+        "categoryLinks": [],
+        "productFamilies": [
+          "Buttweld Fittings",
+          "Forged Fittings",
+          "Flanges",
+          "Pipe Fittings"
+        ],
+        "doNotDuplicateProducts": true
+      },
+      "seo": {
+        "title": "Hastelloy Material & Pipe Fittings | Grades & Applications | Prince Pipes",
+        "description": "Explore Hastelloy nickel-based alloys, grades, corrosion resistance, properties and industrial applications for aggressive chemical environments.",
+        "primaryKeyword": "Hastelloy pipe fittings",
+        "secondaryKeywords": [
+          "Hastelloy fittings",
+          "Hastelloy material",
+          "Hastelloy C276",
+          "Hastelloy C22",
+          "Hastelloy B2",
+          "Hastelloy pipe fittings manufacturer"
+        ],
+        "longTailKeywords": [
+          "Hastelloy C276 pipe fittings specifications",
+          "Hastelloy C22 fittings and applications",
+          "Hastelloy pipe fittings manufacturer in India",
+          "Hastelloy nickel alloy properties",
+          "Hastelloy fittings for chemical processing"
+        ],
+        "semanticKeywords": [
+          "Hastelloy C-22",
+          "Hastelloy C-276",
+          "Hastelloy B-2",
+          "nickel molybdenum alloy",
+          "nickel chromium alloy",
+          "corrosion resistant alloy"
+        ],
+        "searchIntent": "commercial",
+        "canonicalPath": "/materials/hastelloy",
+        "robots": "index,follow",
+        "language": "en-IN",
+        "openGraph": {
+          "type": "website",
+          "title": "Hastelloy Material & Pipe Fittings | Grades & Applications | Prince Pipes",
+          "description": "Explore Hastelloy nickel-based alloys, grades, corrosion resistance, properties and industrial applications for aggressive chemical environments.",
+          "image": "",
+          "imageAlt": "Hastelloy material and industrial pipe fittings"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Hastelloy Material & Pipe Fittings | Grades & Applications | Prince Pipes",
+          "description": "Explore Hastelloy nickel-based alloys, grades, corrosion resistance, properties and industrial applications for aggressive chemical environments.",
+          "image": ""
+        }
+      },
+      "seoContent": {
+        "h1": "Hastelloy",
+        "intro": "Hastelloy nickel-based alloys are engineered for extreme corrosion resistance in aggressive chemical, marine and high-temperature environments.",
+        "recommendedSections": [
+          "material-overview",
+          "material-properties",
+          "grades",
+          "products-made-from-this-material",
+          "standards-and-specifications",
+          "applications",
+          "why-this-material"
+        ],
+        "keywordUsageRule": "Use keywords naturally in headings, introductory copy, relevant technical sections, internal links, image alt text and metadata. Do not keyword-stuff or repeat exact phrases unnaturally."
+      },
+      "structuredData": {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Hastelloy Material & Pipe Fittings | Grades & Applications | Prince Pipes",
+        "description": "Explore Hastelloy nickel-based alloys, grades, corrosion resistance, properties and industrial applications for aggressive chemical environments.",
+        "url": "/materials/hastelloy",
+        "about": {
+          "@type": "DefinedTerm",
+          "name": "Hastelloy",
+          "description": "Hastelloy is a family of nickel-based corrosion-resistant alloys containing significant molybdenum, chromium, iron, cobalt and other alloying elements. It is used where aggressive chemical environments demand exceptional corrosion performance."
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Materials",
+              "item": "/materials"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Hastelloy",
+              "item": "/materials/hastelloy"
+            }
+          ]
+        }
+      },
+      "media": {
+        "heroImage": "",
+        "heroImageAlt": "Hastelloy material used in industrial pipe fittings",
+        "ogImage": ""
+      }
+    }
+  ],
+  "seoStrategy": {
+    "enabled": true,
+    "primaryPurpose": "Material information and commercial discovery",
+    "indexablePagePattern": "/materials/{slug}",
+    "canonicalHostPlaceholder": "https://www.princepipes.com",
+    "keywordMetaTag": false,
+    "keywordMetaTagNote": "Do not emit <meta name=\"keywords\">. Search engines such as Google do not use it as a ranking signal. Keywords in this JSON are for page planning, copy, internal linking and metadata.",
+    "uniqueMetadataPerMaterial": true,
+    "avoidDuplicateDescriptions": true,
+    "avoidKeywordStuffing": true,
+    "recommendedInternalLinks": [
+      "/materials",
+      "/products",
+      "/products/{categorySlug}"
+    ]
+  },
+  "dataRelationship": {
+    "materialMaster": "materialMaster.json",
+    "productMaster": "product.json",
+    "relationship": "Material pages do not copy product objects. At runtime, product.json is filtered by material match and/or explicit categorySlugs from each material record.",
+    "recommendedRuntimeFlow": [
+      "Load material by slug on the server",
+      "Load product.json on the server only",
+      "Filter products by technicalSpecifications.material/material aliases",
+      "Apply explicit categorySlugs as category navigation",
+      "Group matched products by category/subcategory",
+      "Render material information without rendering individual product cards",
+      "Link product-family/category blocks to existing category pages"
+    ]
+  },
+  "dataQualityPolicy": {
+    "missingTechnicalData": "Render only supported fields; do not invent technical values.",
+    "seoData": "SEO copy may be editorially generated, but technical claims must remain supported by the material/product data.",
+    "productCounts": "Counts are optional and should be computed from product.json at runtime rather than hardcoded."
+  }
+}

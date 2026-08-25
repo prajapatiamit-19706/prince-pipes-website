@@ -42,13 +42,17 @@ export function ProductBreadcrumb({ breadcrumbs }) {
                 <span className="text-neutral-900 font-medium" aria-current="page">
                   {crumb.name}
                 </span>
-              ) : (
+              ) : crumb.path ? (
                 <Link 
                   href={crumb.path}
                   className="hover:text-primary transition-colors hover:underline decoration-neutral-300 underline-offset-4"
                 >
                   {crumb.name}
                 </Link>
+              ) : (
+                <span className="text-neutral-500">
+                  {crumb.name}
+                </span>
               )}
             </li>
           );

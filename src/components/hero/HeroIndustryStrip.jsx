@@ -112,11 +112,7 @@ export function HeroIndustryStrip({ industries }) {
                     </div>
                   )}
 
-                  {/* Footer / Arrow */}
-                  <div className="flex items-center text-sm font-bold text-primary mt-2">
-                    Explore Industry
-                    <ArrowRight size={16} className="ml-2 transition-transform duration-300 group-hover:translate-x-2" />
-                  </div>
+
                 </div>
               </Link>
             );

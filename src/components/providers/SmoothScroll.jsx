@@ -10,6 +10,10 @@ if (typeof window !== "undefined") {
   if ('scrollRestoration' in history) {
     history.scrollRestoration = 'manual';
   }
+  // Force scroll to top on page refresh
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  };
 }
 
 export const SmoothScroll = ({ children }) => {
@@ -32,6 +36,7 @@ export const SmoothScroll = ({ children }) => {
       infinite: false,
     });
     
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setLenisInstance(lenis);
 
     lenis.on('scroll', ScrollTrigger.update);
