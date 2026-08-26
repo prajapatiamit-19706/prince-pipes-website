@@ -1,4 +1,5 @@
 import navigationData from '@/data/navigation.json';
+import productsData from '@/data/products.json';
 
 let searchIndexCache = null;
 
@@ -48,9 +49,47 @@ export const buildSearchIndex = () => {
     processItems(navigationData.utility, "Utility & Support");
   }
 
-  // Future integration points:
-  // if (productsData) processItems(productsData, "Products");
-  // if (materialsData) processItems(materialsData, "Materials");
+  const processProducts = () => {
+    if (!productsData?.catalog?.categories) return;
+
+    productsData.catalog.categories.forEach(category => {
+      if (category.subCategories) {
+        category.subCategories.forEach(sub => {
+          if (sub.products) {
+            sub.products.forEach(product => {
+              // Build a searchable string from specs, keywords, and description
+              const specs = product.technicalSpecifications || {};
+              const searchableText = [
+                product.type,
+                product.description?.full,
+                specs.material,
+                ...(specs.grades || []),
+                specs.sizeRange,
+                ...(specs.manufacturing || []),
+                ...(specs.standards || []),
+                ...(specs.schedule || []),
+                ...(specs.connection || []),
+                ...(specs.threadType || []),
+                ...(specs.pressureClass || []),
+                ...(product.seo?.keywords || [])
+              ].filter(Boolean).join(' ');
+
+              index.push({
+                id: product.id,
+                label: product.name,
+                path: `/products/${product.slug}`,
+                category: category.name,
+                description: product.description?.short || '',
+                searchableText: searchableText
+              });
+            });
+          }
+        });
+      }
+    });
+  };
+
+  processProducts();
 
   searchIndexCache = index;
   return index;
@@ -70,7 +109,8 @@ export const performSearch = (query) => {
     return (
       item.label.toLowerCase().includes(lowerQuery) || 
       item.category.toLowerCase().includes(lowerQuery) ||
-      (item.description && item.description.toLowerCase().includes(lowerQuery))
+      (item.description && item.description.toLowerCase().includes(lowerQuery)) ||
+      (item.searchableText && item.searchableText.toLowerCase().includes(lowerQuery))
     );
   });
 

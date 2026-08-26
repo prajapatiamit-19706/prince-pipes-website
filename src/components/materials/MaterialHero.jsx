@@ -19,9 +19,9 @@ export default function MaterialHero({ material, imagePath }) {
   }, { scope: container });
 
   return (
-    <section ref={container} className="relative pt-12 pb-16 md:pt-18 md:pb-24 overflow-hidden">
+    <section ref={container} className="relative pt-12 pb-16 md:pt-18 md:pb-10 md:pb-6 md:pb-10 lg:pb-16 lg:pb-24 overflow-hidden">
       <div className="container-wide">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 md:gap-6 md:gap-12 lg:gap-20 items-center">
 
           {/* Content */}
           <div className="flex flex-col space-y-8">

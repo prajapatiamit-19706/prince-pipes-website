@@ -50,7 +50,7 @@ export function TechnicalSpecifications({ specifications }) {
   };
 
   return (
-    <section id="technical-specifications" ref={containerRef} className="scroll-mt-24">
+    <section id="technical-specifications" ref={containerRef} className="scroll-mt-10 md:mt-6 md:mt-10 lg:mt-16 lg:mt-24">
       <h2 className="text-sm font-bold tracking-[0.2em] text-neutral-400 uppercase mb-8">
         COMPLETE TECHNICAL SPECIFICATIONS
       </h2>

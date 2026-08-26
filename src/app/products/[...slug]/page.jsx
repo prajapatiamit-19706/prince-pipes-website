@@ -133,7 +133,7 @@ export default async function ProductDetailPage({ params }) {
   }
 
   return (
-    <div className="bg-white min-h-screen pt-24 pb-12">
+    <div className="bg-white min-h-screen pt-8 md:pt-10 lg:pt-12 pb-12">
       {/* Container for structured data if present */}
       {structuredData && (
         <script
@@ -157,17 +157,17 @@ export default async function ProductDetailPage({ params }) {
       </div>
 
       {/* Full-width section for Finder & Identification */}
-      <div className="bg-neutral-50 py-16 mt-16 border-y border-neutral-200">
+      <div className="bg-neutral-50 py-10 md:py-16 mt-10 md:mt-16 border-y border-neutral-200">
         <div className="container mx-auto px-4 md:px-8 max-w-7xl">
           <ProductFinder />
-          <div className="mt-16">
+          <div className="mt-6 md:mt-10 lg:mt-16">
              <ProductIdentification currentProductType={product.type} />
           </div>
         </div>
       </div>
 
-      <div className="container mx-auto px-4 md:px-8 max-w-7xl mt-16">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
+      <div className="container mx-auto px-4 md:px-8 max-w-7xl mt-8 md:mt-12 lg:mt-16">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 md:gap-8 lg:gap-12">
           {/* Main Content Area */}
           <div className="lg:col-span-8 space-y-16">
             <AboutProduct description={product.description} />
@@ -184,12 +184,12 @@ export default async function ProductDetailPage({ params }) {
         </div>
       </div>
 
-      <div className="container mx-auto px-4 md:px-8 max-w-7xl mt-24">
+      <div className="container mx-auto px-4 md:px-8 max-w-7xl mt-10 md:mt-16 lg:mt-24">
          <RelatedProducts products={relatedProducts} />
       </div>
 
       {nextProduct && (
-        <div className="mt-24 border-t border-neutral-200">
+        <div className="mt-10 md:mt-16 lg:mt-24 border-t border-neutral-200">
            <NextProduct product={nextProduct} />
         </div>
       )}

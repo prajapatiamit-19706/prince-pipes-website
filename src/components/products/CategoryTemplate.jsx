@@ -60,19 +60,19 @@ export function CategoryTemplate({ category }) {
 
   const breadcrumbs = getCategoryBreadcrumbs(category.slug);
   const hasSubcategories = category.subCategories && category.subCategories.length > 0;
-  
+
   // Calculate total products recursively if there are subcategories, or directly
   const totalProducts = hasSubcategories
     ? category.subCategories.reduce((acc, sub) => acc + (sub.products ? sub.products.length : 0), 0)
     : (category.products ? category.products.length : 0);
 
   return (
-    <div ref={containerRef} className="bg-white min-h-screen pt-24 pb-12 overflow-hidden">
+    <div ref={containerRef} className="bg-white min-h-screen pt-8 md:pt-10 lg:pt-12 pb-12 overflow-hidden">
       <div className="container mx-auto px-4 md:px-8 max-w-7xl">
         <ProductBreadcrumb breadcrumbs={breadcrumbs} />
 
         {/* Category Hero Section */}
-        <div className="py-12 lg:py-16 border-b border-neutral-200 mb-12">
+        <div className="py-6 md:py-4 lg:py-6 border-b border-neutral-200 mb-12">
           <h1 className="category-reveal text-4xl md:text-5xl font-bold text-neutral-900 mb-6 uppercase tracking-tight opacity-0">
             {category.name}
           </h1>
@@ -99,7 +99,7 @@ export function CategoryTemplate({ category }) {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {category.subCategories.map((subCategory) => (
                 <div key={subCategory.id || subCategory.slug} className="subcat-card-anim opacity-0">
-                  <SubcategoryCard 
+                  <SubcategoryCard
                     categorySlug={category.slug}
                     subcategory={subCategory}
                   />

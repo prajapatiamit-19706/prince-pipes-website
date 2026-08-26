@@ -9,9 +9,9 @@ export function LocationSection() {
   const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(addressToSearch)}`;
 
   return (
-    <section className="py-12 md:py-20 bg-white">
+    <section className="py-8 md:py-12 lg:py-8 md:py-12 lg:py-20 bg-white">
       <div className="container mx-auto px-4 sm:px-6 md:px-12 max-w-7xl">
-        <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-stretch">
+        <div className="grid lg:grid-cols-2 gap-10 lg:gap-6 md:gap-10 lg:gap-16 items-stretch">
           <div className="max-w-2xl w-full">
             <h2 className="text-2xl sm:text-3xl font-bold text-[#142E57] mb-8">
               Visit Us

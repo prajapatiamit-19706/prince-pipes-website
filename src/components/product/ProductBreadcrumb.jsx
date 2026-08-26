@@ -20,7 +20,7 @@ export function ProductBreadcrumb({ breadcrumbs }) {
   if (!breadcrumbs || breadcrumbs.length === 0) return null;
 
   return (
-    <nav ref={containerRef} aria-label="Breadcrumb" className="py-4 text-sm mt-4">
+    <nav ref={containerRef} aria-label="Breadcrumb" className="py-2 text-sm mt-2">
       <ol className="flex items-center space-x-2 text-neutral-500 flex-wrap">
         <li>
           <Link href="/" className="hover:text-primary transition-colors flex items-center">
@@ -28,13 +28,13 @@ export function ProductBreadcrumb({ breadcrumbs }) {
             <span className="sr-only">Home</span>
           </Link>
         </li>
-        
+
         {breadcrumbs.map((crumb, index) => {
           // The Home link is sometimes included in the JSON, let's filter it out if it points to "/"
           if (crumb.path === "/") return null;
-          
+
           const isLast = index === breadcrumbs.length - 1;
-          
+
           return (
             <li key={crumb.path} className="flex items-center">
               <ChevronRight className="w-4 h-4 mx-1 text-neutral-400" />
@@ -43,7 +43,7 @@ export function ProductBreadcrumb({ breadcrumbs }) {
                   {crumb.name}
                 </span>
               ) : crumb.path ? (
-                <Link 
+                <Link
                   href={crumb.path}
                   className="hover:text-primary transition-colors hover:underline decoration-neutral-300 underline-offset-4"
                 >

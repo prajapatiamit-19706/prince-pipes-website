@@ -39,10 +39,10 @@ export default function AboutServiceFlow({ data }) {
   if (!data) return null;
 
   return (
-    <section ref={containerRef} className="py-20 md:py-28 bg-white border-b border-slate-200 overflow-hidden">
+    <section ref={containerRef} className="py-10 md:py-6 md:py-10 lg:py-16 lg:py-12 md:py-8 md:py-12 lg:py-20 lg:py-28 bg-white border-b border-slate-200 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        <div className="text-center mb-20">
+        <div className="text-center mb-8 md:mb-12 lg:mb-20">
           <h2 className="flow-title-anim text-3xl md:text-4xl font-bold text-slate-900">
             {data.title}
           </h2>

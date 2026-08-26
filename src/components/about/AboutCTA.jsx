@@ -34,7 +34,7 @@ export default function AboutCTA({ data }) {
   if (!data) return null;
 
   return (
-    <section ref={containerRef} className="w-full bg-white py-12 lg:py-20 border-t border-slate-100">
+    <section ref={containerRef} className="w-full bg-white py-12 lg:py-8 md:py-12 lg:py-20 border-t border-slate-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="relative bg-slate-900 rounded-lg shadow-2xl overflow-hidden flex flex-col lg:flex-row items-center justify-between py-12 px-8 lg:px-16 lg:min-h-[260px] gap-8">
           

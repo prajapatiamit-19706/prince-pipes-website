@@ -67,7 +67,7 @@ export function ContactMethods() {
   ];
 
   return (
-    <section className="py-12 md:py-20 bg-white">
+    <section className="py-8 md:py-12 lg:py-8 md:py-12 lg:py-20 bg-white">
       <div className="container mx-auto px-4 sm:px-6 md:px-12 max-w-7xl">
         <div className="mb-10 text-center lg:text-left">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#142E57] mb-3">

@@ -9,7 +9,7 @@ export const metadata = {
 
 export default function WeightChartsPage() {
   return (
-    <main className="min-h-screen bg-slate-50 pt-24 pb-16">
+    <main className="min-h-screen bg-slate-50 pt-8 md:pt-10 lg:pt-12 pb-10 lg:pb-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Client-side Interactive Chart Component */}

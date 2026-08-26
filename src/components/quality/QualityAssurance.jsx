@@ -33,10 +33,10 @@ export default function QualityAssurance({ data }) {
   }, { scope: containerRef });
 
   return (
-    <section ref={containerRef} className="py-16 lg:py-24 bg-white border-b border-slate-100">
+    <section ref={containerRef} className="py-6 md:py-10 lg:py-16 lg:py-10 md:py-6 md:py-10 lg:py-16 lg:py-24 bg-white border-b border-slate-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        <div className="flex flex-col lg:flex-row items-start justify-between gap-12 lg:gap-20">
+        <div className="flex flex-col lg:flex-row items-start justify-between gap-12 lg:gap-8 md:gap-6 md:gap-12 lg:gap-20">
            {/* Header / Intro */}
            <div className="w-full lg:w-1/3 qa-header">
              <span className="block text-[11px] font-bold tracking-widest text-primary-600 uppercase mb-4">

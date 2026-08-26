@@ -164,8 +164,8 @@ export function WhyChoose() {
       </div>
 
       {/* ---- Rest of section: white + purple grid backdrop ---- */}
-      <div className="container-wide relative z-10 w-full px-4 md:px-8 mx-auto py-16 md:py-24">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
+      <div className="container-wide relative z-10 w-full px-4 md:px-8 mx-auto py-8 md:py-6 md:py-10 lg:py-16 lg:py-10 md:py-6 md:py-10 lg:py-16 lg:py-24">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-6 md:gap-10 lg:gap-16">
           {/* Left: Company Record card -- same position as before, re-themed light */}
           <div className="wc-panel lg:col-span-4 opacity-0">
             <div className="sticky top-24 rounded-2xl border border-border bg-surface p-8 shadow-sm">

@@ -158,7 +158,7 @@ export function AdvancedFacility() {
   }, { scope: containerRef });
 
   return (
-    <section ref={containerRef} className="relative w-full bg-background overflow-hidden py-16 md:py-24">
+    <section ref={containerRef} className="relative w-full bg-background overflow-hidden py-8 md:py-6 md:py-10 lg:py-16 lg:py-10 md:py-6 md:py-10 lg:py-16 lg:py-24">
 
       {/* Blueprint Grid Backdrop */}
       <div
@@ -172,7 +172,7 @@ export function AdvancedFacility() {
       <div className="container-wide relative z-10 w-full px-4 md:px-8 mx-auto">
 
         {/* Section Header */}
-        <div className="adv-header flex flex-col items-center text-center max-w-3xl mx-auto mb-16 opacity-0">
+        <div className="adv-header flex flex-col items-center text-center max-w-3xl mx-auto mb-6 md:mb-10 lg:mb-16 opacity-0">
           <span className="text-sm font-semibold tracking-[0.2em] uppercase mb-4 flex items-center justify-center gap-3 text-primary">
             <span className="w-8 h-[1px] bg-primary" />
             Advanced Manufacturing Facility

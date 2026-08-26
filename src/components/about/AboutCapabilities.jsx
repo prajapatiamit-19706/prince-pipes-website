@@ -33,9 +33,9 @@ export default function AboutCapabilities({ data }) {
   if (!data) return null;
 
   return (
-    <section ref={containerRef} className="py-20 md:py-28 bg-slate-50 border-b border-slate-200">
+    <section ref={containerRef} className="py-10 md:py-6 md:py-10 lg:py-16 lg:py-12 md:py-8 md:py-12 lg:py-20 lg:py-28 bg-slate-50 border-b border-slate-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col items-start mb-16">
+        <div className="flex flex-col items-start mb-6 md:mb-10 lg:mb-16">
           <h2 className="capability-anim text-3xl md:text-4xl font-bold text-slate-900 leading-[1.2] max-w-2xl">
             {data.title}
           </h2>

@@ -71,10 +71,7 @@ export default function CatalogueClient({ productsData, industriesData }) {
     };
   }, [productsData, industriesData]);
 
-  // 2. Print functionality
-  const handleDownloadCatalogue = () => {
-    window.print();
-  };
+
 
   // 3. GSAP Animations
   useGSAP(() => {
@@ -130,46 +127,12 @@ export default function CatalogueClient({ productsData, industriesData }) {
   }, { scope: containerRef });
 
   return (
-    <div ref={containerRef} className="print-catalogue">
-      {/* Dynamic Print CSS */}
-      <style dangerouslySetInnerHTML={{__html: `
-        @media print {
-          body * {
-            visibility: hidden;
-          }
-          .print-catalogue, .print-catalogue * {
-            visibility: visible;
-          }
-          .print-catalogue {
-            position: absolute;
-            left: 0;
-            top: 0;
-            width: 100%;
-            padding: 0 !important;
-            margin: 0 !important;
-          }
-          .no-print {
-            display: none !important;
-          }
-          /* Expand grid for print */
-          .grid {
-            display: grid !important;
-            grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
-            gap: 1rem !important;
-          }
-          .print-break-inside-avoid {
-            break-inside: avoid;
-          }
-          .print-break-before-page {
-            break-before: page;
-          }
-        }
-      `}} />
+    <div ref={containerRef}>
 
       {/* Hero Section */}
-      <div className="bg-slate-900 text-white rounded-2xl p-8 md:p-12 lg:p-16 mb-16 relative overflow-hidden shadow-xl">
+      <div className="bg-slate-900 text-white rounded-2xl p-8 md:p-12 lg:p-16 mb-6 md:mb-10 lg:mb-16 relative overflow-hidden shadow-xl">
         {/* Decorative pattern */}
-        <div className="absolute inset-0 opacity-10 no-print" style={{ backgroundImage: 'radial-gradient(#ffffff 1px, transparent 1px)', backgroundSize: '24px 24px' }}></div>
+        <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'radial-gradient(#ffffff 1px, transparent 1px)', backgroundSize: '24px 24px' }}></div>
         
         <div className="relative z-10 max-w-3xl">
           <div className="inline-flex items-center px-3 py-1 rounded-full bg-indigo-500/20 text-indigo-200 text-xs font-semibold tracking-wide uppercase mb-6 gsap-hero border border-indigo-500/30">
@@ -182,26 +145,28 @@ export default function CatalogueClient({ productsData, industriesData }) {
             Explore our complete range of industrial pipe fittings and find the right solution for your piping requirements.
           </p>
           
-          <div className="flex flex-wrap gap-4 gsap-hero no-print">
+          <div className="flex flex-wrap gap-4 gsap-hero">
             <a href="#connection-types" className="px-6 py-3 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white font-medium transition-colors shadow-lg shadow-indigo-600/20 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-slate-900 focus:ring-indigo-500">
               Explore Products
             </a>
-            <button 
-              onClick={handleDownloadCatalogue}
+            <a 
+              href="/catalogue_pdf/PPF CATALOGUE.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-6 py-3 rounded-lg bg-white/10 hover:bg-white/20 text-white font-medium border border-white/20 transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-slate-900 focus:ring-white flex items-center"
             >
               <svg className="w-5 h-5 mr-2 opacity-80" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
               Download Catalogue
-            </button>
+            </a>
           </div>
         </div>
       </div>
 
       {/* Connection Type Selector */}
       {catalogueData.connectionTypes.length > 0 && (
-        <section id="connection-types" className="mb-16 print-break-inside-avoid">
+        <section id="connection-types" className="mb-6 md:mb-10 lg:mb-16">
           <div className="gsap-section mb-8">
             <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-2">Choose Your Connection</h2>
             <p className="text-slate-600">Start with the connection type to explore suitable fitting families.</p>
@@ -225,7 +190,7 @@ export default function CatalogueClient({ productsData, industriesData }) {
 
       {/* Explore by Fitting Type */}
       {catalogueData.fittingTypes.length > 0 && (
-        <section className="mb-16 print-break-before-page">
+        <section className="mb-6 md:mb-10 lg:mb-16">
           <div className="gsap-section mb-8">
             <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-2">Explore by Fitting Type</h2>
             <p className="text-slate-600">Browse our comprehensive catalogue by specific fitting types.</p>
@@ -233,7 +198,7 @@ export default function CatalogueClient({ productsData, industriesData }) {
           
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-3 sm:gap-4 gsap-grid-container">
             {catalogueData.fittingTypes.map((fitting, idx) => (
-              <div key={idx} className="gsap-card print-break-inside-avoid bg-white border border-slate-200 rounded-lg p-4 sm:p-5 hover:bg-slate-50 transition-colors flex flex-col justify-between h-full">
+              <div key={idx} className="gsap-card bg-white border border-slate-200 rounded-lg p-4 sm:p-5 hover:bg-slate-50 transition-colors flex flex-col justify-between h-full">
                 <div>
                   <div className="text-slate-400 mb-3 group-hover:text-indigo-500 transition-colors">
                     {/* Clean minimal line-art icon abstraction for fitting */}
@@ -255,7 +220,7 @@ export default function CatalogueClient({ productsData, industriesData }) {
 
       {/* Material Range */}
       {catalogueData.materials.length > 0 && (
-        <section className="mb-16 print-break-inside-avoid">
+        <section className="mb-6 md:mb-10 lg:mb-16">
           <div className="gsap-section mb-8">
             <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-2">Material Range</h2>
             <p className="text-slate-600">Our fittings are available in a wide range of industrial grades.</p>
@@ -279,7 +244,7 @@ export default function CatalogueClient({ productsData, industriesData }) {
 
       {/* Application / Industry */}
       {catalogueData.applications.length > 0 && (
-        <section className="mb-16 print-break-inside-avoid">
+        <section className="mb-6 md:mb-10 lg:mb-16">
           <div className="gsap-section mb-8">
             <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-2">Built for Diverse Applications</h2>
             <p className="text-slate-600">Engineered to meet the stringent demands of global industries.</p>
@@ -296,7 +261,7 @@ export default function CatalogueClient({ productsData, industriesData }) {
       )}
 
       {/* Catalogue Download CTA & Contact CTA */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8 no-print gsap-section">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8 gsap-section">
         
         {/* Download CTA */}
         <div className="bg-slate-900 rounded-2xl p-8 shadow-md relative overflow-hidden flex flex-col items-start justify-center">
@@ -307,15 +272,17 @@ export default function CatalogueClient({ productsData, industriesData }) {
           <p className="text-slate-400 mb-6 relative z-10 max-w-md">
             Download our product catalogue for a convenient overview of our available fittings and solutions.
           </p>
-          <button 
-            onClick={handleDownloadCatalogue}
-            className="group px-5 py-2.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-slate-900 focus:ring-indigo-500 flex items-center relative z-10"
+          <a 
+              href="/catalogue_pdf/PPF CATALOGUE.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            className="group px-5 py-2.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-slate-900 focus:ring-indigo-500 flex items-center relative z-10 w-fit"
           >
             <svg className="w-5 h-5 mr-2 opacity-80" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
             </svg>
             Download Catalogue
-          </button>
+          </a>
         </div>
 
         {/* Contact CTA */}

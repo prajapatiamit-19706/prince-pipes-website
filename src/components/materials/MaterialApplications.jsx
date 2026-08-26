@@ -44,7 +44,7 @@ export default function MaterialApplications({ material }) {
   if (!material.applications || material.applications.length === 0) return null;
 
   return (
-    <section ref={container} className="py-16 md:py-24 bg-slate-50 border-t border-slate-100">
+    <section ref={container} className="py-8 md:py-6 md:py-10 lg:py-16 lg:py-10 md:py-6 md:py-10 lg:py-16 lg:py-24 bg-slate-50 border-t border-slate-100">
       <div className="container-wide">
         <h2 className="text-2xl font-bold text-slate-900 mb-12 uppercase">
           TYPICAL APPLICATIONS

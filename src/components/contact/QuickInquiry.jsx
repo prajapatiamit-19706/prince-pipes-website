@@ -69,7 +69,7 @@ export function QuickInquiry() {
   const inputClasses = "w-full bg-white border border-[#E7EDF5] rounded-md px-4 py-3 text-[#142E57] placeholder:text-[#94A3B8] focus:outline-none focus:ring-2 focus:ring-[#142E57]/20 focus:border-[#142E57]/50 transition-all text-sm sm:text-base";
 
   return (
-    <section className="py-12 md:py-20 bg-[#FCFCFA] border-t border-[#E7EDF5]">
+    <section className="py-8 md:py-12 lg:py-8 md:py-12 lg:py-20 bg-[#FCFCFA] border-t border-[#E7EDF5]">
       <div className="container mx-auto px-4 sm:px-6 md:px-12 max-w-7xl">
         <div className="grid lg:grid-cols-12 gap-10 items-start">
           

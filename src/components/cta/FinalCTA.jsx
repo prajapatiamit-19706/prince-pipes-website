@@ -1,5 +1,6 @@
 "use client";
 import React, { useRef } from "react";
+import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { CTABlueprint } from "./CTABlueprint";
 import { CTADrawing } from "./CTADrawing";
@@ -10,6 +11,7 @@ import { ArrowRight, CheckCircle2 } from "lucide-react";
 
 export function FinalCTA() {
   const containerRef = useRef(null);
+  const router = useRouter();
 
   useGSAP(() => {
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
@@ -85,7 +87,7 @@ export function FinalCTA() {
     <section
       ref={containerRef}
       aria-label="Engineering Quote Call to Action"
-      className="relative w-full bg-[#FCFCFA] overflow-hidden py-12 md:py-20 lg:py-24 border-t border-[#E7EDF5]"
+      className="relative w-full bg-[#FCFCFA] overflow-hidden py-8 md:py-12 lg:py-8 md:py-12 lg:py-20 lg:py-10 md:py-6 md:py-10 lg:py-16 lg:py-24 border-t border-[#E7EDF5]"
     >
 
       {/* Background blueprint paper texture & grid */}
@@ -94,10 +96,10 @@ export function FinalCTA() {
       </div>
 
       <div className="container-wide relative z-10 mx-auto px-4 sm:px-6 md:px-12 max-w-7xl">
-        <div className="flex flex-col lg:grid lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+        <div className="flex flex-col lg:grid lg:grid-cols-12 gap-8 lg:gap-6 md:gap-8 lg:gap-12 items-center">
 
           {/* 1. Blueprint Hero Container (Order 1 on Mobile, Right Column on Desktop) */}
-          <div className="w-full lg:col-span-7 order-1 lg:order-2 flex items-center justify-center my-2 sm:my-0 max-sm:scale-[1.25] max-sm:mb-20 transform origin-top">
+          <div className="w-full lg:col-span-7 order-1 lg:order-2 flex items-center justify-center my-2 sm:my-0 max-sm:scale-[1.25] max-sm:mb-8 md:mb-12 lg:mb-20 transform origin-top">
             <CTADrawing />
           </div>
 
@@ -123,16 +125,18 @@ export function FinalCTA() {
             {/* CTA Buttons: Vertical stack on mobile, Side-by-side on desktop */}
             <div className="cta-buttons flex flex-col sm:flex-row gap-4 mb-8 w-full max-w-xl mx-auto lg:mx-0 opacity-0">
               <Button
+                onClick={() => window.open('https://wa.me/7045140314', '_blank', 'noopener,noreferrer')}
                 className="group bg-[#142E57] hover:bg-[#1D4377] text-white text-[14px] sm:text-[15px] font-semibold tracking-wide h-12 px-6 sm:px-8 w-full sm:w-auto min-w-fit whitespace-nowrap transition-all duration-300 shadow-[0_6px_20px_rgba(20,46,87,0.15)] hover:shadow-[0_8px_25px_rgba(20,46,87,0.2)] hover:-translate-y-1 rounded-md"
               >
                 Request Engineering Quote
                 <ArrowRight className="ml-2 w-4 h-4 transition-transform duration-300 group-hover:translate-x-1 shrink-0" />
               </Button>
               <Button
+                onClick={() => router.push('/resources/catalogue')}
                 variant="outline"
                 className="group border border-[#142E57]/20 bg-white hover:bg-[#EEF4FB] text-[#142E57] text-[14px] sm:text-[15px] font-semibold tracking-wide h-12 px-6 sm:px-8 w-full sm:w-auto min-w-fit whitespace-nowrap transition-all duration-300 hover:border-[#142E57]/40 hover:-translate-y-1 rounded-md"
               >
-                Download Product Catalogue
+                View Product Catalogue
               </Button>
             </div>
 

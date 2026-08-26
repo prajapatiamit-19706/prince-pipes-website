@@ -10,7 +10,7 @@ import { SearchEmptyState } from './SearchEmptyState';
 // Custom hook for debouncing
 const useDebounce = (value, delay) => {
   const [debouncedValue, setDebouncedValue] = useState(value);
-  
+
   useEffect(() => {
     const handler = setTimeout(() => {
       setDebouncedValue(value);
@@ -19,15 +19,15 @@ const useDebounce = (value, delay) => {
       clearTimeout(handler);
     };
   }, [value, delay]);
-  
+
   return debouncedValue;
 };
 
 export const SearchResults = () => {
   const { searchQuery, closeSearch } = useSearchContext();
   const router = useRouter();
-  const debouncedQuery = useDebounce(searchQuery, 150); // Fast 150ms debounce for local search
-  
+  const debouncedQuery = useDebounce(searchQuery, 600); // 600ms debounce for local search
+
   const [selectedIndex, setSelectedIndex] = useState(-1);
 
   // Memoized search execution
@@ -76,7 +76,7 @@ export const SearchResults = () => {
 
   if (isInitial) {
     return (
-      <div className="flex-1 overflow-y-auto custom-scrollbar">
+      <div className="flex-1 min-h-0 overflow-y-auto custom-scrollbar">
         <SearchEmptyState isInitial={true} />
       </div>
     );
@@ -84,7 +84,7 @@ export const SearchResults = () => {
 
   if (!hasResults) {
     return (
-      <div className="flex-1 overflow-y-auto custom-scrollbar">
+      <div className="flex-1 min-h-0 overflow-y-auto custom-scrollbar">
         <SearchEmptyState isInitial={false} />
       </div>
     );
@@ -94,18 +94,18 @@ export const SearchResults = () => {
   let globalIndexCounter = 0;
 
   return (
-    <div className="flex-1 overflow-y-auto p-6 bg-white/50 custom-scrollbar">
+    <div className="flex-1 min-h-0 overflow-y-auto p-6 bg-white/50 custom-scrollbar">
       {Object.entries(results).map(([category, items]) => {
         if (items.length === 0) return null;
-        
+
         return (
           <SearchSection key={category} title={category}>
             {items.map((item) => {
               const currentIndex = globalIndexCounter++;
               return (
-                <SearchResultItem 
-                  key={item.id} 
-                  item={item} 
+                <SearchResultItem
+                  key={item.id}
+                  item={item}
                   isSelected={selectedIndex === currentIndex}
                   onMouseEnter={() => setSelectedIndex(currentIndex)}
                 />

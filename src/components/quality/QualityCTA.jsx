@@ -6,7 +6,7 @@ export default function QualityCTA({ data }) {
   if (!data) return null;
 
   return (
-    <section className="bg-white py-12 lg:py-20 border-t border-slate-100">
+    <section className="bg-white py-12 lg:py-8 md:py-12 lg:py-20 border-t border-slate-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-slate-900 rounded-lg p-8 sm:p-12 lg:p-16 shadow-2xl flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8 relative overflow-hidden">
           

@@ -16,7 +16,7 @@ export const MegaMenu = ({ isOpen, data, onMouseEnter, onMouseLeave }) => {
           onMouseLeave={onMouseLeave}
           className="absolute top-full left-0 w-full bg-white shadow-dropdown z-[400] border-t border-border"
         >
-          <div className="container-wide py-12 flex gap-12">
+          <div className="container-wide py-12 flex gap-6 md:gap-8 lg:gap-12">
             <div className="flex-[2] grid grid-cols-3 gap-8">
               {data.categories.map((category) => (
                 <div key={category.title} className="flex flex-col">

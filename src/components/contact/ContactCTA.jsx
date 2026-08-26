@@ -9,7 +9,7 @@ export function ContactCTA() {
   const whatsappUrl = `https://wa.me/${whatsappNumber}`;
 
   return (
-    <section className="py-12 md:py-16 bg-[#EEF4FB] border-t border-[#E7EDF5]">
+    <section className="py-12 md:py-6 md:py-10 lg:py-16 bg-[#EEF4FB] border-t border-[#E7EDF5]">
       <div className="container mx-auto px-4 sm:px-6 md:px-12 max-w-7xl text-center">
         <h2 className="text-2xl sm:text-3xl font-bold text-[#142E57] mb-3">
           Have a Specific Requirement?

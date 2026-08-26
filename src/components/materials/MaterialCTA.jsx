@@ -38,7 +38,7 @@ export default function MaterialCTA({ material }) {
   }, { scope: containerRef });
 
   return (
-    <section className="py-12 md:py-16">
+    <section className="py-12 md:py-6 md:py-10 lg:py-16">
       <div className="container-wide">
         <div
           ref={containerRef}
@@ -58,7 +58,7 @@ export default function MaterialCTA({ material }) {
           <div className="absolute inset-0 bg-gradient-to-b from-white/[0.02] to-transparent pointer-events-none" />
 
           {/* Content Container */}
-          <div className="relative z-10 px-6 py-10 md:px-12 md:py-0 md:h-[300px] flex flex-col md:flex-row items-center justify-between gap-8 md:gap-12">
+          <div className="relative z-10 px-6 py-10 md:px-12 md:py-0 md:h-[300px] flex flex-col md:flex-row items-center justify-between gap-8 md:gap-6 md:gap-8 lg:gap-12">
 
             {/* Left Content */}
             <div className="flex-1 w-full max-w-3xl flex flex-col items-center text-center md:items-start md:text-left">

@@ -65,7 +65,7 @@ export function QuickSpecs({ specifications }) {
   if (quickSpecs.length === 0) return null;
 
   return (
-    <div ref={containerRef} className="mt-16 pt-12 border-t border-neutral-200">
+    <div ref={containerRef} className="mt-6 md:mt-10 lg:mt-16 pt-12 border-t border-neutral-200">
       <h3 className="text-xs font-bold tracking-[0.2em] text-neutral-400 uppercase mb-8">
         QUICK SPECIFICATIONS
       </h3>

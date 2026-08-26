@@ -4,6 +4,7 @@ import React, { useState, useMemo, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 import { useGSAP } from '@gsap/react';
+import { ProductBreadcrumb } from '@/components/product/ProductBreadcrumb';
 
 if (typeof window !== "undefined") {
   gsap.registerPlugin(ScrollTrigger);
@@ -12,7 +13,7 @@ if (typeof window !== "undefined") {
 export default function WeightChartsClient({ initialData }) {
   const containerRef = useRef(null);
   const products = useMemo(() => initialData?.products || [], [initialData]);
-  
+
   // States
   const [activeProduct, setActiveProduct] = useState(products[0]?.product || '');
   const [selectedType, setSelectedType] = useState('All');
@@ -23,10 +24,10 @@ export default function WeightChartsClient({ initialData }) {
   useGSAP(() => {
     // Only animate if prefers-reduced-motion is false
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    
+
     if (!prefersReducedMotion) {
       const tl = gsap.timeline();
-      
+
       tl.from('.gsap-header', {
         y: 15,
         opacity: 0,
@@ -35,20 +36,20 @@ export default function WeightChartsClient({ initialData }) {
         ease: 'power2.out',
         clearProps: 'all'
       })
-      .from('.gsap-filters', {
-        y: 10,
-        opacity: 0,
-        duration: 0.4,
-        ease: 'power2.out',
-        clearProps: 'all'
-      }, "-=0.2")
-      .from('.gsap-table', {
-        y: 10,
-        opacity: 0,
-        duration: 0.4,
-        ease: 'power2.out',
-        clearProps: 'all'
-      }, "-=0.2");
+        .from('.gsap-filters', {
+          y: 10,
+          opacity: 0,
+          duration: 0.4,
+          ease: 'power2.out',
+          clearProps: 'all'
+        }, "-=0.2")
+        .from('.gsap-table', {
+          y: 10,
+          opacity: 0,
+          duration: 0.4,
+          ease: 'power2.out',
+          clearProps: 'all'
+        }, "-=0.2");
 
       gsap.from('.gsap-scroll-reveal', {
         scrollTrigger: {
@@ -66,22 +67,22 @@ export default function WeightChartsClient({ initialData }) {
   }, { scope: containerRef });
 
   // Find active product data
-  const activeProductData = useMemo(() => 
-    products.find(p => p.product === activeProduct), 
-  [activeProduct, products]);
+  const activeProductData = useMemo(() =>
+    products.find(p => p.product === activeProduct),
+    [activeProduct, products]);
 
   // Extract unique filter options for the active product
   const filterOptions = useMemo(() => {
     if (!activeProductData || !activeProductData.data) return { types: [], schedules: [] };
-    
+
     const types = new Set();
     const schedules = new Set();
-    
+
     activeProductData.data.forEach(item => {
       if (item.type && item.type !== '-') types.add(item.type);
       if (item.schedule && item.schedule !== '-') schedules.add(item.schedule);
     });
-    
+
     return {
       types: Array.from(types).sort(),
       schedules: Array.from(schedules).sort()
@@ -91,7 +92,7 @@ export default function WeightChartsClient({ initialData }) {
   // Filter the table data
   const filteredData = useMemo(() => {
     if (!activeProductData || !activeProductData.data) return [];
-    
+
     return activeProductData.data.filter(item => {
       if (selectedType !== 'All' && item.type !== selectedType) return false;
       if (selectedSchedule !== 'All' && item.schedule !== selectedSchedule) return false;
@@ -124,21 +125,29 @@ export default function WeightChartsClient({ initialData }) {
 
   return (
     <div ref={containerRef}>
-      
+
+      {/* Breadcrumb */}
+      <div className="gsap-header mb-6 -mt-2">
+        <ProductBreadcrumb breadcrumbs={[
+          { name: 'Technical Resources', path: '/technical-resources' },
+          { name: 'Weight Charts', path: '/technical-resources/weight-charts' }
+        ]} />
+      </div>
+
       {/* Header Section */}
       <div className="mb-10 text-center md:text-left">
         <h1 className="gsap-header text-3xl md:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">
           Stainless Steel Weight Charts
         </h1>
         <p className="gsap-header text-lg text-slate-600 max-w-3xl transition-opacity duration-200">
-          Reference weight information for stainless steel pipe fittings across different sizes, types, and schedules. 
+          Reference weight information for stainless steel pipe fittings across different sizes, types, and schedules.
           Select a product below to view its approximate theoretical weight.
         </p>
       </div>
 
       {/* Main Interactive Container */}
       <div className="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden transition-all duration-300">
-        
+
         {/* Product Selector (Tabs) */}
         <div className="bg-slate-50 border-b border-slate-200 overflow-x-auto gsap-filters">
           <div className="flex w-max min-w-full px-2 py-2">
@@ -146,11 +155,10 @@ export default function WeightChartsClient({ initialData }) {
               <button
                 key={p.product}
                 onClick={() => handleProductChange(p.product)}
-                className={`px-4 py-2.5 text-sm font-medium rounded-lg whitespace-nowrap transition-all duration-200 mr-2 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-1 ${
-                  activeProduct === p.product
+                className={`px-4 py-2.5 text-sm font-medium rounded-lg whitespace-nowrap transition-all duration-200 mr-2 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-1 ${activeProduct === p.product
                     ? 'bg-indigo-600 text-white shadow-sm'
                     : 'text-slate-600 hover:bg-slate-200 hover:text-slate-900'
-                }`}
+                  }`}
               >
                 {p.product}
               </button>
@@ -159,7 +167,7 @@ export default function WeightChartsClient({ initialData }) {
         </div>
 
         <div className="p-4 sm:p-6 transition-opacity duration-200">
-          
+
           {/* Subheader & Source Info */}
           <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-6 gsap-filters">
             <div>
@@ -170,7 +178,7 @@ export default function WeightChartsClient({ initialData }) {
                 </p>
               )}
             </div>
-            
+
             {activeProductData?.source && activeProductData.source.type !== "unavailable" && (
               <div className="mt-2 md:mt-0 px-3 py-1.5 bg-blue-50 text-blue-700 text-xs rounded-md border border-blue-100 flex items-center w-max transition-colors duration-200">
                 <svg className="w-4 h-4 mr-1.5 opacity-70" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -236,7 +244,7 @@ export default function WeightChartsClient({ initialData }) {
                   </select>
                 </div>
               )}
-              
+
               {/* Clear Filters */}
               <div className="flex items-end">
                 {hasActiveFilters && (
@@ -276,8 +284,8 @@ export default function WeightChartsClient({ initialData }) {
               <tbody className="bg-white divide-y divide-slate-200 transition-opacity duration-200">
                 {filteredData.length > 0 ? (
                   filteredData.map((row, idx) => (
-                    <tr 
-                      key={idx} 
+                    <tr
+                      key={idx}
                       className={`${idx % 2 === 0 ? 'bg-white' : 'bg-slate-50'} hover:bg-slate-100 transition-colors duration-150`}
                     >
                       <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900">
@@ -300,7 +308,7 @@ export default function WeightChartsClient({ initialData }) {
                 ) : (
                   <tr>
                     <td colSpan="5" className="px-6 py-12 text-center text-sm text-slate-500 bg-slate-50 transition-colors duration-200">
-                      {activeProductData?.source?.type === "unavailable" 
+                      {activeProductData?.source?.type === "unavailable"
                         ? "Weight data is currently unavailable for this product."
                         : "No results found matching your filters."}
                     </td>
@@ -309,7 +317,7 @@ export default function WeightChartsClient({ initialData }) {
               </tbody>
             </table>
           </div>
-          
+
           <div className="mt-4 text-xs text-slate-400 text-right transition-opacity duration-200">
             Showing {filteredData.length > 0 ? (
               <span className="font-semibold text-slate-500">{filteredData.length}</span>

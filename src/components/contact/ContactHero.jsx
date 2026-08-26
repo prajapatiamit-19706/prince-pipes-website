@@ -17,7 +17,7 @@ export function ContactHero() {
   }, []);
 
   return (
-    <section className="pt-12 pb-12 md:pt-16 md:pb-16 bg-[#FCFCFA] border-b border-[#E7EDF5]">
+    <section className="pt-12 pb-12 md:pt-16 md:pb-6 md:pb-10 lg:pb-16 bg-[#FCFCFA] border-b border-[#E7EDF5]">
       <div className="container mx-auto px-4 sm:px-6 md:px-12 max-w-7xl">
         <div className="contact-hero-content max-w-2xl">
           <ProductBreadcrumb

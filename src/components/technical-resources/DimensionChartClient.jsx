@@ -14,6 +14,7 @@ import DimensionChartPanel from './DimensionChartPanel';
 import FAQAccordion from './FAQAccordion';
 import TechnicalSupportCTA from './TechnicalSupportCTA';
 import dimensionData from '@/data/ss_dimension_chart.json';
+import { ProductBreadcrumb } from '@/components/product/ProductBreadcrumb';
 
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
@@ -98,28 +99,15 @@ export default function DimensionChartClient() {
   }, { scope: containerRef });
 
   return (
-    <div ref={containerRef} className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
+    <div ref={containerRef} className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 md:pt-10 lg:pt-12 pb-8 md:pb-12">
       
       {/* Compact Breadcrumb */}
-      <nav className="flex items-center text-xs font-medium text-text-muted mb-6 breadcrumb-item" aria-label="Breadcrumb">
-        <ol className="flex items-center space-x-2">
-          <li>
-            <Link href="/" className="hover:text-primary transition-colors">Home</Link>
-          </li>
-          <li>
-            <ChevronRight className="w-3 h-3 mx-1" />
-          </li>
-          <li>
-            <span className="hover:text-primary transition-colors cursor-pointer">Technical Resources</span>
-          </li>
-          <li>
-            <ChevronRight className="w-3 h-3 mx-1" />
-          </li>
-          <li>
-            <span className="text-primary font-semibold">Dimension Charts</span>
-          </li>
-        </ol>
-      </nav>
+      <div className="breadcrumb-item -mt-4 mb-2 md:-mt-6 md:mb-4">
+        <ProductBreadcrumb breadcrumbs={[
+          { name: 'Technical Resources', path: '/technical-resources' },
+          { name: 'Dimension Charts', path: '/technical-resources/dimension-charts' }
+        ]} />
+      </div>
 
       {/* Page Header */}
       <div className="max-w-3xl mb-8">

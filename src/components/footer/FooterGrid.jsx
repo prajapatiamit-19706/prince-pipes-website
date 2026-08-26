@@ -17,7 +17,7 @@ export const FooterGrid = () => {
   const resourceLinks = getNavItems('technical-resources');
 
   return (
-    <div className="container-wide py-16 md:py-24">
+    <div className="container-wide py-8 md:py-6 md:py-10 lg:py-16 lg:py-10 md:py-6 md:py-10 lg:py-16 lg:py-24">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 lg:gap-8">
         
         {/* Column 1: Brand */}

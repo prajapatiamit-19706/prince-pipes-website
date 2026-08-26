@@ -16,7 +16,7 @@ export function ProductHero({ product, category, subCategory }) {
   const [activeImageIndex, setActiveImageIndex] = useState(0);
   const [isViewerOpen, setIsViewerOpen] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
-  
+
   const [touchStart, setTouchStart] = useState(null);
   const [touchEnd, setTouchEnd] = useState(null);
   const minSwipeDistance = 50;
@@ -40,37 +40,37 @@ export function ProductHero({ product, category, subCategory }) {
 
   useGSAP(() => {
     const tl = gsap.timeline();
-    
+
     // Left side content animation
     tl.fromTo(
       ".hero-category",
       { opacity: 0, y: 8 },
       { opacity: 1, y: 0, duration: 0.5, ease: "power2.out" }
     )
-    .fromTo(
-      ".hero-title",
-      { opacity: 0, y: 12 },
-      { opacity: 1, y: 0, duration: 0.6, ease: "power2.out" },
-      "-=0.3"
-    )
-    .fromTo(
-      ".hero-desc",
-      { opacity: 0, y: 10 },
-      { opacity: 1, y: 0, duration: 0.6, ease: "power2.out" },
-      "-=0.4"
-    )
-    .fromTo(
-      ".hero-specs",
-      { opacity: 0, y: 10 },
-      { opacity: 1, y: 0, duration: 0.6, ease: "power2.out" },
-      "-=0.4"
-    )
-    .fromTo(
-      ".hero-cta",
-      { opacity: 0, y: 8 },
-      { opacity: 1, y: 0, duration: 0.5, ease: "power2.out", stagger: 0.1 },
-      "-=0.3"
-    );
+      .fromTo(
+        ".hero-title",
+        { opacity: 0, y: 12 },
+        { opacity: 1, y: 0, duration: 0.6, ease: "power2.out" },
+        "-=0.3"
+      )
+      .fromTo(
+        ".hero-desc",
+        { opacity: 0, y: 10 },
+        { opacity: 1, y: 0, duration: 0.6, ease: "power2.out" },
+        "-=0.4"
+      )
+      .fromTo(
+        ".hero-specs",
+        { opacity: 0, y: 10 },
+        { opacity: 1, y: 0, duration: 0.6, ease: "power2.out" },
+        "-=0.4"
+      )
+      .fromTo(
+        ".hero-cta",
+        { opacity: 0, y: 8 },
+        { opacity: 1, y: 0, duration: 0.5, ease: "power2.out", stagger: 0.1 },
+        "-=0.3"
+      );
 
     // Right side image animation
     gsap.fromTo(
@@ -107,7 +107,7 @@ export function ProductHero({ product, category, subCategory }) {
     const distance = touchStart - touchEnd;
     const isLeftSwipe = distance > minSwipeDistance;
     const isRightSwipe = distance < -minSwipeDistance;
-    
+
     if (isLeftSwipe && allImages.length > 1) {
       handleNext();
     }
@@ -128,24 +128,24 @@ export function ProductHero({ product, category, subCategory }) {
   if (product.technicalSpecifications?.sizeRange) keySpecs.push(product.technicalSpecifications.sizeRange);
 
   return (
-    <section ref={containerRef} className="py-8 md:py-16">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center">
-        
+    <section ref={containerRef} className="py-6 md:py-6 md:py-6 lg:py-8">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-10 md:gap-16 lg:gap-24 items-center">
+
         {/* Left Side: Content */}
         <div className="flex flex-col items-start max-w-2xl">
           <div className="hero-category text-sm font-bold tracking-[0.2em] text-primary uppercase mb-4 flex flex-col gap-1">
             <span>{category?.name}</span>
             {subCategory && <span className="text-neutral-500">{subCategory.name}</span>}
           </div>
-          
+
           <h1 className="hero-title text-4xl md:text-5xl lg:text-6xl font-display font-medium text-text leading-tight mb-6">
             {product.name}
           </h1>
-          
+
           <p className="hero-desc text-lg text-neutral-600 mb-8 leading-relaxed max-w-xl">
             {product.description?.short || "Precision-engineered fitting for industrial applications."}
           </p>
-          
+
           {keySpecs.length > 0 && (
             <div className="hero-specs flex flex-wrap items-center gap-3 mb-12">
               {keySpecs.map((spec, i) => (
@@ -160,15 +160,15 @@ export function ProductHero({ product, category, subCategory }) {
               ))}
             </div>
           )}
-          
+
           <div className="hero-cta flex flex-wrap items-center gap-4 w-full sm:w-auto">
-            <button 
+            <button
               onClick={handleRequestQuote}
               className="bg-primary hover:bg-primary-dark text-white px-8 py-4 rounded-none font-medium tracking-wide transition-colors duration-300 w-full sm:w-auto text-center"
             >
               REQUEST A QUOTE
             </button>
-            <button 
+            <button
               onClick={handleScrollToSpecs}
               className="group flex items-center justify-center gap-2 bg-neutral-100 hover:bg-neutral-200 text-text px-8 py-4 rounded-none font-medium tracking-wide transition-colors duration-300 w-full sm:w-auto"
             >
@@ -179,7 +179,7 @@ export function ProductHero({ product, category, subCategory }) {
         </div>
 
         {/* Right Side: Image / 3D Viewer */}
-        <div 
+        <div
           className="relative w-full aspect-square md:aspect-[4/3] bg-neutral-50 rounded-xl overflow-hidden group border border-neutral-100 touch-pan-y"
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
@@ -191,11 +191,10 @@ export function ProductHero({ product, category, subCategory }) {
             {hasImages ? (
               <>
                 {allImages.map((img, idx) => (
-                  <div 
+                  <div
                     key={idx}
-                    className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
-                      idx === activeImageIndex ? "opacity-100 z-10" : "opacity-0 z-0"
-                    }`}
+                    className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${idx === activeImageIndex ? "opacity-100 z-10" : "opacity-0 z-0"
+                      }`}
                   >
                     <Image
                       src={img}
@@ -212,16 +211,16 @@ export function ProductHero({ product, category, subCategory }) {
               // Clean placeholder if no images exist. Using 3D as a nice touch since it's available, 
               // but keeping it minimal as requested in spec.
               <div className="w-full h-full bg-neutral-100 flex items-center justify-center relative">
-                 {/* Optional 3D Placeholder - lightweight */}
-                 <div className="absolute inset-0 opacity-50">
-                    <Canvas shadows camera={{ position: [0, 0, 5], fov: 45 }}>
-                      <Environment preset="city" />
-                      <ProductPlaceholder />
-                    </Canvas>
-                 </div>
-                 <div className="relative z-10 bg-white/80 backdrop-blur-sm px-6 py-3 rounded-full text-sm font-medium text-neutral-500 border border-neutral-200 shadow-sm">
-                   Image Available on Request
-                 </div>
+                {/* Optional 3D Placeholder - lightweight */}
+                <div className="absolute inset-0 opacity-50">
+                  <Canvas shadows camera={{ position: [0, 0, 5], fov: 45 }}>
+                    <Environment preset="city" />
+                    <ProductPlaceholder />
+                  </Canvas>
+                </div>
+                <div className="relative z-10 bg-white/80 backdrop-blur-sm px-6 py-3 rounded-full text-sm font-medium text-neutral-500 border border-neutral-200 shadow-sm">
+                  Image Available on Request
+                </div>
               </div>
             )}
           </div>
@@ -236,11 +235,10 @@ export function ProductHero({ product, category, subCategory }) {
                     e.stopPropagation();
                     setActiveImageIndex(idx);
                   }}
-                  className={`transition-all duration-300 h-1.5 rounded-full ${
-                    idx === activeImageIndex 
-                      ? "w-8 bg-primary" 
-                      : "w-2 bg-neutral-300 hover:bg-neutral-400"
-                  }`}
+                  className={`transition-all duration-300 h-1.5 rounded-full ${idx === activeImageIndex
+                    ? "w-8 bg-primary"
+                    : "w-2 bg-neutral-300 hover:bg-neutral-400"
+                    }`}
                   aria-label={`Go to slide ${idx + 1}`}
                 />
               ))}
@@ -249,8 +247,8 @@ export function ProductHero({ product, category, subCategory }) {
         </div>
       </div>
 
-      <FullscreenImageViewer 
-        images={allImages} 
+      <FullscreenImageViewer
+        images={allImages}
         currentIndex={activeImageIndex}
         isOpen={isViewerOpen}
         onClose={() => setIsViewerOpen(false)}

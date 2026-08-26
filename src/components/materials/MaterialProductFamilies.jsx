@@ -31,7 +31,7 @@ export default function MaterialProductFamilies({ material, productFamilies }) {
 
   if (!productFamilies || productFamilies.length === 0) {
     return (
-      <section className="py-16 md:py-24 bg-slate-50 border-t border-slate-100">
+      <section className="py-8 md:py-6 md:py-10 lg:py-16 lg:py-10 md:py-6 md:py-10 lg:py-16 lg:py-24 bg-slate-50 border-t border-slate-100">
         <div className="container-wide">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
             WHAT CAN BE MADE FROM THIS MATERIAL?
@@ -48,7 +48,7 @@ export default function MaterialProductFamilies({ material, productFamilies }) {
   }
 
   return (
-    <section ref={container} className="py-16 md:py-24 bg-slate-50 border-t border-slate-100">
+    <section ref={container} className="py-8 md:py-6 md:py-10 lg:py-16 lg:py-10 md:py-6 md:py-10 lg:py-16 lg:py-24 bg-slate-50 border-t border-slate-100">
       <div className="container-wide">
         <div className="max-w-4xl mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6 uppercase">

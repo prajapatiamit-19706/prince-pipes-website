@@ -31,7 +31,7 @@ export default function QualityHero({ data }) {
   }, { scope: containerRef });
 
   return (
-    <section ref={containerRef} className="relative w-full border-b border-slate-200 bg-white overflow-hidden pt-4 pb-8 lg:py-20">
+    <section ref={containerRef} className="relative w-full border-b border-slate-200 bg-white overflow-hidden pt-4 pb-8 lg:py-8 md:py-12 lg:py-20">
       {/* Subtle Grid Background */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#f1f5f9_1px,transparent_1px),linear-gradient(to_bottom,#f1f5f9_1px,transparent_1px)] bg-[size:24px_24px] pointer-events-none opacity-60"></div>
 

@@ -10,7 +10,7 @@ export function HeroCategories() {
   if (!categories || categories.length === 0) return null;
 
   return (
-    <div id="categories" className="w-full bg-[#F7F9FC] py-20 border-t border-gray-200 mt-auto">
+    <div id="categories" className="w-full bg-[#F7F9FC] py-8 md:py-12 lg:py-20 border-t border-gray-200 mt-auto">
       <div className="max-w-[1340px] mx-auto px-6 md:px-12">
 
         {/* Header Section */}
@@ -20,10 +20,10 @@ export function HeroCategories() {
             <p className="text-3xl md:text-4xl font-bold text-[#0F2748] tracking-tight mb-4">Premium Industrial Solutions</p>
             <p className="text-[#6B7280] text-lg">Precision-engineered pipe fittings for demanding industrial applications.</p>
           </div>
-          <Link href="/products" className="inline-flex items-center gap-2 text-[#1E4FA8] font-bold hover:text-[#0F2748] transition-colors group whitespace-nowrap">
+          {/* <Link href="/products" className="inline-flex items-center gap-2 text-[#1E4FA8] font-bold hover:text-[#0F2748] transition-colors group whitespace-nowrap">
             View All Categories
             <ArrowRight size={18} className="transition-transform duration-300 group-hover:translate-x-1" />
-          </Link>
+          </Link> */}
         </div>
 
         {/* Grid Section */}
@@ -36,7 +36,7 @@ export function HeroCategories() {
                 key={category.id}
                 href={`/products/${category.slug}`}
                 className={`hero-category-card opacity-0 translate-y-8 group flex flex-col h-full p-6 rounded-xl bg-white transition-all duration-300 hover:-translate-y-1 hover:shadow-lg relative overflow-hidden ${isPrimary
-                  ? 'border-[1.5px] border-[#1E4FA8]/30 hover:border-[#1E4FA8]/60'
+                  ? 'border-[1.5px] border-[#1E4FA8]/30 hover:border-[#c29b62]'
                   : 'border border-gray-200 hover:border-[#1E4FA8]/40'
                   }`}
               >

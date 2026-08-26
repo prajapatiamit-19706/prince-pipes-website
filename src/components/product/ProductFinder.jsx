@@ -10,6 +10,23 @@ import Link from 'next/link';
 
 gsap.registerPlugin(ScrollTrigger);
 
+const HighlightText = ({ text, highlight }) => {
+  if (!highlight || !highlight.trim() || !text) return <>{text}</>;
+  
+  // Escape regex special characters
+  const escapedHighlight = highlight.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const regex = new RegExp(`(${escapedHighlight})`, 'gi');
+  const parts = text.split(regex);
+  
+  return (
+    <>
+      {parts.map((part, i) => 
+        regex.test(part) ? <span key={i} className="text-primary font-bold bg-primary/10 px-0.5 rounded">{part}</span> : part
+      )}
+    </>
+  );
+};
+
 export function ProductFinder() {
   const containerRef = useRef(null);
   const searchContainerRef = useRef(null);
@@ -150,7 +167,7 @@ export function ProductFinder() {
                   >
                     <div>
                       <div className="font-medium text-neutral-900 group-hover:text-primary transition-colors">
-                        {item.name}
+                        <HighlightText text={item.name} highlight={searchQuery} />
                       </div>
                       <div className="text-xs text-neutral-500 mt-2 flex flex-wrap gap-2">
                         <span className="bg-neutral-100 px-2 py-1 rounded-md text-neutral-600">{item.material}</span>

@@ -32,11 +32,11 @@ export default function QualityFramework({ data }) {
   }, { scope: containerRef });
 
   return (
-    <section ref={containerRef} className="py-16 lg:py-24 bg-slate-50 border-b border-slate-200">
+    <section ref={containerRef} className="py-6 md:py-10 lg:py-16 lg:py-10 md:py-6 md:py-10 lg:py-16 lg:py-24 bg-slate-50 border-b border-slate-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header */}
-        <div className="fw-header max-w-2xl mb-12 sm:mb-16">
+        <div className="fw-header max-w-2xl mb-12 sm:mb-6 md:mb-10 lg:mb-16">
           <span className="block text-[11px] font-bold tracking-widest text-primary-600 uppercase mb-4">
             {data.eyebrow}
           </span>

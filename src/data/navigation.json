@@ -180,11 +180,6 @@
       "type": "dropdown",
       "children": [
         {
-          "id": "standards-reference",
-          "label": "Standards Reference",
-          "path": "/technical-resources/standards"
-        },
-        {
           "id": "dimension-charts",
           "label": "Dimension Charts",
           "path": "/technical-resources/dimension-charts",

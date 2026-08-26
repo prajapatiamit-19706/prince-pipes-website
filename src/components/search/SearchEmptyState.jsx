@@ -7,7 +7,7 @@ export const SearchEmptyState = ({ isInitial }) => {
 
   if (isInitial) {
     return (
-      <div className="flex flex-col items-center justify-center py-16 px-6 text-center">
+      <div className="flex flex-col items-center justify-center py-6 md:py-10 lg:py-16 px-6 text-center">
         <div className="w-16 h-16 bg-surface-2 rounded-full flex items-center justify-center mb-6">
           <Search className="w-8 h-8 text-text-muted" />
         </div>
@@ -22,7 +22,7 @@ export const SearchEmptyState = ({ isInitial }) => {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center py-16 px-6 text-center">
+    <div className="flex flex-col items-center justify-center py-6 md:py-10 lg:py-16 px-6 text-center">
       <div className="w-16 h-16 bg-surface-2 rounded-full flex items-center justify-center mb-6">
         <Search className="w-8 h-8 text-text-muted" />
       </div>

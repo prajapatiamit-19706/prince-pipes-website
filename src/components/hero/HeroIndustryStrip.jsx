@@ -50,7 +50,7 @@ export function HeroIndustryStrip({ industries }) {
   if (!industries || industries.length === 0) return null;
 
   return (
-    <div ref={containerRef} className="w-full bg-background py-20 border-t border-border/50 relative overflow-hidden">
+    <div ref={containerRef} className="w-full bg-background py-8 md:py-12 lg:py-20 border-t border-border/50 relative overflow-hidden">
 
       {/* Background Section with faint CAD elements */}
       <div className="absolute inset-0 pointer-events-none opacity-20">

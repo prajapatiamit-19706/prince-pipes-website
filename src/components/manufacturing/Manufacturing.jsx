@@ -109,14 +109,14 @@ export function Manufacturing() {
   // ---- Reduced-motion fallback: same content, no pin/scrub, normal stacked flow ----
   if (reducedMotion) {
     return (
-      <section className="relative w-full bg-surface py-20 md:py-28 border-t border-border/40">
+      <section className="relative w-full bg-surface py-10 md:py-6 md:py-10 lg:py-16 lg:py-12 md:py-8 md:py-12 lg:py-20 lg:py-28 border-t border-border/40">
         <h2 className="sr-only">Our Manufacturing Process</h2>
         <div className="max-w-7xl mx-auto px-6 md:px-12">
           <span className="text-xs md:text-sm font-semibold tracking-[0.2em] uppercase mb-12 flex items-center gap-3 text-primary">
             <span className="w-8 h-[1px] bg-primary" />
             Manufacturing Journey
           </span>
-          <ol className="flex flex-col gap-16 md:gap-24">
+          <ol className="flex flex-col gap-6 md:gap-10 lg:gap-16 md:gap-10 md:gap-16 lg:gap-24">
             {steps.map((step) => {
               const StepIcon = Icons[step.icon] || Icons.Settings;
               return (
@@ -170,7 +170,7 @@ export function Manufacturing() {
       <div aria-hidden="true" className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90vh] h-[90vh] rounded-full border-[1px] border-primary/5 pointer-events-none z-0" />
 
       {/* Coordinate tick marks along the left edge -- nod to "coordinate lines" in the brief */}
-      <div aria-hidden="true" className="hidden md:flex absolute left-6 top-0 bottom-0 flex-col justify-between py-24 pointer-events-none z-0 opacity-[0.025]">
+      <div aria-hidden="true" className="hidden md:flex absolute left-6 top-0 bottom-0 flex-col justify-between py-10 md:py-6 md:py-10 lg:py-16 lg:py-24 pointer-events-none z-0 opacity-[0.025]">
         {Array.from({ length: 10 }).map((_, i) => (
           <div key={i} className="flex items-center gap-2">
             <span className="w-2 h-px" style={{ background: MUTED_GREEN }} />
@@ -199,7 +199,7 @@ export function Manufacturing() {
       </div>
 
       {/* Content Layer */}
-      <div className="relative z-10 w-full h-full max-w-7xl mx-auto px-6 md:px-12 flex flex-col pt-20 pb-12 md:py-24">
+      <div className="relative z-10 w-full h-full max-w-7xl mx-auto px-6 md:px-12 flex flex-col pt-8 md:pt-12 lg:pt-20 pb-12 md:py-10 md:py-6 md:py-10 lg:py-16 lg:py-24">
         <div className="flex flex-col max-w-3xl mb-auto">
           <span className="text-xs md:text-sm font-semibold tracking-[0.2em] uppercase mb-4 flex items-center gap-3 text-primary">
             <span className="w-8 h-[1px] bg-primary" />
@@ -207,7 +207,7 @@ export function Manufacturing() {
           </span>
         </div>
 
-        <div className="relative flex-grow flex items-end md:items-center w-full md:w-3/5 lg:w-1/2 mb-16 md:mb-24">
+        <div className="relative flex-grow flex items-end md:items-center w-full md:w-3/5 lg:w-1/2 mb-16 md:mb-10 md:mb-6 md:mb-10 lg:mb-16 lg:mb-24">
           {steps.map((step, i) => {
             const StepIcon = Icons[step.icon] || Icons.Settings;
             return (

@@ -34,10 +34,10 @@ export default function AboutProductLinks({ categories }) {
   if (!categories || categories.length === 0) return null;
 
   return (
-    <section ref={containerRef} className="py-20 md:py-24 bg-white border-b border-slate-200">
+    <section ref={containerRef} className="py-10 md:py-6 md:py-10 lg:py-16 lg:py-10 md:py-6 md:py-10 lg:py-16 lg:py-24 bg-white border-b border-slate-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 lg:mb-16 gap-6">
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 lg:mb-6 md:mb-10 lg:mb-16 gap-6">
           <div className="max-w-2xl">
             <h2 className="prod-link-anim text-3xl md:text-4xl font-bold text-slate-900 leading-[1.2]">
               Built Around a Broad Industrial Fitting Range

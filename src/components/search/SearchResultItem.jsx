@@ -13,8 +13,25 @@ const getCategoryIcon = (category) => {
   return FileText;
 };
 
+const HighlightText = ({ text, highlight }) => {
+  if (!highlight || !highlight.trim() || !text) return <>{text}</>;
+  
+  // Escape regex special characters
+  const escapedHighlight = highlight.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const regex = new RegExp(`(${escapedHighlight})`, 'gi');
+  const parts = text.split(regex);
+  
+  return (
+    <>
+      {parts.map((part, i) => 
+        regex.test(part) ? <span key={i} className="text-primary font-bold bg-primary/10 px-0.5 rounded">{part}</span> : part
+      )}
+    </>
+  );
+};
+
 export const SearchResultItem = ({ item, isSelected, onMouseEnter }) => {
-  const { closeSearch } = useSearchContext();
+  const { closeSearch, searchQuery } = useSearchContext();
   const iconComp = getCategoryIcon(item.category);
 
   return (
@@ -39,11 +56,11 @@ export const SearchResultItem = ({ item, isSelected, onMouseEnter }) => {
             "font-medium transition-colors",
             isSelected ? "text-primary" : "text-text-primary group-hover:text-primary"
           )}>
-            {item.label}
+            <HighlightText text={item.label} highlight={searchQuery} />
           </span>
           {item.description && (
             <span className="text-sm text-text-muted mt-0.5 line-clamp-1">
-              {item.description}
+              <HighlightText text={item.description} highlight={searchQuery} />
             </span>
           )}
         </div>

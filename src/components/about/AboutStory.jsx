@@ -37,9 +37,9 @@ export default function AboutStory({ data }) {
   if (!data) return null;
 
   return (
-    <section ref={containerRef} className="py-20 md:py-28 bg-white border-b border-slate-200">
+    <section ref={containerRef} className="py-10 md:py-6 md:py-10 lg:py-16 lg:py-12 md:py-8 md:py-12 lg:py-20 lg:py-28 bg-white border-b border-slate-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col lg:flex-row gap-12 lg:gap-24">
+        <div className="flex flex-col lg:flex-row gap-12 lg:gap-10 md:gap-16 lg:gap-24">
           
           {/* Left Column */}
           <div className="w-full lg:w-5/12 flex flex-col items-start">
@@ -53,7 +53,7 @@ export default function AboutStory({ data }) {
           
           {/* Right Column */}
           <div className="w-full lg:w-7/12">
-            <div className="flex flex-col space-y-6 mb-16">
+            <div className="flex flex-col space-y-6 mb-6 md:mb-10 lg:mb-16">
               {data.paragraphs.map((p, i) => (
                 <p key={i} className="story-anim text-base text-slate-600 leading-relaxed max-w-2xl">
                   {p}

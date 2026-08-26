@@ -5,14 +5,14 @@ import * as Icons from 'lucide-react';
 
 export function MobileJourney({ steps }) {
   return (
-    <section className="relative w-full bg-surface py-20 border-t border-border/40 block lg:hidden">
+    <section className="relative w-full bg-surface py-8 md:py-12 lg:py-20 border-t border-border/40 block lg:hidden">
       <h2 className="sr-only">Our Manufacturing Process</h2>
       <div className="px-6">
         <span className="text-xs font-semibold tracking-[0.2em] uppercase mb-12 flex items-center gap-3 text-primary">
           <span className="w-8 h-[1px] bg-primary" />
           Manufacturing Journey
         </span>
-        <ol className="flex flex-col gap-16">
+        <ol className="flex flex-col gap-6 md:gap-10 lg:gap-16">
           {steps.map((step) => {
             const StepIcon = Icons[step.icon] || Icons.Settings;
             return (

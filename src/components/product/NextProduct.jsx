@@ -49,14 +49,14 @@ export function NextProduct({ product }) {
   if (!product) return null;
 
   return (
-    <section ref={containerRef} className="py-24 group cursor-pointer relative overflow-hidden bg-white text-[#0F2748]">
+    <section ref={containerRef} className="py-10 md:py-6 md:py-10 lg:py-16 lg:py-24 group cursor-pointer relative overflow-hidden bg-white text-[#0F2748]">
       <Link href={`/products/${product.slug}`} className="absolute inset-0 z-20" aria-label={`View next product: ${product.name}`} />
       
       {/* Background Hover Effect */}
       <div className="absolute inset-0 bg-[#0F2748] opacity-0 group-hover:opacity-[0.02] transition-opacity duration-700" />
       
       <div className="container mx-auto px-4 md:px-8 max-w-7xl relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8 lg:gap-12 items-center">
           
           <div className="flex flex-col">
             <h2 className="next-label text-sm font-bold tracking-[0.2em] text-neutral-500 uppercase mb-6">

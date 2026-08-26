@@ -5,7 +5,7 @@ export default function MaterialStandards({ material }) {
   if (!material.standards || material.standards.length === 0) return null;
 
   return (
-    <section className="pt-16 pb-2 md:py-24 bg-white border-t border-slate-100 relative overflow-hidden">
+    <section className="pt-6 md:pt-10 lg:pt-16 pb-2 md:py-10 md:py-6 md:py-10 lg:py-16 lg:py-24 bg-white border-t border-slate-100 relative overflow-hidden">
       {/* Decorative background element */}
       <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-slate-50/80 to-transparent pointer-events-none -z-10" />
 
@@ -20,7 +20,7 @@ export default function MaterialStandards({ material }) {
         </div>
 
         {/* Global Standards Badges */}
-        <div className="flex flex-wrap gap-4 mb-16">
+        <div className="flex flex-wrap gap-4 mb-6 md:mb-10 lg:mb-16">
           {material.standards.map((standard, index) => (
             <div
               key={index}
