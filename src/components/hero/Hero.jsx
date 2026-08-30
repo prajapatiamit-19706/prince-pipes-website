@@ -97,7 +97,7 @@ export function Hero() {
         <HeroBackground />
       </div>
 
-      <div className="flex-grow flex flex-col justify-center min-h-[calc(100vh-6rem)]">
+      <div className="flex-grow flex flex-col justify-start min-h-[calc(100vh-6rem)] pt-2">
         <div className="max-w-[1440px] mx-auto w-full px-6 pt-0 md:px-12 grid grid-cols-1 lg:grid-cols-[45%_55%] gap-8 lg:gap-6 md:gap-10 lg:gap-16 items-center">
           {/* Left Column (45%) */}
           <div className="w-full relative z-10">

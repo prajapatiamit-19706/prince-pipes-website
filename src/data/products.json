@@ -117,7 +117,7 @@
                 "media": {
                   "primaryImage": "/images/products/stainless-steel-nipple/main.webp",
                   "gallery": [
-                    "/images/products/stainless-steel-nipple/angle.webp",
+                    "/images/products/stainless-steel-nipple/angle-v2.webp",
                     "/images/products/stainless-steel-nipple/detail.webp"
                   ],
                   "technicalDrawing": null,
@@ -433,9 +433,9 @@
                   ]
                 },
                 "media": {
-                  "primaryImage": "/images/products/stainless-steel-socket/main.webp",
+                  "primaryImage": "/images/products/stainless-steel-socket/main-v2.webp",
                   "gallery": [
-                    "/images/products/stainless-steel-socket/angle.webp",
+                    "/images/products/stainless-steel-socket/angle-v2.webp",
                     "/images/products/stainless-steel-socket/detail.webp"
                   ],
                   "technicalDrawing": null,
@@ -762,9 +762,9 @@
                   ]
                 },
                 "media": {
-                  "primaryImage": "/images/products/stainless-steel-tee/main.webp",
+                  "primaryImage": "/images/products/stainless-steel-tee/main-v2.webp",
                   "gallery": [
-                    "/images/products/stainless-steel-tee/angle.webp",
+                    "/images/products/stainless-steel-tee/angle-v2.webp",
                     "/images/products/stainless-steel-tee/detail.webp"
                   ],
                   "technicalDrawing": null,
@@ -921,9 +921,9 @@
                   ]
                 },
                 "media": {
-                  "primaryImage": "/images/products/stainless-steel-elbow/main.webp",
+                  "primaryImage": "/images/products/stainless-steel-elbow/main-v2.webp",
                   "gallery": [
-                    "/images/products/stainless-steel-elbow/angle.webp",
+                    "/images/products/stainless-steel-elbow/angle-v2.webp",
                     "/images/products/stainless-steel-elbow/detail.webp"
                   ],
                   "technicalDrawing": null,
@@ -1081,9 +1081,9 @@
                   ]
                 },
                 "media": {
-                  "primaryImage": "/images/products/stainless-steel-reducer/main.webp",
+                  "primaryImage": "/images/products/stainless-steel-reducer/main-v2.webp",
                   "gallery": [
-                    "/images/products/stainless-steel-reducer/angle.webp",
+                    "/images/products/stainless-steel-reducer/angle-v2.webp",
                     "/images/products/stainless-steel-reducer/detail.webp"
                   ],
                   "technicalDrawing": null,
@@ -1241,9 +1241,9 @@
                   ]
                 },
                 "media": {
-                  "primaryImage": "/images/products/ss-stub-end/main.webp",
+                  "primaryImage": "/images/products/ss-stub-end/main-v2.webp",
                   "gallery": [
-                    "/images/products/ss-stub-end/angle.webp",
+                    "/images/products/ss-stub-end/angle-v2.webp",
                     "/images/products/ss-stub-end/detail.webp"
                   ],
                   "technicalDrawing": null,

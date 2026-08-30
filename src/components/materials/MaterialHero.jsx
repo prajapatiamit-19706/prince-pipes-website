@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ChevronRight, Home } from 'lucide-react';
+import { ProductBreadcrumb } from '@/components/product/ProductBreadcrumb';
 
 export default function MaterialHero({ material, imagePath }) {
   const container = useRef(null);
@@ -26,14 +27,11 @@ export default function MaterialHero({ material, imagePath }) {
           {/* Content */}
           <div className="flex flex-col space-y-8">
             {/* Breadcrumb */}
-            <div className="hero-element flex items-center text-sm font-medium text-slate-500 uppercase tracking-wider">
-              <Link href="/" className="hover:text-blue-600 transition-colors flex items-center" aria-label="Home">
-                <Home className="w-4 h-4" />
-              </Link>
-              <ChevronRight className="w-4 h-4 mx-2" />
-              <span className="text-slate-500">Materials</span>
-              <ChevronRight className="w-4 h-4 mx-2" />
-              <span className="text-slate-900">{material.name}</span>
+            <div className="hero-element mb-2">
+              <ProductBreadcrumb breadcrumbs={[
+                { name: 'Materials', path: null },
+                { name: material.name, path: `/materials/${material.id}` }
+              ]} />
             </div>
 
             <div className="space-y-6">

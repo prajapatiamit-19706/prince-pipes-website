@@ -105,7 +105,14 @@ export const MobileDrawer = () => {
           
           <div className="mt-auto pt-4 pb-8 border-t border-border flex flex-col gap-6 shrink-0">
             <div className="contact-info-anim">
-              <Button variant="primary" className="w-full">
+              <Button 
+                variant="primary" 
+                className="w-full"
+                onClick={() => {
+                  closeMobileMenu();
+                  window.dispatchEvent(new CustomEvent('open-quote-modal'));
+                }}
+              >
                 Request Quote
               </Button>
             </div>

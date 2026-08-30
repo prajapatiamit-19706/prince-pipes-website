@@ -87,7 +87,7 @@ export function FinalCTA() {
     <section
       ref={containerRef}
       aria-label="Engineering Quote Call to Action"
-      className="relative w-full bg-[#FCFCFA] overflow-hidden py-8 md:py-12 lg:py-8 md:py-12 lg:py-20 lg:py-10 md:py-6 md:py-10 lg:py-16 lg:py-24 border-t border-[#E7EDF5]"
+      className="relative w-full bg-[#FCFCFA] overflow-hidden py-8 md:py-6 lg:py-12  border-t border-[#E7EDF5]"
     >
 
       {/* Background blueprint paper texture & grid */}

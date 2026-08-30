@@ -9,6 +9,11 @@ import { useGSAP } from '@gsap/react';
 export function ProductBreadcrumb({ breadcrumbs }) {
   const containerRef = useRef(null);
 
+  const formatName = (name) => {
+    if (!name) return '';
+    return name.toLowerCase().replace(/\b\w/g, c => c.toUpperCase());
+  };
+
   useGSAP(() => {
     gsap.fromTo(
       containerRef.current,
@@ -40,18 +45,18 @@ export function ProductBreadcrumb({ breadcrumbs }) {
               <ChevronRight className="w-4 h-4 mx-1 text-neutral-400" />
               {isLast ? (
                 <span className="text-neutral-900 font-medium" aria-current="page">
-                  {crumb.name}
+                  {formatName(crumb.name)}
                 </span>
               ) : crumb.path ? (
                 <Link
                   href={crumb.path}
                   className="hover:text-primary transition-colors hover:underline decoration-neutral-300 underline-offset-4"
                 >
-                  {crumb.name}
+                  {formatName(crumb.name)}
                 </Link>
               ) : (
                 <span className="text-neutral-500">
-                  {crumb.name}
+                  {formatName(crumb.name)}
                 </span>
               )}
             </li>

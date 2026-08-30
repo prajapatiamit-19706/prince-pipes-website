@@ -27,7 +27,7 @@ const REGISTRATIONS = ["Make in India", "MSME Registered"];
 // this section ships to production. Do not caption/alt-text this as a real
 // facility photo until it's swapped for a genuine image.
 const PLACEHOLDER_FACTORY_IMAGE =
-  "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2400&auto=format&fit=crop";
+  "/images/why-choose/indian-factory-real.webp";
 
 // Grid line color is NOT in the supplied @theme token file (no purple token
 // exists there -- only primary/secondary/accent/neutrals/status). Using an
@@ -131,8 +131,8 @@ export function WhyChoose() {
             className="object-cover"
             sizes="100vw"
           />
-          {/* Brand-tinted overlay for text legibility, using primary token */}
-          <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/75 to-primary/40" />
+          {/* Subtle neutral overlay for text legibility */}
+          <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent" />
           <div
             className="absolute inset-0 opacity-[0.08]"
             style={{

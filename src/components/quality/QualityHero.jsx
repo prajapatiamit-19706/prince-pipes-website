@@ -1,6 +1,8 @@
 'use client';
 import React, { useRef } from 'react';
 import { ProductBreadcrumb } from '@/components/product/ProductBreadcrumb';
+import Link from 'next/link';
+import { ArrowRight, CheckCircle2 } from 'lucide-react';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 
@@ -31,12 +33,12 @@ export default function QualityHero({ data }) {
   }, { scope: containerRef });
 
   return (
-    <section ref={containerRef} className="relative w-full border-b border-slate-200 bg-white overflow-hidden pt-4 pb-8 lg:py-8 md:py-12 lg:py-20">
+    <section ref={containerRef} className="relative w-full border-b border-slate-200 bg-white overflow-hidden pt-4 md:pt-6 pb-8 md:pb-12 lg:pb-20">
       {/* Subtle Grid Background */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#f1f5f9_1px,transparent_1px),linear-gradient(to_bottom,#f1f5f9_1px,transparent_1px)] bg-[size:24px_24px] pointer-events-none opacity-60"></div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="flex flex-col lg:flex-row items-start lg:items-end justify-between">
+        <div className="flex flex-col lg:flex-row items-start justify-between">
 
           {/* Left Content */}
           <div className="w-full lg:w-2/3 max-w-3xl">
@@ -58,10 +60,41 @@ export default function QualityHero({ data }) {
             <p className="hero-anim text-base sm:text-lg text-slate-600 max-w-2xl leading-relaxed">
               {data.description}
             </p>
+
+            <ul className="hero-anim mt-8 flex flex-col sm:flex-row gap-4 sm:gap-8 text-sm font-semibold text-slate-700">
+              <li className="flex items-center gap-2.5">
+                <CheckCircle2 className="w-5 h-5 text-emerald-500" />
+                ISO 9001:2015 Certified
+              </li>
+              <li className="flex items-center gap-2.5">
+                <CheckCircle2 className="w-5 h-5 text-emerald-500" />
+                100% Traceability
+              </li>
+              <li className="flex items-center gap-2.5">
+                <CheckCircle2 className="w-5 h-5 text-emerald-500" />
+                Zero Defect Policy
+              </li>
+            </ul>
+
+            <div className="hero-anim mt-10 flex flex-wrap items-center gap-4">
+              <Link
+                href="/products"
+                className="inline-flex items-center justify-center bg-slate-900 hover:bg-slate-800 text-white px-7 py-3 rounded-[6px] font-medium tracking-wide transition-colors"
+              >
+                Explore Products
+                <ArrowRight className="ml-2 w-4 h-4" />
+              </Link>
+              <button
+                onClick={() => window.dispatchEvent(new CustomEvent('open-quote-modal'))}
+                className="inline-flex items-center justify-center bg-white border border-slate-300 hover:border-slate-400 hover:bg-slate-50 text-slate-700 px-7 py-3 rounded-[6px] font-medium tracking-wide transition-all"
+              >
+                Request a Quote
+              </button>
+            </div>
           </div>
 
           {/* Right Visual Accent / Technical Detail */}
-          <div className="w-full lg:w-1/2 lg:pl-10 mt-12 lg:mt-0 flex justify-center lg:justify-end relative">
+          <div className="w-full lg:w-1/2 lg:pl-10 mt-12 lg:mt-16 flex justify-center lg:justify-end relative">
 
             {/* The Main Scanner Graphic Container */}
             <div className="relative w-full max-w-[360px] aspect-square rounded-full border border-slate-200/60 bg-slate-50/50 flex items-center justify-center p-6">

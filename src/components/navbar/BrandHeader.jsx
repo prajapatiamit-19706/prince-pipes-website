@@ -55,7 +55,12 @@ export const BrandHeader = () => {
           >
             <Menu className="w-6 h-6" />
           </button>
-          <Button variant="primary" className="hidden xl:flex px-6 tracking-wide" suppressHydrationWarning>
+          <Button 
+            variant="primary" 
+            className="hidden xl:flex px-6 tracking-wide" 
+            suppressHydrationWarning
+            onClick={() => window.dispatchEvent(new CustomEvent('open-quote-modal'))}
+          >
             Request Quote
           </Button>
         </div>

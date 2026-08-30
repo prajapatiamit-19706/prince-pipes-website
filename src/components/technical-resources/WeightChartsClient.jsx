@@ -129,7 +129,7 @@ export default function WeightChartsClient({ initialData }) {
       {/* Breadcrumb */}
       <div className="gsap-header mb-6 -mt-2">
         <ProductBreadcrumb breadcrumbs={[
-          { name: 'Technical Resources', path: '/technical-resources' },
+          { name: 'Technical Resources', path: null },
           { name: 'Weight Charts', path: '/technical-resources/weight-charts' }
         ]} />
       </div>

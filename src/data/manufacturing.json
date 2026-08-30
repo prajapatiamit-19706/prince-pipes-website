@@ -4,7 +4,7 @@
     "order": 1,
     "title": "Raw Material Inspection",
     "description": "Incoming pipe, plate, and billet stock is checked against the material grade and standard specified for that product line — ASTM A403, A182, A105, or A234 — before it enters production.",
-    "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2400&auto=format&fit=crop",
+    "image": "/images/manufacturing/precision-pipe-inspection.webp",
     "icon": "Microscope",
     "qualityFocus": "Spec Verification"
   },
@@ -13,7 +13,7 @@
     "order": 2,
     "title": "Hot Forming & Shaping",
     "description": "Seamless pipe and billet stock is heated and press-formed over dies to shape elbows, tees, reducers, and caps to the profile and wall thickness called for by the relevant ASME dimensional standard.",
-    "image": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=2400&auto=format&fit=crop",
+    "image": "/images/manufacturing/hot-forming-shaping.webp",
     "icon": "Factory",
     "qualityFocus": "Dimensional Control"
   },
@@ -22,7 +22,7 @@
     "order": 3,
     "title": "Cutting, Beveling & Threading",
     "description": "Ends are cut and beveled for weld-ready buttweld fittings, or threaded to the required pitch for our nipple, socket, and threaded flange lines — matching each product's own dimensional spec.",
-    "image": "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?q=80&w=2400&auto=format&fit=crop",
+    "image": "/images/manufacturing/cutting-beveling-threading.webp",
     "icon": "Scissors",
     "qualityFocus": "Thread & Bevel Check"
   },
@@ -31,7 +31,7 @@
     "order": 4,
     "title": "Final Quality Assurance",
     "description": "Finished fittings are checked for dimensional and visual conformance against their stated standard before being cleared, packed, and prepared for dispatch.",
-    "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=2400&auto=format&fit=crop",
+    "image": "/images/manufacturing/final-quality-assurance-v2.webp",
     "icon": "ShieldCheck",
     "qualityFocus": "Dimensional & Visual Check"
   }

@@ -74,11 +74,13 @@ export const PrimaryNavigation = () => {
                   </span>
                   <Search className="w-5 h-5 xl:w-6 xl:h-6 group-hover:scale-110 transition-transform" />
                 </button>
-                <Link href="/contact" tabIndex={-1}>
-                  <Button variant="primary" className="hidden xl:flex px-6 tracking-wide h-10 whitespace-nowrap">
-                    Request Quote
-                  </Button>
-                </Link>
+                <Button 
+                  variant="primary" 
+                  className="hidden xl:flex px-6 tracking-wide h-10 whitespace-nowrap"
+                  onClick={() => window.dispatchEvent(new CustomEvent('open-quote-modal'))}
+                >
+                  Request Quote
+                </Button>
               </motion.div>
             )}
           </AnimatePresence>

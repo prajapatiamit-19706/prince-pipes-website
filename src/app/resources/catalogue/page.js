@@ -11,7 +11,7 @@ export const metadata = {
 
 export default function ProductCataloguePage() {
   const breadcrumbs = [
-    { name: 'Resources', path: '/resources' },
+    { name: 'Resources', path: null },
     { name: 'Product Catalogue', path: '/resources/catalogue' }
   ];
 

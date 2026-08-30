@@ -25,7 +25,7 @@ export default function DimensionChartClient() {
   const productParam = searchParams.get('product');
 
   const products = dimensionData.products || [];
-  
+
   // Default to first product if none selected or invalid
   const defaultProductId = products[0]?.id;
   const initialProductId = products.some(p => p.id === productParam) ? productParam : defaultProductId;
@@ -41,7 +41,7 @@ export default function DimensionChartClient() {
     const newParams = new URLSearchParams(searchParams.toString());
     newParams.set('product', id);
     router.push(`?${newParams.toString()}`, { scroll: false });
-    
+
     // Reset unit to inch when switching products if the new product supports it, else mm
     const newProduct = products.find(p => p.id === id);
     if (newProduct?.availableUnits && !newProduct.availableUnits.includes(unit)) {
@@ -59,36 +59,36 @@ export default function DimensionChartClient() {
   // Smooth GSAP Animations
   useGSAP(() => {
     const tl = gsap.timeline();
-    
-    tl.fromTo('.breadcrumb-item', 
+
+    tl.fromTo('.breadcrumb-item',
       { opacity: 0, y: 10 },
       { opacity: 1, y: 0, duration: 0.4, stagger: 0.1, ease: 'power2.out' }
     );
-    
+
     tl.fromTo('.header-animate',
       { opacity: 0, y: 20 },
       { opacity: 1, y: 0, duration: 0.6, stagger: 0.2, ease: 'power3.out' },
       "-=0.2"
     );
-    
+
     tl.fromTo('.product-selector-animate',
       { opacity: 0, y: 20 },
       { opacity: 1, y: 0, duration: 0.6, ease: 'power2.out' },
       "-=0.4"
     );
-    
+
     tl.fromTo('.panel-animate',
       { opacity: 0, y: 30 },
       { opacity: 1, y: 0, duration: 0.8, ease: 'power3.out' },
       "-=0.4"
     );
-    
+
     gsap.fromTo('.info-block-animate',
       { opacity: 0, y: 30 },
-      { 
-        opacity: 1, 
-        y: 0, 
-        duration: 0.6, 
+      {
+        opacity: 1,
+        y: 0,
+        duration: 0.6,
         ease: 'power2.out',
         scrollTrigger: {
           trigger: '.info-block-animate',
@@ -99,12 +99,12 @@ export default function DimensionChartClient() {
   }, { scope: containerRef });
 
   return (
-    <div ref={containerRef} className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 md:pt-10 lg:pt-12 pb-8 md:pb-12">
-      
+    <div ref={containerRef} className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 md:pt-13 lg:pt-18 pb-8 md:pb-12">
+
       {/* Compact Breadcrumb */}
       <div className="breadcrumb-item -mt-4 mb-2 md:-mt-6 md:mb-4">
         <ProductBreadcrumb breadcrumbs={[
-          { name: 'Technical Resources', path: '/technical-resources' },
+          { name: 'Technical Resources', path: null },
           { name: 'Dimension Charts', path: '/technical-resources/dimension-charts' }
         ]} />
       </div>
@@ -112,13 +112,13 @@ export default function DimensionChartClient() {
       {/* Page Header */}
       <div className="max-w-3xl mb-8">
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary tracking-tight mb-4 uppercase header-animate">
-          Stainless Steel <br/>
+          Stainless Steel <br />
           <span className="text-secondary">Pipe Fittings Dimension Chart</span>
         </h1>
         <p className="text-base md:text-lg text-text-secondary mb-6 leading-relaxed header-animate">
           Reference dimensions for stainless steel pipe fittings manufactured to applicable industry standards.
         </p>
-        
+
         {/* Standard Badges */}
         <div className="flex flex-wrap gap-2 header-animate">
           <span className="inline-flex items-center px-3 py-1 rounded bg-surface border border-border text-xs font-medium text-text-secondary shadow-sm">
@@ -138,8 +138,8 @@ export default function DimensionChartClient() {
 
       {/* Product Selector */}
       <div className="product-selector-animate">
-        <ProductSelector 
-          products={products} 
+        <ProductSelector
+          products={products}
           selectedProductId={selectedProductId}
           onSelectProduct={handleProductSelect}
         />
@@ -147,10 +147,10 @@ export default function DimensionChartClient() {
 
       {/* Main Dimension Section */}
       <div className="panel-animate">
-        <DimensionChartPanel 
-          product={selectedProduct} 
-          unit={unit} 
-          setUnit={setUnit} 
+        <DimensionChartPanel
+          product={selectedProduct}
+          unit={unit}
+          setUnit={setUnit}
         />
       </div>
 

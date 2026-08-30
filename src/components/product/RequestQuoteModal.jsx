@@ -80,31 +80,31 @@ export function RequestQuoteModal({ productName }) {
     setFormData(prev => ({ ...prev, [name]: value }));
   };
 
-  // MOCK SERVICE SUBMISSION
-  const submitQuoteRequest = async (data) => {
-    return new Promise((resolve) => {
-      setTimeout(() => {
-        console.log("MOCK API: Quote Request Submitted successfully:", data);
-        resolve({ success: true });
-      }, 1500);
-    });
-  };
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
 
     try {
       setIsError(false);
-      // Simulate random error (10% chance) just to show error state works, 
-      // otherwise it succeeds.
-      if (Math.random() < 0.1) throw new Error("Network error");
       
-      await submitQuoteRequest(formData);
-      setIsSuccess(true);
+      // Construct WhatsApp Message
+      const phoneNumber = "917045140314";
+      const message = `*New Quote Request*
+*Product:* ${formData.product}
+*Quantity:* ${formData.quantity}
+*Grade:* ${formData.grade || 'N/A'}
+*Email:* ${formData.email}
+*Message:* ${formData.message || 'None'}`;
+      
+      const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+      
+      // Simulate slight delay for UX
+      await new Promise(resolve => setTimeout(resolve, 800));
+      
+      window.open(whatsappUrl, '_blank');
+      close(); // Close modal immediately
     } catch (error) {
       console.error("Submission failed", error);
-      setIsError(true);
     } finally {
       setIsSubmitting(false);
     }
@@ -133,39 +133,6 @@ export function RequestQuoteModal({ productName }) {
         </div>
 
         <div className="p-6 flex-1 overflow-y-auto">
-          {isSuccess ? (
-            <div className="flex flex-col items-center justify-center h-full text-center space-y-4">
-              <div className="w-16 h-16 bg-green-50 rounded-full flex items-center justify-center text-green-500 mb-4">
-                <CheckCircle2 size={32} />
-              </div>
-              <h3 className="text-2xl font-display font-medium text-neutral-900">Request Sent</h3>
-              <p className="text-neutral-600">
-                Our engineering team will review your request for <span className="font-semibold">{productName}</span> and respond within 24 hours.
-              </p>
-              <button 
-                onClick={close}
-                className="mt-8 bg-neutral-900 hover:bg-neutral-800 text-white px-8 py-3 w-full font-medium tracking-wide transition-colors"
-              >
-                CLOSE
-              </button>
-            </div>
-          ) : isError ? (
-            <div className="flex flex-col items-center justify-center h-full text-center space-y-4">
-              <div className="w-16 h-16 bg-red-50 rounded-full flex items-center justify-center text-red-500 mb-4">
-                <X size={32} />
-              </div>
-              <h3 className="text-2xl font-display font-medium text-neutral-900">Request Failed</h3>
-              <p className="text-neutral-600">
-                There was an issue submitting your request. Please try again later.
-              </p>
-              <button 
-                onClick={() => setIsError(false)}
-                className="mt-8 bg-neutral-900 hover:bg-neutral-800 text-white px-8 py-3 w-full font-medium tracking-wide transition-colors"
-              >
-                TRY AGAIN
-              </button>
-            </div>
-          ) : (
             <form onSubmit={handleSubmit} className="space-y-6">
               
               <div>
@@ -242,7 +209,6 @@ export function RequestQuoteModal({ productName }) {
                 {isSubmitting ? 'SENDING REQUEST...' : 'SEND REQUEST →'}
               </button>
             </form>
-          )}
         </div>
       </div>
     </div>

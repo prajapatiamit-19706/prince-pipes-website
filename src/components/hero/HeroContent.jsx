@@ -24,16 +24,16 @@ export function HeroContent({ data }) {
     const tl = gsap.timeline({ defaults: { ease: "power3.out" } });
 
     // Badge fades in
-    tl.from(".hero-badge-anim", { opacity: 0, y: -16, duration: 0.8 });
+    tl.fromTo(".hero-badge-anim", { opacity: 0, y: -16 }, { opacity: 1, y: 0, duration: 0.8 });
 
     // Headline reveals letter-by-letter (typing effect)
-    tl.from(".hero-headline-char", { opacity: 0, x: -10, duration: 0.05, stagger: 0.03 }, "-=0.4");
+    tl.fromTo(".hero-headline-char", { opacity: 0, x: -10 }, { opacity: 1, x: 0, duration: 0.05, stagger: 0.03 }, "-=0.4");
 
     // Description fades in
-    tl.from(".hero-desc-anim", { opacity: 0, x: -32, duration: 0.8 }, "-=0.2");
+    tl.fromTo(".hero-desc-anim", { opacity: 0, x: -32 }, { opacity: 1, x: 0, duration: 0.8 }, "-=0.2");
 
     // CTA buttons slide up
-    tl.from(".hero-btn-anim", { opacity: 0, y: 32, duration: 0.8 }, "-=0.6");
+    tl.fromTo(".hero-btn-anim", { opacity: 0, y: 32 }, { opacity: 1, y: 0, duration: 0.8 }, "-=0.6");
   }, []);
 
   useEffect(() => {
@@ -72,7 +72,7 @@ export function HeroContent({ data }) {
 
   return (
     <div className="w-full flex flex-col justify-center h-full relative z-10 py-4 lg:py-0">
-      <div className="hero-badge-anim">
+      <div className="hero-badge-anim opacity-0">
         <HeroBadge text={data.trustBadge} />
       </div>
 
@@ -82,7 +82,7 @@ export function HeroContent({ data }) {
             {word.split("").map((char, j) => (
               <span 
                 key={j}
-                className={`hero-headline-char block ${HIGHLIGHT_WORDS.includes(word) ? 'text-[#c29b62]' : 'text-primary'}`}
+                className={`hero-headline-char block opacity-0 ${HIGHLIGHT_WORDS.includes(word) ? 'text-[#c29b62]' : 'text-primary'}`}
               >
                 {char}
               </span>
@@ -91,11 +91,11 @@ export function HeroContent({ data }) {
         ))}
       </h1>
 
-      <p className="hero-desc-anim text-lg text-text-secondary max-w-xl leading-relaxed">
+      <p className="hero-desc-anim opacity-0 text-lg text-text-secondary max-w-xl leading-relaxed">
         {data.description}
       </p>
 
-      <div className="hero-btn-anim mt-6">
+      <div className="hero-btn-anim opacity-0 mt-6">
         <HeroButtons buttons={data.buttons} />
       </div>
 

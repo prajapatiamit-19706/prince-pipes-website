@@ -14,6 +14,7 @@ const geistMono = Geist_Mono({
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { SmoothScroll } from "@/components/providers/SmoothScroll";
+import ChatbotContainer from "@/components/chatbot/ChatbotContainer";
 
 export const metadata = {
   title: "Prince Pipes & Fittings",
@@ -29,7 +30,7 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col font-body bg-background text-text">
+      <body className="min-h-full flex flex-col font-body bg-background text-text relative" suppressHydrationWarning>
         <SmoothScroll>
           <Navbar />
           <main className="flex-1">
@@ -37,6 +38,7 @@ export default function RootLayout({ children }) {
           </main>
           <Footer />
         </SmoothScroll>
+        <ChatbotContainer />
       </body>
     </html>
   );
