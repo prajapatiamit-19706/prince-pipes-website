@@ -22,7 +22,8 @@ export const SmoothScroll = ({ children }) => {
 
   useEffect(() => {
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    if (prefersReducedMotion) return;
+    const isMobile = window.matchMedia('(max-width: 1024px)').matches;
+    if (prefersReducedMotion || isMobile) return;
 
     window.scrollTo(0, 0);
 
