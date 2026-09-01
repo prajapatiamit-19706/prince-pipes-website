@@ -22,31 +22,42 @@ export function Hero() {
   const containerRef = useRef(null);
 
   useGSAP(() => {
-    // 1. Entrance Timeline
-    const tl = gsap.timeline({
-      defaults: { ease: "power3.out" },
+    let mm = gsap.matchMedia();
+
+    // 1. Entrance Timeline (Desktop only to prevent LCP delay on mobile)
+    mm.add("(min-width: 1025px)", () => {
+      const tl = gsap.timeline({
+        defaults: { ease: "power3.out" },
+      });
+
+      // Background fade in
+      tl.to(".hero-bg-anim", {
+        opacity: 0.1, // blueprint opacity
+        scale: 1,
+        duration: 1.5,
+      });
+
+      // 3D Scene and callouts appear
+      tl.to(
+        ".hero-anim",
+        { opacity: 1, y: 0, duration: 1, stagger: 0.1 },
+        "-=0.8"
+      );
+
+      // Statistics reveal left-to-right
+      tl.to(
+        ".hero-stat-item",
+        { opacity: 1, x: 0, duration: 0.6, stagger: 0.1 },
+        "-=0.5"
+      );
     });
 
-    // Background fade in
-    tl.to(".hero-bg-anim", {
-      opacity: 0.1, // blueprint opacity
-      scale: 1,
-      duration: 1.5,
+    // Mobile instantaneous appearance
+    mm.add("(max-width: 1024px)", () => {
+      gsap.set(".hero-bg-anim", { opacity: 0.1, scale: 1 });
+      gsap.set(".hero-anim", { opacity: 1, y: 0 });
+      gsap.set(".hero-stat-item", { opacity: 1, x: 0 });
     });
-
-    // 3D Scene and callouts appear
-    tl.to(
-      ".hero-anim",
-      { opacity: 1, y: 0, duration: 1, stagger: 0.1 },
-      "-=0.8"
-    );
-
-    // Statistics reveal left-to-right
-    tl.to(
-      ".hero-stat-item",
-      { opacity: 1, x: 0, duration: 0.6, stagger: 0.1 },
-      "-=0.5"
-    );
 
     // 2. Scroll Animations (ScrollTrigger)
     // Scene parallax

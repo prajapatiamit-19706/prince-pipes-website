@@ -7,7 +7,7 @@
     "featured": true,
     "order": 1,
     "icon": "Factory",
-    "image": "/images/categories/stainless-steel-pipe-fittings.png",
+    "image": "/images/categories/stainless-steel-pipe-fittings.webp",
     "indicator": "SS 304 / 316L"
   },
   {
@@ -18,7 +18,7 @@
     "featured": false,
     "order": 2,
     "icon": "Layers",
-    "image": "/images/categories/carbon-steel-pipe-fittings.png",
+    "image": "/images/categories/carbon-steel-pipe-fittings.webp",
     "indicator": "A234 WPB"
   },
   {
@@ -29,7 +29,7 @@
     "featured": false,
     "order": 3,
     "icon": "Shield",
-    "image": "/images/categories/duplex-pipe-fittings.png",
+    "image": "/images/categories/duplex-pipe-fittings.webp",
     "indicator": "UNS S31803"
   },
   {
@@ -40,7 +40,7 @@
     "featured": false,
     "order": 4,
     "icon": "Sparkles",
-    "image": "/images/categories/super-duplex-pipe-fittings.png",
+    "image": "/images/categories/super-duplex-pipe-fittings.webp",
     "indicator": "UNS S32750"
   },
   {
@@ -51,7 +51,7 @@
     "featured": false,
     "order": 5,
     "icon": "Hammer",
-    "image": "/images/categories/alloy-steel-pipe-fittings.png",
+    "image": "/images/categories/alloy-steel-pipe-fittings.webp",
     "indicator": "WP11 / WP22"
   },
   {
@@ -62,7 +62,7 @@
     "featured": false,
     "order": 6,
     "icon": "Flame",
-    "image": "/images/categories/inconel-625-pipe-fittings.png",
+    "image": "/images/categories/inconel-625-pipe-fittings.webp",
     "indicator": "Alloy 625"
   }
 ]

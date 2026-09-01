@@ -76,7 +76,7 @@
       "name": "Pipes & Tubes",
       "description": "Seamless & Welded solutions for critical industrial applications.",
       "href": "/categories/pipes-tubes",
-      "image": "/images/categories/pipes-tubes.png",
+      "image": "/images/categories/pipes-tubes.webp",
       "standards": ["DIN", "ASTM", "ISO"]
     },
     {
@@ -84,7 +84,7 @@
       "name": "Fittings",
       "description": "Precision engineered fittings ensuring leak-proof connections.",
       "href": "/categories/fittings",
-      "image": "/images/categories/fittings.png",
+      "image": "/images/categories/fittings.webp",
       "standards": ["ASME", "ANSI", "EN"]
     },
     {
@@ -92,7 +92,7 @@
       "name": "Flanges",
       "description": "High integrity flanges for secure pressure vessel coupling.",
       "href": "/categories/flanges",
-      "image": "/images/categories/flanges.png",
+      "image": "/images/categories/flanges.webp",
       "standards": ["DIN", "ASME", "BS"]
     },
     {
@@ -100,7 +100,7 @@
       "name": "Valves",
       "description": "Robust flow control systems for extreme environments.",
       "href": "/categories/valves",
-      "image": "/images/categories/valves.png",
+      "image": "/images/categories/valves.webp",
       "standards": ["API", "ISO", "BS"]
     }
   ],

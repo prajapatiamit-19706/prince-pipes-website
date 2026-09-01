@@ -20,7 +20,7 @@ export const metadata = {
   title: "Prince Pipes & Fittings",
   description: "Engineered Flow Solutions",
   icons: {
-    icon: "/logo/ppfIcon.png",
+    icon: "/logo/ppfIcon.webp",
   },
 };
 
@@ -43,3 +43,4 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+

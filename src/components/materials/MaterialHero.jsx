@@ -56,7 +56,7 @@ export default function MaterialHero({ material, imagePath }) {
           {/* Visual */}
           <div className="hero-element relative w-full aspect-square md:aspect-[4/3] lg:aspect-[5/4] bg-slate-100 rounded-3xl overflow-hidden">
             <Image
-              src={imagePath || "/placeholder.jpg"}
+              src={imagePath || "/placeholder.webp"}
               alt={`${material.name} - ${material.heroTitle}`}
               fill
               priority
@@ -70,3 +70,4 @@ export default function MaterialHero({ material, imagePath }) {
     </section>
   );
 }
+

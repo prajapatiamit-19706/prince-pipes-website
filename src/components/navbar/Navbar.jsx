@@ -7,8 +7,12 @@ import { BrandHeader } from './BrandHeader';
 import { PrimaryNavigation } from './PrimaryNavigation';
 import { MobileHeader } from './MobileHeader';
 import { MobileDrawer } from './MobileDrawer';
-import { SearchModal } from '@/components/search/SearchModal';
+import dynamic from 'next/dynamic';
 import { cn } from '@/components/ui/button/buttonVariants';
+
+const SearchModal = dynamic(() => import('@/components/search/SearchModal').then(mod => mod.SearchModal), { 
+  ssr: false 
+});
 import { HEADER_LAYOUT } from '@/constants/layout';
 
 const HeaderContent = () => {

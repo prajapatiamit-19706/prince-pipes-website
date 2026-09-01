@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const sharp = require('sharp');
 
-const directoryPath = path.join(__dirname, 'public', 'images', 'products');
+const directoryPath = path.join(__dirname, 'public');
 
 const convertImagesInDirectory = async (dirPath) => {
   try {

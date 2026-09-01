@@ -82,7 +82,7 @@ function EquipmentPanel({ title, iconName, machines }) {
       <div className="flex flex-col md:flex-row flex-grow">
         {/* Left: Shared Info Panel */}
         <div className="w-full md:w-5/12 p-6 md:p-8 border-b md:border-b-0 md:border-r border-border/50 bg-surface relative">
-          <div className="absolute inset-0 bg-[url('/images/blueprint-pattern.png')] bg-repeat opacity-5 pointer-events-none" />
+          <div className="absolute inset-0 bg-[url('/images/blueprint-pattern.webp')] bg-repeat opacity-5 pointer-events-none" />
           <div ref={infoRef} className="relative z-10 flex flex-col h-full justify-center min-h-[160px]">
             <span className="machine-anim-element font-mono text-[10px] md:text-xs tracking-widest uppercase text-primary mb-3 flex items-center gap-2">
               <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse" />
@@ -211,3 +211,4 @@ export function AdvancedFacility() {
     </section>
   );
 }
+

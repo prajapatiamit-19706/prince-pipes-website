@@ -8,7 +8,7 @@ export function SubcategoryCard({ categorySlug, subcategory }) {
   if (!subcategory) return null;
 
   // Use subcategory image if available, otherwise a placeholder
-  const imageUrl = subcategory.image || '/placeholder-category.jpg';
+  const imageUrl = subcategory.image || '/placeholder-category.webp';
   
   // Calculate product count safely
   const productCount = subcategory.products ? subcategory.products.length : 0;
@@ -56,3 +56,4 @@ export function SubcategoryCard({ categorySlug, subcategory }) {
     </Link>
   );
 }
+

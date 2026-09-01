@@ -2,8 +2,10 @@
 
 import { useState, useEffect } from "react";
 import ChatbotLauncher from "./ChatbotLauncher";
-import ChatbotWindow from "./ChatbotWindow";
 import { AnimatePresence } from "framer-motion";
+import dynamic from "next/dynamic";
+
+const ChatbotWindow = dynamic(() => import("./ChatbotWindow"), { ssr: false });
 
 export default function ChatbotContainer() {
   const [isOpen, setIsOpen] = useState(false);

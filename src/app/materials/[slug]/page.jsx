@@ -67,7 +67,7 @@ export default async function MaterialPage({ params }) {
   const relatedMaterials = getRelatedMaterials(material.slug);
   
   // Use dynamically generated images based on the slug, or fallback to placeholder
-  const imagePath = `/api/images/${material.slug}_hero.jpg`; // Note: Adjust the path if you save generated images to public/
+  const imagePath = `/api/images/${material.slug}_hero.webp`; // Note: Adjust the path if you save generated images to public/
 
   return (
     <main className="min-h-screen bg-white">
