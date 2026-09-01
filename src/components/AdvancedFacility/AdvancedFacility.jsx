@@ -4,11 +4,13 @@ import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import machinesData from '@/data/machines.json';
-import * as Icons from 'lucide-react';
+import { Flame, Hammer, Settings, Cog, Zap, Wrench, Factory, ShieldCheck, Microscope, ScanSearch, Gauge, ScanEye, Activity, Droplets } from 'lucide-react';
 
 gsap.registerPlugin(ScrollTrigger);
 
 const GRID_LINE_COLOR = "#7C3AED"; // Brand accent grid color
+
+const IconMap = { Flame, Hammer, Settings, Cog, Zap, Wrench, Factory, ShieldCheck, Microscope, ScanSearch, Gauge, ScanEye, Activity, Droplets };
 
 function EquipmentPanel({ title, iconName, machines }) {
   const panelRef = useRef(null);
@@ -18,7 +20,7 @@ function EquipmentPanel({ title, iconName, machines }) {
   const [isHovering, setIsHovering] = useState(false);
   const sortedMachines = [...machines].sort((a, b) => a.order - b.order);
   const activeMachine = sortedMachines[activeIndex];
-  const PanelIcon = Icons[iconName] || Icons.Settings;
+  const PanelIcon = IconMap[iconName] || Settings;
 
   // Handle crossfade
   useEffect(() => {
@@ -100,12 +102,13 @@ function EquipmentPanel({ title, iconName, machines }) {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {sortedMachines.map((machine, idx) => {
               const isActive = idx === activeIndex;
-              const MachineIcon = Icons[machine.icon] || Icons.Settings;
+              const MachineIcon = IconMap[machine.icon] || Settings;
 
               return (
                 <button
                   key={machine.id}
                   onMouseEnter={() => setActiveIndex(idx)}
+                  onClick={() => setActiveIndex(idx)}
                   className={`
                     relative group flex items-center gap-3 p-3 rounded-xl border text-left transition-all duration-300 transform-gpu
                     ${isActive

@@ -9,9 +9,6 @@ export default function Template({ children }) {
   const pathname = usePathname();
 
   useEffect(() => {
-    // Show loader on route change
-    setLoading(true);
-    
     // Enforce 0.5s minimum delay to show the loading state properly
     const timer = setTimeout(() => {
       setLoading(false);

@@ -2,7 +2,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { MegaMenuContainer } from './MegaMenuContainer';
-import * as Icons from 'lucide-react';
+import { BookOpen, FolderOpen } from 'lucide-react';
 import navigationData from '@/data/navigation.json';
 
 export const ResourcesMegaMenu = ({ isOpen, onMouseEnter, onMouseLeave }) => {
@@ -10,14 +10,14 @@ export const ResourcesMegaMenu = ({ isOpen, onMouseEnter, onMouseLeave }) => {
   const cards = navItem?.children || [];
 
   const iconMap = {
-    "product-catalogue": Icons.BookOpen,
+    "product-catalogue": BookOpen,
   };
 
   return (
     <MegaMenuContainer isOpen={isOpen} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} width="320px" padding="p-4">
       <div className="flex flex-col gap-1">
         {cards.map(card => {
-          const Icon = iconMap[card.id] || Icons.FolderOpen;
+          const Icon = iconMap[card.id] || FolderOpen;
           return (
             <Link key={card.id} href={card.path} className="w-full text-left group relative flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-300 hover:bg-surface-2 hover:shadow-sm">
               <div className="absolute left-0 top-1/2 -translate-y-1/2 w-[3px] h-6 bg-[#c29b62] rounded-r-full opacity-0 group-hover:opacity-100 transition-opacity duration-300" />

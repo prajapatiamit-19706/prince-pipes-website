@@ -5,7 +5,9 @@ import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import whyChooseData from '@/data/whyChoose.json';
-import * as Icons from 'lucide-react';
+import { Cpu, ShieldCheck, Layers, Globe, Microscope, Truck, HelpCircle, ArrowUpRight } from 'lucide-react';
+
+const IconMap = { Cpu, ShieldCheck, Layers, Globe, Microscope, Truck, HelpCircle, ArrowUpRight };
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -57,7 +59,7 @@ function StatCounter({ value, suffix = "", isYear = false }) {
 }
 
 function InspectionRow({ item, index }) {
-  const Icon = Icons[item.icon] || Icons.HelpCircle;
+  const Icon = IconMap[item.icon] || HelpCircle;
 
   return (
     <div className="inspection-row group relative py-8 md:py-10 border-b border-border last:border-b-0">
@@ -217,7 +219,7 @@ export function WhyChoose({ catalogStats }) {
                 <span className="text-sm font-medium text-text">
                   Request Technical Data Sheet
                 </span>
-                <Icons.ArrowUpRight className="w-4 h-4 text-text-secondary transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:text-secondary" />
+                <ArrowUpRight className="w-4 h-4 text-text-secondary transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:text-secondary" />
               </a>
             </div>
 

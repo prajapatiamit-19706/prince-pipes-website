@@ -79,6 +79,12 @@ export function HeroScene({ callouts }) {
         )}
       </div>
 
+      {/* Touch-blocking overlays for mobile (allows native scrolling) */}
+      <div className="absolute inset-x-0 top-0 h-[35%] z-20 md:hidden touch-auto" />
+      <div className="absolute inset-x-0 bottom-0 h-[35%] z-20 md:hidden touch-auto" />
+      <div className="absolute inset-y-0 left-0 w-[20%] z-20 md:hidden touch-auto" />
+      <div className="absolute inset-y-0 right-0 w-[20%] z-20 md:hidden touch-auto" />
+
       {/* Technical Callouts Layer */}
       <HeroCallouts callouts={callouts} />
     </div>

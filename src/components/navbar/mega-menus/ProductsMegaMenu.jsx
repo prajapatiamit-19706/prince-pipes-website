@@ -1,19 +1,18 @@
 "use client";
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { ChevronRight, ArrowRight } from 'lucide-react';
+import { ChevronRight, ArrowRight, Factory, Layers, Shield, Sparkles, Hammer, Flame, Settings } from 'lucide-react';
 import { MegaMenuContainer } from './MegaMenuContainer';
-import * as Icons from 'lucide-react';
 import navigationData from '@/data/navigation.json';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const iconMap = {
-  "stainless-steel-pipe-fittings": Icons.Factory,
-  "carbon-steel-pipe-fittings": Icons.Layers,
-  "duplex-pipe-fittings": Icons.Shield,
-  "super-duplex-pipe-fittings": Icons.Sparkles,
-  "alloy-steel-pipe-fittings": Icons.Hammer,
-  "inconel-625-pipe-fittings": Icons.Flame
+  "stainless-steel-pipe-fittings": Factory,
+  "carbon-steel-pipe-fittings": Layers,
+  "duplex-pipe-fittings": Shield,
+  "super-duplex-pipe-fittings": Sparkles,
+  "alloy-steel-pipe-fittings": Hammer,
+  "inconel-625-pipe-fittings": Flame
 };
 
 export const ProductsMegaMenu = ({ isOpen, onMouseEnter, onMouseLeave }) => {
@@ -39,7 +38,7 @@ export const ProductsMegaMenu = ({ isOpen, onMouseEnter, onMouseLeave }) => {
           <ul className="flex flex-col gap-1">
             {categoriesData.map((cat) => {
               const isActive = activeCategory === cat.id;
-              const Icon = iconMap[cat.id] || Icons.Settings;
+              const Icon = iconMap[cat.id] || Settings;
               const catHasSub = cat.children && cat.children.length > 0;
               
               return (
