@@ -27,7 +27,13 @@ export function searchKnowledge(query) {
         mission: aboutData.mission,
         vision: aboutData.vision,
         overview: companyData.description,
-        contact: companyData.contact
+        contact: {
+          officeAddress: companyData.officeAddress,
+          factoryAddress: companyData.factoryAddress,
+          phone: companyData.phone,
+          whatsapp: companyData.whatsapp,
+          email: companyData.email
+        }
       }
     };
   }

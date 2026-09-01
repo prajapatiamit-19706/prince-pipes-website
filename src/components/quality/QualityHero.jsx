@@ -64,10 +64,6 @@ export default function QualityHero({ data }) {
             <ul className="hero-anim mt-8 flex flex-col sm:flex-row gap-4 sm:gap-8 text-sm font-semibold text-slate-700">
               <li className="flex items-center gap-2.5">
                 <CheckCircle2 className="w-5 h-5 text-emerald-500" />
-                ISO 9001:2015 Certified
-              </li>
-              <li className="flex items-center gap-2.5">
-                <CheckCircle2 className="w-5 h-5 text-emerald-500" />
                 100% Traceability
               </li>
               <li className="flex items-center gap-2.5">

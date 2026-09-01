@@ -1,10 +1,12 @@
 "use client";
 import React from 'react';
 import Image from 'next/image';
-import * as Icons from 'lucide-react';
+import { Microscope, Factory, Scissors, ShieldCheck, Settings } from 'lucide-react';
+
+const IconMap = { Microscope, Factory, Scissors, ShieldCheck };
 
 export function JourneyPanel({ step, index }) {
-  const StepIcon = Icons[step.icon] || Icons.Settings;
+  const StepIcon = IconMap[step.icon] || Settings;
   const isEven = index % 2 === 0;
 
   return (
@@ -46,7 +48,7 @@ export function JourneyPanel({ step, index }) {
           <div className="flex flex-col p-5 bg-black/60 border border-white/10 rounded-xl backdrop-blur-md shadow-sm text-left">
             <span className="text-[10px] md:text-xs font-semibold tracking-wider text-slate-400 uppercase mb-2">Quality Focus</span>
             <span className="text-sm md:text-lg font-medium text-white flex items-center gap-3">
-              <Icons.ShieldCheck className="w-5 h-5 text-white opacity-80" />
+              <ShieldCheck className="w-5 h-5 text-white opacity-80" />
               {step.qualityFocus}
             </span>
           </div>

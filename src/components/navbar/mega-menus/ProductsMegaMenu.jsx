@@ -91,7 +91,7 @@ export const ProductsMegaMenu = ({ isOpen, onMouseEnter, onMouseLeave }) => {
               </ul>
               
               <div className="mt-auto pt-6 border-t border-border/30 shrink-0 pr-8">
-                 <Link href="/products" className="inline-flex items-center gap-2 text-sm font-semibold text-primary hover:text-primary/80 transition-colors">
+                 <Link href="/#products" className="inline-flex items-center gap-2 text-sm font-semibold text-primary hover:text-primary/80 transition-colors">
                    Explore all products
                    <ArrowRight className="w-4 h-4" />
                  </Link>

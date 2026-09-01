@@ -11,8 +11,8 @@ export default function ChatMessage({ message }) {
     ? message.parts.filter(p => p.type === 'text').map(p => p.text).join('')
     : (message.content || message.text || "");
 
-  if (!isUser && !messageText.trim()) {
-    return null;
+  if (!isUser) {
+    if (!messageText.trim()) return null;
   }
 
   return (

@@ -29,7 +29,7 @@ export function ContactMethods() {
   const defaultWhatsAppMsg = "Hello,\n\nI would like to enquire about your pipe fittings.\n\nProduct:\nSize:\nQuantity:\nRequirement:\n\nPlease share the details.";
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(defaultWhatsAppMsg)}`;
 
-  const emailSubject = "Product Enquiry — Prince Pipes";
+  const emailSubject = "Product Enquiry — Prince Pipes & Fittings";
   const emailBody = "Hello,\n\nI would like to enquire about your pipe fittings.\n\nProduct:\nSize:\nQuantity:\nRequirement:\n\nRegards,";
   const emailLink = `mailto:${email}?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
 

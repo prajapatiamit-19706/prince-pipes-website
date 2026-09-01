@@ -163,12 +163,14 @@ export function ProductHero({ product, category, subCategory }) {
 
           <div className="hero-cta flex flex-wrap items-center gap-4 w-full sm:w-auto">
             <button
+              suppressHydrationWarning
               onClick={handleRequestQuote}
               className="bg-primary hover:bg-primary-dark text-white px-8 py-4 rounded-none font-medium tracking-wide transition-colors duration-300 w-full sm:w-auto text-center"
             >
               REQUEST A QUOTE
             </button>
             <button
+              suppressHydrationWarning
               onClick={handleScrollToSpecs}
               className="group flex items-center justify-center gap-2 bg-neutral-100 hover:bg-neutral-200 text-text px-8 py-4 rounded-none font-medium tracking-wide transition-colors duration-300 w-full sm:w-auto"
             >
@@ -200,7 +202,7 @@ export function ProductHero({ product, category, subCategory }) {
                       src={img}
                       alt={`${product.name} - View ${idx + 1}`}
                       fill
-                      className="object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
+                      className="object-contain p-4 mix-blend-multiply group-hover:scale-105 transition-transform duration-700 ease-out"
                       sizes="(max-width: 768px) 100vw, 50vw"
                       priority={idx === 0}
                     />

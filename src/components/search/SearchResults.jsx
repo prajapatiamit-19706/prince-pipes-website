@@ -3,6 +3,7 @@ import { useState, useEffect, useMemo, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
 import { useSearchContext } from '@/context/SearchContext';
 import { performSearch } from '@/utils/searchEngine';
+import { PrinceLoader } from '@/components/ui/loader/PrinceLoader';
 import { SearchSection } from './SearchSection';
 import { SearchResultItem } from './SearchResultItem';
 import { SearchEmptyState } from './SearchEmptyState';
@@ -78,6 +79,15 @@ export const SearchResults = () => {
     return (
       <div className="flex-1 min-h-0 overflow-y-auto custom-scrollbar">
         <SearchEmptyState isInitial={true} />
+      </div>
+    );
+  }
+
+  // Show contextual loader while typing before debounce resolves
+  if (searchQuery !== debouncedQuery && debouncedQuery.length > 0) {
+    return (
+      <div className="flex-1 min-h-0 flex flex-col items-center justify-center p-8 bg-white/50">
+        <PrinceLoader size="md" label="Searching catalog" />
       </div>
     );
   }

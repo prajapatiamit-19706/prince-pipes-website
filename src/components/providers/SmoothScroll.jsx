@@ -55,11 +55,33 @@ export const SmoothScroll = ({ children }) => {
   }, []);
 
   useEffect(() => {
-    if (lenisInstance) {
-      lenisInstance.scrollTo(0, { immediate: true });
+    if (!lenisInstance) return;
+    
+    // Handle hash on initial load or path change
+    if (window.location.hash) {
+      const target = document.querySelector(window.location.hash);
+      if (target) {
+        // Slight delay to ensure layout is ready
+        setTimeout(() => {
+          lenisInstance.scrollTo(target, { immediate: true });
+        }, 100);
+      }
     } else {
-      window.scrollTo(0, 0);
+      lenisInstance.scrollTo(0, { immediate: true });
     }
+
+    // Handle hash changes on the same page
+    const handleHashChange = () => {
+      if (window.location.hash) {
+        const target = document.querySelector(window.location.hash);
+        if (target) {
+          lenisInstance.scrollTo(target, { duration: 0.8 });
+        }
+      }
+    };
+
+    window.addEventListener('hashchange', handleHashChange);
+    return () => window.removeEventListener('hashchange', handleHashChange);
   }, [pathname, lenisInstance]);
 
   return <>{children}</>;

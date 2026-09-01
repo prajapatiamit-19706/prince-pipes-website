@@ -17,15 +17,13 @@ export const FooterGrid = () => {
   const resourceLinks = getNavItems('technical-resources');
 
   return (
-    <div className="container-wide py-8 md:py-6 md:py-10 lg:py-16 lg:py-10 md:py-6 md:py-10 lg:py-16 lg:py-24">
+    <div className="container-wide pt-12 pb-6 md:pt-16 md:pb-8">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 lg:gap-8">
         
         {/* Column 1: Brand */}
         <div className="lg:col-span-1 flex flex-col items-start">
-          <div className="bg-white p-3 rounded-lg mb-6 shadow-sm inline-block">
-            {/* The Logo component currently assumes a white background for the header. 
-                Wrapping it in a white pill/box works well for dark footers. */}
-            <Logo />
+          <div className="mb-6 inline-block">
+            <Logo theme="dark" />
           </div>
           {companyData.tagline && (
             <p className="text-white font-medium text-lg mb-4">
@@ -33,9 +31,7 @@ export const FooterGrid = () => {
             </p>
           )}
           <p className="text-primary-200 text-sm leading-relaxed">
-            {companyData.description.length > 150 
-              ? companyData.description.substring(0, 150) + "..."
-              : companyData.description}
+            {companyData.description}
           </p>
         </div>
 

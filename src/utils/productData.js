@@ -84,7 +84,7 @@ export function getProductBreadcrumbs(slug) {
 
   const { product, category, subCategory } = result;
   const breadcrumbs = [
-    { name: "Products", path: "/#categories" },
+    { name: "Products", path: "/#products" },
     { name: category.name, path: `/products/${category.slug}` }
   ];
 
@@ -360,7 +360,7 @@ export function getCategoryBreadcrumbs(categorySlug) {
   if (!category) return [];
 
   return [
-    { name: "Products", path: "/#categories" },
+    { name: "Products", path: "/#products" },
     { name: category.name, path: `/products/${category.slug}` }
   ];
 }
@@ -378,8 +378,36 @@ export function getSubcategoryBreadcrumbs(categorySlug, subcategorySlug) {
   if (!category || !subcategory) return [];
 
   return [
-    { name: "Products", path: "/#categories" },
+    { name: "Products", path: "/#products" },
     { name: category.name, path: `/products/${category.slug}` },
     { name: subcategory.name, path: `/products/${category.slug}/${subcategory.slug}` }
   ];
+}
+
+/**
+ * Gets dynamic statistics about the product catalog.
+ * @returns {Object} Catalog statistics (totalCategories, totalProducts)
+ */
+export function getCatalogStats() {
+  if (!productsData?.catalog?.categories) {
+    return { totalCategories: 0, totalProducts: 0 };
+  }
+  
+  let totalCategories = productsData.catalog.categories.length;
+  let totalProducts = 0;
+  
+  for (const category of productsData.catalog.categories) {
+    if (category.products) {
+      totalProducts += category.products.length;
+    }
+    if (category.subCategories) {
+      for (const sub of category.subCategories) {
+        if (sub.products) {
+          totalProducts += sub.products.length;
+        }
+      }
+    }
+  }
+  
+  return { totalCategories, totalProducts };
 }

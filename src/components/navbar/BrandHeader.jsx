@@ -8,6 +8,7 @@ import { useSearchContext } from '@/context/SearchContext';
 import { HEADER_LAYOUT } from '@/constants/layout';
 import { motion } from 'framer-motion';
 import navigationData from '@/data/navigation.json';
+import companyData from '@/data/company.json';
 
 export const BrandHeader = () => {
   const { isAtTop, toggleMobileMenu } = useHeaderContext();
@@ -59,7 +60,10 @@ export const BrandHeader = () => {
             variant="primary" 
             className="hidden xl:flex px-6 tracking-wide" 
             suppressHydrationWarning
-            onClick={() => window.dispatchEvent(new CustomEvent('open-quote-modal'))}
+            onClick={() => {
+              const phone = companyData.whatsapp?.replace(/[^0-9]/g, '') || '917045140314';
+              window.open(`https://wa.me/${phone}`, '_blank', 'noopener,noreferrer');
+            }}
           >
             Request Quote
           </Button>

@@ -94,8 +94,15 @@ function InspectionRow({ item, index }) {
   );
 }
 
-export function WhyChoose() {
+export function WhyChoose({ catalogStats }) {
   const containerRef = useRef(null);
+
+  // Use dynamic stats if provided, otherwise fallback to defaults
+  const dynamicCredentials = [
+    { value: 2022, label: "Established", isYear: true },
+    { value: catalogStats?.totalCategories || 5, label: "Product Categories", suffix: "" },
+    { value: catalogStats?.totalProducts || 25, label: "Catalogue Products", suffix: "+" },
+  ];
 
   useGSAP(() => {
     const tl = gsap.timeline({
@@ -150,7 +157,7 @@ export function WhyChoose() {
                   Built To Spec
                 </span>
                 <h2 className="font-heading font-bold text-4xl md:text-5xl tracking-tight leading-tight mb-6 text-text-white">
-                  Why Choose Prince Pipes
+                  Why Choose Prince Pipes & Fittings
                 </h2>
                 <p className="text-lg leading-relaxed text-text-white/80">
                   A Mumbai-based fittings manufacturer built on getting the fundamentals
@@ -177,7 +184,7 @@ export function WhyChoose() {
               </div>
 
               <div className="space-y-6 mb-8">
-                {CREDENTIALS.map((c) => (
+                {dynamicCredentials.map((c) => (
                   <div key={c.label}>
                     <div className="font-heading font-bold text-3xl md:text-4xl text-text">
                       <StatCounter value={c.value} suffix={c.suffix || ""} isYear={c.isYear} />

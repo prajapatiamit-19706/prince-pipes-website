@@ -23,13 +23,16 @@ export default function ChatInput({
     if (e.key === "Enter" && !e.shiftKey) {
       e.preventDefault();
       if ((input || "").trim() && !isLoading) {
+        // useChat's handleSubmit handles KeyboardEvents as long as it gets the event
         handleSubmit(e);
       }
     }
   };
 
   const handleChange = (e) => {
-    setInput(e.target.value);
+    if (setInput) {
+      setInput(e.target.value);
+    }
   };
 
   const isSubmitDisabled = !(input || "").trim() || isLoading;

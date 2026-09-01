@@ -12,7 +12,9 @@ import { formatProductForChatbot } from './formatters';
 export function searchProducts(query, options = { limit: 5 }) {
   if (!query || typeof query !== 'string') return [];
   
-  const lowerQuery = query.toLowerCase().trim();
+  let lowerQuery = query.toLowerCase().trim();
+  // Expand common acronyms for robustness
+  lowerQuery = lowerQuery.replace(/\bcs\b/g, 'carbon steel').replace(/\bss\b/g, 'stainless steel');
   const searchWords = lowerQuery.split(/\s+/);
   
   // Reuse existing lightweight index: { items: [{name, slug, material, connection, specs: [], searchString, url}] }
@@ -23,10 +25,10 @@ export function searchProducts(query, options = { limit: 5 }) {
     let score = 0;
     
     // 1. Exact Name / Slug match
-    if (item.name.toLowerCase() === lowerQuery) score += 100;
+    if (item.name.toLowerCase() === lowerQuery) score += 1000;
     else if (item.name.toLowerCase().includes(lowerQuery)) score += 50;
     
-    if (item.slug === lowerQuery) score += 90;
+    if (item.slug === lowerQuery || item.slug.replace(/-/g, ' ') === lowerQuery) score += 1000;
 
     // 2. Material/Category matches
     if (item.material?.toLowerCase().includes(lowerQuery)) score += 30;
@@ -48,12 +50,16 @@ export function searchProducts(query, options = { limit: 5 }) {
 
     return { slug: item.slug, score };
   })
-  .filter(r => r.score > 0)
-  .sort((a, b) => b.score - a.score)
-  .slice(0, options.limit || 5);
+  let sortedResults = results.filter(r => r.score > 0).sort((a, b) => b.score - a.score);
+  
+  if (sortedResults.length > 0 && sortedResults[0].score >= 1000) {
+    sortedResults = sortedResults.filter(r => r.score >= 1000);
+  }
+  
+  sortedResults = sortedResults.slice(0, options.limit || 5);
 
   // Map slugs back to full stripped details
-  return results.map(r => {
+  return sortedResults.map(r => {
     const p = getProductBySlug(r.slug);
     if (!p) return null;
     return formatProductForChatbot(p.product, p.category, p.subCategory);

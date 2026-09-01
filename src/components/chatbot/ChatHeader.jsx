@@ -13,7 +13,7 @@ export default function ChatHeader({ onClose, onClear }) {
           <span className="absolute bottom-0 right-0 w-2.5 h-2.5 bg-green-500 border-2 border-primary rounded-full"></span>
         </div>
         <div>
-          <h3 className="font-semibold text-sm leading-tight">Prince Pipes AI</h3>
+          <h3 className="font-semibold text-sm leading-tight">Prince Pipes & Fittings AI</h3>
           <span className="text-[10px] text-primary-200">AI Product Assistant</span>
         </div>
       </div>

@@ -19,7 +19,7 @@ export function ProductCard({ product }) {
           src={imageUrl}
           alt={product.name}
           fill
-          className="object-cover motion-safe:group-hover:scale-[1.03] transition-transform duration-500 ease-out"
+          className="object-contain p-2 mix-blend-multiply motion-safe:group-hover:scale-[1.05] transition-transform duration-500 ease-out"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
       </div>

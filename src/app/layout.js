@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
       <body className="min-h-full flex flex-col font-body bg-background text-text relative" suppressHydrationWarning>
         <SmoothScroll>
           <Navbar />
-          <main className="flex-1">
+          <main className="flex-1 relative">
             {children}
           </main>
           <Footer />

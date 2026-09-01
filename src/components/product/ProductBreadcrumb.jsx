@@ -39,12 +39,17 @@ export function ProductBreadcrumb({ breadcrumbs }) {
           if (crumb.path === "/") return null;
 
           const isLast = index === breadcrumbs.length - 1;
+          const isProductsRoot = crumb.name === 'Products' || crumb.name === 'Product';
 
           return (
             <li key={crumb.path} className="flex items-center">
               <ChevronRight className="w-4 h-4 mx-1 text-neutral-400" />
               {isLast ? (
                 <span className="text-neutral-900 font-medium" aria-current="page">
+                  {formatName(crumb.name)}
+                </span>
+              ) : isProductsRoot ? (
+                <span className="text-neutral-500 font-medium">
                   {formatName(crumb.name)}
                 </span>
               ) : crumb.path ? (

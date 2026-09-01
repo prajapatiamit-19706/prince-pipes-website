@@ -25,58 +25,51 @@ You have ZERO prior knowledge about Prince Pipes & Fittings products. You MUST N
 If a user asks about ANY product (e.g. "tell me about ss nipple"), YOU MUST ALWAYS CALL THE searchProducts TOOL FIRST to retrieve the catalog data.
 Any response about products that is not backed by the tool results is a hallucination and is strictly forbidden.
 
+SCOPE CONSTRAINT:
+The catalog ONLY contains: "Stainless Steel, Carbon Steel, Duplex, Super Duplex, Alloy Steel, and Inconel 625 pipe fittings".
+If a customer asks for UPVC, CPVC, PVC, Copper, Brass, or anything else outside this scope, clearly state that this specific catalog does not contain those materials.
+
 DATA RULES:
 1. The retrieval tools are the ONLY source of truth.
 2. Do not invent or guess information.
-4. Do not assume a product has a specification just because similar products have it.
-5. Do not invent prices.
-6. Do not invent stock availability.
-7. Do not invent delivery dates.
-8. Do not invent certifications.
-9. Do not invent material grades.
-10. Do not invent dimensions.
-11. Do not invent weight.
-12. Do not invent pressure ratings.
-13. Do not invent standards.
-14. Do not claim a product is available unless the retrieved data supports that statement.
-15. If information is unavailable, clearly tell the customer that the current website data does not contain that information.
-16. Never expose internal JSON structure, internal file paths, internal IDs, SEO metadata, routing information, or implementation details.
-17. Do not mention that you are using internal JSON files.
-18. Do not expose tool/function names to customers.
-19. Keep answers concise, professional, helpful, and customer-friendly.
-20. For technical questions, answer only using retrieved information.
+3. Do not assume a product has a specification just because similar products have it.
+4. Do not invent certifications, material grades, dimensions, weights, pressure ratings, or standards.
+5. If information is unavailable, clearly tell the customer that the current website data does not contain that information.
+6. Never expose internal JSON structure, internal file paths, internal IDs, SEO metadata, routing information, or implementation details.
+7. Do not mention that you are using internal JSON files or expose tool/function names to customers.
+8. Keep answers concise, professional, helpful, and customer-friendly.
+9. For technical questions, answer ONLY using retrieved information.
+
+INTENT ROUTING & BEST PRODUCT:
+- "Best Product": We do not define a "best product". If asked (e.g., "tell me about your best product"), DO NOT guess or rank products. DO NOT search for random standards or products. Instead, explain that product suitability depends on application, material, size, connection, grade, and standard, and offer to help them find the appropriate product.
+- Unknown/Out-of-Scope: If asked about the weather, presidents, or completely unrelated topics, respond politely: "I can help with Prince Pipes & Fittings products, specifications, materials, standards, applications, and company information. I don't have verified information for that request."
+- Only use \`searchKnowledge\` for company, manufacturing, quality, materials, standards, industries, or capabilities. NEVER use it for general product searches.
 
 PRODUCT VERIFICATION RULE:
 You must NOT blindly trust the first search result. 
-If a customer asks for a specific grade/size (e.g. "Do you have SS 316 nipple in 2 inch?"):
 1. Search for the product.
-2. Verify that the requested grade exists in the retrieved product data.
-3. Verify that the requested size is supported.
-4. If the product exists but the requested grade or size cannot be verified, DO NOT say "Yes". Instead say: "I found the Stainless Steel Nipple in our product data, but I couldn't verify the requested grade/size from the available information."
-
-BROAD SEARCH BEHAVIOR CHECK:
-Searches for broad terms like "pharmaceutical applications" may return matching but potentially irrelevant/ambiguous results. Do not confidently present weak/ambiguous search results as absolute fact. If search confidence is low, ask for clarification or provide a cautious response.
+2. If the user asks for a specific product (e.g., "Stainless Steel Nipple"), filter the results and ONLY answer about that exact product. Do not talk about "Hex Nipple" or "Reducer" if they asked for "Nipple".
+3. Verify Material, Grade, and Size before confirming availability.
+4. If a customer asks for a specific grade/size (e.g. "Do you have SS 316 nipple in 2 inch?"):
+   - If the product exists but the requested grade/size cannot be verified from the data, DO NOT say "Yes". Instead say: "I found the Stainless Steel Nipple in our product data, but I couldn't verify the requested grade/size from the available information."
 
 MULTI-TOOL QUESTIONS & CONTEXT:
-Use multiple tools when necessary (e.g., search product first, then get dimensions). Remember the current context of the conversation. If a customer asks "What sizes?" after discussing a product, infer the product from context, but do not blindly assume context when multiple products are being discussed.
+Use multiple tools when necessary. Remember the current context of the conversation. If a customer asks "What sizes?" after discussing a product, infer the product from context and search for its details or dimensions.
 
 AMBIGUOUS QUESTIONS:
-If you cannot determine the correct product/size/material from the query, ask a short clarification question (e.g., "Which nipple size would you like the weight for?").
+If you cannot determine the correct product/size/material from the query, or if multiple products match equally for a specific part request, ask a short clarification question.
+
+ACRONYMS & BROAD QUERIES:
+1. If the user uses acronyms like "CS" (Carbon Steel) or "SS" (Stainless Steel), expand these terms in your tool calls (search for "Carbon Steel" instead of just "CS").
+2. If the user asks broadly about a category (e.g., "tell me about duplex pipe fittings" or "CS"), DO NOT ask them to specify a single product. Instead, use the retrieved products to describe the general category, its common materials, and list the types of products available (e.g., elbows, tees, reducers) within that category.
 
 PRICING / AVAILABILITY:
-The current website data does NOT contain reliable live pricing or stock availability. If asked, politely explain that the current website data does not provide live pricing/availability and guide the customer toward contacting the sales team.
+The current website data does NOT contain reliable live pricing or stock availability. If asked for price or stock, DO NOT invent numbers. Say: "Pricing/availability isn't available in the current product data. Please contact our sales team for the latest information."
 
-UNKNOWN QUESTIONS:
-If retrieval returns no relevant information, do not hallucinate. Say: "I couldn't find that information in our current product data. Please contact our sales team for confirmation."
-
-RESPONSE STYLE:
-- Concise, professional, friendly, easy to understand.
-- Use bullets when listing specifications.
-- Avoid huge paragraphs.
-
-CRITICAL RULE FOR ALL RESPONSES:
-Whenever you need to use a tool to search for information, you MUST ALWAYS output a short text message FIRST (e.g. "Let me check the product data for you..." or "I'm looking that up now...") BEFORE invoking the tool. Never invoke a tool without saying something first!
-`;
+TOOL USAGE DIRECTIVE:
+You MUST NEVER output conversational filler, pre-search messages, or phrases like "I'll check that for you", "Let me look that up", or "I need to look up that specific detail".
+If you need to retrieve information to answer the user, YOUR VERY FIRST OUTPUT MUST BE THE TOOL CALL itself. DO NOT generate any text before calling the tool. DO NOT EXPLAIN THAT YOU ARE SEARCHING. Just execute the tool call!
+ `;
 
 export async function POST(req) {
   try {
@@ -89,11 +82,21 @@ export async function POST(req) {
 
     const coreMessages = [];
     for (const m of messages) {
+      let textContent = '';
+      if (typeof m.content === 'string') {
+        textContent = m.content;
+      } else if (typeof m.text === 'string') {
+        textContent = m.text;
+      } else if (Array.isArray(m.parts)) {
+        textContent = m.parts.filter(p => p.text).map(p => p.text).join('\n');
+      } else if (Array.isArray(m.content)) {
+        textContent = m.content.filter(p => p.text).map(p => p.text).join('\n');
+      }
+
       if (m.role === 'user' || m.role === 'system') {
-        const textContent = typeof m.content === 'string' ? m.content : (typeof m.text === 'string' ? m.text : '');
-        coreMessages.push({ 
-          role: m.role, 
-          content: textContent 
+        coreMessages.push({
+          role: m.role,
+          content: textContent
         });
       } else if (m.role === 'assistant') {
         if (m.toolInvocations && m.toolInvocations.length > 0) {
@@ -111,21 +114,21 @@ export async function POST(req) {
               type: 'tool-call',
               toolCallId: t.toolCallId || `call_${Math.random().toString(36).substring(7)}`,
               toolName: t.toolName || 'unknown_tool',
-              args: parsedArgs
+              input: parsedArgs
             });
-            
+
             if (t.state === 'result' || t.result !== undefined) {
               toolResults.push({
                 type: 'tool-result',
                 toolCallId: t.toolCallId || 'unknown_call',
                 toolName: t.toolName || 'unknown_tool',
-                result: t.result
+                output: t.result
               });
             }
           }
           coreMessages.push({
             role: 'assistant',
-            content: m.content ? [{ type: 'text', text: m.content }, ...toolCalls] : toolCalls
+            content: textContent ? [{ type: 'text', text: textContent }, ...toolCalls] : toolCalls
           });
           if (toolResults.length > 0) {
             coreMessages.push({
@@ -134,9 +137,9 @@ export async function POST(req) {
             });
           }
         } else {
-          coreMessages.push({ 
-            role: 'assistant', 
-            content: typeof m.content === 'string' ? m.content : '' 
+          coreMessages.push({
+            role: 'assistant',
+            content: textContent
           });
         }
       } else if (m.role === 'tool') {
@@ -147,7 +150,7 @@ export async function POST(req) {
             type: 'tool-result',
             toolCallId: c.toolCallId || `call_${Math.random().toString(36).substring(7)}`,
             toolName: c.toolName || 'unknown_tool',
-            result: c.result
+            output: c.result
           })) : []
         });
       }
@@ -161,57 +164,58 @@ export async function POST(req) {
         searchProducts: tool({
           description: 'Use this when the customer is looking for a product or when you need to identify products matching a name, material, grade, size, standard, application, connection, or other product characteristic.',
           parameters: z.object({
-            query: z.string().describe('The search query for the product')
+            query: z.string().optional().default('').describe('The search query for the product')
           }),
           execute: async ({ query }) => {
-            return searchProducts(query, { limit: 5 });
+            return searchProducts(query || "", { limit: 5 });
           },
         }),
         getProductDetails: tool({
           description: 'Use this after identifying a specific product when detailed product information is required.',
           parameters: z.object({
-            productIdOrSlug: z.string().describe('The exact product ID or slug retrieved from a previous searchProducts call')
+            productIdOrSlug: z.string().optional().default('').describe('The exact product ID or slug retrieved from a previous searchProducts call')
           }),
           execute: async ({ productIdOrSlug }) => {
+            if (!productIdOrSlug) return "Error: Please provide a valid productIdOrSlug.";
             return getProductDetails(productIdOrSlug);
           },
         }),
         searchDimensions: tool({
           description: 'Use this when the customer asks about product dimensions for a specific product and size.',
           parameters: z.object({
-            productType: z.string().describe('The type of product (e.g., nipple, tee, flange)'),
+            productType: z.string().optional().default('').describe('The type of product (e.g., nipple, tee, flange)'),
             sizeQuery: z.string().optional().describe('The specific size to filter (e.g., "2", "1/2")')
           }),
           execute: async ({ productType, sizeQuery }) => {
-            return searchDimensions(productType, sizeQuery);
+            return searchDimensions(productType || "", sizeQuery);
           },
         }),
         searchWeight: tool({
           description: 'Use this when the customer asks about product weight.',
           parameters: z.object({
-            productType: z.string().describe('The type of product (e.g., nipple, tee, flange)'),
+            productType: z.string().optional().default('').describe('The type of product (e.g., nipple, tee, flange)'),
             sizeQuery: z.string().optional().describe('The specific size to filter (e.g., "2", "1/2")')
           }),
           execute: async ({ productType, sizeQuery }) => {
-            return searchWeight(productType, sizeQuery);
+            return searchWeight(productType || "", sizeQuery);
           },
         }),
         searchCategories: tool({
           description: 'Use this when the customer asks what categories, subcategories, or product groups are available.',
           parameters: z.object({
-            query: z.string().describe('The category search query')
+            query: z.string().optional().default('').describe('The category search query')
           }),
           execute: async ({ query }) => {
-            return searchCategories(query);
+            return searchCategories(query || "");
           },
         }),
         searchKnowledge: tool({
           description: 'Use this for company, manufacturing, quality, materials, standards, industries, capabilities, contact, and other non-product information.',
           parameters: z.object({
-            query: z.string().describe('The knowledge search query (e.g., "quality", "about", "manufacturing")')
+            query: z.string().optional().default('').describe('The knowledge search query (e.g., "quality", "about", "manufacturing")')
           }),
           execute: async ({ query }) => {
-            return searchKnowledge(query);
+            return searchKnowledge(query || "company");
           },
         }),
       },

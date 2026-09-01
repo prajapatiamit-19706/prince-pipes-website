@@ -27,7 +27,7 @@
     {
       "id": "products",
       "label": "Products",
-      "path": "/products",
+      "path": "/#products",
       "type": "dropdown",
       "children": [
         {

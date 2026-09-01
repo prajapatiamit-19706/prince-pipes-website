@@ -10,5 +10,5 @@ export const metadata = {
 
 export default function ProductsIndexPage() {
   // The home page already serves as the products index via HeroCategories
-  redirect('/');
+  redirect('/#products');
 }

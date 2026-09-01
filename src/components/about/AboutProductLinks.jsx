@@ -44,7 +44,7 @@ export default function AboutProductLinks({ categories }) {
             </h2>
           </div>
           <div className="prod-link-anim pb-1">
-            <Link href="/products" className="inline-flex items-center text-sm font-bold text-primary-700 hover:text-primary-800 transition-colors uppercase tracking-wider">
+            <Link href="/#products" className="inline-flex items-center text-sm font-bold text-primary-700 hover:text-primary-800 transition-colors uppercase tracking-wider">
               View Full Catalogue <ArrowRight className="ml-2 w-4 h-4" />
             </Link>
           </div>

@@ -2,7 +2,6 @@
 
 import { useEffect, useRef, useState } from "react";
 import ChatMessage from "./ChatMessage";
-import SuggestedQuestions from "./SuggestedQuestions";
 import TypingIndicator from "./TypingIndicator";
 
 export default function ChatMessages({
@@ -43,6 +42,7 @@ export default function ChatMessages({
     <div 
       ref={scrollRef}
       onScroll={handleScroll}
+      data-lenis-prevent="true"
       className="flex-1 overflow-y-auto p-4 space-y-4 bg-surface scrollbar-thin scrollbar-thumb-border-dark scrollbar-track-transparent"
     >
       {/* Welcome Message */}
@@ -78,12 +78,6 @@ export default function ChatMessages({
         </div>
       )}
 
-      {/* Suggested Questions (only when empty) */}
-      {messages.length === 0 && (
-        <SuggestedQuestions 
-          onSelect={(q) => append({ role: "user", content: q })} 
-        />
-      )}
     </div>
   );
 }

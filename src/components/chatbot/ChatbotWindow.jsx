@@ -15,23 +15,33 @@ export default function ChatbotWindow({ onClose }) {
     const handleResize = () => {
       setWindowHeight(`${window.innerHeight}px`);
     };
-    
+
     window.addEventListener("resize", handleResize);
     handleResize();
-    
+
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   const [input, setInput] = useState("");
+  const [initialMessages] = useState(() => {
+    if (typeof window !== "undefined") {
+      try {
+        const saved = sessionStorage.getItem("prince-pipes-chat");
+        return saved ? JSON.parse(saved) : [];
+      } catch (e) {
+        return [];
+      }
+    }
+    return [];
+  });
 
   const chatState = useChat({
     api: "/api/chat",
+    messages: initialMessages,
     onError: (err) => {
       console.error("Chat error:", err);
     }
   });
-
-  console.log("USECHAT EXPORTS:", Object.keys(chatState));
 
   const {
     messages,
@@ -42,30 +52,18 @@ export default function ChatbotWindow({ onClose }) {
     status
   } = chatState;
 
-  // Auto-loop for tool summaries:
-  // If the backend SDK stream finished but only output tool results (no summary),
-  // we trigger a hidden manual follow-up to force the summary.
   useEffect(() => {
-    if ((status === 'ready' || status === 'error') && messages.length > 0) {
-      const lastMsg = messages[messages.length - 1];
-      if (lastMsg.role === 'assistant' && lastMsg.toolInvocations && lastMsg.toolInvocations.length > 0) {
-        // Are ALL tools finished?
-        const allFinished = lastMsg.toolInvocations.every(t => t.state === 'result');
-        if (allFinished) {
-           console.log("Triggering auto-follow-up for tool summary!");
-           if (sendMessage) {
-             sendMessage({ text: "[SYSTEM] Please summarize the information you just retrieved to answer the customer's last question." });
-           }
-        }
-      }
+    if (messages.length > 0) {
+      sessionStorage.setItem("prince-pipes-chat", JSON.stringify(messages));
     }
-  }, [status, messages, sendMessage]);
+  }, [messages]);
 
   const isLoading = status === "submitted" || status === "streaming";
 
   const handleClear = () => {
     if (isLoading) stop();
     setMessages([]);
+    sessionStorage.removeItem("prince-pipes-chat");
   };
 
   const handleSubmit = (e) => {
@@ -91,26 +89,21 @@ export default function ChatbotWindow({ onClose }) {
       animate={{ opacity: 1, y: 0, scale: 1 }}
       exit={{ opacity: 0, y: 20, scale: 0.95 }}
       transition={{ type: "spring", stiffness: 300, damping: 25 }}
-      // On mobile it takes full viewport height minus a small margin, on desktop it's a fixed size
-      className="fixed z-[60] flex flex-col bg-white shadow-2xl rounded-none md:rounded-2xl border-0 md:border border-border 
-                 bottom-0 right-0 w-full h-[100dvh] md:h-[600px] md:w-[400px] md:bottom-24 md:right-6"
-      style={{
-        // Use inline style for mobile fallback to exact pixels
-        height: typeof window !== "undefined" && window.innerWidth < 768 ? windowHeight : undefined
-      }}
+      className="fixed z-[9999] flex flex-col bg-white shadow-2xl rounded-2xl border border-border 
+                 bottom-20 right-4 w-[calc(100%-32px)] sm:w-[400px] h-[75dvh] max-h-[600px] md:bottom-24 md:right-6 md:h-[600px]"
       role="dialog"
-      aria-label="Prince Pipes AI Assistant"
+      aria-label="Prince Pipes & Fittings AI Assistant"
     >
       <ChatHeader onClose={onClose} onClear={handleClear} />
-      
-      <ChatMessages 
-        messages={messages} 
-        isLoading={isLoading} 
-        append={handleAppend} 
-        error={error} 
+
+      <ChatMessages
+        messages={messages}
+        isLoading={isLoading}
+        append={handleAppend}
+        error={error}
       />
-      
-      <ChatInput 
+
+      <ChatInput
         input={input}
         setInput={setInput}
         handleSubmit={handleSubmit}

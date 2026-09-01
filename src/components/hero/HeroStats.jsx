@@ -5,6 +5,7 @@ import { Award, Globe2, ShieldCheck } from "lucide-react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import companyData from "@/data/company.json";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -40,11 +41,26 @@ export function HeroStats({ statistics }) {
     });
   }, { scope: containerRef });
 
-  if (!statistics || statistics.length === 0) return null;
+  const displayStats = statistics ? [...statistics] : [];
+  
+  if (displayStats.length > 0) {
+    // Dynamically calculate years of experience based on establishment year
+    const establishedYear = parseInt(companyData.established, 10) || 2022;
+    const currentYear = new Date().getFullYear();
+    const yearsExp = Math.max(1, currentYear - establishedYear);
+    
+    // Find the 'Years Experience' stat and update it
+    const expIndex = displayStats.findIndex(s => s.label.toLowerCase().includes('experience'));
+    if (expIndex !== -1) {
+      displayStats[expIndex] = { ...displayStats[expIndex], value: `${yearsExp}+` };
+    }
+  }
+
+  if (!displayStats || displayStats.length === 0) return null;
 
   return (
     <div ref={containerRef} className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-4">
-      {statistics.slice(0, 3).map((stat, index) => {
+      {displayStats.slice(0, 3).map((stat, index) => {
         const numMatch = stat.value.match(/(\d+)/);
         const targetNum = numMatch ? parseInt(numMatch[0], 10) : 0;
         const suffix = stat.value.replace(/\d+/g, "");

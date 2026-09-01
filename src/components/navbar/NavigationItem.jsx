@@ -37,9 +37,12 @@ export const NavigationItem = ({ item, isMobile = false }) => {
 
   const handleClick = (e) => {
     if (hasDropdown) {
-      e.preventDefault();
       if (isMobile) {
+        e.preventDefault();
         setActiveDropdown(isDropdownOpen ? null : item.path);
+      } else {
+        // On desktop, prevent default for all dropdowns to avoid redirecting
+        e.preventDefault();
       }
     } else if (isMobile) {
       closeMobileMenu();

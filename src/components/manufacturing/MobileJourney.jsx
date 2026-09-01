@@ -1,7 +1,9 @@
 "use client";
 import React from 'react';
 import Image from 'next/image';
-import * as Icons from 'lucide-react';
+import { Microscope, Factory, Scissors, ShieldCheck, Settings } from 'lucide-react';
+
+const IconMap = { Microscope, Factory, Scissors, ShieldCheck };
 
 export function MobileJourney({ steps }) {
   return (
@@ -14,7 +16,7 @@ export function MobileJourney({ steps }) {
         </span>
         <ol className="flex flex-col gap-6 md:gap-10 lg:gap-16">
           {steps.map((step) => {
-            const StepIcon = Icons[step.icon] || Icons.Settings;
+            const StepIcon = IconMap[step.icon] || Settings;
             return (
               <li key={step.id} className="flex flex-col gap-6">
                 <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden shadow-lg border border-border/20">

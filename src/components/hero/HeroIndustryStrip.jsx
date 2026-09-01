@@ -41,8 +41,8 @@ export function HeroIndustryStrip({ industries }) {
       },
       opacity: 1,
       y: 0,
-      duration: 0.8,
-      stagger: 0.1,
+      duration: 0.4,
+      stagger: 0.06,
       ease: "power3.out"
     });
   }, { scope: containerRef });

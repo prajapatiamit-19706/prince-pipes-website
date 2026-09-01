@@ -51,10 +51,10 @@ export function HeroContent({ data }) {
         onComplete: () => {
           // 2. Change text
           setCurrentIndex((prev) => (prev + 1) % HEADLINES.length);
-          
+
           // 3. Type new characters in (left to right)
           setTimeout(() => {
-            gsap.fromTo(".hero-headline-char", 
+            gsap.fromTo(".hero-headline-char",
               { opacity: 0, x: 10 },
               { opacity: 1, x: 0, duration: 0.05, stagger: 0.03, ease: "power2.out" }
             );
@@ -80,7 +80,7 @@ export function HeroContent({ data }) {
         {currentWords.map((word, i) => (
           <div key={`${currentIndex}-${i}`} className="flex overflow-hidden pb-2">
             {word.split("").map((char, j) => (
-              <span 
+              <span
                 key={j}
                 className={`hero-headline-char block opacity-0 ${HIGHLIGHT_WORDS.includes(word) ? 'text-[#c29b62]' : 'text-primary'}`}
               >
