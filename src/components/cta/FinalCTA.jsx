@@ -18,68 +18,94 @@ export function FinalCTA() {
 
     gsap.registerPlugin(ScrollTrigger);
 
-    const tl = gsap.timeline({
-      scrollTrigger: {
-        trigger: containerRef.current,
-        start: "top 75%",
-        toggleActions: "play none none none",
-      },
-      defaults: { ease: "power2.out" },
-    }).timeScale(2.5);
+    let mm = gsap.matchMedia();
 
-    const drawElements = (selector, duration = 0.8, overlap = "-=0.4") => {
-      gsap.set(selector, { strokeDasharray: 2000, strokeDashoffset: 2000, opacity: 1 });
-      tl.to(selector, { strokeDashoffset: 0, duration, stagger: 0.05 }, overlap);
-    };
+    mm.add("(min-width: 1025px)", () => {
+      const tl = gsap.timeline({
+        scrollTrigger: {
+          trigger: containerRef.current,
+          start: "top 75%",
+          toggleActions: "play none none none",
+        },
+        defaults: { ease: "power2.out" },
+      }).timeScale(2.5);
 
-    gsap.set(".workflow-ui", { opacity: 1 });
-    gsap.set(".wf-dot-1", { fill: "transparent" });
+      const drawElements = (selector, duration = 0.8, overlap = "-=0.4") => {
+        gsap.set(selector, { strokeDasharray: 2000, strokeDashoffset: 2000, opacity: 1 });
+        tl.to(selector, { strokeDashoffset: 0, duration, stagger: 0.05 }, overlap);
+      };
 
-    // Step 1: Background & Blueprint grid
-    tl.to(".cta-blueprint-bg", { opacity: 1, duration: 0.8 });
+      gsap.set(".workflow-ui", { opacity: 1 });
+      gsap.set(".wf-dot-1", { fill: "transparent" });
 
-    // Step 2: Workflow 1 + Centerlines
-    tl.to(".wf-dot-1", { fill: "#5D7EA8", duration: 0.2 }, "-=0.4");
-    tl.to(".wf-text-1", { opacity: 1, fill: "#142E57", duration: 0.2 }, "-=0.4");
-    tl.to(".cta-bg-grid", { opacity: 1, duration: 0.8 }, "-=0.4");
-    tl.to(".draw-centerlines", { opacity: 1, duration: 0.5 }, "-=0.4");
-    drawElements(".draw-construction-lines line, .draw-construction-lines rect", 0.8, "-=0.4");
-    drawElements(".draw-ref-circles circle", 0.6, "-=0.4");
+      // Step 1: Background & Blueprint grid
+      tl.to(".cta-blueprint-bg", { opacity: 1, duration: 0.8 });
 
-    // Step 3: Main profiles & threads
-    drawElements(".draw-external path", 1.0, "-=0.2");
-    tl.to(".draw-internal", { opacity: 1, duration: 0.5 }, "-=0.4");
-    drawElements(".draw-threads path", 0.8, "-=0.2");
+      // Step 2: Workflow 1 + Centerlines
+      tl.to(".wf-dot-1", { fill: "#5D7EA8", duration: 0.2 }, "-=0.4");
+      tl.to(".wf-text-1", { opacity: 1, fill: "#142E57", duration: 0.2 }, "-=0.4");
+      tl.to(".cta-bg-grid", { opacity: 1, duration: 0.8 }, "-=0.4");
+      tl.to(".draw-centerlines", { opacity: 1, duration: 0.5 }, "-=0.4");
+      drawElements(".draw-construction-lines line, .draw-construction-lines rect", 0.8, "-=0.4");
+      drawElements(".draw-ref-circles circle", 0.6, "-=0.4");
 
-    // Step 4: QA Stage + Hatching & Dimensions
-    tl.to(".wf-dot-2", { fill: "#4E6D95", duration: 0.2 }, "-=0.2");
-    tl.to(".wf-text-2", { opacity: 1, fill: "#142E57", duration: 0.2 }, "-=0.2");
-    tl.to(".draw-hidden", { opacity: 1, duration: 0.5 }, "-=0.2");
-    tl.to(".draw-dim-arrows", { opacity: 1, duration: 0.5 }, "-=0.2");
-    tl.to(".draw-dim-text text", { opacity: 1, duration: 0.4, stagger: 0.08 }, "-=0.2");
+      // Step 3: Main profiles & threads
+      drawElements(".draw-external path", 1.0, "-=0.2");
+      tl.to(".draw-internal", { opacity: 1, duration: 0.5 }, "-=0.4");
+      drawElements(".draw-threads path", 0.8, "-=0.2");
 
-    // Step 5: Notes & Title block
-    tl.to(".draw-notes", { opacity: 1, duration: 0.5 }, "-=0.2");
-    tl.to(".draw-titleblock", { opacity: 1, duration: 0.7 }, "-=0.2");
+      // Step 4: QA Stage + Hatching & Dimensions
+      tl.to(".wf-dot-2", { fill: "#4E6D95", duration: 0.2 }, "-=0.2");
+      tl.to(".wf-text-2", { opacity: 1, fill: "#142E57", duration: 0.2 }, "-=0.2");
+      tl.to(".draw-hidden", { opacity: 1, duration: 0.5 }, "-=0.2");
+      tl.to(".draw-dim-arrows", { opacity: 1, duration: 0.5 }, "-=0.2");
+      tl.to(".draw-dim-text text", { opacity: 1, duration: 0.4, stagger: 0.08 }, "-=0.2");
 
-    // Step 6: Ready for Manufacturing (#4D7A58 Muted Green)
-    tl.to(".wf-dot-3", { fill: "#4D7A58", duration: 0.2 }, "-=0.2");
-    tl.to(".wf-text-3", { opacity: 1, fill: "#142E57", duration: 0.2 }, "-=0.2");
-    tl.to(".mfg-status", { opacity: 0, duration: 0.2 }, "+=0.1");
-    tl.add(() => {
+      // Step 5: Notes & Title block
+      tl.to(".draw-notes", { opacity: 1, duration: 0.5 }, "-=0.2");
+      tl.to(".draw-titleblock", { opacity: 1, duration: 0.7 }, "-=0.2");
+
+      // Step 6: Ready for Manufacturing (#4D7A58 Muted Green)
+      tl.to(".wf-dot-3", { fill: "#4D7A58", duration: 0.2 }, "-=0.2");
+      tl.to(".wf-text-3", { opacity: 1, fill: "#142E57", duration: 0.2 }, "-=0.2");
+      tl.to(".mfg-status", { opacity: 0, duration: 0.2 }, "+=0.1");
+      tl.add(() => {
+        const el = document.querySelector(".mfg-status");
+        if (el) {
+          el.textContent = "RELEASED FOR MANUFACTURING";
+          el.style.fill = "#4D7A58";
+        }
+      });
+      tl.to(".mfg-status", { opacity: 1, duration: 0.4 });
+
+      // Step 8: Sequential Content Reveal
+      tl.fromTo(".cta-headline", { y: 16, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6 }, "+=0.6");
+      tl.fromTo(".cta-description", { y: 16, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6 }, "-=0.4");
+      tl.fromTo(".cta-buttons", { y: 16, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6 }, "-=0.4");
+      tl.fromTo(".cta-trust", { opacity: 0 }, { opacity: 1, duration: 0.8 }, "-=0.2");
+    }); // Close mm.add
+
+    // On mobile, just set everything to visible immediately
+    mm.add("(max-width: 1024px)", () => {
+      gsap.set(".workflow-ui", { opacity: 1 });
+      gsap.set(".wf-dot-1", { fill: "#5D7EA8" });
+      gsap.set(".wf-text-1", { opacity: 1, fill: "#142E57" });
+      gsap.set(".wf-dot-2", { fill: "#4E6D95" });
+      gsap.set(".wf-text-2", { opacity: 1, fill: "#142E57" });
+      gsap.set(".wf-dot-3", { fill: "#4D7A58" });
+      gsap.set(".wf-text-3", { opacity: 1, fill: "#142E57" });
+      
       const el = document.querySelector(".mfg-status");
       if (el) {
         el.textContent = "RELEASED FOR MANUFACTURING";
         el.style.fill = "#4D7A58";
       }
-    });
-    tl.to(".mfg-status", { opacity: 1, duration: 0.4 });
+      gsap.set(".mfg-status", { opacity: 1 });
 
-    // Step 8: Sequential Content Reveal
-    tl.fromTo(".cta-headline", { y: 16, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6 }, "+=0.6");
-    tl.fromTo(".cta-description", { y: 16, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6 }, "-=0.4");
-    tl.fromTo(".cta-buttons", { y: 16, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6 }, "-=0.4");
-    tl.fromTo(".cta-trust", { opacity: 0 }, { opacity: 1, duration: 0.8 }, "-=0.2");
+      gsap.set(".cta-blueprint-bg, .cta-bg-grid, .draw-centerlines, .draw-construction-lines line, .draw-construction-lines rect, .draw-ref-circles circle, .draw-external path, .draw-internal, .draw-threads path, .draw-hidden, .draw-dim-arrows, .draw-dim-text text, .draw-notes, .draw-titleblock", { opacity: 1, strokeDashoffset: 0, strokeDasharray: "none" });
+      
+      gsap.set(".cta-headline, .cta-description, .cta-buttons, .cta-trust", { opacity: 1, y: 0 });
+    });
 
   }, { scope: containerRef });
 

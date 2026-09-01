@@ -28,7 +28,7 @@ export function MobileJourney({ steps }) {
                     loading="lazy" 
                     sizes="(max-width: 768px) 100vw, 50vw"
                   />
-                  <div className="absolute inset-0 bg-surface/10 mix-blend-multiply" />
+                  <div className="absolute inset-0 bg-[#0F2747]/10" />
                 </div>
                 <div>
                   <div className="flex items-center gap-4 mb-4">

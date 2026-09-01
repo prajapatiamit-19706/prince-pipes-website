@@ -9,10 +9,14 @@ export function CTADrawing() {
   useGSAP(() => {
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
 
-    gsap.to(".cad-cursor", { opacity: 0, duration: 0.5, repeat: -1, yoyo: true, ease: "steps(1)" });
-    gsap.to(".construction-point", { opacity: 0.3, scale: 1.4, duration: 2.2, repeat: -1, yoyo: true, transformOrigin: "center", ease: "sine.inOut", stagger: 0.3 });
-    gsap.to(".dim-glow-line", { strokeDashoffset: -400, duration: 4.5, repeat: -1, ease: "linear", delay: 2 });
-    gsap.to(".mfg-pulse", { opacity: 0.6, duration: 1.2, repeat: -1, yoyo: true, repeatDelay: 6, ease: "sine.inOut" });
+    let mm = gsap.matchMedia();
+
+    mm.add("(min-width: 1025px)", () => {
+      gsap.to(".cad-cursor", { opacity: 0, duration: 0.5, repeat: -1, yoyo: true, ease: "steps(1)" });
+      gsap.to(".construction-point", { opacity: 0.3, scale: 1.4, duration: 2.2, repeat: -1, yoyo: true, transformOrigin: "center", ease: "sine.inOut", stagger: 0.3 });
+      gsap.to(".dim-glow-line", { strokeDashoffset: -400, duration: 4.5, repeat: -1, ease: "linear", delay: 2 });
+      gsap.to(".mfg-pulse", { opacity: 0.6, duration: 1.2, repeat: -1, yoyo: true, repeatDelay: 6, ease: "sine.inOut" });
+    });
 
   }, { scope: svgRef });
 

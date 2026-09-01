@@ -42,24 +42,16 @@ function DesktopJourney({ steps }) {
 }
 
 export function ManufacturingJourney() {
-  const [shouldUseFallback, setShouldUseFallback] = useState(false);
   const steps = [...manufacturingData].sort((a, b) => a.order - b.order);
 
-  useLayoutEffect(() => {
-    const checkFallback = () => {
-      const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-      const isMobile = window.matchMedia("(max-width: 1024px)").matches;
-      setShouldUseFallback(reducedMotion || isMobile);
-    };
-
-    checkFallback();
-    window.addEventListener("resize", checkFallback);
-    return () => window.removeEventListener("resize", checkFallback);
-  }, []);
-
-  if (shouldUseFallback) {
-    return <MobileJourney steps={steps} />;
-  }
-
-  return <DesktopJourney steps={steps} />;
+  return (
+    <>
+      <div className="hidden lg:block">
+        <DesktopJourney steps={steps} />
+      </div>
+      <div className="block lg:hidden">
+        <MobileJourney steps={steps} />
+      </div>
+    </>
+  );
 }

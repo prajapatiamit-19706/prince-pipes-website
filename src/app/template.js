@@ -5,10 +5,15 @@ import { usePathname } from "next/navigation";
 import { PrinceLoader } from "@/components/ui/loader/PrinceLoader";
 
 export default function Template({ children }) {
-  const [loading, setLoading] = useState(true);
   const pathname = usePathname();
+  const [loading, setLoading] = useState(pathname !== '/');
 
   useEffect(() => {
+    if (pathname === '/') {
+      setLoading(false);
+      return;
+    }
+
     // Enforce 0.5s minimum delay to show the loading state properly
     const timer = setTimeout(() => {
       setLoading(false);
