@@ -21,6 +21,11 @@
           "id": "quality",
           "label": "Quality",
           "path": "/quality"
+        },
+        {
+          "id": "gallery",
+          "label": "Gallery",
+          "path": "/gallery"
         }
       ]
     },

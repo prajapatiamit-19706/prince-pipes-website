@@ -2,7 +2,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { MegaMenuContainer } from './MegaMenuContainer';
-import { Building2, ShieldCheck, Award, Settings } from 'lucide-react';
+import { Building2, ShieldCheck, Award, Settings, Image as ImageIcon } from 'lucide-react';
 import navigationData from '@/data/navigation.json';
 
 export const CompanyMegaMenu = ({ isOpen, onMouseEnter, onMouseLeave }) => {
@@ -14,6 +14,7 @@ export const CompanyMegaMenu = ({ isOpen, onMouseEnter, onMouseLeave }) => {
     about: Building2,
     quality: ShieldCheck,
     certifications: Award,
+    gallery: ImageIcon,
   };
 
   return (

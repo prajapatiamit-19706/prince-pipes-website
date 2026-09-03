@@ -10,6 +10,7 @@ export default function Template({ children }) {
 
   useEffect(() => {
     if (pathname === '/') {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setLoading(false);
       return;
     }
