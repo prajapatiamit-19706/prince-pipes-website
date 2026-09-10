@@ -5,7 +5,7 @@ export function CTABlueprint() {
     <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden bg-[#FCFCFA]">
 
       {/* 1-2% Blueprint paper texture */}
-      <svg className="absolute inset-0 w-full h-full opacity-[0.025]" xmlns="http://www.w3.org/2000/svg">
+      <svg className="hidden lg:block absolute inset-0 w-full h-full opacity-[0.025]" xmlns="http://www.w3.org/2000/svg">
         <filter id="cta-noise">
           <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch" />
         </filter>

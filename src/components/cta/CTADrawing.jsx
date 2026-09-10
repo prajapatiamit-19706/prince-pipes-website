@@ -86,7 +86,7 @@ export function CTADrawing() {
         viewBox="0 0 1200 900"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="w-full h-auto max-w-[1200px] transition-all duration-500 pointer-events-auto filter drop-shadow-[0_4px_20px_rgba(20,46,87,0.06)]"
+        className="w-full h-auto max-w-[1200px] transition-all duration-500 pointer-events-auto filter lg:drop-shadow-[0_4px_20px_rgba(20,46,87,0.06)]"
       >
         <defs>
           <pattern id="ansi-hatch" width="12" height="12" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">

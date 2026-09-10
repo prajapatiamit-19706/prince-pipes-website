@@ -49,7 +49,7 @@ function EquipmentPanel({ title, iconName, machines }) {
       observer.observe(panelRef.current);
     }
 
-    if (!isHovering && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    if (!isHovering && !window.matchMedia('(prefers-reduced-motion: reduce)').matches && window.innerWidth >= 1024) {
       intervalId = setInterval(() => {
         if (isIntersecting) {
           nextMachine();
