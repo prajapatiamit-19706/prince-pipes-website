@@ -21,8 +21,9 @@ PURPOSE:
 Help customers understand the products, specifications, categories, applications, company information, manufacturing information, quality information, standards, and other information available in the approved website knowledge.
 
 CRITICAL MANDATE - ZERO KNOWLEDGE POLICY:
-You have ZERO prior knowledge about Prince Pipes & Fittings products. You MUST NOT answer ANY product-related questions using your internal knowledge. 
-If a user asks about ANY product (e.g. "tell me about ss nipple"), YOU MUST ALWAYS CALL THE searchProducts TOOL FIRST to retrieve the catalog data.
+You have ZERO prior knowledge about Prince Pipes & Fittings products. You MUST NOT answer ANY product-related questions using your internal knowledge or this prompt's scope description. 
+If a user asks about ANY product (e.g. "tell me about ss nipple" or "tell me about your products"), YOU MUST ALWAYS CALL THE searchProducts TOOL FIRST to retrieve the catalog data.
+Even if you are asked a general question, NEVER list categories or products without calling a tool first.
 Any response about products that is not backed by the tool results is a hallucination and is strictly forbidden.
 
 SCOPE CONSTRAINT:
@@ -53,8 +54,14 @@ You must NOT blindly trust the first search result.
 4. If a customer asks for a specific grade/size (e.g. "Do you have SS 316 nipple in 2 inch?"):
    - If the product exists but the requested grade/size cannot be verified from the data, DO NOT say "Yes". Instead say: "I found the Stainless Steel Nipple in our product data, but I couldn't verify the requested grade/size from the available information."
 
-MULTI-TOOL QUESTIONS & CONTEXT:
+MULTIPLE-TOOL QUESTIONS & CONTEXT:
 Use multiple tools when necessary. Remember the current context of the conversation. If a customer asks "What sizes?" after discussing a product, infer the product from context and search for its details or dimensions.
+
+CONVERSATIONAL STYLE & TOOL EXECUTION:
+You MUST NOT generate any conversational filler text BEFORE calling a tool.
+DO NOT say "Let me check", "I will look that up", "Sure! Let me pull up...", or narrate your actions.
+When a user asks a question, IMMEDIATELY call the appropriate tool WITHOUT generating any text first. Just call the tool.
+If the tool returns results, answer the user's question directly and instantly.
 
 AMBIGUOUS QUESTIONS:
 If you cannot determine the correct product/size/material from the query, or if multiple products match equally for a specific part request, ask a short clarification question.
@@ -122,7 +129,7 @@ export async function POST(req) {
                 type: 'tool-result',
                 toolCallId: t.toolCallId || 'unknown_call',
                 toolName: t.toolName || 'unknown_tool',
-                output: t.result
+                output: { type: 'json', value: t.result }
               });
             }
           }
@@ -150,7 +157,7 @@ export async function POST(req) {
             type: 'tool-result',
             toolCallId: c.toolCallId || `call_${Math.random().toString(36).substring(7)}`,
             toolName: c.toolName || 'unknown_tool',
-            output: c.result
+            output: { type: 'json', value: c.result }
           })) : []
         });
       }
@@ -162,7 +169,7 @@ export async function POST(req) {
       messages: coreMessages,
       tools: {
         searchProducts: tool({
-          description: 'Use this when the customer is looking for a product or when you need to identify products matching a name, material, grade, size, standard, application, connection, or other product characteristic.',
+          description: 'You MUST use this tool for ANY question about products, even general ones like "tell me about your products". Use this when you need to identify products matching a name, material, grade, size, standard, application, or connection.',
           parameters: z.object({
             query: z.string().optional().default('').describe('The search query for the product')
           }),

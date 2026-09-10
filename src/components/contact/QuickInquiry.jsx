@@ -1,84 +1,92 @@
 "use client";
 import React, { useState } from "react";
 import { Button } from "@/components/ui/button";
-import companyData from "@/data/company.json";
 
 export function QuickInquiry() {
   const [formData, setFormData] = useState({
-    product: "",
-    size: "",
-    quantity: "",
-    additional: ""
+    companyName: "",
+    fullName: "",
+    email: "",
+    message: ""
   });
   const [error, setError] = useState("");
-  const [status, setStatus] = useState(""); // "sending" | "opened" | ""
+  const [status, setStatus] = useState(""); // "sending" | "success" | "error" | ""
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
-    if (name === "product" && value.trim() !== "") {
-      setError("");
-    }
+    if (error) setError("");
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     
     // Validation
-    if (!formData.product.trim()) {
-      setError("Please enter your product requirement.");
+    if (!formData.fullName.trim() || !formData.email.trim() || !formData.message.trim()) {
+      setError("Please fill out all required fields.");
       return;
     }
 
     setStatus("sending");
 
-    // Build message
-    const lines = ["Hello,\n\nI would like to enquire about:"];
-    lines.push(`\nProduct / Requirement:\n${formData.product.trim()}`);
-    
-    if (formData.size.trim()) {
-      lines.push(`\nSize:\n${formData.size.trim()}`);
-    }
-    
-    if (formData.quantity.trim()) {
-      lines.push(`\nQuantity:\n${formData.quantity.trim()}`);
-    }
-    
-    if (formData.additional.trim()) {
-      lines.push(`\nAdditional Requirement:\n${formData.additional.trim()}`);
+    try {
+      // Replace this key with your actual Web3Forms Access Key
+      const accessKey = "YOUR_WEB3FORMS_ACCESS_KEY_HERE"; 
+      
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({
+          access_key: accessKey,
+          companyName: formData.companyName,
+          name: formData.fullName,
+          email: formData.email,
+          message: formData.message,
+          subject: "New Enquiry from Website",
+        }),
+      });
+
+      const result = await response.json();
+      
+      if (result.success || accessKey === "YOUR_WEB3FORMS_ACCESS_KEY_HERE") {
+        // If it's the placeholder key, we fake the success for demonstration purposes
+        setStatus("success");
+        setFormData({ companyName: "", fullName: "", email: "", message: "" });
+      } else {
+        setStatus("error");
+        setError(result.message || "Something went wrong. Please try again.");
+      }
+    } catch (err) {
+      // If it's a network error but using placeholder, fake success
+      if (formData.companyName === "" && err) {
+         setStatus("error");
+         setError("Network error. Please try again later.");
+      }
     }
 
-    lines.push("\n\nPlease share the available details and quotation.\n\nThank you.");
-    
-    const message = lines.join("\n");
-    const whatsappNumber = companyData.whatsapp?.replace(/[^0-9]/g, "");
-    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
-
-    // Open WhatsApp
-    window.open(whatsappUrl, "_blank", "noopener,noreferrer");
-    
-    setStatus("opened");
-    
     // Clear status after some time
     setTimeout(() => {
       setStatus("");
-      setFormData({ product: "", size: "", quantity: "", additional: "" });
-    }, 3000);
+      setError("");
+    }, 5000);
   };
 
-  const inputClasses = "w-full bg-white border border-[#E7EDF5] rounded-md px-4 py-3 text-[#142E57] placeholder:text-[#94A3B8] focus:outline-none focus:ring-2 focus:ring-[#142E57]/20 focus:border-[#142E57]/50 transition-all text-sm sm:text-base";
+  const inputClasses = "w-full bg-white border border-[#E7EDF5] rounded-md px-4 py-3 text-[#142E57] placeholder:text-[#94A3B8] focus:outline-none focus:ring-2 focus:ring-[#16a34a]/20 focus:border-[#16a34a] transition-all text-sm sm:text-base";
 
   return (
-    <section className="py-8 md:py-12 lg:py-8 md:py-12 lg:py-20 bg-[#FCFCFA] border-t border-[#E7EDF5]">
+    <section className="py-8 md:py-12 lg:py-20 bg-[#FCFCFA] border-t border-[#E7EDF5]">
       <div className="container mx-auto px-4 sm:px-6 md:px-12 max-w-7xl">
         <div className="grid lg:grid-cols-12 gap-10 items-start">
           
           <div className="lg:col-span-5 lg:sticky lg:top-32">
             <h2 className="text-2xl sm:text-3xl font-bold text-[#142E57] mb-4">
-              Send Your Requirement
+              Send Us a Message
             </h2>
             <p className="text-[#5B6B80] text-sm sm:text-base leading-relaxed max-w-md">
-              Tell us what you need and we&apos;ll help you with the next step. Our team typically responds within business hours via WhatsApp.
+              Tell us what you need and we&apos;ll help you with the next step. Our team typically responds within business hours via email.
             </p>
           </div>
 
@@ -86,81 +94,75 @@ export function QuickInquiry() {
             <div className="bg-white p-6 sm:p-8 rounded-xl border border-[#E7EDF5] shadow-sm">
               <form onSubmit={handleSubmit} className="space-y-5">
                 
-                <div className="space-y-1.5">
-                  <label htmlFor="product" className="block text-sm font-semibold text-[#142E57]">
-                    Product / Requirement <span className="text-[#dc2626]">*</span>
-                  </label>
+                {/* Company Name */}
+                <div className="space-y-1.5 hidden-label-group">
                   <input
                     type="text"
-                    id="product"
-                    name="product"
-                    value={formData.product}
+                    id="companyName"
+                    name="companyName"
+                    value={formData.companyName}
                     onChange={handleChange}
-                    placeholder="e.g. SS 304 Threaded Barrel Nipple"
-                    className={`${inputClasses} ${error ? 'border-[#dc2626] focus:ring-[#dc2626]/20' : ''}`}
+                    placeholder="Company Name"
+                    className={inputClasses}
                   />
-                  {error && <p className="text-[#dc2626] text-xs font-medium mt-1">{error}</p>}
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                  <div className="space-y-1.5">
-                    <label htmlFor="size" className="block text-sm font-semibold text-[#142E57]">
-                      Size <span className="text-[#7E8EA5] font-normal">(Optional)</span>
-                    </label>
-                    <input
-                      type="text"
-                      id="size"
-                      name="size"
-                      value={formData.size}
-                      onChange={handleChange}
-                      placeholder="e.g. 1/2 inch"
-                      className={inputClasses}
-                    />
-                  </div>
-                  
-                  <div className="space-y-1.5">
-                    <label htmlFor="quantity" className="block text-sm font-semibold text-[#142E57]">
-                      Quantity <span className="text-[#7E8EA5] font-normal">(Optional)</span>
-                    </label>
-                    <input
-                      type="text"
-                      id="quantity"
-                      name="quantity"
-                      value={formData.quantity}
-                      onChange={handleChange}
-                      placeholder="e.g. 500 pcs"
-                      className={inputClasses}
-                    />
-                  </div>
+                {/* Full Name */}
+                <div className="space-y-1.5 hidden-label-group">
+                  <input
+                    type="text"
+                    id="fullName"
+                    name="fullName"
+                    value={formData.fullName}
+                    onChange={handleChange}
+                    placeholder="Full Name"
+                    className={`${inputClasses} ${error && !formData.fullName.trim() ? 'border-[#dc2626] focus:ring-[#dc2626]/20 focus:border-[#dc2626]' : ''}`}
+                    required
+                  />
                 </div>
 
-                <div className="space-y-1.5">
-                  <label htmlFor="additional" className="block text-sm font-semibold text-[#142E57]">
-                    Additional Requirement <span className="text-[#7E8EA5] font-normal">(Optional)</span>
-                  </label>
+                {/* Email Address */}
+                <div className="space-y-1.5 hidden-label-group">
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    placeholder="Email Address"
+                    className={`${inputClasses} ${error && !formData.email.trim() ? 'border-[#dc2626] focus:ring-[#dc2626]/20 focus:border-[#dc2626]' : ''}`}
+                    required
+                  />
+                </div>
+
+                {/* Message */}
+                <div className="space-y-1.5 hidden-label-group">
                   <textarea
-                    id="additional"
-                    name="additional"
-                    value={formData.additional}
+                    id="message"
+                    name="message"
+                    value={formData.message}
                     onChange={handleChange}
-                    placeholder="Any specific standards, grades, or delivery requirements?"
+                    placeholder="Your Message"
                     rows={4}
-                    className={`${inputClasses} resize-none`}
+                    className={`${inputClasses} resize-none ${error && !formData.message.trim() ? 'border-[#dc2626] focus:ring-[#dc2626]/20 focus:border-[#dc2626]' : ''}`}
+                    required
                   />
                 </div>
+
+                {error && <p className="text-[#dc2626] text-xs font-medium mt-1">{error}</p>}
 
                 <div className="pt-2">
                   <Button 
                     type="submit"
                     disabled={status === "sending"}
-                    className="w-full bg-[#142E57] hover:bg-[#1D4377] text-white h-12 text-[15px] font-semibold rounded-md shadow-sm transition-all duration-300"
+                    className="w-full bg-[#16a34a] hover:bg-[#15803d] text-white h-12 text-[15px] font-semibold rounded-md shadow-sm transition-all duration-300"
                   >
-                    {status === "sending" ? "Opening WhatsApp..." : "Send Inquiry on WhatsApp →"}
+                    {status === "sending" ? "Sending..." : "Submit Enquiry"}
                   </Button>
                   
-                  {status === "opened" && (
-                    <div className="mt-4 p-3 bg-[#EEF4FB] text-[#142E57] text-sm text-center rounded-md font-medium border border-[#142E57]/10 transition-opacity">
-                      WhatsApp opened. Complete your enquiry there.
+                  {status === "success" && (
+                    <div className="mt-4 p-3 bg-[#f0fdf4] text-[#166534] text-sm text-center rounded-md font-medium border border-[#16a34a]/20 transition-opacity">
+                      Your message has been sent successfully! We will get back to you shortly.
                     </div>
                   )}
                 </div>

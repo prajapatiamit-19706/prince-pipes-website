@@ -18,14 +18,7 @@ export const FooterBottom = () => {
 
         {/* Utility Links */}
         <div className="flex flex-wrap justify-center items-center gap-6 text-sm">
-          <Link href="/privacy-policy" className="text-primary-300 hover:text-white transition-colors">
-            Privacy Policy
-          </Link>
-          <span className="w-1 h-1 rounded-full bg-primary-700 hidden sm:block" />
-          <Link href="/terms-of-service" className="text-primary-300 hover:text-white transition-colors">
-            Terms of Service
-          </Link>
-          <span className="w-1 h-1 rounded-full bg-primary-700 hidden sm:block" />
+
           <Link href="/sitemap" className="text-primary-300 hover:text-white transition-colors">
             Sitemap
           </Link>

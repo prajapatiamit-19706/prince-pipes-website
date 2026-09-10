@@ -48,8 +48,21 @@ export const SmoothScroll = ({ children }) => {
     gsap.ticker.add(rafCallback);
     gsap.ticker.lagSmoothing(0);
 
+    // Setup ResizeObserver to refresh ScrollTrigger on DOM changes
+    const resizeObserver = new ResizeObserver(() => {
+      ScrollTrigger.refresh();
+      if (lenis && typeof lenis.resize === 'function') {
+        lenis.resize();
+      }
+    });
+    
+    if (typeof document !== 'undefined') {
+      resizeObserver.observe(document.body);
+    }
+
     return () => {
       gsap.ticker.remove(rafCallback);
+      resizeObserver.disconnect();
       lenis.destroy();
       setLenisInstance(null);
     };
@@ -58,6 +71,14 @@ export const SmoothScroll = ({ children }) => {
   useEffect(() => {
     if (!lenisInstance) return;
     
+    // Refresh ScrollTrigger when path changes to recalculate heights
+    setTimeout(() => {
+      ScrollTrigger.refresh();
+      if (typeof lenisInstance.resize === 'function') {
+        lenisInstance.resize();
+      }
+    }, 100);
+
     // Handle hash on initial load or path change
     if (window.location.hash) {
       const target = document.querySelector(window.location.hash);

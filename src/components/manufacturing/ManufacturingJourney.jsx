@@ -1,5 +1,5 @@
 "use client";
-import React, { useRef, useState, useLayoutEffect } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import manufacturingData from '@/data/manufacturing.json';
 
 import { StickyViewport } from './StickyViewport';
@@ -43,15 +43,44 @@ function DesktopJourney({ steps }) {
 
 export function ManufacturingJourney() {
   const steps = [...manufacturingData].sort((a, b) => a.order - b.order);
+  const [mounted, setMounted] = useState(false);
+  const [isDesktop, setIsDesktop] = useState(true);
 
-  return (
-    <>
-      <div className="hidden lg:block">
-        <DesktopJourney steps={steps} />
-      </div>
-      <div className="block lg:hidden">
-        <MobileJourney steps={steps} />
-      </div>
-    </>
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setMounted(true);
+    const mql = window.matchMedia('(min-width: 1024px)');
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setIsDesktop(mql.matches);
+    
+    const handler = (e) => setIsDesktop(e.matches);
+    mql.addEventListener('change', handler);
+    return () => mql.removeEventListener('change', handler);
+  }, []);
+
+  // During SSR and before hydration completes, render both (hidden via CSS)
+  // to avoid hydration mismatch errors and layout shifts.
+  if (!mounted) {
+    return (
+      <>
+        <div className="hidden lg:block">
+          <DesktopJourney steps={steps} />
+        </div>
+        <div className="block lg:hidden">
+          <MobileJourney steps={steps} />
+        </div>
+      </>
+    );
+  }
+
+  // After hydration, throw away the duplicate DOM completely!
+  return isDesktop ? (
+    <div className="hidden lg:block">
+      <DesktopJourney steps={steps} />
+    </div>
+  ) : (
+    <div className="block lg:hidden">
+      <MobileJourney steps={steps} />
+    </div>
   );
 }
