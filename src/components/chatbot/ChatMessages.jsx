@@ -62,8 +62,12 @@ export default function ChatMessages({
       {messages.filter(m => {
         const text = typeof m.content === 'string' ? m.content : (typeof m.text === 'string' ? m.text : (Array.isArray(m.content) ? m.content.map(p => p.text || '').join('') : ''));
         return !text.startsWith("[SYSTEM");
-      }).map((message) => (
-        <ChatMessage key={message.id} message={message} />
+      }).map((message, index, array) => (
+        <ChatMessage 
+          key={message.id} 
+          message={message} 
+          isGenerating={isLoading && index === array.length - 1 && message.role === "assistant"} 
+        />
       ))}
 
       {/* Loading Indicator */}

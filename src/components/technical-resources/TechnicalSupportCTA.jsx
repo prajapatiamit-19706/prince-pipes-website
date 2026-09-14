@@ -1,8 +1,11 @@
 import React from 'react';
-import { PhoneCall, Mail } from 'lucide-react';
+import { PhoneCall, MessageCircle } from 'lucide-react';
 import Link from 'next/link';
+import companyData from '@/data/company.json';
 
 export default function TechnicalSupportCTA() {
+  const whatsappUrl = `https://wa.me/${companyData.whatsapp.replace(/[^0-9]/g, '')}`;
+
   return (
     <div className="w-full bg-primary-50 rounded-2xl p-6 md:p-8 flex flex-col md:flex-row items-center justify-between border border-primary-100 shadow-sm mt-8 mb-12">
       <div className="mb-6 md:mb-0 md:mr-8 text-center md:text-left flex-1">
@@ -19,13 +22,15 @@ export default function TechnicalSupportCTA() {
           <PhoneCall className="w-4 h-4 mr-2" />
           <span>Request Technical Info</span>
         </Link>
-        <Link 
-          href="/request-quote"
+        <a 
+          href={whatsappUrl}
+          target="_blank"
+          rel="noopener noreferrer"
           className="w-full sm:w-auto flex items-center justify-center px-6 py-3 rounded-full bg-white hover:bg-surface text-primary border border-primary/20 font-medium transition-colors shadow-sm whitespace-nowrap"
         >
-          <Mail className="w-4 h-4 mr-2" />
+          <MessageCircle className="w-4 h-4 mr-2" />
           <span>Request a Quote</span>
-        </Link>
+        </a>
       </div>
     </div>
   );

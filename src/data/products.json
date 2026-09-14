@@ -435,8 +435,7 @@
                 "media": {
                   "primaryImage": "/images/products/stainless-steel-socket/main-v2.webp",
                   "gallery": [
-                    "/images/products/stainless-steel-socket/angle-v2.webp",
-                    "/images/products/stainless-steel-socket/detail.webp"
+                    "/images/products/stainless-steel-socket/angle-v2.webp"
                   ],
                   "technicalDrawing": null,
                   "dimensionDrawing": null,
@@ -683,7 +682,8 @@
                   "material": "Stainless Steel"
                 }
               }
-            ]
+            ],
+            "image": "/images/SS/threaded-fittings.webp"
           },
           {
             "id": "buttweld-fittings",
@@ -764,8 +764,7 @@
                 "media": {
                   "primaryImage": "/images/products/stainless-steel-tee/main-v2.webp",
                   "gallery": [
-                    "/images/products/stainless-steel-tee/angle-v2.webp",
-                    "/images/products/stainless-steel-tee/detail.webp"
+                    "/images/products/stainless-steel-tee/angle-v2.webp"
                   ],
                   "technicalDrawing": null,
                   "dimensionDrawing": null,
@@ -923,8 +922,7 @@
                 "media": {
                   "primaryImage": "/images/products/stainless-steel-elbow/main-v2.webp",
                   "gallery": [
-                    "/images/products/stainless-steel-elbow/angle-v2.webp",
-                    "/images/products/stainless-steel-elbow/detail.webp"
+                    "/images/products/stainless-steel-elbow/angle-v2.webp"
                   ],
                   "technicalDrawing": null,
                   "dimensionDrawing": null,
@@ -1083,8 +1081,7 @@
                 "media": {
                   "primaryImage": "/images/products/stainless-steel-reducer/main-v2.webp",
                   "gallery": [
-                    "/images/products/stainless-steel-reducer/angle-v2.webp",
-                    "/images/products/stainless-steel-reducer/detail.webp"
+                    "/images/products/stainless-steel-reducer/angle-v2.webp"
                   ],
                   "technicalDrawing": null,
                   "dimensionDrawing": null,
@@ -1243,8 +1240,7 @@
                 "media": {
                   "primaryImage": "/images/products/ss-stub-end/main-v2.webp",
                   "gallery": [
-                    "/images/products/ss-stub-end/angle-v2.webp",
-                    "/images/products/ss-stub-end/detail.webp"
+                    "/images/products/ss-stub-end/angle-v2.webp"
                   ],
                   "technicalDrawing": null,
                   "dimensionDrawing": null,
@@ -1330,7 +1326,8 @@
                   "material": "Stainless Steel"
                 }
               }
-            ]
+            ],
+            "image": "/images/SS/buttweld-fittings.webp"
           },
           {
             "id": "flanges",
@@ -1420,7 +1417,7 @@
                   ]
                 },
                 "media": {
-                  "primaryImage": null,
+                  "primaryImage": "/images/SS/Flanges/Blind Flange-main.webp",
                   "gallery": [],
                   "technicalDrawing": null,
                   "dimensionDrawing": null,
@@ -1586,7 +1583,7 @@
                   ]
                 },
                 "media": {
-                  "primaryImage": null,
+                  "primaryImage": "/images/SS/Flanges/Weld-Neck Flange-main.webp",
                   "gallery": [],
                   "technicalDrawing": null,
                   "dimensionDrawing": null,
@@ -1752,7 +1749,7 @@
                   ]
                 },
                 "media": {
-                  "primaryImage": null,
+                  "primaryImage": "/images/SS/Flanges/Slip-On Flange-main.webp",
                   "gallery": [],
                   "technicalDrawing": null,
                   "dimensionDrawing": null,
@@ -1919,7 +1916,7 @@
                   ]
                 },
                 "media": {
-                  "primaryImage": null,
+                  "primaryImage": "/images/SS/Flanges/Socket Weld Flange-main.webp",
                   "gallery": [],
                   "technicalDrawing": null,
                   "dimensionDrawing": null,
@@ -2085,7 +2082,7 @@
                   ]
                 },
                 "media": {
-                  "primaryImage": null,
+                  "primaryImage": "/images/SS/Flanges/Threaded Flange-main.webp",
                   "gallery": [],
                   "technicalDrawing": null,
                   "dimensionDrawing": null,
@@ -2252,7 +2249,7 @@
                   ]
                 },
                 "media": {
-                  "primaryImage": null,
+                  "primaryImage": "/images/SS/Flanges/Lap Joint Flange-main.webp",
                   "gallery": [],
                   "technicalDrawing": null,
                   "dimensionDrawing": null,
@@ -2418,7 +2415,7 @@
                   ]
                 },
                 "media": {
-                  "primaryImage": null,
+                  "primaryImage": "/images/SS/Flanges/Orifice Flange-main.webp",
                   "gallery": [],
                   "technicalDrawing": null,
                   "dimensionDrawing": null,
@@ -2584,7 +2581,7 @@
                   ]
                 },
                 "media": {
-                  "primaryImage": null,
+                  "primaryImage": "/images/SS/Flanges/Long Weld Neck Flange-main.webp",
                   "gallery": [],
                   "technicalDrawing": null,
                   "dimensionDrawing": null,
@@ -2670,7 +2667,8 @@
                   "material": "Stainless Steel"
                 }
               }
-            ]
+            ],
+            "image": "/images/SS/Flanges.webp"
           },
           {
             "id": "forged-fittings",
@@ -2737,7 +2735,7 @@
                   ]
                 },
                 "media": {
-                  "primaryImage": null,
+                  "primaryImage": "/images/SS/Forged/Forged Socket Weld Elbow-main.webp",
                   "gallery": [],
                   "technicalDrawing": null,
                   "dimensionDrawing": null,
@@ -2881,7 +2879,7 @@
                   ]
                 },
                 "media": {
-                  "primaryImage": null,
+                  "primaryImage": "/images/SS/Forged/Forged Socket Weld Tee-main.webp",
                   "gallery": [],
                   "technicalDrawing": null,
                   "dimensionDrawing": null,
@@ -3028,7 +3026,7 @@
                   ]
                 },
                 "media": {
-                  "primaryImage": null,
+                  "primaryImage": "/images/SS/Forged/Forged Coupling-main.webp",
                   "gallery": [],
                   "technicalDrawing": null,
                   "dimensionDrawing": null,
@@ -3178,7 +3176,7 @@
                   ]
                 },
                 "media": {
-                  "primaryImage": null,
+                  "primaryImage": "/images/SS/Forged/Forged Hex Head Plug-main.webp",
                   "gallery": [],
                   "technicalDrawing": null,
                   "dimensionDrawing": null,
@@ -3329,7 +3327,7 @@
                   ]
                 },
                 "media": {
-                  "primaryImage": null,
+                  "primaryImage": "/images/SS/Forged/Forged Union-main.webp",
                   "gallery": [],
                   "technicalDrawing": null,
                   "dimensionDrawing": null,
@@ -3415,7 +3413,8 @@
                   "material": "Stainless Steel"
                 }
               }
-            ]
+            ],
+            "image": "/images/SS/Forged Fittings.webp"
           },
           {
             "id": "fasteners",
@@ -3478,7 +3477,7 @@
                   ]
                 },
                 "media": {
-                  "primaryImage": null,
+                  "primaryImage": "/images/SS/Fasteners/Fasteners U-Bolts-main.webp",
                   "gallery": [],
                   "technicalDrawing": null,
                   "dimensionDrawing": null,
@@ -3615,7 +3614,7 @@
                   ]
                 },
                 "media": {
-                  "primaryImage": null,
+                  "primaryImage": "/images/SS/Fasteners/Fasteners Hex Nuts-main.webp",
                   "gallery": [],
                   "technicalDrawing": null,
                   "dimensionDrawing": null,
@@ -3751,7 +3750,7 @@
                   ]
                 },
                 "media": {
-                  "primaryImage": null,
+                  "primaryImage": "/images/SS/Fasteners/Fasteners Washers-main.webp",
                   "gallery": [],
                   "technicalDrawing": null,
                   "dimensionDrawing": null,
@@ -3893,7 +3892,7 @@
                   ]
                 },
                 "media": {
-                  "primaryImage": null,
+                  "primaryImage": "/images/SS/Fasteners/Fasteners Stud Bolts-main.webp",
                   "gallery": [],
                   "technicalDrawing": null,
                   "dimensionDrawing": null,
@@ -4032,7 +4031,7 @@
                   ]
                 },
                 "media": {
-                  "primaryImage": null,
+                  "primaryImage": "/images/SS/Fasteners/Socket Head Cap Screws-main.webp",
                   "gallery": [],
                   "technicalDrawing": null,
                   "dimensionDrawing": null,
@@ -4118,7 +4117,8 @@
                   "material": "Stainless Steel"
                 }
               }
-            ]
+            ],
+            "image": "/images/SS/Fasteners.webp"
           },
           {
             "id": "ferrule-fittings",
@@ -4127,153 +4127,6 @@
             "description": "Stainless steel ferrule and compression tube fittings for tube-to-tube and tube-to-thread connections.",
             "order": 6,
             "products": [
-              {
-                "id": "double-ferrule-tube-fitting",
-                "name": "Double Ferrule Tube Fitting",
-                "slug": "double-ferrule-tube-fitting",
-                "type": "Double Ferrule Compression Fitting",
-                "categoryId": "stainless-steel-pipe-fittings",
-                "subCategoryId": "ferrule-fittings",
-                "status": "available",
-                "featured": false,
-                "order": 1,
-                "description": {
-                  "short": "Double Ferrule Tube Fitting available as double ferrule compression fitting with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/8\" to 1\" to ASTM F1387, ASME B31.3 with tube to tube, tube to thread connections.",
-                  "full": "Double Ferrule Tube Fitting available as double ferrule compression fitting with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/8\" to 1\" to ASTM F1387, ASME B31.3 with tube to tube, tube to thread connections. Available finishes include Bright, Polished."
-                },
-                "technicalSpecifications": {
-                  "material": "Stainless Steel",
-                  "grades": [
-                    "SS 304",
-                    "SS 304L",
-                    "SS 316",
-                    "SS 316L"
-                  ],
-                  "sizeRange": "1/8\" to 1\"",
-                  "tubeOD": "1/8\" to 1\"",
-                  "threadType": [
-                    "NPT",
-                    "BSP"
-                  ],
-                  "finish": [
-                    "Bright",
-                    "Polished"
-                  ],
-                  "standards": [
-                    "ASTM F1387",
-                    "ASME B31.3"
-                  ],
-                  "connection": [
-                    "Tube to Tube",
-                    "Tube to Thread"
-                  ]
-                },
-                "testing": [],
-                "applications": [],
-                "features": [],
-                "options": {
-                  "types": [
-                    "Double Ferrule Compression Fitting"
-                  ],
-                  "connections": [
-                    "Tube to Tube",
-                    "Tube to Thread"
-                  ],
-                  "finishes": [
-                    "Bright",
-                    "Polished"
-                  ],
-                  "sizes": [
-                    "1/8\" to 1\""
-                  ]
-                },
-                "media": {
-                  "primaryImage": null,
-                  "gallery": [],
-                  "technicalDrawing": null,
-                  "dimensionDrawing": null,
-                  "thumbnail": null
-                },
-                "documents": {
-                  "catalogue": null,
-                  "datasheet": null,
-                  "dimensionChart": null,
-                  "weightChart": null,
-                  "technicalDocument": null
-                },
-                "cad": {
-                  "available": false,
-                  "formats": [],
-                  "files": []
-                },
-                "threeD": {
-                  "available": false,
-                  "modelUrl": null,
-                  "formats": []
-                },
-                "seo": {
-                  "title": "Double Ferrule Tube Fitting | Stainless Steel Ferrule Fittings | Prince Pipes & Fittings",
-                  "description": "Double Ferrule Tube Fitting from Prince Pipes & Fittings. View available specifications, sizes, standards, connections and technical details.",
-                  "primaryKeyword": "Double Ferrule Tube Fitting",
-                  "secondaryKeywords": [
-                    "double ferrule tube fitting",
-                    "double ferrule tube fitting manufacturer",
-                    "double ferrule tube fitting supplier",
-                    "double ferrule tube fitting exporter"
-                  ],
-                  "longTailKeywords": [
-                    "double ferrule tube fitting manufacturer",
-                    "double ferrule tube fitting supplier",
-                    "double ferrule tube fitting specifications",
-                    "double ferrule tube fitting sizes and standards"
-                  ],
-                  "searchIntent": "commercial",
-                  "keywords": [
-                    "double ferrule tube fitting",
-                    "double ferrule tube fitting manufacturer",
-                    "double ferrule tube fitting supplier"
-                  ],
-                  "canonicalPath": "/products/double-ferrule-tube-fitting"
-                },
-                "relatedProducts": [
-                  "tube-union",
-                  "tube-elbow"
-                ],
-                "metadata": {
-                  "createdAt": null,
-                  "updatedAt": null
-                },
-                "breadcrumbs": [
-                  {
-                    "name": "Products",
-                    "path": "/products"
-                  },
-                  {
-                    "name": "Stainless Steel Pipe Fittings",
-                    "path": "/products/stainless-steel-pipe-fittings"
-                  },
-                  {
-                    "name": "Ferrule Fittings",
-                    "path": "/products/stainless-steel-pipe-fittings#ferrule-fittings"
-                  },
-                  {
-                    "name": "Double Ferrule Tube Fitting",
-                    "path": "/products/double-ferrule-tube-fitting"
-                  }
-                ],
-                "structuredData": {
-                  "@context": "https://schema.org",
-                  "@type": "Product",
-                  "name": "Double Ferrule Tube Fitting",
-                  "description": "Double Ferrule Tube Fitting available as double ferrule compression fitting with grades including SS 304, SS 304L, SS 316, SS 316L with a size range of 1/8\" to 1\" to ASTM F1387, ASME B31.3 with tube to tube, tube to thread connections.",
-                  "brand": {
-                    "@type": "Brand",
-                    "name": "Prince Pipes & Fittings"
-                  },
-                  "category": "Stainless Steel Pipe Fittings",
-                  "material": "Stainless Steel"
-                }
-              },
               {
                 "id": "tube-union",
                 "name": "Tube Union",
@@ -4332,7 +4185,7 @@
                   ]
                 },
                 "media": {
-                  "primaryImage": null,
+                  "primaryImage": "/images/SS/Ferrule/Ferrule Union-main.webp",
                   "gallery": [],
                   "technicalDrawing": null,
                   "dimensionDrawing": null,
@@ -4477,7 +4330,7 @@
                   ]
                 },
                 "media": {
-                  "primaryImage": null,
+                  "primaryImage": "/images/SS/Ferrule/Ferrule Elbow-main.webp",
                   "gallery": [],
                   "technicalDrawing": null,
                   "dimensionDrawing": null,
@@ -4623,7 +4476,7 @@
                   ]
                 },
                 "media": {
-                  "primaryImage": null,
+                  "primaryImage": "/images/SS/Ferrule/Ferrule Tee-main.webp",
                   "gallery": [],
                   "technicalDrawing": null,
                   "dimensionDrawing": null,
@@ -4770,7 +4623,7 @@
                   ]
                 },
                 "media": {
-                  "primaryImage": null,
+                  "primaryImage": "/images/SS/Ferrule/Ferrule Connector-main.webp",
                   "gallery": [],
                   "technicalDrawing": null,
                   "dimensionDrawing": null,
@@ -4856,7 +4709,8 @@
                   "material": "Stainless Steel"
                 }
               }
-            ]
+            ],
+            "image": "/images/SS/Ferrule-fittings.webp"
           },
           {
             "id": "dairy-fittings",
@@ -4923,7 +4777,7 @@
                   ]
                 },
                 "media": {
-                  "primaryImage": null,
+                  "primaryImage": "/images/SS/Dairy/Dairy Elbow-main.webp",
                   "gallery": [],
                   "technicalDrawing": null,
                   "dimensionDrawing": null,
@@ -5065,7 +4919,7 @@
                   ]
                 },
                 "media": {
-                  "primaryImage": null,
+                  "primaryImage": "/images/SS/Dairy/Dairy Tee-main.webp",
                   "gallery": [],
                   "technicalDrawing": null,
                   "dimensionDrawing": null,
@@ -5208,7 +5062,7 @@
                   ]
                 },
                 "media": {
-                  "primaryImage": null,
+                  "primaryImage": "/images/SS/Dairy/Dairy Cross-main.webp",
                   "gallery": [],
                   "technicalDrawing": null,
                   "dimensionDrawing": null,
@@ -5352,7 +5206,7 @@
                   ]
                 },
                 "media": {
-                  "primaryImage": null,
+                  "primaryImage": "/images/SS/Dairy/Dairy Union-main.webp",
                   "gallery": [],
                   "technicalDrawing": null,
                   "dimensionDrawing": null,
@@ -5493,7 +5347,7 @@
                   ]
                 },
                 "media": {
-                  "primaryImage": null,
+                  "primaryImage": "/images/SS/Dairy/Dairy Clamp-main.webp",
                   "gallery": [],
                   "technicalDrawing": null,
                   "dimensionDrawing": null,
@@ -5579,7 +5433,8 @@
                   "material": "Stainless Steel"
                 }
               }
-            ]
+            ],
+            "image": "/images/SS/dairy-fittings.webp"
           }
         ]
       },

@@ -2,7 +2,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { MegaMenuContainer } from './MegaMenuContainer';
-import { Layers, Shield, Box, BoxSelect } from 'lucide-react';
+import { Shield, Hammer, Layers, Settings, Anchor, Flame, Beaker } from 'lucide-react';
 import navigationData from '@/data/navigation.json';
 
 export const MaterialsMegaMenu = ({ isOpen, onMouseEnter, onMouseLeave }) => {
@@ -10,10 +10,14 @@ export const MaterialsMegaMenu = ({ isOpen, onMouseEnter, onMouseLeave }) => {
   const cards = navItem?.children || [];
 
   const iconMap = {
-    "stainless-steel": Layers,
-    "duplex": Shield,
-    "monel": Box,
-    "nickel": BoxSelect,
+    "stainless-steel": Shield,
+    "carbon-steel": Hammer,
+    "duplex-steel": Layers,
+    "super-duplex-steel": Shield,
+    "alloy-steel": Settings,
+    "monel": Anchor, // Marine/corrosion resistance
+    "inconel": Flame, // High temperature resistance
+    "hastelloy": Beaker, // Chemical resistance
   };
 
   return (

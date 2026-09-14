@@ -27,8 +27,8 @@ export const GalleryHero = () => {
             OUR PRODUCTS
           </h2>
 
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-extrabold tracking-tight mb-4">
-            Product Gallery
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-extrabold tracking-tight mb-4 uppercase text-primary">
+            PRODUCT <span className="text-secondary">GALLERY</span>
           </h1>
 
           <p className="text-base md:text-lg text-text-secondary max-w-2xl mx-auto font-light leading-relaxed">

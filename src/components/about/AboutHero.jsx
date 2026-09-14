@@ -46,7 +46,7 @@ export default function AboutHero({ data }) {
               </span>
             </div>
 
-            <h1 className="hero-anim text-3xl sm:text-4xl lg:text-[42px] leading-[1.2] font-bold text-slate-900 tracking-normal mb-5">
+            <h1 className="hero-anim text-3xl sm:text-4xl lg:text-[42px] leading-[1.2] font-bold text-primary tracking-normal mb-5 uppercase">
               {data.title}
             </h1>
 

@@ -26,9 +26,9 @@ export default function CertificatesPage() {
             <span className="inline-block text-[11px] font-bold tracking-widest text-primary-700 uppercase bg-slate-50 px-3 py-1 border border-slate-200 rounded-sm mb-4">
               CERTIFICATIONS & QUALITY
             </span>
-            <h1 className="text-3xl sm:text-4xl md:text-[42px] leading-[1.2] font-bold text-slate-900 tracking-tight mb-4">
-              Certificates
-            </h1>
+            <h1 className="text-3xl sm:text-4xl md:text-[42px] leading-[1.2] font-bold text-primary tracking-tight mb-4 uppercase">
+            CERTIFICATES
+          </h1>
             <p className="text-base sm:text-lg text-slate-600 leading-relaxed max-w-2xl">
               View our certifications and quality credentials that demonstrate our commitment to quality and reliable manufacturing.
             </p>

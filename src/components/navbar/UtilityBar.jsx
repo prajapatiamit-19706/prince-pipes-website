@@ -24,7 +24,7 @@ export const UtilityBar = () => {
                 <Phone className="w-3 h-3 xl:w-3.5 xl:h-3.5" />
                 <span>{companyData.phone}</span>
               </a>
-              <a href={`mailto:${companyData.email}`} className="flex items-center gap-1.5 xl:gap-2 hover:text-accent transition-colors">
+              <a href={`https://mail.google.com/mail/?view=cm&fs=1&to=${companyData.email}`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 xl:gap-2 hover:text-accent transition-colors">
                 <Mail className="w-3 h-3 xl:w-3.5 xl:h-3.5" />
                 <span>{companyData.email}</span>
               </a>

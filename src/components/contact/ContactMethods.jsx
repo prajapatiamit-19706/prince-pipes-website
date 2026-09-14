@@ -31,7 +31,7 @@ export function ContactMethods() {
 
   const emailSubject = "Product Enquiry — Prince Pipes & Fittings";
   const emailBody = "Hello,\n\nI would like to enquire about your pipe fittings.\n\nProduct:\nSize:\nQuantity:\nRequirement:\n\nRegards,";
-  const emailLink = `mailto:${email}?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
+  const emailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
 
   const methods = [
     {

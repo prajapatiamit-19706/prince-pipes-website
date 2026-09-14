@@ -1,14 +1,14 @@
 "use client";
 
 import React, { useRef } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
-import { ChevronRight, Home } from 'lucide-react';
+import { ChevronRight } from 'lucide-react';
+
 import { ProductBreadcrumb } from '@/components/product/ProductBreadcrumb';
 
-export default function MaterialHero({ material, imagePath }) {
+export default function MaterialHero({ material }) {
   const container = useRef(null);
 
   useGSAP(() => {
@@ -20,54 +20,44 @@ export default function MaterialHero({ material, imagePath }) {
   }, { scope: container });
 
   return (
-    <section ref={container} className="relative pt-12 pb-16 md:pt-18 md:pb-10 md:pb-6 md:pb-10 lg:pb-16 lg:pb-24 overflow-hidden">
+    <section ref={container} className="relative pt-6 md:pt-10 lg:pt-16 pb-4 md:pb-8 overflow-hidden bg-white">
       <div className="container-wide">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 md:gap-6 md:gap-12 lg:gap-20 items-center">
-
-          {/* Content */}
-          <div className="flex flex-col space-y-8">
-            {/* Breadcrumb */}
-            <div className="hero-element mb-2">
-              <ProductBreadcrumb breadcrumbs={[
-                { name: 'Materials', path: null },
-                { name: material.name, path: `/materials/${material.id}` }
-              ]} />
-            </div>
-
-            <div className="space-y-6">
-              <h1 className="hero-element text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-slate-900">
-                {material.heroTitle || material.name}
-              </h1>
-
-              <p className="hero-element text-lg md:text-xl text-slate-600 leading-relaxed max-w-xl">
-                {material.heroDescription}
-              </p>
-            </div>
-
-            {/* Highlights */}
-            {material.keyProperties && material.keyProperties.slice(0, 3).map((prop, idx) => (
-              <div key={idx} className="hero-element flex items-center space-x-3 text-slate-700">
-                <div className="w-2 h-2 rounded-full bg-primary-700" />
-                <span className="font-medium">{prop}</span>
-              </div>
-            ))}
+        <div className="max-w-4xl">
+          {/* Clean Breadcrumb */}
+          <div className="hero-element mb-6 -mt-2">
+            <ProductBreadcrumb breadcrumbs={[
+              { name: 'Materials', path: null },
+              { name: material.name, path: `/materials/${material.slug || material.id}` }
+            ]} />
           </div>
 
-          {/* Visual */}
-          <div className="hero-element relative w-full aspect-square md:aspect-[4/3] lg:aspect-[5/4] bg-slate-100 rounded-3xl overflow-hidden">
-            <Image
-              src={imagePath || "/placeholder.webp"}
-              alt={`${material.name} - ${material.heroTitle}`}
-              fill
-              priority
-              sizes="(max-width: 768px) 100vw, 50vw"
-              className="object-cover"
-            />
+          <div className="space-y-6 mb-12">
+            <h1 className="hero-element text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tight text-primary uppercase leading-tight">
+              {material.heroTitle || material.name}
+            </h1>
+
+            <p className="hero-element text-lg md:text-xl text-slate-600 leading-relaxed max-w-3xl">
+              {material.heroDescription}
+            </p>
           </div>
 
+          {/* Properties as Clean Badges */}
+          {material.keyProperties && material.keyProperties.length > 0 && (
+            <div className="hero-element flex flex-wrap gap-3">
+              {material.keyProperties.map((prop, idx) => (
+                <div 
+                  key={idx} 
+                  className="inline-flex items-center px-4 py-2 rounded-lg bg-slate-50 border border-slate-200 text-slate-700 font-medium text-sm transition-colors hover:bg-slate-100"
+                >
+                  <div className="w-2 h-2 rounded-full bg-secondary mr-3" />
+                  {prop}
+                </div>
+              ))}
+            </div>
+          )}
+          
         </div>
       </div>
     </section>
   );
 }
-

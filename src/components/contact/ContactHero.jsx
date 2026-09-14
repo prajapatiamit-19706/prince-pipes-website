@@ -24,8 +24,8 @@ export function ContactHero() {
             breadcrumbs={[{ name: "Contact", path: "/contact" }]}
           />
 
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#142E57] tracking-tight leading-[1.1] mb-6">
-            Get in Touch
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-primary tracking-tight leading-[1.1] mb-6 uppercase">
+            GET IN <span className="text-secondary">TOUCH</span>
           </h1>
 
           <p className="text-lg sm:text-xl text-[#5B6B80] leading-relaxed mb-4">

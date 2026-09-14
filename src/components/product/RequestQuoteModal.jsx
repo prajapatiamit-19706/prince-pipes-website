@@ -88,7 +88,7 @@ export function RequestQuoteModal({ productName }) {
       setIsError(false);
       
       // Construct WhatsApp Message
-      const phoneNumber = "917045140314";
+      const phoneNumber = "919137379188";
       const message = `*New Quote Request*
 *Product:* ${formData.product}
 *Quantity:* ${formData.quantity}

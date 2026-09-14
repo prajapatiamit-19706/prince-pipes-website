@@ -7,10 +7,23 @@ import { getAllCategories } from '@/utils/productData';
  * @returns {Array<Object>} Relevant categories/subcategories
  */
 export function searchCategories(query) {
-  if (!query) return [];
-  
   const categories = getAllCategories();
-  const lowerQuery = query.toLowerCase().trim();
+  
+  if (!query || query.trim() === '') {
+    // If no specific query, return a summary of all main categories
+    return categories.map(cat => ({
+      type: 'category',
+      name: cat.name,
+      slug: cat.slug,
+      description: cat.description,
+      material: cat.material,
+      subCategories: cat.subCategories?.map(sub => ({ name: sub.name, slug: sub.slug }))
+    }));
+  }
+
+  let lowerQuery = query.toLowerCase().trim();
+  // Expand common acronyms for robustness
+  lowerQuery = lowerQuery.replace(/\bcs\b/g, 'carbon steel').replace(/\bss\b/g, 'stainless steel');
   const results = [];
 
   categories.forEach(cat => {

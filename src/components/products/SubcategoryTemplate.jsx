@@ -45,8 +45,8 @@ export function SubcategoryTemplate({ category, subcategory }) {
         <ProductBreadcrumb breadcrumbs={breadcrumbs} />
 
         {/* Subcategory Hero Section */}
-        <div className="py-6 md:py-10 lg:py-16 border-b border-neutral-200 mb-12">
-          <h1 className="subcategory-reveal text-4xl md:text-5xl font-bold text-neutral-900 mb-6 uppercase tracking-tight opacity-0">
+        <div className="pt-2 pb-6 md:pt-4 md:pb-10 lg:pt-6 lg:pb-16 border-b border-neutral-200 mb-12">
+          <h1 className="subcategory-reveal text-4xl md:text-5xl font-bold text-primary mb-6 uppercase tracking-tight opacity-0">
             {subcategory.name}
           </h1>
           {subcategory.description && (

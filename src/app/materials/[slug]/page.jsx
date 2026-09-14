@@ -66,12 +66,9 @@ export default async function MaterialPage({ params }) {
   const productFamilies = getProductFamiliesForMaterial(material);
   const relatedMaterials = getRelatedMaterials(material.slug);
   
-  // Use dynamically generated images based on the slug, or fallback to placeholder
-  const imagePath = `/api/images/${material.slug}_hero.webp`; // Note: Adjust the path if you save generated images to public/
-
   return (
     <main className="min-h-screen bg-white">
-      <MaterialHero material={material} imagePath={imagePath} />
+      <MaterialHero material={material} />
       <MaterialAtGlance material={material} />
       <MaterialWhy material={material} />
       <MaterialGrades material={material} />

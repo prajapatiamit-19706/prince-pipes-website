@@ -155,8 +155,9 @@ export default function WeightChartsClient({ initialData }) {
 
       {/* Header Section */}
       <div className="mb-10 text-center md:text-left">
-        <h1 className="gsap-header text-3xl md:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">
-          Stainless Steel Weight Charts
+        <h1 className="gsap-header text-3xl md:text-4xl lg:text-5xl font-bold text-primary tracking-tight mb-4 uppercase">
+          Stainless Steel <br className="hidden sm:block" />
+          <span className="text-secondary">Weight Charts</span>
         </h1>
         <p className="gsap-header text-lg text-slate-600 max-w-3xl transition-opacity duration-200">
           Reference weight information for a broad range of stainless steel pipe fittings. Select a category and product below to view its approximate theoretical weight.
@@ -173,8 +174,8 @@ export default function WeightChartsClient({ initialData }) {
               <button
                 key={sub.id}
                 onClick={() => handleSubCatChange(sub.id)}
-                className={`px-4 py-2.5 text-sm font-medium rounded-lg whitespace-nowrap transition-all duration-200 mr-2 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-1 ${activeSubCatId === sub.id
-                    ? 'bg-indigo-600 text-white shadow-sm'
+                className={`px-4 py-2.5 text-sm font-medium rounded-lg whitespace-nowrap transition-all duration-200 mr-2 focus:outline-none focus:ring-2 focus:ring-[#142E57] focus:ring-offset-1 ${activeSubCatId === sub.id
+                    ? 'bg-[#142E57] text-white shadow-sm'
                     : 'text-slate-600 hover:bg-slate-200 hover:text-slate-900'
                   }`}
               >
@@ -200,7 +201,7 @@ export default function WeightChartsClient({ initialData }) {
             </div>
 
             {activeProductData?.source && activeProductData.source.type !== "unavailable" && (
-              <div className="mt-2 md:mt-0 px-3 py-1.5 bg-blue-50 text-blue-700 text-xs rounded-md border border-blue-100 flex items-center w-max transition-colors duration-200">
+              <div className="mt-2 md:mt-0 px-3 py-1.5 bg-[#EEF4FB] text-[#142E57] text-xs font-semibold rounded-md border border-[#142E57]/20 flex items-center w-max transition-colors duration-200">
                 <svg className="w-4 h-4 mr-1.5 opacity-70" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
@@ -219,7 +220,7 @@ export default function WeightChartsClient({ initialData }) {
                 <select
                   value={activeProductId}
                   onChange={handleProductChange}
-                  className="block w-full pl-3 pr-10 py-2 text-sm border-slate-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 rounded-md bg-white border transition-all duration-200"
+                  className="block w-full pl-3 pr-10 py-2 text-sm border-slate-300 focus:outline-none focus:ring-[#142E57] focus:border-[#142E57] rounded-md bg-white border transition-all duration-200"
                 >
                   {activeSubCat.products.map(p => (
                     <option key={p.id} value={p.id}>{p.name}</option>
@@ -235,7 +236,7 @@ export default function WeightChartsClient({ initialData }) {
                 <select
                   value={selectedType}
                   onChange={(e) => setSelectedType(e.target.value)}
-                  className="block w-full pl-3 pr-10 py-2 text-sm border-slate-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 rounded-md bg-white border transition-all duration-200"
+                  className="block w-full pl-3 pr-10 py-2 text-sm border-slate-300 focus:outline-none focus:ring-[#142E57] focus:border-[#142E57] rounded-md bg-white border transition-all duration-200"
                 >
                   <option value="All">All Variants</option>
                   {filterOptions.types.map(type => (
@@ -252,7 +253,7 @@ export default function WeightChartsClient({ initialData }) {
                 <select
                   value={selectedSchedule}
                   onChange={(e) => setSelectedSchedule(e.target.value)}
-                  className="block w-full pl-3 pr-10 py-2 text-sm border-slate-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 rounded-md bg-white border transition-all duration-200"
+                  className="block w-full pl-3 pr-10 py-2 text-sm border-slate-300 focus:outline-none focus:ring-[#142E57] focus:border-[#142E57] rounded-md bg-white border transition-all duration-200"
                 >
                   <option value="All">All Schedules</option>
                   {filterOptions.schedules.map(sch => (
@@ -274,7 +275,7 @@ export default function WeightChartsClient({ initialData }) {
                 <input
                   type="text"
                   placeholder="e.g. 1/2 or 15"
-                  className="block w-full pl-9 pr-3 py-2 text-sm border border-slate-300 rounded-md leading-5 bg-white placeholder-slate-400 focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 transition-all duration-200"
+                  className="block w-full pl-9 pr-3 py-2 text-sm border border-slate-300 rounded-md leading-5 bg-white placeholder-slate-400 focus:outline-none focus:ring-1 focus:ring-[#142E57] focus:border-[#142E57] transition-all duration-200"
                   value={searchSize}
                   onChange={(e) => setSearchSize(e.target.value)}
                   disabled={activeProductData?.source?.type === "unavailable"}
@@ -287,7 +288,7 @@ export default function WeightChartsClient({ initialData }) {
               {hasActiveFilters && (
                 <button
                   onClick={clearFilters}
-                  className="w-full py-2 px-4 border border-slate-300 rounded-md shadow-sm text-sm font-medium text-slate-700 bg-white hover:bg-slate-100 hover:border-slate-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition-all duration-150"
+                  className="w-full py-2 px-4 border border-slate-300 rounded-md shadow-sm text-sm font-medium text-slate-700 bg-white hover:bg-slate-100 hover:border-slate-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#142E57] transition-all duration-150"
                 >
                   Clear Filters
                 </button>
@@ -312,7 +313,7 @@ export default function WeightChartsClient({ initialData }) {
                   <th scope="col" className="sticky top-0 px-6 py-3 text-left text-xs font-bold text-slate-700 uppercase tracking-wider whitespace-nowrap">
                     Variant
                   </th>
-                  <th scope="col" className="sticky top-0 px-6 py-3 text-right text-xs font-bold text-indigo-700 uppercase tracking-wider whitespace-nowrap">
+                  <th scope="col" className="sticky top-0 px-6 py-3 text-right text-xs font-bold text-[#142E57] uppercase tracking-wider whitespace-nowrap">
                     Approx. Weight
                   </th>
                 </tr>
@@ -348,7 +349,7 @@ export default function WeightChartsClient({ initialData }) {
                       <td className="px-6 py-4 whitespace-nowrap text-sm text-slate-600">
                         {row.type}
                       </td>
-                      <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-indigo-700 text-right">
+                      <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-[#142E57] text-right">
                         {row.weight}
                       </td>
                     </tr>
@@ -375,7 +376,7 @@ export default function WeightChartsClient({ initialData }) {
       {/* Technical Notes Footer */}
       <div className="gsap-scroll-reveal mt-12 bg-white rounded-xl border border-slate-200 p-6 shadow-sm">
         <h3 className="text-lg font-semibold text-slate-900 mb-4 flex items-center">
-          <svg className="w-5 h-5 mr-2 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <svg className="w-5 h-5 mr-2 text-[#142E57]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
           </svg>
           Technical Notes

@@ -21,12 +21,13 @@ export function HeroContent({ data }) {
 
   // Initial mount animations
   useGSAP(() => {
-    const tl = gsap.timeline({ defaults: { ease: "power3.out" } });
+    // Delay initial animation slightly to allow React hydration to finish, preventing mobile lag
+    const tl = gsap.timeline({ defaults: { ease: "power3.out", force3D: true }, delay: 0.3 });
 
     // Badge fades in
     tl.fromTo(".hero-badge-anim", { opacity: 0, y: -16 }, { opacity: 1, y: 0, duration: 0.8 });
 
-    // Headline reveals letter-by-letter (typing effect)
+    // Headline reveals letter-by-letter (typing effect) with force3D for GPU acceleration
     tl.fromTo(".hero-headline-char", { opacity: 0, x: -10 }, { opacity: 1, x: 0, duration: 0.05, stagger: 0.03 }, "-=0.4");
 
     // Description fades in
@@ -43,6 +44,7 @@ export function HeroContent({ data }) {
         opacity: 0,
         x: -5,
         duration: 0.02,
+        force3D: true,
         stagger: {
           each: 0.02,
           from: "end"
@@ -56,7 +58,7 @@ export function HeroContent({ data }) {
           setTimeout(() => {
             gsap.fromTo(".hero-headline-char",
               { opacity: 0, x: 10 },
-              { opacity: 1, x: 0, duration: 0.05, stagger: 0.03, ease: "power2.out" }
+              { opacity: 1, x: 0, duration: 0.05, stagger: 0.03, ease: "power2.out", force3D: true }
             );
           }, 50);
         }
@@ -71,7 +73,7 @@ export function HeroContent({ data }) {
   const currentWords = HEADLINES[currentIndex].split(" ");
 
   return (
-    <div className="w-full flex flex-col justify-center h-full relative z-10 py-4 lg:py-0">
+    <div className="w-full flex flex-col justify-start lg:justify-start h-full relative z-10 pt-4 pb-8 lg:pt-10 lg:pb-0">
       <div className="hero-badge-anim opacity-0">
         <HeroBadge text={data.trustBadge} />
       </div>
@@ -82,9 +84,10 @@ export function HeroContent({ data }) {
             {word.split("").map((char, j) => (
               <span
                 key={j}
-                className={`hero-headline-char block opacity-0 ${HIGHLIGHT_WORDS.includes(word) ? 'text-[#c29b62]' : 'text-primary'}`}
+                className={`hero-headline-char inline-block opacity-0 ${HIGHLIGHT_WORDS.includes(word) ? 'text-[#c29b62]' : 'text-primary'}`}
+                style={{ willChange: "transform, opacity" }}
               >
-                {char}
+                {char === ' ' ? '\u00A0' : char}
               </span>
             ))}
           </div>

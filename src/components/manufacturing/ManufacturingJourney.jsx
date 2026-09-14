@@ -50,7 +50,6 @@ export function ManufacturingJourney() {
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true);
     const mql = window.matchMedia('(min-width: 1024px)');
-    // eslint-disable-next-line react-hooks/set-state-in-effect
     setIsDesktop(mql.matches);
     
     const handler = (e) => setIsDesktop(e.matches);

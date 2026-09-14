@@ -61,7 +61,7 @@ export const BrandHeader = () => {
             className="hidden xl:flex px-6 tracking-wide" 
             suppressHydrationWarning
             onClick={() => {
-              const phone = companyData.whatsapp?.replace(/[^0-9]/g, '') || '917045140314';
+              const phone = companyData.whatsapp?.replace(/[^0-9]/g, '') || '919137379188';
               window.open(`https://wa.me/${phone}`, '_blank', 'noopener,noreferrer');
             }}
           >

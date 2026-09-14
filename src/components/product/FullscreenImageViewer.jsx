@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState, useCallback } from 'react';
+import { createPortal } from 'react-dom';
 import Image from 'next/image';
 import { X, ChevronLeft, ChevronRight, ZoomIn, ZoomOut } from 'lucide-react';
 import gsap from 'gsap';
@@ -9,12 +10,18 @@ import { useGSAP } from '@gsap/react';
 export function FullscreenImageViewer({ images, currentIndex, isOpen, onClose }) {
   const [index, setIndex] = useState(currentIndex);
   const [scale, setScale] = useState(1);
+  const [mounted, setMounted] = useState(false);
   const overlayRef = useRef(null);
   const contentRef = useRef(null);
 
   const [touchStart, setTouchStart] = useState(null);
   const [touchEnd, setTouchEnd] = useState(null);
   const minSwipeDistance = 50;
+
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setMounted(true);
+  }, []);
 
   // Sync index when opened
   const [prevIsOpen, setPrevIsOpen] = useState(isOpen);
@@ -39,7 +46,7 @@ export function FullscreenImageViewer({ images, currentIndex, isOpen, onClose })
   }, [isOpen]);
 
   useGSAP(() => {
-    if (isOpen) {
+    if (isOpen && mounted) {
       gsap.fromTo(
         overlayRef.current,
         { opacity: 0 },
@@ -51,7 +58,7 @@ export function FullscreenImageViewer({ images, currentIndex, isOpen, onClose })
         { opacity: 1, scale: 1, duration: 0.4, ease: "back.out(1.5)", delay: 0.1 }
       );
     }
-  }, [isOpen]);
+  }, [isOpen, mounted]);
 
   const handleNext = useCallback((e) => {
     e?.stopPropagation();
@@ -89,7 +96,7 @@ export function FullscreenImageViewer({ images, currentIndex, isOpen, onClose })
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [isOpen, handleNext, handlePrev, onClose]);
 
-  if (!isOpen || !images || images.length === 0) return null;
+  if (!isOpen || !images || images.length === 0 || !mounted) return null;
 
   const onTouchStart = (e) => {
     setTouchEnd(null);
@@ -114,10 +121,10 @@ export function FullscreenImageViewer({ images, currentIndex, isOpen, onClose })
 
   const currentImage = images[index];
 
-  return (
+  return createPortal(
     <div 
       ref={overlayRef}
-      className="fixed inset-0 z-[100] bg-black/90 backdrop-blur-sm flex items-center justify-center touch-none"
+      className="fixed inset-0 z-[99999] bg-black/90 backdrop-blur-sm flex items-center justify-center touch-none"
       onClick={onClose}
     >
       <div className="absolute top-6 right-6 flex items-center gap-4 z-10">
@@ -131,7 +138,7 @@ export function FullscreenImageViewer({ images, currentIndex, isOpen, onClose })
         </div>
         <button 
           onClick={onClose}
-          className="p-3 bg-white/10 hover:bg-white/20 text-white rounded-full transition-colors backdrop-blur-md"
+          className="p-3 bg-white/10 hover:bg-red-500 hover:text-white text-white rounded-full transition-colors backdrop-blur-md"
         >
           <X size={24} />
         </button>
@@ -156,7 +163,7 @@ export function FullscreenImageViewer({ images, currentIndex, isOpen, onClose })
 
       <div 
         ref={contentRef}
-        className="relative w-full max-w-6xl h-[80vh] flex items-center justify-center p-4 cursor-grab active:cursor-grabbing touch-pan-y"
+        className="relative w-full max-w-6xl h-[65vh] flex items-center justify-center p-4 cursor-grab active:cursor-grabbing touch-pan-y"
         onClick={(e) => e.stopPropagation()}
         onTouchStart={onTouchStart}
         onTouchMove={onTouchMove}
@@ -183,6 +190,7 @@ export function FullscreenImageViewer({ images, currentIndex, isOpen, onClose })
           {index + 1} / {images.length}
         </div>
       )}
-    </div>
+    </div>,
+    document.body
   );
 }

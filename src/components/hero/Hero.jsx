@@ -103,13 +103,13 @@ export function Hero() {
   }
 
   return (
-    <section ref={containerRef} className="relative w-full bg-background flex flex-col pt-0 md:pt-2 xl:pt-10 overflow-hidden">
+    <section ref={containerRef} className="relative w-full bg-background flex flex-col overflow-hidden">
       <div className="hero-bg-parallax absolute inset-0 pointer-events-none">
         <HeroBackground />
       </div>
 
-      <div className="flex-grow flex flex-col justify-start min-h-[calc(100vh-6rem)] pt-2">
-        <div className="max-w-[1440px] mx-auto w-full px-6 pt-0 md:px-12 grid grid-cols-1 lg:grid-cols-[45%_55%] gap-8 lg:gap-6 md:gap-10 lg:gap-16 items-center">
+      <div className="flex-grow flex flex-col justify-start min-h-[calc(100vh-6rem)] pt-2 lg:pt-8">
+        <div className="max-w-[1440px] mx-auto w-full px-6 md:px-12 grid grid-cols-1 lg:grid-cols-[45%_55%] gap-8 lg:gap-6 md:gap-10 lg:gap-16 items-start lg:items-start">
           {/* Left Column (45%) */}
           <div className="w-full relative z-10">
             <HeroContent data={hero} />

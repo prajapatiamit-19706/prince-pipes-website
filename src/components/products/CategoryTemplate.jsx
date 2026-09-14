@@ -73,7 +73,7 @@ export function CategoryTemplate({ category }) {
 
         {/* Category Hero Section */}
         <div className="py-6 md:py-4 lg:py-6 border-b border-neutral-200 mb-12">
-          <h1 className="category-reveal text-4xl md:text-5xl font-bold text-neutral-900 mb-6 uppercase tracking-tight opacity-0">
+          <h1 className="category-reveal text-4xl md:text-5xl font-bold text-primary mb-6 uppercase tracking-tight opacity-0">
             {category.name}
           </h1>
           {category.description && (

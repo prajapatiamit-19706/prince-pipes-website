@@ -2,6 +2,7 @@
 import { motion } from 'framer-motion';
 import { ShieldCheck, Award, Globe2, Settings } from 'lucide-react';
 import footerData from '@/data/footer.json';
+import { SocialLinks } from './SocialLinks';
 
 // Simple mapping for icons based on text content
 const getTrustIcon = (text, index) => {
@@ -38,23 +39,44 @@ export const FooterTrust = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          className="flex flex-wrap justify-center md:justify-between items-center gap-6"
+          className="grid grid-cols-1 md:grid-cols-3 gap-6 items-center"
         >
-          {items.map((item, index) => {
-            const Icon = getTrustIcon(item, index);
-            return (
-              <motion.div 
-                key={index} 
-                variants={itemVariants}
-                className="flex items-center gap-3 text-primary-200 hover:text-white transition-colors duration-300 group"
-              >
-                <div className="p-2 rounded-full bg-white/5 group-hover:bg-white/10 transition-colors">
-                  <Icon className="w-5 h-5 text-primary-300 group-hover:text-white transition-colors" />
-                </div>
-                <span className="font-medium text-sm md:text-base tracking-wide">{item}</span>
-              </motion.div>
-            );
-          })}
+          {/* First Certification (Left) */}
+          {items[0] && (
+            <motion.div 
+              variants={itemVariants}
+              className="flex items-center gap-3 text-primary-200 hover:text-white transition-colors duration-300 group justify-self-center md:justify-self-start"
+            >
+              <div className="p-2 rounded-full bg-white/5 group-hover:bg-white/10 transition-colors">
+                {(() => {
+                  const Icon = getTrustIcon(items[0], 0);
+                  return <Icon className="w-5 h-5 text-primary-300 group-hover:text-white transition-colors" />
+                })()}
+              </div>
+              <span className="font-medium text-sm md:text-base tracking-wide">{items[0]}</span>
+            </motion.div>
+          )}
+
+          {/* Second Certification / MSME (Center) */}
+          {items[1] && (
+            <motion.div 
+              variants={itemVariants}
+              className="flex items-center gap-3 text-primary-200 hover:text-white transition-colors duration-300 group justify-self-center"
+            >
+              <div className="p-2 rounded-full bg-white/5 group-hover:bg-white/10 transition-colors">
+                {(() => {
+                  const Icon = getTrustIcon(items[1], 1);
+                  return <Icon className="w-5 h-5 text-primary-300 group-hover:text-white transition-colors" />
+                })()}
+              </div>
+              <span className="font-medium text-sm md:text-base tracking-wide">{items[1]}</span>
+            </motion.div>
+          )}
+
+          {/* Social Links (Right) */}
+          <motion.div variants={itemVariants} className="justify-self-center md:justify-self-end">
+            <SocialLinks />
+          </motion.div>
         </motion.div>
       </div>
     </div>

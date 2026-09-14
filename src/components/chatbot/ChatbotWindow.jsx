@@ -38,6 +38,7 @@ export default function ChatbotWindow({ onClose }) {
   const chatState = useChat({
     api: "/api/chat",
     messages: initialMessages,
+    maxSteps: 5,
     onError: (err) => {
       console.error("Chat error:", err);
     }
@@ -60,21 +61,7 @@ export default function ChatbotWindow({ onClose }) {
 
   const isLoading = status === "submitted" || status === "streaming";
 
-  // Auto-loop for tool calls: trigger summary when tools finish executing
-  useEffect(() => {
-    if (!messages.length) return;
-    const lastMsg = messages[messages.length - 1];
-    if (lastMsg.role === 'assistant' && lastMsg.toolInvocations?.length > 0) {
-      const allDone = lastMsg.toolInvocations.every(t => t.state === 'result');
-      if (allDone && status !== 'streaming' && status !== 'submitted') {
-        if (sendMessage) {
-          sendMessage({
-            text: "[SYSTEM] Please summarize the information you just retrieved to answer the user's question directly."
-          });
-        }
-      }
-    }
-  }, [messages, status, sendMessage]);
+  // Auto-loop hack removed to allow Vercel AI SDK to handle maxSteps natively on the server.
 
   const handleClear = () => {
     if (isLoading) stop();

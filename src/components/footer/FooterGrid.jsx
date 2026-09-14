@@ -64,7 +64,7 @@ export const FooterGrid = () => {
           {contactData.email && (
             <div className="mb-2">
               <span className="block text-xs text-primary-300 uppercase tracking-wider mb-1">Email</span>
-              <a href={`mailto:${contactData.email}`} className="text-white hover:text-primary-100 transition-colors">
+              <a href={`https://mail.google.com/mail/?view=cm&fs=1&to=${contactData.email}`} target="_blank" rel="noopener noreferrer" className="text-white hover:text-primary-100 transition-colors">
                 {contactData.email}
               </a>
             </div>

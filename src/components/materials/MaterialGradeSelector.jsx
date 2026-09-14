@@ -19,8 +19,8 @@ export default function MaterialGradeSelector({ material }) {
             key={`${grade}-${idx}`}
             onClick={() => setActiveGrade(grade)}
             className={`flex-shrink-0 px-6 py-3 rounded-full text-sm font-medium transition-all ${activeGrade === grade
-                ? 'bg-primary text-white shadow-md'
-                : 'bg-white text-slate-600 hover:bg-slate-100 border border-slate-200'
+              ? 'bg-primary text-white shadow-md'
+              : 'bg-white text-slate-600 hover:bg-slate-100 border border-slate-200'
               }`}
           >
             {grade}
@@ -41,12 +41,6 @@ export default function MaterialGradeSelector({ material }) {
             </p>
           </div>
 
-          <div className="w-full md:w-auto">
-            <button className="group flex items-center space-x-2 text-blue-600 font-semibold hover:text-blue-700 transition-colors">
-              <span>View full grade specifications</span>
-              <ChevronRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
-            </button>
-          </div>
         </div>
 
         {/* Dummy technical specs block just to show composition layout */}

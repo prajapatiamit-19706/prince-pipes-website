@@ -151,7 +151,7 @@ export function FinalCTA() {
             {/* CTA Buttons: Vertical stack on mobile, Side-by-side on desktop */}
             <div className="cta-buttons flex flex-col sm:flex-row gap-4 mb-8 w-full max-w-xl mx-auto lg:mx-0 opacity-0">
               <Button
-                onClick={() => window.open('https://wa.me/7045140314', '_blank', 'noopener,noreferrer')}
+                onClick={() => window.open('https://wa.me/919137379188', '_blank', 'noopener,noreferrer')}
                 className="group bg-[#142E57] hover:bg-[#1D4377] text-white text-[14px] sm:text-[15px] font-semibold tracking-wide h-12 px-6 sm:px-8 w-full sm:w-auto min-w-fit whitespace-nowrap transition-all duration-300 shadow-[0_6px_20px_rgba(20,46,87,0.15)] hover:shadow-[0_8px_25px_rgba(20,46,87,0.2)] hover:-translate-y-1 rounded-md"
               >
                 Request Engineering Quote

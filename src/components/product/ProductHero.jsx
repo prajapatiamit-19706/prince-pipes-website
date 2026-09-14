@@ -138,7 +138,7 @@ export function ProductHero({ product, category, subCategory }) {
             {subCategory && <span className="text-neutral-500">{subCategory.name}</span>}
           </div>
 
-          <h1 className="hero-title text-4xl md:text-5xl lg:text-6xl font-display font-medium text-text leading-tight mb-6">
+          <h1 className="hero-title text-4xl md:text-5xl lg:text-6xl font-display font-medium text-primary leading-tight mb-6 uppercase">
             {product.name}
           </h1>
 

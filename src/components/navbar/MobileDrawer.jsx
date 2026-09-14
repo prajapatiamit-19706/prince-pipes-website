@@ -5,6 +5,7 @@ import { useSearchContext } from '@/context/SearchContext';
 import { useLockBodyScroll } from '@/hooks/useLockBodyScroll';
 import { NavigationItem } from './NavigationItem';
 import navigationData from '@/data/navigation.json';
+import companyData from '@/data/company.json';
 import { Button } from '@/components/ui/button';
 import { X, Search, Phone, Mail } from 'lucide-react';
 import gsap from 'gsap';
@@ -118,13 +119,13 @@ export const MobileDrawer = () => {
             </div>
             
             <div className="contact-info-anim flex flex-col gap-4 px-2">
-              <a href="tel:+18001234567" className="flex items-center gap-3 text-[15px] font-medium text-text-secondary hover:text-primary transition-colors">
+              <a href={`tel:${companyData.phone.replace(/[^0-9+]/g, '')}`} className="flex items-center gap-3 text-[15px] font-medium text-text-secondary hover:text-primary transition-colors">
                 <Phone className="w-5 h-5 text-primary" />
-                <span>1800-123-4567</span>
+                <span>{companyData.phone}</span>
               </a>
-              <a href="mailto:info@princepipes.com" className="flex items-center gap-3 text-[15px] font-medium text-text-secondary hover:text-primary transition-colors">
+              <a href={`https://mail.google.com/mail/?view=cm&fs=1&to=${companyData.email}`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-[15px] font-medium text-text-secondary hover:text-primary transition-colors">
                 <Mail className="w-5 h-5 text-primary" />
-                <span>info@princepipes.com</span>
+                <span>{companyData.email}</span>
               </a>
             </div>
           </div>
