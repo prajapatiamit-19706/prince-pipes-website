@@ -6,18 +6,14 @@ import { GalleryItem } from "./GalleryItem";
 import { GalleryLightbox } from "./GalleryLightbox";
 import { motion } from "framer-motion";
 
-export const MasonryGallery = ({ activeCategory }) => {
+export const MasonryGallery = () => {
   const [columnsCount, setColumnsCount] = useState(6);
   
   // Lightbox state
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // Filter items based on category
-  const filteredItems = useMemo(() => {
-    if (activeCategory === "All") return galleryItems;
-    return galleryItems.filter((item) => item.category === activeCategory);
-  }, [activeCategory]);
+  const filteredItems = galleryItems;
 
   const openLightbox = (item) => {
     const index = filteredItems.findIndex((i) => i.id === item.id);
@@ -66,8 +62,7 @@ export const MasonryGallery = ({ activeCategory }) => {
             animate={{ opacity: 1 }}
             className="flex flex-col items-center justify-center py-32 text-center"
           >
-            <h3 className="text-2xl font-medium text-text mb-4">No products found in this category.</h3>
-            <p className="text-text-secondary">Please try selecting a different material category.</p>
+            <h3 className="text-2xl font-medium text-text mb-4">No products found.</h3>
           </motion.div>
         ) : (
           <>

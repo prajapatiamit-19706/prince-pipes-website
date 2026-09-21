@@ -6,7 +6,8 @@ import companyData from "@/data/company.json";
 export function LocationSection() {
   const { officeAddress, factoryAddress } = companyData;
   const addressToSearch = officeAddress || "Mumbai, India";
-  const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(addressToSearch)}`;
+  const mapsUrl = "https://maps.app.goo.gl/CA2GwNNFdt3dNQqH7?g_st=ac";
+  const iframeQuery = "Prince Pipes & Fittings, Kumbharwada, Mumbai";
 
   return (
     <section className="py-8 md:py-12 lg:py-8 md:py-12 lg:py-20 bg-white">
@@ -37,22 +38,25 @@ export function LocationSection() {
                   View on Google Maps <span className="ml-1 text-lg">→</span>
                 </a>
 
-                {factoryAddress && (
-                  <>
-                    <div className="w-full h-px bg-[#E7EDF5] my-6"></div>
-                    <h3 className="font-semibold text-[#142E57] text-lg mb-3">Manufacturing Unit</h3>
-                    <p className="text-[#5B6B80] leading-relaxed text-sm sm:text-base">
-                      {factoryAddress}
-                    </p>
-                  </>
-                )}
+                <div className="w-full h-px bg-[#E7EDF5] my-6"></div>
+                <h3 className="font-semibold text-[#142E57] text-lg mb-3">Business Hours</h3>
+                <div className="text-[#5B6B80] leading-relaxed text-sm sm:text-base space-y-2 mt-2">
+                  <div className="grid grid-cols-[150px_1fr] gap-2">
+                    <span>Monday - Saturday:</span> 
+                    <span className="font-medium text-[#142E57]">10:00 AM - 7:00 PM</span>
+                  </div>
+                  <div className="grid grid-cols-[150px_1fr] gap-2">
+                    <span>Sunday:</span> 
+                    <span className="font-medium text-[#dc2626]">Closed</span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
 
           <div className="w-full h-[350px] lg:h-auto lg:min-h-[400px] rounded-xl overflow-hidden border border-[#E7EDF5] shadow-sm lg:mt-[68px]">
             <iframe 
-              src={`https://maps.google.com/maps?q=${encodeURIComponent(addressToSearch)}&t=&z=14&ie=UTF8&iwloc=&output=embed`}
+              src={`https://maps.google.com/maps?q=${encodeURIComponent(iframeQuery)}&t=&z=17&ie=UTF8&iwloc=&output=embed`}
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 

@@ -202,11 +202,6 @@
           "id": "product-catalogue",
           "label": "Product Catalogue",
           "path": "/resources/catalogue"
-        },
-        {
-          "id": "certificates",
-          "label": "Certificates",
-          "path": "/resources/certificates"
         }
       ]
     },

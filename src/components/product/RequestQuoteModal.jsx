@@ -69,8 +69,8 @@ export function RequestQuoteModal({ productName }) {
       );
       gsap.fromTo(
         panelRef.current,
-        { x: "100%" },
-        { x: "0%", duration: 0.4, ease: "power3.out" }
+        { opacity: 0, y: 20, scale: 0.95 },
+        { opacity: 1, y: 0, scale: 1, duration: 0.4, ease: "power3.out" }
       );
     }
   }, [isOpen]);
@@ -115,12 +115,12 @@ export function RequestQuoteModal({ productName }) {
   return (
     <div 
       ref={overlayRef}
-      className="fixed inset-0 z-[100] bg-neutral-900/40 backdrop-blur-sm flex justify-end"
+      className="fixed inset-0 z-[1000] bg-neutral-900/60 backdrop-blur-sm flex justify-center items-center p-4 sm:p-6"
       onClick={close}
     >
       <div 
         ref={panelRef}
-        className="w-full max-w-md bg-white h-full shadow-2xl flex flex-col"
+        className="w-full max-w-md bg-white h-auto max-h-[95vh] rounded-2xl shadow-2xl flex flex-col overflow-hidden"
         onClick={e => e.stopPropagation()}
       >
         <div className="flex items-center justify-between p-6 border-b border-neutral-100">
@@ -135,16 +135,18 @@ export function RequestQuoteModal({ productName }) {
         <div className="p-6 flex-1 overflow-y-auto">
             <form onSubmit={handleSubmit} className="space-y-6">
               
-              <div>
-                <label className="block text-xs font-semibold tracking-wider text-neutral-500 mb-2 uppercase">Product</label>
-                <input 
-                  type="text" 
-                  name="product"
-                  value={formData.product}
-                  readOnly
-                  className="w-full bg-neutral-50 border border-neutral-200 px-4 py-3 text-neutral-800 focus:outline-none"
-                />
-              </div>
+              {formData.product && (
+                <div>
+                  <label className="block text-xs font-semibold tracking-wider text-neutral-500 mb-2 uppercase">Product</label>
+                  <input 
+                    type="text" 
+                    name="product"
+                    value={formData.product}
+                    readOnly
+                    className="w-full bg-neutral-50 border border-neutral-200 px-4 py-3 text-neutral-800 focus:outline-none rounded-lg"
+                  />
+                </div>
+              )}
 
               <div className="grid grid-cols-2 gap-4">
                 <div>
@@ -194,7 +196,7 @@ export function RequestQuoteModal({ productName }) {
                   value={formData.message}
                   onChange={handleChange}
                   rows="4"
-                  className="w-full bg-white border border-neutral-200 px-4 py-3 text-neutral-800 focus:border-primary focus:outline-none transition-colors resize-none"
+                  className="w-full bg-white border border-neutral-200 px-4 py-3 text-neutral-800 focus:border-primary focus:outline-none transition-colors resize-none rounded-lg"
                   placeholder="Specific requirements, standards, or application details..."
                 />
               </div>
@@ -202,7 +204,7 @@ export function RequestQuoteModal({ productName }) {
               <button 
                 type="submit"
                 disabled={isSubmitting}
-                className={`w-full text-white px-8 py-4 font-medium tracking-wide transition-colors ${
+                className={`w-full text-white px-8 py-4 font-medium tracking-wide transition-colors rounded-xl ${
                   isSubmitting ? 'bg-neutral-400 cursor-not-allowed' : 'bg-primary hover:bg-primary-dark'
                 }`}
               >

@@ -19,7 +19,7 @@ export function MobileJourney({ steps }) {
             const StepIcon = IconMap[step.icon] || Settings;
             return (
               <li key={step.id} className="flex flex-col gap-6">
-                <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden shadow-lg border border-border/20">
+                <div className="relative w-full min-h-[250px] aspect-[4/3] rounded-2xl overflow-hidden shadow-lg border border-border/20">
                   <Image 
                     src={step.image} 
                     alt={`${step.title} — Prince Pipes & Fittings manufacturing stage`} 

@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { SmoothScroll } from "@/components/providers/SmoothScroll";
-import ChatbotContainer from "@/components/chatbot/ChatbotContainer";
+import WhatsAppButton from "@/components/ui/WhatsAppButton";
 
 export const metadata = {
   title: "Prince Pipes & Fittings",
@@ -38,7 +38,7 @@ export default function RootLayout({ children }) {
           </main>
           <Footer />
         </SmoothScroll>
-        <ChatbotContainer />
+        <WhatsAppButton />
       </body>
     </html>
   );

@@ -12,7 +12,6 @@ export default function sitemap() {
     '/contact',
     '/sitemap',
     '/resources/catalogue',
-    '/resources/certificates',
     '/technical-resources/dimension-charts',
     '/technical-resources/weight-charts',
   ].map((route) => ({

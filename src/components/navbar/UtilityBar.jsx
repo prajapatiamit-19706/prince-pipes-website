@@ -3,6 +3,7 @@ import { useHeaderContext } from '@/context/HeaderContext';
 import { Phone, Mail, Award, Globe } from 'lucide-react';
 import { HEADER_LAYOUT } from '@/constants/layout';
 import { motion, AnimatePresence } from 'framer-motion';
+import Image from 'next/image';
 
 import companyData from '@/data/company.json';
 
@@ -18,7 +19,7 @@ export const UtilityBar = () => {
           transition={{ duration: 0.3, ease: 'easeInOut' }}
           className="bg-primary text-white overflow-hidden hidden md:block"
         >
-          <div className="container-wide h-[32px] xl:h-[40px] flex items-center justify-between text-[10px] xl:text-xs font-medium">
+          <div className="container-wide h-[40px] xl:h-[50px] flex items-center justify-between text-[10px] xl:text-xs font-medium">
             <div className="flex items-center gap-4 xl:gap-6">
               <a href={`tel:${companyData.phone?.replace(/\s+/g, '')}`} className="flex items-center gap-1.5 xl:gap-2 hover:text-accent transition-colors">
                 <Phone className="w-3 h-3 xl:w-3.5 xl:h-3.5" />
@@ -30,6 +31,15 @@ export const UtilityBar = () => {
               </a>
             </div>
             <div className="flex items-center gap-4 xl:gap-6">
+              <div className="hidden lg:flex items-center gap-3 pr-2">
+                <Image 
+                  src="/logo/msme.jpg" 
+                  alt="MSME Certified" 
+                  width={60}
+                  height={32}
+                  className="h-[30px] xl:h-[38px] w-auto object-contain rounded-[3px] shadow-sm"
+                />
+              </div>
               <span className="flex items-center gap-1.5 xl:gap-2 text-accent">
                 <Globe className="w-3 h-3 xl:w-3.5 xl:h-3.5" />
                 Export Worldwide

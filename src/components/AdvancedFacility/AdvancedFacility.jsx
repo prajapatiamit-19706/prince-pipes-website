@@ -1,12 +1,7 @@
 "use client";
 import React, { useRef, useState, useEffect, useCallback } from 'react';
-import gsap from 'gsap';
-import { useGSAP } from '@gsap/react';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import machinesData from '@/data/machines.json';
 import { Flame, Hammer, Settings, Cog, Zap, Wrench, Factory, ShieldCheck, Microscope, ScanSearch, Gauge, ScanEye, Activity, Droplets } from 'lucide-react';
-
-gsap.registerPlugin(ScrollTrigger);
 
 const GRID_LINE_COLOR = "#7C3AED"; // Brand accent grid color
 
@@ -22,15 +17,7 @@ function EquipmentPanel({ title, iconName, machines }) {
   const activeMachine = sortedMachines[activeIndex];
   const PanelIcon = IconMap[iconName] || Settings;
 
-  // Handle crossfade
-  useEffect(() => {
-    if (!infoRef.current) return;
-    const elements = infoRef.current.querySelectorAll('.machine-anim-element');
-    gsap.fromTo(elements,
-      { opacity: 0, y: 10 },
-      { opacity: 1, y: 0, duration: 0.4, stagger: 0.05, ease: "power2.out", overwrite: true }
-    );
-  }, [activeIndex]);
+
 
   // Handle auto-rotation
   const nextMachine = useCallback(() => {
@@ -82,7 +69,7 @@ function EquipmentPanel({ title, iconName, machines }) {
       <div className="flex flex-col md:flex-row flex-grow">
         {/* Left: Shared Info Panel */}
         <div className="w-full md:w-5/12 p-6 md:p-8 border-b md:border-b-0 md:border-r border-border/50 bg-surface relative">
-          <div className="absolute inset-0 bg-[url('/images/blueprint-pattern.webp')] bg-repeat opacity-5 pointer-events-none" />
+
           <div ref={infoRef} className="relative z-10 flex flex-col h-full justify-center min-h-[160px]">
             <span className="machine-anim-element font-mono text-[10px] md:text-xs tracking-widest uppercase text-primary mb-3 flex items-center gap-2">
               <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse" />
@@ -107,7 +94,6 @@ function EquipmentPanel({ title, iconName, machines }) {
               return (
                 <button
                   key={machine.id}
-                  onMouseEnter={() => setActiveIndex(idx)}
                   onClick={() => setActiveIndex(idx)}
                   className={`
                     relative group flex items-center gap-3 p-3 rounded-xl border text-left transition-all duration-300 transform-gpu
@@ -148,34 +134,17 @@ function EquipmentPanel({ title, iconName, machines }) {
 export function AdvancedFacility() {
   const containerRef = useRef(null);
 
-  useGSAP(() => {
-    const tl = gsap.timeline({
-      scrollTrigger: {
-        trigger: containerRef.current,
-        start: "top 80%",
-      }
-    });
 
-    tl.fromTo(".adv-header", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.8, ease: "power3.out" })
-      .fromTo(".adv-panel", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6, stagger: 0.15, ease: "power3.out" }, "-=0.4");
-  }, { scope: containerRef });
 
   return (
     <section ref={containerRef} className="relative w-full bg-background overflow-hidden py-8 md:py-6 md:py-10 lg:py-16 lg:py-10 md:py-6 md:py-10 lg:py-16 lg:py-24">
 
-      {/* Blueprint Grid Backdrop */}
-      <div
-        className="absolute inset-0 opacity-[0.04] pointer-events-none"
-        style={{
-          backgroundImage: `linear-gradient(${GRID_LINE_COLOR} 1px, transparent 1px), linear-gradient(90deg, ${GRID_LINE_COLOR} 1px, transparent 1px)`,
-          backgroundSize: "48px 48px",
-        }}
-      />
+
 
       <div className="container-wide relative z-10 w-full px-4 md:px-8 mx-auto">
 
         {/* Section Header */}
-        <div className="adv-header flex flex-col items-center text-center max-w-3xl mx-auto mb-6 md:mb-10 lg:mb-16 opacity-0">
+        <div className="adv-header flex flex-col items-center text-center max-w-3xl mx-auto mb-6 md:mb-10 lg:mb-16">
           <span className="text-sm font-semibold tracking-[0.2em] uppercase mb-4 flex items-center justify-center gap-3 text-primary">
             <span className="w-8 h-[1px] bg-primary" />
             Advanced Manufacturing Facility
@@ -191,14 +160,14 @@ export function AdvancedFacility() {
 
         {/* Equipment Panels */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-10">
-          <div className="adv-panel opacity-0 h-full">
+          <div className="adv-panel h-full">
             <EquipmentPanel
               title="Manufacturing Equipment"
               iconName="Factory"
               machines={machinesData.manufacturing}
             />
           </div>
-          <div className="adv-panel opacity-0 h-full">
+          <div className="adv-panel h-full">
             <EquipmentPanel
               title="Testing Equipment"
               iconName="Microscope"

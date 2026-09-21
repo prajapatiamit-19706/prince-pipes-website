@@ -6,6 +6,7 @@ import { HeroScene } from "./HeroScene";
 import { HeroBackground } from "./HeroBackground";
 import { HeroIndustryStrip } from "./HeroIndustryStrip";
 import { HeroCategories } from "./HeroCategories";
+import { HeroGalleryLoop } from "./HeroGalleryLoop";
 import { ScrollIndicator } from "./ScrollIndicator";
 
 import homepageData from "@/data/homepage.json";
@@ -16,6 +17,7 @@ import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger, useGSAP);
+ScrollTrigger.config({ ignoreMobileResize: true });
 
 export function Hero() {
   const { hero, featuredCategories } = homepageData;
@@ -130,6 +132,10 @@ export function Hero() {
 
       <div className="hero-categories-trigger relative z-10 w-full mt-12">
         <HeroCategories />
+      </div>
+
+      <div className="relative z-10 w-full">
+        <HeroGalleryLoop />
       </div>
 
       <div className="hero-industry-trigger relative z-10 w-full">

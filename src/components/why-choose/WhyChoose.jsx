@@ -122,16 +122,10 @@ export function WhyChoose({ catalogStats }) {
     <section ref={containerRef} className="relative w-full bg-background overflow-hidden">
       {/* Purple checked grid backdrop -- covers the whole section (white areas only;
           the hero image below is opaque and simply sits on top of it) */}
-      <div
-        className="absolute inset-0 opacity-[0.06] pointer-events-none"
-        style={{
-          backgroundImage: `linear-gradient(${GRID_LINE_COLOR} 1px, transparent 1px), linear-gradient(90deg, ${GRID_LINE_COLOR} 1px, transparent 1px)`,
-          backgroundSize: "48px 48px",
-        }}
-      />
+
 
       {/* ---- Full-bleed hero image band (edge-to-edge, no side margin) ---- */}
-      <div className="relative left-1/2 right-1/2 -mx-[50vw] w-screen">
+      <div className="relative w-screen ml-[calc(50%-50vw)]">
         <div className="relative w-full aspect-[16/7] md:aspect-[21/8] min-h-[420px]">
           <Image
             src={PLACEHOLDER_FACTORY_IMAGE}
@@ -142,13 +136,7 @@ export function WhyChoose({ catalogStats }) {
           />
           {/* Subtle neutral overlay for text legibility */}
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent" />
-          <div
-            className="absolute inset-0 opacity-[0.08]"
-            style={{
-              backgroundImage: `linear-gradient(${GRID_LINE_COLOR} 1px, transparent 1px), linear-gradient(90deg, ${GRID_LINE_COLOR} 1px, transparent 1px)`,
-              backgroundSize: "48px 48px",
-            }}
-          />
+
 
           {/* Heading content, container-constrained inside the full-bleed band */}
           <div className="absolute inset-0 flex items-center">

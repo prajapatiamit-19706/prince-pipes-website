@@ -122,8 +122,8 @@ export function Manufacturing() {
             {steps.map((step) => {
               return (
                 <li key={step.id} className="flex flex-col gap-6">
-                <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden shadow-lg border border-border/20">
-                  <Image src={step.image} alt={step.title} fill className="object-cover" />
+                <div className="relative w-full min-h-[300px] aspect-[4/3] rounded-2xl overflow-hidden shadow-lg border border-border/20">
+                  <Image src={step.image} alt={step.title} fill className="object-cover" sizes="(max-width: 1024px) 100vw, 50vw" />
                   <div className="absolute inset-0 bg-surface/10 mix-blend-multiply" />
                 </div>
                 <div>

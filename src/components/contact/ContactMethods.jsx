@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Mail, Phone } from "lucide-react";
 import companyData from "@/data/company.json";
 
@@ -20,7 +20,20 @@ const WhatsAppIcon = ({ className }) => (
 );
 
 export function ContactMethods() {
+  const [isMobile, setIsMobile] = useState(false);
   const { phone, email, whatsapp } = companyData;
+
+  useEffect(() => {
+    const checkDevice = () => {
+      const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+      const isMobileOrTablet = /android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(userAgent.toLowerCase());
+      const isMacTouch = navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1; // iPad Pro fallback
+      
+      setIsMobile(isMobileOrTablet || isMacTouch);
+    };
+    
+    checkDevice();
+  }, []);
 
   // Format numbers for links
   const phoneLink = `tel:${phone?.replace(/[^0-9+]/g, "")}`;
@@ -31,7 +44,11 @@ export function ContactMethods() {
 
   const emailSubject = "Product Enquiry — Prince Pipes & Fittings";
   const emailBody = "Hello,\n\nI would like to enquire about your pipe fittings.\n\nProduct:\nSize:\nQuantity:\nRequirement:\n\nRegards,";
-  const emailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
+  
+  const appEmailLink = `mailto:${email}?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
+  const webEmailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
+  const emailLink = isMobile ? appEmailLink : webEmailLink;
+  const emailTarget = isMobile ? "_self" : "_blank";
 
   const methods = [
     {
@@ -52,7 +69,7 @@ export function ContactMethods() {
       icon: Mail,
       href: emailLink,
       primary: false,
-      target: "_blank"
+      target: emailTarget
     },
     {
       id: "phone",
