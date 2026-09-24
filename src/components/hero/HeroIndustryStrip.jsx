@@ -54,7 +54,7 @@ export function HeroIndustryStrip({ industries }) {
 
       {/* Background Section with faint CAD elements */}
       <div className="absolute inset-0 pointer-events-none opacity-20">
-        <div className="absolute inset-0 bg-blueprint bg-[length:30px_30px]" />
+        <div className="absolute inset-0 bg-[length:30px_30px]" />
         <div className="absolute top-1/2 left-1/4 w-96 h-96 border-[0.5px] border-primary/20 rounded-full -translate-x-1/2 -translate-y-1/2" />
         <div className="absolute top-1/3 right-1/4 w-64 h-64 border-[0.5px] border-primary/20 rounded-full translate-x-1/2 -translate-y-1/2" />
       </div>
@@ -76,8 +76,9 @@ export function HeroIndustryStrip({ industries }) {
                 key={industry.id}
                 className="industry-card opacity-0 translate-y-8 group flex flex-col h-full p-6 rounded-xl border border-border bg-background transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.15)] hover:border-primary/40 relative overflow-hidden"
               >
-                {/* Subtle blueprint background fade in on hover */}
-                <div className="absolute inset-0 bg-blueprint bg-[length:20px_20px] opacity-0 group-hover:opacity-[0.03] transition-opacity duration-500 pointer-events-none" />
+                {/* Background Accent */}
+                <div className="absolute inset-0 bg-[length:20px_20px] opacity-0 group-hover:opacity-[0.03] transition-opacity duration-500 pointer-events-none" />
+                <div className="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-bl-[100px] -mr-8 -mt-8 transition-transform duration-500 group-hover:scale-110" />
 
                 {/* CAD construction circles on hover */}
                 <div className="absolute -top-10 -right-10 w-40 h-40 border border-primary/10 rounded-full opacity-0 group-hover:opacity-100 scale-50 group-hover:scale-100 transition-all duration-700 ease-out pointer-events-none" />

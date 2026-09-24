@@ -26,6 +26,37 @@ export function ProductBreadcrumb({ breadcrumbs }) {
 
   return (
     <nav ref={containerRef} aria-label="Breadcrumb" className="py-2 text-sm mt-2">
+      {/* Inject SEO-valid BreadcrumbList JSON-LD */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://ppfworks.in/"
+              },
+              ...breadcrumbs.map((crumb, index) => {
+                if (crumb.path === "/") return null;
+                
+                // Fallback for non-clickable breadcrumbs like 'Products' root
+                const itemUrl = crumb.path ? `https://ppfworks.in${crumb.path}` : `https://ppfworks.in`;
+
+                return {
+                  "@type": "ListItem",
+                  "position": index + 2,
+                  "name": crumb.name || "Page",
+                  "item": itemUrl
+                };
+              }).filter(Boolean)
+            ]
+          })
+        }}
+      />
       <ol className="flex items-center space-x-2 text-neutral-500 flex-wrap">
         <li>
           <Link href="/" className="hover:text-primary transition-colors flex items-center">
@@ -42,7 +73,7 @@ export function ProductBreadcrumb({ breadcrumbs }) {
           const isProductsRoot = crumb.name === 'Products' || crumb.name === 'Product';
 
           return (
-            <li key={crumb.path} className="flex items-center">
+            <li key={crumb.path || index} className="flex items-center">
               <ChevronRight className="w-4 h-4 mx-1 text-neutral-400" />
               {isLast ? (
                 <span className="text-neutral-900 font-medium" aria-current="page">

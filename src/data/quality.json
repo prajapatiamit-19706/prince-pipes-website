@@ -365,17 +365,18 @@
                     "description": "Browse industrial pipe fittings and components."
                 },
                 {
-                    "label": "Certifications",
-                    "href": "/certifications",
-                    "description": "View available certifications and documentation."
+                    "label": "Testing & QA",
+                    "href": "/quality/testing",
+                    "description": "Learn about our non-destructive and destructive testing procedures."
                 }
             ]
         },
         "structuredData": {
-            "type": "WebPage",
+            "@context": "https://schema.org",
+            "@type": "WebPage",
             "name": "Quality Standards & Inspection | Prince Pipes & Fittings",
             "description": "Quality standards, inspection methods, testing practices and technical information for industrial pipe fittings.",
-            "url": "/quality"
+            "url": "https://ppfworks.in/quality"
         },
         "ui": {
             "theme": {

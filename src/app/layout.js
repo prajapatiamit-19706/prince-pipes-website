@@ -17,6 +17,7 @@ import { SmoothScroll } from "@/components/providers/SmoothScroll";
 import WhatsAppButton from "@/components/ui/WhatsAppButton";
 
 export const metadata = {
+  metadataBase: new URL("https://ppfworks.in"),
   title: "Prince Pipes & Fittings",
   description: "Engineered Flow Solutions",
   icons: {

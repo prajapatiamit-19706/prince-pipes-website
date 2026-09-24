@@ -129,7 +129,17 @@ export default async function ProductDetailPage({ params }) {
   let structuredData = null;
   if (product.structuredData) {
     structuredData = { ...product.structuredData };
-    structuredData.url = `https://www.princepipes.com${canonicalUrl}`;
+    structuredData.url = `https://ppfworks.in${canonicalUrl}`;
+    
+    // Inject image if missing
+    if (!structuredData.image && product.media?.primaryImage) {
+      structuredData.image = `https://ppfworks.in${product.media.primaryImage}`;
+    }
+
+    // Inject sku from product.id if missing
+    if (!structuredData.sku && product.id) {
+      structuredData.sku = product.id;
+    }
   }
 
   return (

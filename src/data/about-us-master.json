@@ -310,7 +310,7 @@
       "@context": "https://schema.org",
       "@type": "AboutPage",
       "name": "About Prince Pipes & Fittings",
-      "url": "/about-us"
+      "url": "https://ppfworks.in/about"
     },
     "breadcrumb": [
       {
@@ -349,10 +349,6 @@
     {
       "label": "Quality",
       "path": "/company/quality"
-    },
-    {
-      "label": "Certifications",
-      "path": "/company/certifications"
     },
     {
       "label": "Contact",

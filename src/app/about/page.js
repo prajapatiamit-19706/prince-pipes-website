@@ -31,12 +31,7 @@ export default function AboutUsPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify([
             structuredData.organization,
-            structuredData.webPage,
-            {
-              "@context": "https://schema.org",
-              "@type": "BreadcrumbList",
-              "itemListElement": structuredData.breadcrumb
-            }
+            structuredData.webPage
           ])
         }}
       />
