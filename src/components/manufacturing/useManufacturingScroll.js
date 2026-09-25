@@ -11,11 +11,7 @@ export function useManufacturingScroll(viewportRef, trackRef, steps) {
   useGSAP(() => {
     if (!viewportRef.current || !trackRef.current) return;
 
-    if (document.readyState === "complete") {
-      ScrollTrigger.refresh();
-    } else {
-      window.addEventListener("load", () => ScrollTrigger.refresh(), { once: true });
-    }
+
 
     const viewport = viewportRef.current;
     const track = trackRef.current;
@@ -25,6 +21,13 @@ export function useManufacturingScroll(viewportRef, trackRef, steps) {
     let mm = gsap.matchMedia();
 
     mm.add("(min-width: 1025px)", () => {
+      // Force refresh on load to ensure pinned elements are measured correctly
+      if (document.readyState === "complete") {
+        ScrollTrigger.refresh();
+      } else {
+        window.addEventListener("load", () => ScrollTrigger.refresh(), { once: true });
+      }
+
       // Create the master timeline
       const tl = gsap.timeline({
         scrollTrigger: {

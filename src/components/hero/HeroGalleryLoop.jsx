@@ -27,7 +27,7 @@ export const HeroGalleryLoop = () => {
             key={`${item.id}-${idx}`} 
             className="mx-3 md:mx-4 shrink-0 flex items-center justify-center group"
           >
-            <div className="relative w-48 h-48 md:w-64 md:h-64 rounded-xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.12)] border border-border/5 bg-surface/50">
+            <div className="relative w-48 h-48 md:w-64 md:h-64 rounded-xl overflow-hidden shadow-sm md:shadow-[0_8px_30px_rgb(0,0,0,0.12)] border border-border/5 bg-surface/50 transform-gpu">
               <Image 
                 src={item.src} 
                 alt={item.alt}

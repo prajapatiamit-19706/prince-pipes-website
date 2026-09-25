@@ -53,7 +53,7 @@ function EquipmentPanel({ title, iconName, machines }) {
   return (
     <div
       ref={panelRef}
-      className="flex flex-col bg-surface rounded-3xl border border-border/50 shadow-[0_8px_30px_rgba(15,39,71,0.04)] overflow-hidden h-full transition-shadow duration-500 hover:shadow-[0_8px_30px_rgba(15,39,71,0.08)] hover:border-border"
+      className="flex flex-col bg-surface rounded-3xl border border-border/50 shadow-[0_8px_30px_rgba(15,39,71,0.04)] overflow-hidden h-full transition-shadow duration-500 hover:shadow-[0_8px_30px_rgba(15,39,71,0.08)] hover:border-border transform-gpu"
       onMouseEnter={() => setIsHovering(true)}
       onMouseLeave={() => setIsHovering(false)}
     >

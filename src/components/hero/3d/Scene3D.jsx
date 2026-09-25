@@ -30,7 +30,7 @@ export default function Scene3D() {
         <ProductPlaceholder />
       </Suspense>
 
-      {/* Soft floor shadow */}
+      {/* Soft floor shadow - Baked once to prevent massive GPU usage on mobile */}
       <ContactShadows
         position={[0, -2, 0]}
         opacity={0.4}
@@ -38,6 +38,8 @@ export default function Scene3D() {
         blur={2}
         far={4}
         color="#0F2747"
+        resolution={256}
+        frames={1}
       />
 
       <OrbitControls enableZoom={false} autoRotate autoRotateSpeed={3} />

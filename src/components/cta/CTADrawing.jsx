@@ -1,17 +1,29 @@
 "use client";
 import React, { useRef } from 'react';
+import Image from 'next/image';
 
 export function CTADrawing() {
   const svgRef = useRef(null);
 
   return (
-    <div className="relative w-full flex items-center justify-center group cursor-crosshair px-2 sm:px-0">
+    <div className="relative w-full flex items-center justify-center group cursor-crosshair px-2 sm:px-0 max-w-[1200px] mx-auto">
+      {/* Optimized Next.js Image extracted from SVG */}
+      <div className="absolute top-[20%] left-[10%] w-[80%] h-[55.5%] z-0 pointer-events-none">
+        <Image 
+          src="/images/CTA/finalCTA.png"
+          alt="Threaded Barrel Nipple Engineering Drawing"
+          fill
+          className="object-contain"
+          sizes="(max-width: 768px) 100vw, 960px"
+        />
+      </div>
+
       <svg
         ref={svgRef}
         viewBox="0 0 1200 900"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="w-full h-auto max-w-[1200px] transition-all duration-500 pointer-events-auto"
+        className="relative z-10 w-full h-auto transition-all duration-500 pointer-events-auto"
       >
         <g stroke="#142E57" strokeLinecap="round" strokeLinejoin="round" className="font-mono text-[20px]">
 
@@ -21,16 +33,8 @@ export function CTADrawing() {
             <text x="80" y="140" className="font-bold text-[45px] tracking-wide fill-[#142E57]" stroke="none">THREADED BARREL NIPPLE</text>
           </g>
 
-          {/* Static Image Replacement */}
-          <image 
-            href="/images/CTA/finalCTA.png" 
-            x="120" 
-            y="180" 
-            width="960" 
-            height="500" 
-            preserveAspectRatio="xMidYMid contain" 
-          />
-
+          {/* The static image replacement has been moved outside the SVG to utilize Next.js Image optimization */}
+          
           {/* Title Block (Border: #22406B, Text: #142E57) */}
           <g className="draw-titleblock transition-opacity duration-500 group-hover:opacity-100 max-sm:-translate-x-[150px] max-sm:translate-y-[20px]" strokeWidth="0.75" stroke="#22406B" fill="none">
             <rect x="680" y="700" width="480" height="180" fill="#FFFFFF" />

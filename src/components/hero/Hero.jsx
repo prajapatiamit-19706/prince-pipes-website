@@ -61,42 +61,49 @@ export function Hero() {
       gsap.set(".hero-stat-item", { opacity: 1, x: 0 });
     });
 
-    // 2. Scroll Animations (ScrollTrigger)
-    // Scene parallax
-    gsap.to(".hero-scene-parallax", {
-      y: -50,
-      ease: "none",
-      scrollTrigger: {
-        trigger: containerRef.current,
-        start: "top top",
-        end: "bottom top",
-        scrub: true,
-      },
+    // 2. Scroll Animations (ScrollTrigger) - Desktop Only to prevent mobile scroll lag
+    mm.add("(min-width: 1025px)", () => {
+      // Scene parallax
+      gsap.to(".hero-scene-parallax", {
+        y: -50,
+        ease: "none",
+        scrollTrigger: {
+          trigger: containerRef.current,
+          start: "top top",
+          end: "bottom top",
+          scrub: true,
+        },
+      });
+
+      // Background parallax
+      gsap.to(".hero-bg-parallax", {
+        y: 50,
+        ease: "none",
+        scrollTrigger: {
+          trigger: containerRef.current,
+          start: "top top",
+          end: "bottom top",
+          scrub: true,
+        },
+      });
+
+      // Category cards fade in as you scroll down to them
+      gsap.to(".hero-category-card", {
+        scrollTrigger: {
+          trigger: ".hero-categories-trigger",
+          start: "top 80%",
+        },
+        opacity: 1,
+        y: 0,
+        duration: 0.8,
+        stagger: 0.1,
+        ease: "power3.out",
+      });
     });
 
-    // Background parallax
-    gsap.to(".hero-bg-parallax", {
-      y: 50,
-      ease: "none",
-      scrollTrigger: {
-        trigger: containerRef.current,
-        start: "top top",
-        end: "bottom top",
-        scrub: true,
-      },
-    });
-
-    // Category cards fade in as you scroll down to them
-    gsap.to(".hero-category-card", {
-      scrollTrigger: {
-        trigger: ".hero-categories-trigger",
-        start: "top 80%",
-      },
-      opacity: 1,
-      y: 0,
-      duration: 0.8,
-      stagger: 0.1,
-      ease: "power3.out",
+    // Mobile fallback for category cards (instant appearance)
+    mm.add("(max-width: 1024px)", () => {
+      gsap.set(".hero-category-card", { opacity: 1, y: 0 });
     });
   }, { scope: containerRef });
 
