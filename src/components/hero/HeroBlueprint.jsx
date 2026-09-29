@@ -2,7 +2,7 @@ import React from "react";
 
 export function HeroBlueprint() {
   return (
-    <div className="absolute inset-0 z-0 pointer-events-none opacity-[0.1]">
+    <div className="hidden lg:block absolute inset-0 z-0 pointer-events-none opacity-[0.1] transform-gpu">
       <svg className="absolute inset-0 w-full h-full" xmlns="http://www.w3.org/2000/svg">
         <g stroke="#0F2747" strokeWidth="0.5" fill="none" className="font-mono text-[8px]">
           

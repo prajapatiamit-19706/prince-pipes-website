@@ -23,7 +23,10 @@ export const SmoothScroll = ({ children }) => {
   useEffect(() => {
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     const isMobile = window.matchMedia('(max-width: 1024px)').matches;
-    if (prefersReducedMotion || isMobile) return;
+    const isTouch = window.matchMedia('(pointer: coarse)').matches || ('ontouchstart' in window);
+    
+    // Disable smooth scroll completely on mobile, tablets, and any touch devices
+    if (prefersReducedMotion || isMobile || isTouch) return;
 
     window.scrollTo(0, 0);
 

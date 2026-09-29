@@ -15,6 +15,7 @@ import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { SmoothScroll } from "@/components/providers/SmoothScroll";
 import WhatsAppButton from "@/components/ui/WhatsAppButton";
+import GoogleAnalytics from "@/components/analytics/GoogleAnalytics";
 
 export const metadata = {
   metadataBase: new URL("https://ppfworks.in"),
@@ -32,6 +33,7 @@ export default function RootLayout({ children }) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col font-body bg-background text-text relative" suppressHydrationWarning>
+        <GoogleAnalytics measurementId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID} />
         <SmoothScroll>
           <Navbar />
           <main className="flex-1 relative">

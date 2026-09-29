@@ -2,7 +2,7 @@ import React from "react";
 
 export function CTABlueprint() {
   return (
-    <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden bg-[#FCFCFA]">
+    <div className="hidden lg:block absolute inset-0 z-0 pointer-events-none overflow-hidden bg-[#FCFCFA] transform-gpu">
 
 
 

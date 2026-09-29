@@ -66,15 +66,15 @@ function InspectionRow({ item, index }) {
       <div className="flex items-start gap-6 md:gap-10">
         {/* Bracket-marked icon target */}
         <div className="relative shrink-0 w-16 h-16 md:w-20 md:h-20">
-          <span className="absolute -top-0.5 -left-0.5 w-3 h-3 border-t-2 border-l-2 border-secondary opacity-0 -translate-x-1 -translate-y-1 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0 group-hover:translate-y-0" />
-          <span className="absolute -top-0.5 -right-0.5 w-3 h-3 border-t-2 border-r-2 border-secondary opacity-0 translate-x-1 -translate-y-1 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0 group-hover:translate-y-0" />
-          <span className="absolute -bottom-0.5 -left-0.5 w-3 h-3 border-b-2 border-l-2 border-secondary opacity-0 -translate-x-1 translate-y-1 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0 group-hover:translate-y-0" />
-          <span className="absolute -bottom-0.5 -right-0.5 w-3 h-3 border-b-2 border-r-2 border-secondary opacity-0 translate-x-1 translate-y-1 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0 group-hover:translate-y-0" />
+          <span className="absolute -top-0.5 -left-0.5 w-3 h-3 border-t-2 border-l-2 border-secondary opacity-0 -translate-x-1 -translate-y-1 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0 group-hover:translate-y-0 transform-gpu" />
+          <span className="absolute -top-0.5 -right-0.5 w-3 h-3 border-t-2 border-r-2 border-secondary opacity-0 translate-x-1 -translate-y-1 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0 group-hover:translate-y-0 transform-gpu" />
+          <span className="absolute -bottom-0.5 -left-0.5 w-3 h-3 border-b-2 border-l-2 border-secondary opacity-0 -translate-x-1 translate-y-1 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0 group-hover:translate-y-0 transform-gpu" />
+          <span className="absolute -bottom-0.5 -right-0.5 w-3 h-3 border-b-2 border-r-2 border-secondary opacity-0 translate-x-1 translate-y-1 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0 group-hover:translate-y-0 transform-gpu" />
 
-          <div className="w-full h-full rounded-lg bg-surface-2 border border-border flex items-center justify-center text-text-secondary transition-colors duration-300 group-hover:text-secondary group-hover:border-secondary/40 overflow-hidden">
+          <div className="w-full h-full rounded-lg bg-surface-2 border border-border flex items-center justify-center text-text-secondary transition-colors duration-300 group-hover:text-secondary group-hover:border-secondary/40 overflow-hidden transform-gpu">
             <Icon className="w-7 h-7 md:w-8 md:h-8" strokeWidth={1.5} />
             {/* Scan-line sweep */}
-            <span className="absolute inset-x-0 top-0 h-[2px] bg-secondary/80 -translate-y-full group-hover:translate-y-[400%] transition-transform duration-700 ease-in-out" />
+            <span className="absolute inset-x-0 top-0 h-[2px] bg-secondary/80 -translate-y-full group-hover:translate-y-[400%] transition-transform duration-700 ease-in-out transform-gpu" />
           </div>
         </div>
 

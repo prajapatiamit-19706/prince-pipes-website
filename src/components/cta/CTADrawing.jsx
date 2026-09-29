@@ -23,7 +23,7 @@ export function CTADrawing() {
         viewBox="0 0 1200 900"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="relative z-10 w-full h-auto transition-all duration-500 pointer-events-auto"
+        className="relative z-10 w-full h-auto pointer-events-auto"
       >
         <g stroke="#142E57" strokeLinecap="round" strokeLinejoin="round" className="font-mono text-[20px]">
 

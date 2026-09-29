@@ -20,7 +20,7 @@ export function useManufacturingScroll(viewportRef, trackRef, steps) {
     // Use GSAP matchMedia to ONLY create the timeline on desktop screens (>1024px)
     let mm = gsap.matchMedia();
 
-    mm.add("(min-width: 1025px)", () => {
+    mm.add("(min-width: 1024px)", () => {
       // Force refresh on load to ensure pinned elements are measured correctly
       if (document.readyState === "complete") {
         ScrollTrigger.refresh();
